@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[RNA-Puzzles]]></title>
-  <link href="http://rnapuzzles.github.io/atom.xml" rel="self"/>
-  <link href="http://rnapuzzles.github.io/"/>
-  <updated>2022-04-30T03:42:50+01:00</updated>
-  <id>http://rnapuzzles.github.io/</id>
+  <link href="http://www.rnapuzzles.org/atom.xml" rel="self"/>
+  <link href="http://www.rnapuzzles.org/"/>
+  <updated>2022-04-30T12:07:07+01:00</updated>
+  <id>http://www.rnapuzzles.org/</id>
   <author>
     <name><![CDATA[Chichau Miao]]></name>
     <email><![CDATA[rnapuzzles@gzlab.ac.cn]]></email>
@@ -15,18 +15,18 @@
   
   <entry>
     <title type="html"><![CDATA[PZ20 Release]]></title>
-    <link href="http://rnapuzzles.github.io/blog/2018/12/22/pz20-release/"/>
+    <link href="http://www.rnapuzzles.org/blog/2018/12/22/pz20-release/"/>
     <updated>2018-12-22T21:06:27+00:00</updated>
-    <id>http://rnapuzzles.github.io/blog/2018/12/22/pz20-release</id>
+    <id>http://www.rnapuzzles.org/blog/2018/12/22/pz20-release</id>
     <content type="html"><![CDATA[<p>The prediction results of <a href="http://www.rnapuzzles.org/results/">Puzzle 20</a> has been release now!</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Unknown Rfam Puzzles First Round Prediction Release]]></title>
-    <link href="http://rnapuzzles.github.io/blog/2018/09/03/unknown-rfam-puzzles-first-round-prediction-release/"/>
+    <link href="http://www.rnapuzzles.org/blog/2018/09/03/unknown-rfam-puzzles-first-round-prediction-release/"/>
     <updated>2018-09-03T13:36:47+01:00</updated>
-    <id>http://rnapuzzles.github.io/blog/2018/09/03/unknown-rfam-puzzles-first-round-prediction-release</id>
+    <id>http://www.rnapuzzles.org/blog/2018/09/03/unknown-rfam-puzzles-first-round-prediction-release</id>
     <content type="html"><![CDATA[<p>The first round of the &ldquo;Unknown Rfam Puzzles&rdquo; has been released now within the RNA-Puzzles community.
 Further prediction submissions are still very welcome.
 We would like to encourage experimentalists to help validate some of the good predictions.</p>
@@ -37,9 +37,9 @@ We would like to encourage experimentalists to help validate some of the good pr
   
   <entry>
     <title type="html"><![CDATA[Unknown Rfam Puzzles First Round Closed]]></title>
-    <link href="http://rnapuzzles.github.io/blog/2018/08/13/unknown-rfam-puzzles-first-round-closed/"/>
+    <link href="http://www.rnapuzzles.org/blog/2018/08/13/unknown-rfam-puzzles-first-round-closed/"/>
     <updated>2018-08-13T23:39:04+01:00</updated>
-    <id>http://rnapuzzles.github.io/blog/2018/08/13/unknown-rfam-puzzles-first-round-closed</id>
+    <id>http://www.rnapuzzles.org/blog/2018/08/13/unknown-rfam-puzzles-first-round-closed</id>
     <content type="html"><![CDATA[<p>The first round of the &ldquo;Unknown Rfam Puzzles&rdquo; has been closed now. The prediction results will be released soon (the release will be within RNA-Puzzles community).
 Further prediction submissions are still very welcome.
 We would like to encourage experimentalists to help validate some of the good predictions.</p>
@@ -50,9 +50,9 @@ We would like to encourage experimentalists to help validate some of the good pr
   
   <entry>
     <title type="html"><![CDATA[New Domain Name]]></title>
-    <link href="http://rnapuzzles.github.io/blog/2018/08/13/new-domain-name/"/>
+    <link href="http://www.rnapuzzles.org/blog/2018/08/13/new-domain-name/"/>
     <updated>2018-08-13T23:34:57+01:00</updated>
-    <id>http://rnapuzzles.github.io/blog/2018/08/13/new-domain-name</id>
+    <id>http://www.rnapuzzles.org/blog/2018/08/13/new-domain-name</id>
     <content type="html"><![CDATA[<p>RNA-Puzzles has a new domain name <a href="rnapuzzles.org">rnapuzzles.org</a>.
 This domain name will always point to the RNA-Puzzles website no matter where we set the domain.
 Currently, the website is fully functional except the registration system.
@@ -64,9 +64,9 @@ Therefore, the submission of the prediction results need to be done by email.</p
   
   <entry>
     <title type="html"><![CDATA[New RNA-Puzzles Website at Github]]></title>
-    <link href="http://rnapuzzles.github.io/blog/2018/01/25/new-rna-puzzles-website-at-github/"/>
+    <link href="http://www.rnapuzzles.org/blog/2018/01/25/new-rna-puzzles-website-at-github/"/>
     <updated>2018-01-25T15:47:47+00:00</updated>
-    <id>http://rnapuzzles.github.io/blog/2018/01/25/new-rna-puzzles-website-at-github</id>
+    <id>http://www.rnapuzzles.org/blog/2018/01/25/new-rna-puzzles-website-at-github</id>
     <content type="html"><![CDATA[<p>Considering the unstability of the old RNA-Puzzles web server (ahsoka),
 a new low-level RNA-Puzzzles website has been release at <a href="https://chichaumiau.github.io/rnapuzzles/">github</a>.
 Alternatively, the website can be accessed by <a href="rnapuzzles.tk">rnapuzzles.tk</a>.</p>
@@ -81,9 +81,9 @@ Alternatively, the website can be accessed by <a href="rnapuzzles.tk">rnapuzzles
   
   <entry>
     <title type="html"><![CDATA[Puzzle 33]]></title>
-    <link href="http://rnapuzzles.github.io/blog/2017/11/18/PZ33/"/>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ33/"/>
     <updated>2017-11-18T20:42:23+00:00</updated>
-    <id>http://rnapuzzles.github.io/blog/2017/11/18/PZ33</id>
+    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ33</id>
     <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
 
 <p>GGAGUAGAAGCGUUCAGCGGCCGAAAGGCCGCCCGGAAAUUGCUCC</p>
@@ -102,15 +102,15 @@ Insights into xanthine riboswitch structure and metal ion-mediated ligand recogn
             <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=7elr">7elr</a>
             <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=7els">7els</a></p>
 
-<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/gh-pages/data/PZ33/pdb">raw prediction</a>   |   <a href="http://rnapuzzles.github.io/blog/2000/01/01/PZ33-3d/">Assessment results</a></p>
+<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/gh-pages/data/PZ33/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ33-3d/">Assessment results</a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Puzzle 30]]></title>
-    <link href="http://rnapuzzles.github.io/blog/2017/11/18/PZ30/"/>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ30/"/>
     <updated>2017-11-18T20:42:23+00:00</updated>
-    <id>http://rnapuzzles.github.io/blog/2017/11/18/PZ30</id>
+    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ30</id>
     <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
 
 <p>GAACCCCGCCUGGAGGCCGCGGUCGGCCCGGGGCUUCUCCGGAGGCACCCACUGCCACCGCGAAGAGUUGGGCUCUGUCAGCCGCGGG</p>
@@ -126,15 +126,15 @@ Structure of human telomerase holoenzyme with bound telomeric DNA.
 
 <p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=7BG9">7bg9</a></p>
 
-<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/gh-pages/data/PZ30/pdb">raw prediction</a>   |   <a href="http://rnapuzzles.github.io/blog/2000/01/01/PZ30-3d/">Assessment results</a></p>
+<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/gh-pages/data/PZ30/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ30-3d/">Assessment results</a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Puzzle 29]]></title>
-    <link href="http://rnapuzzles.github.io/blog/2017/11/18/PZ29/"/>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ29/"/>
     <updated>2017-11-18T20:42:23+00:00</updated>
-    <id>http://rnapuzzles.github.io/blog/2017/11/18/PZ29</id>
+    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ29</id>
     <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
 
 <p>GGCUUCAACAACCCCGUAGGUUGGGCCGAAAGGCAGCGAAUCUACUGGAGCC</p>
@@ -150,15 +150,15 @@ Structure and ligand binding of the ADP-binding domain of the NAD + riboswitch.
 
 <p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=6tb7">6tb7</a></p>
 
-<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/gh-pages/data/PZ29/pdb">raw prediction</a>   |   <a href="http://rnapuzzles.github.io/blog/2000/01/01/PZ29-3d/">Assessment results</a></p>
+<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/gh-pages/data/PZ29/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ29-3d/">Assessment results</a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Puzzle 28]]></title>
-    <link href="http://rnapuzzles.github.io/blog/2017/11/18/PZ28/"/>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ28/"/>
     <updated>2017-11-18T20:42:23+00:00</updated>
-    <id>http://rnapuzzles.github.io/blog/2017/11/18/PZ28</id>
+    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ28</id>
     <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
 
 <p>tRNA:  <br/>
@@ -181,15 +181,15 @@ High-affinity recognition of specific tRNAs by an mRNA anticodon-binding groove.
 
 <p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=6ufm">6ufm</a></p>
 
-<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/gh-pages/data/PZ28/pdb">raw prediction</a>   |   Assessment results <a href="http://rnapuzzles.github.io/blog/2000/01/01/PZ28-3d/">Complex</a> <a href="http://rnapuzzles.github.io/blog/2000/01/01/PZ28tBox-3d/">T-box</a></p>
+<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/gh-pages/data/PZ28/pdb">raw prediction</a>   |   Assessment results <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ28-3d/">Complex</a> <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ28tBox-3d/">T-box</a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Puzzle 27]]></title>
-    <link href="http://rnapuzzles.github.io/blog/2017/11/18/PZ27/"/>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ27/"/>
     <updated>2017-11-18T20:42:23+00:00</updated>
-    <id>http://rnapuzzles.github.io/blog/2017/11/18/PZ27</id>
+    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ27</id>
     <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
 
 <p>tRNA:
@@ -213,15 +213,15 @@ Structural basis of amino acid surveillance by higher-order tRNA-mRNA interactio
 
 <p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=6pom">6pom</a></p>
 
-<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/gh-pages/data/PZ27/pdb">raw prediction</a>   |   Assessment results <a href="http://rnapuzzles.github.io/blog/2000/01/01/PZ27-3d/">Complex</a> <a href="http://rnapuzzles.github.io/blog/2000/01/01/PZ27tBox-3d/">T-box</a></p>
+<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/gh-pages/data/PZ27/pdb">raw prediction</a>   |   Assessment results <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ27-3d/">Complex</a> <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ27tBox-3d/">T-box</a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Puzzle 26]]></title>
-    <link href="http://rnapuzzles.github.io/blog/2017/11/18/PZ26/"/>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ26/"/>
     <updated>2017-11-18T20:42:23+00:00</updated>
-    <id>http://rnapuzzles.github.io/blog/2017/11/18/PZ26</id>
+    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ26</id>
     <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
 
 <p>T-box:  <br/>
@@ -243,15 +243,15 @@ Structural basis of amino acid surveillance by higher-order tRNA-mRNA interactio
 
 <p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=6pmo">6pmo</a></p>
 
-<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/gh-pages/data/PZ26/pdb">raw prediction</a>   |   Assessment results <a href="http://rnapuzzles.github.io/blog/2000/01/01/PZ26-3d/">Complex</a> <a href="http://rnapuzzles.github.io/blog/2000/01/01/PZ26tBox-3d/">T-box</a></p>
+<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/gh-pages/data/PZ26/pdb">raw prediction</a>   |   Assessment results <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ26-3d/">Complex</a> <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ26tBox-3d/">T-box</a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Puzzle 25]]></title>
-    <link href="http://rnapuzzles.github.io/blog/2017/11/18/PZ25/"/>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ25/"/>
     <updated>2017-11-18T20:42:23+00:00</updated>
-    <id>http://rnapuzzles.github.io/blog/2017/11/18/PZ25</id>
+    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ25</id>
     <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
 
 <p>GGGUGUAAUCUCCAAAAUAUGGUUGGGGAGCCUCCACCAGUGAA
@@ -267,15 +267,15 @@ Structural basis for 2'-deoxyguanosine recognition by the 2'-dG-II class of ribo
 
 <p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=6p2h">6p2h</a></p>
 
-<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/gh-pages/data/PZ25/pdb">raw prediction</a>   |   <a href="http://rnapuzzles.github.io/blog/2000/01/01/PZ25-3d/">Assessment results</a></p>
+<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/gh-pages/data/PZ25/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ25-3d/">Assessment results</a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Puzzle 24]]></title>
-    <link href="http://rnapuzzles.github.io/blog/2017/11/18/PZ24/"/>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ24/"/>
     <updated>2017-11-18T20:42:23+00:00</updated>
-    <id>http://rnapuzzles.github.io/blog/2017/11/18/PZ24</id>
+    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ24</id>
     <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
 
 <p>GGACCUCGCAAGGGUAUCAUGGCGGACGACCGGGGUUCGAACCCCGGAUC  <br/>
@@ -292,15 +292,15 @@ Crystal structure of an adenovirus virus-associated RNA. <a href="https://www.na
 
 <p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=6ol3">6ol3</a></p>
 
-<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/gh-pages/data/PZ24/pdb">raw prediction</a>   |   <a href="http://rnapuzzles.github.io/blog/2000/01/01/PZ24-3d/">Assessment results</a></p>
+<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/gh-pages/data/PZ24/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ24-3d/">Assessment results</a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Puzzle 23]]></title>
-    <link href="http://rnapuzzles.github.io/blog/2017/11/18/PZ23/"/>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ23/"/>
     <updated>2017-11-18T20:42:23+00:00</updated>
-    <id>http://rnapuzzles.github.io/blog/2017/11/18/PZ23</id>
+    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ23</id>
     <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
 
 <p>GUACGAAGGAAGGUUUGGUAUGGGGUAGUUGUCGUAC</p>
@@ -315,15 +315,15 @@ Structure and functional reselection of the Mango-III fluorogenic RNA aptamer. <
 
 <p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=6e8u">6e8u</a></p>
 
-<p><a href="https://github.com/chichaumiau/rnapuzzles/tree/gh-pages/data/PZ23/pdb">raw prediction</a>   |   <a href="http://rnapuzzles.github.io/blog/2000/01/01/PZ23-3d/">Assessment results</a></p>
+<p><a href="https://github.com/chichaumiau/rnapuzzles/tree/gh-pages/data/PZ23/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ23-3d/">Assessment results</a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Puzzle 22]]></title>
-    <link href="http://rnapuzzles.github.io/blog/2017/11/18/PZ22/"/>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ22/"/>
     <updated>2017-11-18T20:42:23+00:00</updated>
-    <id>http://rnapuzzles.github.io/blog/2017/11/18/PZ22</id>
+    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ22</id>
     <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
 
 <p>UUACUGUGAGAAUCAGUAACAAACAUGUGGGGCUUAUAU
@@ -341,15 +341,15 @@ Hatchet ribozyme structure and implications for cleavage mechanism. <a href="htt
 
 <p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=6jq5">6jq5</a>  <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=6jq6">6jq6</a></p>
 
-<p><a href="https://github.com/chichaumiau/rnapuzzles/tree/gh-pages/data/PZ22/pdb">raw prediction</a>   |   Assessment results <a href="http://rnapuzzles.github.io/blog/2000/01/01/PZ22-3d/">monomer</a> <a href="http://rnapuzzles.github.io/blog/2000/01/01/PZ22dimer-3d/">dimer</a></p>
+<p><a href="https://github.com/chichaumiau/rnapuzzles/tree/gh-pages/data/PZ22/pdb">raw prediction</a>   |   Assessment results <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ22-3d/">monomer</a> <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ22dimer-3d/">dimer</a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Puzzle 21]]></title>
-    <link href="http://rnapuzzles.github.io/blog/2017/11/18/PZ21/"/>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ21/"/>
     <updated>2017-11-18T20:42:23+00:00</updated>
-    <id>http://rnapuzzles.github.io/blog/2017/11/18/PZ21</id>
+    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ21</id>
     <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
 
 <p>CCGGACGAGGUGCGCCGUACCCGGUCAGGACAAGACGGCGC</p>
@@ -364,15 +364,15 @@ Structure of the Guanidine III Riboswitch. <a href="https://www.ncbi.nlm.nih.gov
 
 <p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=5nwq">5nwq</a>  <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=5nz6">5nz6</a></p>
 
-<p><a href="https://github.com/chichaumiau/rnapuzzles/tree/gh-pages/data/PZ21/pdb">raw prediction</a>   |   <a href="http://rnapuzzles.github.io/blog/2000/01/01/PZ21-3d/">Assessment results</a></p>
+<p><a href="https://github.com/chichaumiau/rnapuzzles/tree/gh-pages/data/PZ21/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ21-3d/">Assessment results</a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Puzzle 20]]></title>
-    <link href="http://rnapuzzles.github.io/blog/2017/11/18/PZ20/"/>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ20/"/>
     <updated>2017-11-18T20:42:22+00:00</updated>
-    <id>http://rnapuzzles.github.io/blog/2017/11/18/PZ20</id>
+    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ20</id>
     <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):  <br/>
 ACCCGCAAGGCCGACGGC-GCCGCCGCUGGUGCAAGUCCAGCCACGCUUC
 GGCGUGGGCGCUCAUGGGU</p>
@@ -387,15 +387,15 @@ Zheng, L., Mairhofer, E., Teplova, M., Zhang, Y., Ma, J., Patel, D.J., Micura, R
 
 <p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=5y85">5y85</a> <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=5y87">5y87</a></p>
 
-<p><a href="https://github.com/chichaumiau/rnapuzzles/tree/gh-pages/data/PZ20/pdb">raw prediction</a>   |   <a href="http://rnapuzzles.github.io/blog/2000/01/01/PZ20-3d/">Assessment results</a></p>
+<p><a href="https://github.com/chichaumiau/rnapuzzles/tree/gh-pages/data/PZ20/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ20-3d/">Assessment results</a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Puzzle 19]]></title>
-    <link href="http://rnapuzzles.github.io/blog/2017/11/18/PZ19/"/>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ19/"/>
     <updated>2017-11-18T20:42:18+00:00</updated>
-    <id>http://rnapuzzles.github.io/blog/2017/11/18/PZ19</id>
+    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ19</id>
     <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
 
 <p>GCAGGGCAAGGCCCAGUCCCGUGCAAGCCGGGACCGCCCC-
@@ -411,15 +411,15 @@ The structure of a nucleolytic ribozyme that employs a catalytic metal ion. <a h
 
 <p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=5t5a">5t5a</a></p>
 
-<p><a href="https://github.com/chichaumiau/rnapuzzles/tree/gh-pages/data/PZ19/pdb">raw prediction</a>   |   <a href="http://rnapuzzles.github.io/blog/2000/01/01/PZ19-3d/">Assessment results</a></p>
+<p><a href="https://github.com/chichaumiau/rnapuzzles/tree/gh-pages/data/PZ19/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ19-3d/">Assessment results</a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Puzzle 18]]></title>
-    <link href="http://rnapuzzles.github.io/blog/2017/11/18/PZ18/"/>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ18/"/>
     <updated>2017-11-18T20:42:16+00:00</updated>
-    <id>http://rnapuzzles.github.io/blog/2017/11/18/PZ18</id>
+    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ18</id>
     <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):
 GGGUCAGGCCGGCGAAAGUCGCCACAGUUUGGGGAAAGCUGUGCAGCCUG
 UAACCCCCCCACGAAAGUGGG</p>
@@ -434,15 +434,15 @@ Zika virus produces noncoding RNAs using a multi-pseudoknot structure that confo
 
 <p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=5tpy">5tpy</a></p>
 
-<p><a href="https://github.com/chichaumiau/rnapuzzles/tree/gh-pages/data/PZ18/pdb">raw prediction</a>   |   <a href="http://rnapuzzles.github.io/blog/2000/01/01/PZ18-3d/">Assessment results</a></p>
+<p><a href="https://github.com/chichaumiau/rnapuzzles/tree/gh-pages/data/PZ18/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ18-3d/">Assessment results</a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Puzzle 17]]></title>
-    <link href="http://rnapuzzles.github.io/blog/2017/11/18/PZ17/"/>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ17/"/>
     <updated>2017-11-18T20:42:13+00:00</updated>
-    <id>http://rnapuzzles.github.io/blog/2017/11/18/PZ17</id>
+    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ17</id>
     <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):
 CGUGGUUAGGGCCACGUUAAAUAGUUGCUUAAGCCCUAAGCGUUGAUAAA
 UAUCAGGUGCAA</p>
@@ -457,7 +457,7 @@ Pistol ribozyme adopts a pseudoknot fold facilitating site-specific in-line clea
 
 <p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=5k7c">5k7c</a></p>
 
-<p><a href="https://github.com/chichaumiau/rnapuzzles/tree/gh-pages/data/PZ17/pdb">raw prediction</a>   |   <a href="http://rnapuzzles.github.io/blog/2000/01/01/PZ17-3d/">Assessment results</a></p>
+<p><a href="https://github.com/chichaumiau/rnapuzzles/tree/gh-pages/data/PZ17/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ17-3d/">Assessment results</a></p>
 ]]></content>
   </entry>
   

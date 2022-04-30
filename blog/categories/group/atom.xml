@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Group | RNA-Puzzles]]></title>
-  <link href="http://rnapuzzles.github.io/blog/categories/group/atom.xml" rel="self"/>
-  <link href="http://rnapuzzles.github.io/"/>
-  <updated>2022-04-30T03:42:50+01:00</updated>
-  <id>http://rnapuzzles.github.io/</id>
+  <link href="http://www.rnapuzzles.org/blog/categories/group/atom.xml" rel="self"/>
+  <link href="http://www.rnapuzzles.org/"/>
+  <updated>2022-04-30T12:07:07+01:00</updated>
+  <id>http://www.rnapuzzles.org/</id>
   <author>
     <name><![CDATA[Chichau Miao]]></name>
     <email><![CDATA[rnapuzzles@gzlab.ac.cn]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Xiao Group]]></title>
-    <link href="http://rnapuzzles.github.io/blog/2017/11/16/xiao-group/"/>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/16/xiao-group/"/>
     <updated>2017-11-16T11:08:41+00:00</updated>
-    <id>http://rnapuzzles.github.io/blog/2017/11/16/xiao-group</id>
+    <id>http://www.rnapuzzles.org/blog/2017/11/16/xiao-group</id>
     <content type="html"><![CDATA[<h1><a href="http://biophy.hust.edu.cn">Xiao Group</a></h1>
 
 <p><a href="mailto:wj_hust08@hust.edu.cn?cc=yxiao@hust.edu.cn"><i class="fa fa-envelope-square fa-fw fa-2x"></i></a>
@@ -64,9 +64,9 @@ Wang, J., et al., <a href="http://biophy.hust.edu.cn/download/3dRNAscore.pdf">3d
   
   <entry>
     <title type="html"><![CDATA[Adamiak Group]]></title>
-    <link href="http://rnapuzzles.github.io/blog/2017/11/16/adamiak-group/"/>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/16/adamiak-group/"/>
     <updated>2017-11-16T11:07:45+00:00</updated>
-    <id>http://rnapuzzles.github.io/blog/2017/11/16/adamiak-group</id>
+    <id>http://www.rnapuzzles.org/blog/2017/11/16/adamiak-group</id>
     <content type="html"><![CDATA[<h1><a href="">Adamiak Group</a></h1>
 
 <p><strong>Adamiak</strong>  group that includes researches of Institute of Bioorganic Chemistry, Polish Academy of Sciences and European Centre for Bioinformatics and Genomics, Faculty of Computing, Poznan University of Technology develops publicly available computational methods and tools dedicated for a fully automated RNA 3D structure prediction as well as quality assessment within the context of the reference structure.</p>
@@ -145,9 +145,9 @@ structures, BMC Bioinformatics 18, 2017, 456.</p>
   
   <entry>
     <title type="html"><![CDATA[Chen Group]]></title>
-    <link href="http://rnapuzzles.github.io/blog/2017/11/16/chen-group/"/>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/16/chen-group/"/>
     <updated>2017-11-16T11:07:03+00:00</updated>
-    <id>http://rnapuzzles.github.io/blog/2017/11/16/chen-group</id>
+    <id>http://www.rnapuzzles.org/blog/2017/11/16/chen-group</id>
     <content type="html"><![CDATA[<h1><a href="http://vfold.missouri.edu/">Chen Group</a></h1>
 
 <p><strong>Chen</strong> group from University of Missouri investigates the physical mechanism of RNA folding and develops predictive models for RNA structure and function.</p>
@@ -180,9 +180,9 @@ The figures show the Vfold-predicted 2D and 3D structures of RNA aptamers. Refer
   
   <entry>
     <title type="html"><![CDATA[Bujnicki Group]]></title>
-    <link href="http://rnapuzzles.github.io/blog/2017/11/16/bujnicki-group/"/>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/16/bujnicki-group/"/>
     <updated>2017-11-16T10:44:22+00:00</updated>
-    <id>http://rnapuzzles.github.io/blog/2017/11/16/bujnicki-group</id>
+    <id>http://www.rnapuzzles.org/blog/2017/11/16/bujnicki-group</id>
     <content type="html"><![CDATA[<h1><a href="http://genesilico.pl">Bujnicki Group</a></h1>
 
 <p><strong>Bujnicki</strong> group is from International Institute of Molecular and Cell Biology in Warsaw, Poland.</p>

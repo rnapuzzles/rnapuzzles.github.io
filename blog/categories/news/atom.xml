@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[News | RNA-Puzzles]]></title>
-  <link href="http://rnapuzzles.github.io/blog/categories/news/atom.xml" rel="self"/>
-  <link href="http://rnapuzzles.github.io/"/>
-  <updated>2022-04-30T03:42:50+01:00</updated>
-  <id>http://rnapuzzles.github.io/</id>
+  <link href="http://www.rnapuzzles.org/blog/categories/news/atom.xml" rel="self"/>
+  <link href="http://www.rnapuzzles.org/"/>
+  <updated>2022-04-30T12:07:07+01:00</updated>
+  <id>http://www.rnapuzzles.org/</id>
   <author>
     <name><![CDATA[Chichau Miao]]></name>
     <email><![CDATA[rnapuzzles@gzlab.ac.cn]]></email>
@@ -15,18 +15,18 @@
   
   <entry>
     <title type="html"><![CDATA[PZ20 Release]]></title>
-    <link href="http://rnapuzzles.github.io/blog/2018/12/22/pz20-release/"/>
+    <link href="http://www.rnapuzzles.org/blog/2018/12/22/pz20-release/"/>
     <updated>2018-12-22T21:06:27+00:00</updated>
-    <id>http://rnapuzzles.github.io/blog/2018/12/22/pz20-release</id>
+    <id>http://www.rnapuzzles.org/blog/2018/12/22/pz20-release</id>
     <content type="html"><![CDATA[<p>The prediction results of <a href="http://www.rnapuzzles.org/results/">Puzzle 20</a> has been release now!</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Unknown Rfam Puzzles First Round Prediction Release]]></title>
-    <link href="http://rnapuzzles.github.io/blog/2018/09/03/unknown-rfam-puzzles-first-round-prediction-release/"/>
+    <link href="http://www.rnapuzzles.org/blog/2018/09/03/unknown-rfam-puzzles-first-round-prediction-release/"/>
     <updated>2018-09-03T13:36:47+01:00</updated>
-    <id>http://rnapuzzles.github.io/blog/2018/09/03/unknown-rfam-puzzles-first-round-prediction-release</id>
+    <id>http://www.rnapuzzles.org/blog/2018/09/03/unknown-rfam-puzzles-first-round-prediction-release</id>
     <content type="html"><![CDATA[<p>The first round of the &ldquo;Unknown Rfam Puzzles&rdquo; has been released now within the RNA-Puzzles community.
 Further prediction submissions are still very welcome.
 We would like to encourage experimentalists to help validate some of the good predictions.</p>
@@ -37,9 +37,9 @@ We would like to encourage experimentalists to help validate some of the good pr
   
   <entry>
     <title type="html"><![CDATA[Unknown Rfam Puzzles First Round Closed]]></title>
-    <link href="http://rnapuzzles.github.io/blog/2018/08/13/unknown-rfam-puzzles-first-round-closed/"/>
+    <link href="http://www.rnapuzzles.org/blog/2018/08/13/unknown-rfam-puzzles-first-round-closed/"/>
     <updated>2018-08-13T23:39:04+01:00</updated>
-    <id>http://rnapuzzles.github.io/blog/2018/08/13/unknown-rfam-puzzles-first-round-closed</id>
+    <id>http://www.rnapuzzles.org/blog/2018/08/13/unknown-rfam-puzzles-first-round-closed</id>
     <content type="html"><![CDATA[<p>The first round of the &ldquo;Unknown Rfam Puzzles&rdquo; has been closed now. The prediction results will be released soon (the release will be within RNA-Puzzles community).
 Further prediction submissions are still very welcome.
 We would like to encourage experimentalists to help validate some of the good predictions.</p>
@@ -50,9 +50,9 @@ We would like to encourage experimentalists to help validate some of the good pr
   
   <entry>
     <title type="html"><![CDATA[New Domain Name]]></title>
-    <link href="http://rnapuzzles.github.io/blog/2018/08/13/new-domain-name/"/>
+    <link href="http://www.rnapuzzles.org/blog/2018/08/13/new-domain-name/"/>
     <updated>2018-08-13T23:34:57+01:00</updated>
-    <id>http://rnapuzzles.github.io/blog/2018/08/13/new-domain-name</id>
+    <id>http://www.rnapuzzles.org/blog/2018/08/13/new-domain-name</id>
     <content type="html"><![CDATA[<p>RNA-Puzzles has a new domain name <a href="rnapuzzles.org">rnapuzzles.org</a>.
 This domain name will always point to the RNA-Puzzles website no matter where we set the domain.
 Currently, the website is fully functional except the registration system.
@@ -64,9 +64,9 @@ Therefore, the submission of the prediction results need to be done by email.</p
   
   <entry>
     <title type="html"><![CDATA[New RNA-Puzzles Website at Github]]></title>
-    <link href="http://rnapuzzles.github.io/blog/2018/01/25/new-rna-puzzles-website-at-github/"/>
+    <link href="http://www.rnapuzzles.org/blog/2018/01/25/new-rna-puzzles-website-at-github/"/>
     <updated>2018-01-25T15:47:47+00:00</updated>
-    <id>http://rnapuzzles.github.io/blog/2018/01/25/new-rna-puzzles-website-at-github</id>
+    <id>http://www.rnapuzzles.org/blog/2018/01/25/new-rna-puzzles-website-at-github</id>
     <content type="html"><![CDATA[<p>Considering the unstability of the old RNA-Puzzles web server (ahsoka),
 a new low-level RNA-Puzzzles website has been release at <a href="https://chichaumiau.github.io/rnapuzzles/">github</a>.
 Alternatively, the website can be accessed by <a href="rnapuzzles.tk">rnapuzzles.tk</a>.</p>
