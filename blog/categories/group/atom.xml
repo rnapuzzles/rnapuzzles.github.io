@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Group | RNA-Puzzles]]></title>
+  <link href="http://rnapuzzles.github.io/blog/categories/group/atom.xml" rel="self"/>
+  <link href="http://rnapuzzles.github.io/"/>
+  <updated>2022-04-30T03:42:50+01:00</updated>
+  <id>http://rnapuzzles.github.io/</id>
+  <author>
+    <name><![CDATA[Chichau Miao]]></name>
+    <email><![CDATA[rnapuzzles@gzlab.ac.cn]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Xiao Group]]></title>
+    <link href="http://rnapuzzles.github.io/blog/2017/11/16/xiao-group/"/>
+    <updated>2017-11-16T11:08:41+00:00</updated>
+    <id>http://rnapuzzles.github.io/blog/2017/11/16/xiao-group</id>
+    <content type="html"><![CDATA[<h1><a href="http://biophy.hust.edu.cn">Xiao Group</a></h1>
+
+<p><a href="mailto:wj_hust08@hust.edu.cn?cc=yxiao@hust.edu.cn"><i class="fa fa-envelope-square fa-fw fa-2x"></i></a>
+<strong>Xiao</strong> group is from School of Physics of Huazhong University of Science and Technology in Wuhan, China.</p>
+
+<ul>
+<li><a href="http://biophy.hust.edu.cn/3dRNA"><strong>3dRNA</strong></a>: Automatic building of ncRNA 3D structures.</li>
+<li><a href="http://biophy.hust.edu.cn/3dRNAscore"><strong>3dRNAscore</strong></a>: Evaluation of RNA 3D structures.</li>
+<li><a href="https://github.com/hust220/nsp"><strong>3dRNA program</strong></a>: Automatic building of ncRNA 3D structures.</li>
+<li><a href="http://biophy.hust.edu.cn/3dRNAscore.html"><strong>3dRNAscore program</strong></a>: Evaluation of RNA 3D structures.</li>
+</ul>
+
+
+<h2>Prediction Approaches:</h2>
+
+<p>3dRNA is a fast and automated method of building ncRNA 3D structure based on sequence and 2D structure. It builds 3D RNA
+                structure from the smallest secondary elements (SSEs), which are defined as helix, hairpin loop, internal loop, bulge
+                loop, and junction loop. 3dRNA works as follows: in the first step, it uses a secondary structure tree (SST) to represent
+                the RNA secondary structure. Each node in an SST corresponds to an SSE; in the second step, 3dRNA traverses the tree and
+                match one or more suitable templates for each node from the 3D structure templates library. In the third step, 3dRNA traverses
+                the tree again and assembles the matched templates of the node and its parent node every time it visits a node. So when
+                finishing the traversing, a complete tertiary structure would be generated. Since each SSE may have multiple templates,
+                we can get a lot of tertiary structures by using different templates for each SSE. When there are no appropriate templates
+                for certain SSE, 3dRNA uses a distance geometry (DG) method to build a raw template for it. The last step is to cluster
+                all the structures and then use 3dRNAscore to score cluster centers for the user to choose an appropriate structure.</p>
+
+<h2>A real case:</h2>
+
+<p>3NDB is the Crystal structure of a signal sequence bound to the signal recognition particle in Methanocaldococcus jannaschii.
+                We predicted the RNA chain (136 nt) of 3NDB. The secondary structure of 3NDB consists of 9 loops including 2 hairpin loops
+                (HL), 5 internal loops (IL), 1 bulge loop (BL) and 1 multi-branch loop (ML). The 3D template of each of these loops can
+                be found from the 3D structure templates library. The table shows the sources of the templates of all these loops. The
+                3D structure of the rest helices are built according to the parameters of standard helix. We then assembled all the 3D
+                structures of these loops and helices into an integral 3D structure. The RMSD of the predicted structure is 4.26 &#197;.</p>
+
+<p><img src="http://biophy.hust.edu.cn/image/xiao-intro.png" height=600/></p>
+
+<h2>Publications:</h2>
+
+<p>Zhao, Y., et al., <a href="http://biophy.hust.edu.cn/download/3dRNA.pdf">Automated and fast building of three-dimensional RNA structures</a>. Scientific Reports, 2012. 2: p. 734.
+Wang, J., et al., <a href="http://biophy.hust.edu.cn/download/3dRNAscore.pdf">3dRNAscore: a distance and torsion angle dependent evaluation function of 3D RNA structures</a>. Nucleic Acids Res, 2015. 43(10): p. e63.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Adamiak Group]]></title>
+    <link href="http://rnapuzzles.github.io/blog/2017/11/16/adamiak-group/"/>
+    <updated>2017-11-16T11:07:45+00:00</updated>
+    <id>http://rnapuzzles.github.io/blog/2017/11/16/adamiak-group</id>
+    <content type="html"><![CDATA[<h1><a href="">Adamiak Group</a></h1>
+
+<p><strong>Adamiak</strong>  group that includes researches of Institute of Bioorganic Chemistry, Polish Academy of Sciences and European Centre for Bioinformatics and Genomics, Faculty of Computing, Poznan University of Technology develops publicly available computational methods and tools dedicated for a fully automated RNA 3D structure prediction as well as quality assessment within the context of the reference structure.</p>
+
+<ul>
+<li><a href="http://rnacomposer.cs.put.poznan.pl" title=""><strong>RNAComposer</strong></a>: a fully automated, fragment assembly method and server for RNA 3D structure prediction.</li>
+<li><a href="http://rnafrabase.cs.put.poznan.pl"><strong>RNA FRABASE</strong></a>: a database that allows users to search three-dimensional fragments within experimentally determined RNA 3D structures.</li>
+<li><a href="http://rnapdbee.cs.put.poznan.pl"><strong>RNApdbee</strong></a>: a web server to derive secondary structures encoded in dot-bracket from 3D structures of knotted and unknotted RNAs.</li>
+<li><a href="http://rnassess.cs.put.poznan.pl"><strong>RNAssess</strong></a>: a web server for quality assessment of RNA 3D structures within the context of the reference structure.</li>
+</ul>
+
+
+<h2>Prediction Approaches:</h2>
+
+<p>RNAComposer allows users for fully automated prediction of RNA 3D structures (Popenda et al., 2012) by providing a knowledge-based method that employs automated fragment assembly based on a tree graph representation of the secondary structure and homology of structural elements. The developed workflow allows to translate rapidly the RNA secondary structure into the corresponding 3D structure. Crucial component used during this translation process is a dedicated dictionary. This dictionary was constructed based on the RNA FRABASE database (Popenda et al., 2008, 2010) and is used by the computational engine to predict RNA 3D structure. The dictionary relates RNA secondary- and tertiary structure elements. Since our initial report, its volume has been considerably enlarged leading to a substantial increase of the predicted 3D structure accuracy.
+The algorithms incorporated in the RNAComposer engine allow users to predict automatically RNA 3D models in the following steps:</p>
+
+<ul>
+<li>RNA secondary structure fragmentation. RNA secondary structure is divided into fragments according to its tree graph representation. The fragmentation algorithm provides secondary structure elements, namely stems, loops (i.e., apical, bulge internal, and n-way junctions), and single strands.</li>
+<li>3D structure elements search. An automated dictionary search of the related 3D structure elements is performed for each secondary structure element resulted from fragmentation.</li>
+<li>3D structure elements preparation. Most suitable 3D structure elements are selected from the dictionary and prepared for further processing.</li>
+<li>Initial RNA 3D structure building. The building process is based on the tree graph representation of the input secondary structure. The 3D structure elements are superimposed regarding common canonical base pairs and assembled to give initial, already well-shaped RNA 3D structure. Up to this step, RNAComposer is very fast. It usually takes several seconds on a single processor architecture.</li>
+<li>3D structure refinement. Energy minimization in torsion angle space (Guntert et al., 1997) and, subsequently, in atom coordinate space (Schwieters et al., 2003) is performed leading to final, high-quality RNA 3D model.</li>
+</ul>
+
+
+<p>RNAComposer system offers a user-friendly interface that allows users to predict automatically large RNA 3D structures (i.e., actually up to 500 nts). Although the main engine runs based on RNA secondary structure, the web server itself enables users to predict the RNA 3D structure from sequence as well. User can input RNA sequence and select one of incorporated tools for RNA secondary structure prediction: CentriodFold (Sato et al., 2009), ContextFold (Zakov et al., 2011), CONTRAfold (Do et al., 2006), IPknot (Sato et al., 2011), RNAfold (Lorenz et al., 2011), or RNAstructure (Reuter &amp; Mathews, 2010). Aforementioned computational steps are next processed automatically by RNAComposer engine.</p>
+
+<p>Since the initial report RNAComposer was visited over 300.000 times. It is efficient enough to support 3D modeling in an interactive mode. Moreover, batch mode was provided for large-scale modeling of RNA 3D structures based on up to 10 user-defined RNA secondary structures. As an input a set of up to 10 RNA sequences can be incorporated. Up to ten 3D models can be generated for every pair of sequence and secondary structure. In the batch mode, the user can significantly improve the reliability of predicted RNA 3D models by applying own 3D structural elements, influencing the search within the database of available RNA 3D structure elements or incorporating own restraints for interatomic distances as well as torsion angles (Antczak et al., 2016).
+<br/>Numerous applications of the RNAComposer were reported throughout literature in all fields of molecular and structural biology of RNA (e.g., NMR, SAXS, cryo-microscopy) and RNA nanotechnology.</p>
+
+<h2>A real case:</h2>
+
+<p>Prediction of the cyclic di-GMP-II riboswitches from different bacteria (Purzycka et al., 2015) will be presented as an example. This riboswitch controls the carbohydrate processing. 3D structure of its aptamer domain from Clostridium acetobutylicum was solved at 2.5Å resolution (PDB ID: 3Q3Z; Smith et al., 2011). This RNA adopts a compact structure which contains the a second order pseudoknot, a triple helix within pseudoknot major groove, and an unusual U-turn/S-turn motif unique among any other PDB-deposited 3D structures.</p>
+
+<p>Analysis of aforementioned riboswitch allows us to predict yet unknown 3D structures of related riboswitches from Clostridium difficile 4, Bacillus halodurans 1, and Thermus aquaticus Y5.1. We performed our predictions on RNAs family stored in the RFAM database (ID: RF01786) that comprises 237 members clustered in a seed subgroup containing 54 entities differing in the sequence length and identity. We have generated secondary structures for all RNAs included in that seed subgroup following the alignment of the consensus secondary structures within this subgroup and the crystal structure topology (PDB ID: 3Q3Z). Those secondary structures were used as an input for automated 3D structure prediction using RNAComposer. One 3D model was generated for each of 54 RNA secondary structures which was then fitted into the crystal structure (PDB ID: 3Q3Z) based on alignment of tertiary structures generated using ARTS (Dror et al., 2006). Next, we selected three subgroup members i.e., the riboswitches from Clostridium difficile 4, Bacillus halodurans 1, and Thermus aquaticus Y5 1, for which the predicted 3D structures fitted the best to the crystal structure of c-di-GMP-II riboswitch (PDB ID: 3Q3Z). For each selected member, 10 3D models were generated and the best of them are presented below. It appeared that within the core fragment comprising potential ligand-binding site, all three riboswitch 3D structures very closely resemble that from C. acetobutylicum (RMSD score &lt;2 Å).
+[fig]
+Pairwise superimposition of the best 3D model of the cyclic di-GMP-II riboswitch obtained for
+each related riboswitch, namely C. difficile 4, B. halodurans 1, and T. aquaticus Y5.1 (red and blue-core), and the X-ray structure from C. acetobutylicum (PDB ID: 3Q3Z) (green and cyan-core).</p>
+
+<h2>Publications:</h2>
+
+<p>Popenda, M., et al., Automated 3D structure composition for large RNAs,
+Nucleic Acids Research 40(14), 2012, e112.</p>
+
+<p>Biesiada, M., et al., Automated RNA 3D structure prediction with
+RNAComposer, in Doug H. Turner, David H. Mathews (eds.) RNA Structure
+Determination: Methods and Protocols (Methods in Molecular Biology 1490),
+Springer, Humana Press, 2016, 199-215.</p>
+
+<p>Purzycka, K., et al., Automated 3D RNA structure prediction using the
+RNAComposer method for riboswitches, in Shi-Jie Chen, Donald H.
+Burke-Aguero (eds.) Methods in Enzymology: Computational Methods for
+Understanding Riboswitches 553, Elsevier, 2014, 3-34.</p>
+
+<p>Popenda, M., et al., RNA FRABASE version 1.0: an engine with a database to
+search for the three-dimensional fragments within RNA structures, Nucleic
+Acids Res 36(1), 2008, D386-D391.</p>
+
+<p>Popenda, M., et al., RNA FRABASE 2.0: an advanced web-accessible database
+with the capacity to search the three-dimensional fragments within RNA
+structures, BMC Bioinformatics 11, 2010, 231.</p>
+
+<p>Antczak, M., et al., RNApdbee - a webserver to derive secondary structures
+from pdb files of knotted and unknotted RNAs, Nucleic Acids Research
+42(W1), 2014, W368-W372.</p>
+
+<p>Zok, T., et al., MCQ4Structures to compute similarity of molecule
+structures, Central European Journal of Operations Research 22(3), 2014,
+457-474.</p>
+
+<p>Wiedemann, J., et al., LCS-TA to identify similar fragments in RNA 3D
+structures, BMC Bioinformatics 18, 2017, 456.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Chen Group]]></title>
+    <link href="http://rnapuzzles.github.io/blog/2017/11/16/chen-group/"/>
+    <updated>2017-11-16T11:07:03+00:00</updated>
+    <id>http://rnapuzzles.github.io/blog/2017/11/16/chen-group</id>
+    <content type="html"><![CDATA[<h1><a href="http://vfold.missouri.edu/">Chen Group</a></h1>
+
+<p><strong>Chen</strong> group from University of Missouri investigates the physical mechanism of RNA folding and develops predictive models for RNA structure and function.</p>
+
+<ul>
+<li><a href="http://rna.physics.missouri.edu/vfold2D/index.html"><strong>Vfold2D</strong></a>: Physics-based 2D structure prediction.</li>
+<li><a href="http://rna.physics.missouri.edu/vfoldCPX/index.html"><strong>VfoldCPX</strong></a>: RNA/RNA complexes 2D structure prediction.</li>
+<li><a href="http://rna.physics.missouri.edu/vfoldMTF"><strong>VfoldMTF</strong></a>: Motifs database with various topologies.</li>
+<li><a href="http://rna.physics.missouri.edu/vfold3D/index.html"><strong>Vfold3D</strong></a>: Motif-based 3D structure prediction.</li>
+</ul>
+
+
+<h2>Prediction Approaches:</h2>
+
+<p>Generally, RNA structure prediction is based on a hierarchical strategy. First, for a given RNA sequence, the minimum free energy and suboptimal 2D structures are predicted by Vfold2D, which uses Vfold-derived motif-based loop free energies. In this stage, if the homologous sequence alignment data is available from Rfam or BLAST, we can also incorporate the information as constraint to the Vfold2D algorithm to predict the 2D structures. Second, from the given sequence and the 2D structure, Vfold3D predicts the 3D structures by assembling A-form helices and motif templates from known RNA structures. We use the sequence similarity scores to search for the optimal motif templates in the VfoldMTF database. To effectively enlarge the search space for the fragments, we allow zipping/unzipping of the terminal base pairs of the helix stems in order to relax the restrictions on the lengths of the loop branches. After that, some slight adjustments for the spatial arrangement of motifs may be necessary to eliminate inter-motif clash. Finally, the 3D structures are refined by the all-atom energy minimization through AMBER or NAMD. A tutorial that illustrates this strategy with detailed examples can be found in the following reference: Xu X, Chen SJ. A Method to Predict the 3D Structure of an RNA Scaffold. Methods Mol Biol. 2015;1316:1-11.</p>
+
+<p>In the above approach, it is possible that no template can be found in the VfoldMTF database. Moreover, the current workflow of the Vfold software for 3D structure prediction is only semi-automated because it may require some manual efforts to, for example, remove steric clashes. A fully automated software/server is currently under development.</p>
+
+<h2>A real case:</h2>
+
+<p>RNA aptamers are short single-stranded oligonucleotide ligands that can bind with high affinity and specificity to target molecules. The use of aptamers represents an emerging class of therapeutic strategy that can be easily adapted for personalized and precision medicine. Knowledge of the RNA aptamer’s structure would greatly facilitate and expedite the post-selection optimization steps required for translation, including truncation, chemical modification and chemical conjugation. Here, we use Vfold2D/Vfold3D computational model to predict the 2D and 3D structures of a 70-nucleotide long RNA aptamer (A9) for prostate specific membrane antigen (PSMA) and identify the key sequence/structure motifs (Reference: Rockey, et al. Zou, X., Chen, SJ., Giangrande, P.H. (2011) Rational truncation of an RNA aptamer to prostate specific membrane antigen using computational structural modeling. Nucleic Acid Therapeutic, 21: 299-314). Based on the predicted 2D structure of A9, a series of systematic changes, including nucleotide deletions/insertions/mutations, were introduced to alter the aptamer’s 2D/3D structure (predicted by Vfold2D/Vfold3D). The altered RNA sequences were then in vitro transcribed and validated experimentally to assess activity in an established functional assay. From the structure-activity relationship for different sequences and structures, the sequence and structural motifs that are essential for aptamer activity were identified. The stem-loop motif of A9g were found to be essential for the function. Overall, a structure modeling methodology, in combination with a standard functional assay, was used to determine key sequence and structural motifs of an RNA aptamer and this methodology can be easily applied to optimize other aptamers with therapeutic potential.
+[fig]
+The figures show the Vfold-predicted 2D and 3D structures of RNA aptamers. Reference: Xu X, Dickey DD, Chen SJ, Giangrande PH. Structural computational modeling of RNA aptamers. Methods. 2016;103:175-9.</p>
+
+<h2>Publications:</h2>
+
+<p>TBA</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Bujnicki Group]]></title>
+    <link href="http://rnapuzzles.github.io/blog/2017/11/16/bujnicki-group/"/>
+    <updated>2017-11-16T10:44:22+00:00</updated>
+    <id>http://rnapuzzles.github.io/blog/2017/11/16/bujnicki-group</id>
+    <content type="html"><![CDATA[<h1><a href="http://genesilico.pl">Bujnicki Group</a></h1>
+
+<p><strong>Bujnicki</strong> group is from International Institute of Molecular and Cell Biology in Warsaw, Poland.</p>
+
+<ul>
+<li><a href="http://iimcb.genesilico.pl/modernaserver/"><strong>ModeRNA</strong></a>: RNA tertiary structure prediction with ModeRNA.</li>
+<li><a href="http://genesilico.pl/SimRNAweb/"><strong>SimRNA</strong></a>: a coarse-grained method for RNA folding simulations and 3D structure prediction.</li>
+<li><a href="http://www.genesilico.pl/moderna/"><strong>ModeRNA program</strong></a></li>
+<li><a href="http://genesilico.pl/software/stand-alone/simrna/"><strong>SimRNA program</strong></a></li>
+</ul>
+
+
+<h2>Prediction Approaches:</h2>
+
+<p><strong>Strategy I</strong>: Typically, we use a hybrid modeling strategy based on the approach used earlier for protein structure prediction. First, the RNA target sequence is analyzed to identify homologous sequences and to generate a multiple sequence alignment. At this stage we also try to determine similarity to any other RNA with experimentally determined structure. If such RNA is identified, it is used as a template to build a model of the target molecule (or its parts) using a template-based (comparative) modeling method ModeRNA. If the molecule lacks a template, or if certain regions of the molecule cannot be modeled by template-based modeling, they are subjected to template-free folding simulations using the coarse-grained method SimRNA. Template-free folding can be aided by spatial restraints obtained from computational predictions (e.g., information on the secondary structure predicted from the sequence alignment) and from experimental analyses (e.g., on contacts between residues that interact in 3D). Finally, models are refined using the QRNAS method that extends the AMBER force field with energy terms explicitly modeling hydrogen bonds, idealizes base pair planarity and regularizes the backbone conformation. A tutorial that presents this strategy with a detailed example is available: Piatkowski P, Kasprzak JM, Kumar D, Magnus M, Chojnowski G, Bujnicki JM. RNA 3D Structure Modeling by Combination of Template-Based Method ModeRNA, Template-Free Folding with SimRNA, and Refinement with QRNAS. Methods Mol Biol. 2016;1490:217-35</p>
+
+<p><strong>Strategy II</strong>: Recently, in collaboration with the Das group, we have started exploring another strategy, also inspired by successful protein structure prediction. This approach requires a sequence alignment of the target RNA with several homologs. Initially, models are built using the template-free approach for several different sequences. Structural fragments corresponding to the evolutionary conserved regions (in particular helices) – determined from the alignment – are extracted from all models and clustered to identify the most common structural arrangement. The model of the target RNA can be then subjected to refinement, e.g., as in strategy I. This approach is currently under development.</p>
+
+<h2>A real case:</h2>
+
+<p>Prokaryotic ribosomal protein genes are typically grouped within highly conserved operons. In many cases, one or more of the encoded proteins not only bind to a specific site in the ribosomal RNA, but also to a motif localized within their own mRNA, and thereby regulate expression of the operon. We used computational methods to predict an RNA motif present in many bacterial phyla within the 5′ untranslated region of operons encoding ribosomal proteins S6 and S18. We demonstrated experimentally that this region in RNA indeed functions as the S6:S18 complex-binding motif (S6S18CBM). This motif contains a conserved CCG sequence presented in a bulge flanked by a stem and a hairpin structure. A similar structure containing a CCG trinucleotide forms the S6:S18 complex binding site in 16S ribosomal RNA. We have constructed a 3D structural model of a S6:S18 complex with S6S18CBM, using a combination of template-based and template-free modeling. The model explained how the CCG trinucleotide in a specific structural context could be specifically recognized by the S18 protein. Our prediction was supported by site-directed mutagenesis of both RNA and protein components. Overall, this study, which combined RNA sequence analysis, computational structure modeling, and biochemical analyses, provided a molecular basis for understanding protein-RNA recognition in the regulation of S6 and S18 protein expression.
+[fig]
+S6:S18 ribosomal protein complex interacts with a structural motif present in its own mRNA. Matelska D, Purta E, Panek S, Boniecki MJ, Bujnicki JM, Dunin-Horkawicz S. RNA. 2013 Oct;19(10):1341-8.</p>
+
+<h2>Publications:</h2>
+
+<p>TBA</p>
+]]></content>
+  </entry>
+  
+</feed>

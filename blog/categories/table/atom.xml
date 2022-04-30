@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Table | RNA-Puzzles]]></title>
+  <link href="http://rnapuzzles.github.io/blog/categories/table/atom.xml" rel="self"/>
+  <link href="http://rnapuzzles.github.io/"/>
+  <updated>2022-04-30T03:42:50+01:00</updated>
+  <id>http://rnapuzzles.github.io/</id>
+  <author>
+    <name><![CDATA[Chichau Miao]]></name>
+    <email><![CDATA[rnapuzzles@gzlab.ac.cn]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Puzzle UR9 Table]]></title>
+    <link href="http://rnapuzzles.github.io/blog/2000/01/01/UR9-3d/"/>
+    <updated>2000-01-01T00:00:01+00:00</updated>
+    <id>http://rnapuzzles.github.io/blog/2000/01/01/UR9-3d</id>
+    <content type="html"><![CDATA[<script src="/javascripts/sorttable.js"></script>
+
+
+<script>
+    window.onload = function() {
+        (document.getElementsByTagName( 'th' )[1]).click();
+    };
+</script>
+
+
+<p><br/></p>
+
+<div align="center">
+Please click the tags to sort data.<br/>
+<table class="sortable" border=1>
+  <tr>
+    <th>Lab</th>
+    <th>Num</th>
+    <th>RMSD</th>
+    <th>DI all</th>
+    <th>INF all</th>
+    <th>INF wc</th>
+    <th>INF nwc</th>
+    <th>INF stacking</th>
+    <th>Clash Score</th>
+    <th>P-value</th>
+    <th>mcq</th>
+    <th>best sol.</th>
+    <th>Detail</th>
+  </tr>
+  <tr><td>DasR3</td><td>3</td><td>0.000</td><td>0.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>2.130</td><td>0.00e+00</td><td>0.00</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_DasR3_3'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>2</td><td>5.683</td><td>7.370</td><td>0.771</td><td>0.843</td><td>-</td><td>0.749</td><td>12.780</td><td>0.00e+00</td><td>17.54</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_Dokholyan_2'>-></a></td></tr>
+<tr><td>RNAComposerR3</td><td>2</td><td>8.298</td><td>10.545</td><td>0.787</td><td>0.874</td><td>0.000</td><td>0.765</td><td>9.590</td><td>0.00e+00</td><td>18.23</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_RNAComposerR3_2'>-></a></td></tr>
+<tr><td>RNAComposerR3</td><td>1</td><td>8.446</td><td>11.255</td><td>0.750</td><td>0.858</td><td>0.000</td><td>0.730</td><td>14.200</td><td>0.00e+00</td><td>21.95</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_RNAComposerR3_1'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>3</td><td>10.054</td><td>12.790</td><td>0.786</td><td>0.779</td><td>0.000</td><td>0.817</td><td>2.130</td><td>0.00e+00</td><td>13.21</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_Bujnicki_3'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>2</td><td>10.456</td><td>13.335</td><td>0.784</td><td>0.819</td><td>0.000</td><td>0.789</td><td>0.710</td><td>0.00e+00</td><td>15.80</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_Bujnicki_2'>-></a></td></tr>
+<tr><td>RNAComposerR3</td><td>5</td><td>10.894</td><td>14.069</td><td>0.774</td><td>0.828</td><td>0.000</td><td>0.784</td><td>7.100</td><td>0.00e+00</td><td>16.82</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_RNAComposerR3_5'>-></a></td></tr>
+<tr><td>RNAComposerR3</td><td>3</td><td>11.202</td><td>14.874</td><td>0.753</td><td>0.843</td><td>0.000</td><td>0.742</td><td>12.430</td><td>0.00e+00</td><td>20.73</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_RNAComposerR3_3'>-></a></td></tr>
+<tr><td>XiaoR3</td><td>1</td><td>11.362</td><td>16.024</td><td>0.709</td><td>0.778</td><td>0.000</td><td>0.705</td><td>0.360</td><td>0.00e+00</td><td>36.25</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_XiaoR3_1'>-></a></td></tr>
+<tr><td>Xiao</td><td>1</td><td>11.369</td><td>16.035</td><td>0.709</td><td>0.778</td><td>0.000</td><td>0.705</td><td>0.360</td><td>0.00e+00</td><td>36.21</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_Xiao_1'>-></a></td></tr>
+<tr><td>RNAComposerR3</td><td>4</td><td>12.008</td><td>15.945</td><td>0.753</td><td>0.829</td><td>0.000</td><td>0.749</td><td>10.300</td><td>0.00e+00</td><td>20.97</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_RNAComposerR3_4'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>3</td><td>12.733</td><td>16.211</td><td>0.785</td><td>0.858</td><td>0.000</td><td>0.786</td><td>12.070</td><td>1.66e-16</td><td>16.62</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_Dokholyan_3'>-></a></td></tr>
+<tr><td>XiaoR3</td><td>3</td><td>13.140</td><td>17.785</td><td>0.739</td><td>0.762</td><td>0.000</td><td>0.752</td><td>9.590</td><td>1.05e-15</td><td>28.75</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_XiaoR3_3'>-></a></td></tr>
+<tr><td>Xiao</td><td>3</td><td>13.169</td><td>17.825</td><td>0.739</td><td>0.762</td><td>0.000</td><td>0.752</td><td>10.650</td><td>1.17e-15</td><td>28.73</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_Xiao_3'>-></a></td></tr>
+<tr><td>XiaoR3</td><td>2</td><td>13.590</td><td>18.434</td><td>0.737</td><td>0.827</td><td>0.000</td><td>0.716</td><td>2.130</td><td>7.60e-15</td><td>31.59</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_XiaoR3_2'>-></a></td></tr>
+<tr><td>Xiao</td><td>2</td><td>13.618</td><td>18.471</td><td>0.737</td><td>0.827</td><td>0.000</td><td>0.716</td><td>2.130</td><td>8.55e-15</td><td>31.55</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_Xiao_2'>-></a></td></tr>
+<tr><td>ChenR3</td><td>4</td><td>14.063</td><td>18.638</td><td>0.755</td><td>0.843</td><td>0.000</td><td>0.747</td><td>4.970</td><td>5.70e-14</td><td>20.61</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_ChenR3_4'>-></a></td></tr>
+<tr><td>DasR3</td><td>2</td><td>14.077</td><td>16.086</td><td>0.875</td><td>0.865</td><td>0.577</td><td>0.890</td><td>1.420</td><td>6.06e-14</td><td>5.39</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_DasR3_2'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>2</td><td>14.700</td><td>23.034</td><td>0.638</td><td>0.491</td><td>0.000</td><td>0.734</td><td>10.300</td><td>7.76e-13</td><td>16.51</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_RNAComposer_2'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>3</td><td>14.729</td><td>20.384</td><td>0.723</td><td>0.641</td><td>-</td><td>0.779</td><td>9.940</td><td>8.73e-13</td><td>14.61</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_RNAComposer_3'>-></a></td></tr>
+<tr><td>XiaoR3</td><td>4</td><td>14.978</td><td>20.157</td><td>0.743</td><td>0.795</td><td>-</td><td>0.734</td><td>25.970</td><td>2.34e-12</td><td>33.76</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_XiaoR3_4'>-></a></td></tr>
+<tr><td>DokholyanR3</td><td>1</td><td>15.010</td><td>19.701</td><td>0.762</td><td>0.843</td><td>0.000</td><td>0.751</td><td>75.640</td><td>2.65e-12</td><td>20.04</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_DokholyanR3_1'>-></a></td></tr>
+<tr><td>Xiao</td><td>4</td><td>15.028</td><td>20.225</td><td>0.743</td><td>0.795</td><td>-</td><td>0.734</td><td>27.360</td><td>2.84e-12</td><td>33.71</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_Xiao_4'>-></a></td></tr>
+<tr><td>DasR3</td><td>1</td><td>15.398</td><td>17.937</td><td>0.858</td><td>0.877</td><td>0.333</td><td>0.871</td><td>0.710</td><td>1.18e-11</td><td>5.66</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_DasR3_1'>-></a></td></tr>
+<tr><td>BujnickiR3</td><td>4</td><td>15.477</td><td>20.111</td><td>0.770</td><td>0.813</td><td>0.000</td><td>0.779</td><td>1.420</td><td>1.59e-11</td><td>15.09</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_BujnickiR3_4'>-></a></td></tr>
+<tr><td>XiaoR3</td><td>5</td><td>15.913</td><td>21.458</td><td>0.742</td><td>0.795</td><td>0.000</td><td>0.738</td><td>0.360</td><td>8.00e-11</td><td>30.27</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_XiaoR3_5'>-></a></td></tr>
+<tr><td>DasR3</td><td>5</td><td>15.914</td><td>19.162</td><td>0.830</td><td>0.835</td><td>0.333</td><td>0.849</td><td>1.780</td><td>8.01e-11</td><td>5.74</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_DasR3_5'>-></a></td></tr>
+<tr><td>DasR3</td><td>4</td><td>15.960</td><td>18.053</td><td>0.884</td><td>0.918</td><td>0.000</td><td>0.904</td><td>2.840</td><td>9.48e-11</td><td>5.33</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_DasR3_4'>-></a></td></tr>
+<tr><td>Xiao</td><td>5</td><td>15.975</td><td>21.542</td><td>0.742</td><td>0.795</td><td>0.000</td><td>0.738</td><td>0.360</td><td>1.00e-10</td><td>30.23</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_Xiao_5'>-></a></td></tr>
+<tr><td>DokholyanR3</td><td>4</td><td>16.367</td><td>22.027</td><td>0.743</td><td>0.843</td><td>0.000</td><td>0.749</td><td>74.930</td><td>4.04e-10</td><td>17.62</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_DokholyanR3_4'>-></a></td></tr>
+<tr><td>DokholyanR3</td><td>3</td><td>16.383</td><td>20.888</td><td>0.784</td><td>0.828</td><td>0.000</td><td>0.813</td><td>53.270</td><td>4.26e-10</td><td>15.57</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_DokholyanR3_3'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>1</td><td>16.573</td><td>20.702</td><td>0.801</td><td>0.819</td><td>-</td><td>0.808</td><td>0.000</td><td>8.24e-10</td><td>13.98</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_Bujnicki_1'>-></a></td></tr>
+<tr><td>Chen</td><td>4</td><td>16.763</td><td>21.965</td><td>0.763</td><td>0.843</td><td>0.000</td><td>0.758</td><td>59.720</td><td>1.58e-09</td><td>15.01</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_Chen_4'>-></a></td></tr>
+<tr><td>BujnickiR3</td><td>2</td><td>16.854</td><td>20.890</td><td>0.807</td><td>0.889</td><td>-</td><td>0.786</td><td>0.360</td><td>2.14e-09</td><td>15.20</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_BujnickiR3_2'>-></a></td></tr>
+<tr><td>ChenR3</td><td>1</td><td>16.990</td><td>21.855</td><td>0.777</td><td>0.843</td><td>0.000</td><td>0.778</td><td>2.490</td><td>3.36e-09</td><td>19.70</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_ChenR3_1'>-></a></td></tr>
+<tr><td>BujnickiR3Human</td><td>2</td><td>17.021</td><td>22.587</td><td>0.754</td><td>0.816</td><td>0.000</td><td>0.757</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>3.73e-09</td><td>16.51</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_BujnickiR3Human_2'>-></a></td></tr>
+<tr><td>DokholyanR3</td><td>2</td><td>17.460</td><td>24.011</td><td>0.727</td><td>0.813</td><td>0.000</td><td>0.723</td><td>99.790</td><td>1.54e-08</td><td>19.93</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_DokholyanR3_2'>-></a></td></tr>
+<tr><td>Chen</td><td>1</td><td>18.191</td><td>23.797</td><td>0.764</td><td>0.843</td><td>-</td><td>0.743</td><td>48.990</td><td>1.45e-07</td><td>13.46</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_Chen_1'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>5</td><td>18.235</td><td>24.998</td><td>0.729</td><td>0.827</td><td>-</td><td>0.693</td><td>8.520</td><td>1.65e-07</td><td>17.88</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_Dokholyan_5'>-></a></td></tr>
+<tr><td>ChenR3</td><td>5</td><td>18.722</td><td>24.482</td><td>0.765</td><td>0.843</td><td>0.000</td><td>0.752</td><td>3.200</td><td>6.66e-07</td><td>19.50</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_ChenR3_5'>-></a></td></tr>
+<tr><td>Chen</td><td>3</td><td>19.029</td><td>24.060</td><td>0.791</td><td>0.843</td><td>0.000</td><td>0.790</td><td>55.440</td><td>1.55e-06</td><td>15.99</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_Chen_3'>-></a></td></tr>
+<tr><td>Chen</td><td>5</td><td>19.093</td><td>25.447</td><td>0.750</td><td>0.858</td><td>0.000</td><td>0.744</td><td>58.660</td><td>1.84e-06</td><td>14.39</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_Chen_5'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>1</td><td>19.213</td><td>26.003</td><td>0.739</td><td>0.827</td><td>-</td><td>0.710</td><td>10.300</td><td>2.53e-06</td><td>16.68</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_Dokholyan_1'>-></a></td></tr>
+<tr><td>Lee</td><td>4</td><td>19.224</td><td>25.036</td><td>0.768</td><td>0.843</td><td>0.000</td><td>0.751</td><td>2.840</td><td>2.60e-06</td><td>19.52</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_Lee_4'>-></a></td></tr>
+<tr><td>BujnickiR3</td><td>5</td><td>19.466</td><td>25.537</td><td>0.762</td><td>0.829</td><td>0.000</td><td>0.769</td><td>2.490</td><td>4.89e-06</td><td>14.73</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_BujnickiR3_5'>-></a></td></tr>
+<tr><td>ChenR3</td><td>2</td><td>19.739</td><td>25.758</td><td>0.766</td><td>0.843</td><td>0.000</td><td>0.766</td><td>1.780</td><td>9.77e-06</td><td>24.39</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_ChenR3_2'>-></a></td></tr>
+<tr><td>BujnickiR3Human</td><td>1</td><td>20.522</td><td>27.874</td><td>0.736</td><td>0.800</td><td>0.000</td><td>0.733</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>6.27e-05</td><td>20.28</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_BujnickiR3Human_1'>-></a></td></tr>
+<tr><td>BujnickiR3</td><td>1</td><td>20.747</td><td>26.764</td><td>0.775</td><td>0.800</td><td>-</td><td>0.781</td><td>0.360</td><td>1.04e-04</td><td>16.36</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_BujnickiR3_1'>-></a></td></tr>
+<tr><td>Lee</td><td>2</td><td>20.822</td><td>34.690</td><td>0.600</td><td>0.519</td><td>0.000</td><td>0.663</td><td>4.970</td><td>1.22e-04</td><td>22.81</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_Lee_2'>-></a></td></tr>
+<tr><td>Lee</td><td>3</td><td>20.885</td><td>37.867</td><td>0.552</td><td>0.495</td><td>0.000</td><td>0.602</td><td>3.900</td><td>1.40e-04</td><td>21.00</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_Lee_3'>-></a></td></tr>
+<tr><td>BujnickiR2</td><td>1</td><td>20.921</td><td>27.708</td><td>0.755</td><td>0.791</td><td>0.000</td><td>0.781</td><td>6.040</td><td>1.51e-04</td><td>15.92</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_BujnickiR2_1'>-></a></td></tr>
+<tr><td>Lee</td><td>1</td><td>21.013</td><td>30.106</td><td>0.698</td><td>0.827</td><td>0.000</td><td>0.648</td><td>3.200</td><td>1.84e-04</td><td>19.83</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_Lee_1'>-></a></td></tr>
+<tr><td>Chen</td><td>2</td><td>21.914</td><td>29.044</td><td>0.755</td><td>0.858</td><td>0.000</td><td>0.731</td><td>61.860</td><td>1.10e-03</td><td>15.16</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_Chen_2'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>4</td><td>22.025</td><td>29.252</td><td>0.753</td><td>0.858</td><td>-</td><td>0.712</td><td>9.940</td><td>1.35e-03</td><td>16.99</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_Dokholyan_4'>-></a></td></tr>
+<tr><td>ChenR3</td><td>3</td><td>22.039</td><td>28.696</td><td>0.768</td><td>0.828</td><td>0.000</td><td>0.764</td><td>0.710</td><td>1.38e-03</td><td>20.49</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_ChenR3_3'>-></a></td></tr>
+<tr><td>Lee</td><td>5</td><td>22.226</td><td>35.013</td><td>0.635</td><td>0.562</td><td>0.000</td><td>0.712</td><td>3.190</td><td>1.94e-03</td><td>20.15</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_Lee_5'>-></a></td></tr>
+<tr><td>BujnickiR3</td><td>3</td><td>22.917</td><td>29.035</td><td>0.789</td><td>0.843</td><td>0.000</td><td>0.786</td><td>2.130</td><td>6.13e-03</td><td>16.60</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_BujnickiR3_3'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>1</td><td>23.862</td><td>31.867</td><td>0.749</td><td>0.812</td><td>0.000</td><td>0.753</td><td>8.880</td><td>2.39e-02</td><td>18.50</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_RNAComposer_1'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>5</td><td>26.879</td><td>41.781</td><td>0.643</td><td>0.488</td><td>0.577</td><td>0.726</td><td>7.810</td><td>3.81e-01</td><td>16.03</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_RNAComposer_5'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>4</td><td>28.113</td><td>45.948</td><td>0.612</td><td>0.466</td><td>0.000</td><td>0.708</td><td>9.230</td><td>6.49e-01</td><td>15.83</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR9_RNAComposer_4'>-></a></td></tr>
+
+</table>
+-: No true positive interaction in the predicted structure.
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Puzzle UR8 Table]]></title>
+    <link href="http://rnapuzzles.github.io/blog/2000/01/01/UR8-3d/"/>
+    <updated>2000-01-01T00:00:01+00:00</updated>
+    <id>http://rnapuzzles.github.io/blog/2000/01/01/UR8-3d</id>
+    <content type="html"><![CDATA[<script src="/javascripts/sorttable.js"></script>
+
+
+<script>
+    window.onload = function() {
+        (document.getElementsByTagName( 'th' )[1]).click();
+    };
+</script>
+
+
+<p><br/></p>
+
+<div align="center">
+Please click the tags to sort data.<br/>
+<table class="sortable" border=1>
+  <tr>
+    <th>Lab</th>
+    <th>Num</th>
+    <th>RMSD</th>
+    <th>DI all</th>
+    <th>INF all</th>
+    <th>INF wc</th>
+    <th>INF nwc</th>
+    <th>INF stacking</th>
+    <th>Clash Score</th>
+    <th>P-value</th>
+    <th>mcq</th>
+    <th>best sol.</th>
+    <th>Detail</th>
+  </tr>
+  <tr><td>BujnickiR3</td><td>1</td><td>0.000</td><td>0.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>2.470</td><td>0.00e+00</td><td>0.00</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_BujnickiR3_1'>-></a></td></tr>
+<tr><td>BujnickiR3Human</td><td>1</td><td>0.396</td><td>0.410</td><td>0.965</td><td>1.000</td><td>0.750</td><td>0.963</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>7.02</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_BujnickiR3Human_1'>-></a></td></tr>
+<tr><td>BujnickiR3</td><td>4</td><td>9.412</td><td>12.746</td><td>0.738</td><td>0.802</td><td>0.204</td><td>0.750</td><td>3.170</td><td>0.00e+00</td><td>18.24</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_BujnickiR3_4'>-></a></td></tr>
+<tr><td>BujnickiR3</td><td>5</td><td>9.448</td><td>12.209</td><td>0.774</td><td>0.842</td><td>0.289</td><td>0.770</td><td>6.350</td><td>0.00e+00</td><td>23.76</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_BujnickiR3_5'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>3</td><td>10.418</td><td>13.360</td><td>0.780</td><td>0.799</td><td>0.289</td><td>0.797</td><td>3.170</td><td>0.00e+00</td><td>19.03</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_Bujnicki_3'>-></a></td></tr>
+<tr><td>Chen</td><td>1</td><td>10.867</td><td>14.408</td><td>0.754</td><td>0.886</td><td>0.354</td><td>0.723</td><td>49.050</td><td>0.00e+00</td><td>19.09</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_Chen_1'>-></a></td></tr>
+<tr><td>ChenR3</td><td>1</td><td>12.038</td><td>15.010</td><td>0.802</td><td>0.907</td><td>0.250</td><td>0.794</td><td>2.470</td><td>0.00e+00</td><td>23.27</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_ChenR3_1'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>1</td><td>12.184</td><td>18.748</td><td>0.650</td><td>0.605</td><td>0.289</td><td>0.688</td><td>14.460</td><td>0.00e+00</td><td>25.95</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_RNAComposer_1'>-></a></td></tr>
+<tr><td>Chen</td><td>5</td><td>12.349</td><td>15.716</td><td>0.786</td><td>0.869</td><td>0.000</td><td>0.794</td><td>57.560</td><td>0.00e+00</td><td>19.27</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_Chen_5'>-></a></td></tr>
+<tr><td>Chen</td><td>2</td><td>12.819</td><td>16.312</td><td>0.786</td><td>0.846</td><td>0.000</td><td>0.806</td><td>57.950</td><td>2.22e-16</td><td>19.05</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_Chen_2'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>1</td><td>12.868</td><td>20.396</td><td>0.631</td><td>0.828</td><td>0.000</td><td>0.576</td><td>11.280</td><td>2.78e-16</td><td>23.52</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_Dokholyan_1'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>3</td><td>13.062</td><td>18.542</td><td>0.704</td><td>0.867</td><td>0.204</td><td>0.680</td><td>14.810</td><td>7.22e-16</td><td>24.50</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_RNAComposer_3'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>2</td><td>13.635</td><td>20.869</td><td>0.653</td><td>0.846</td><td>0.000</td><td>0.608</td><td>11.280</td><td>9.22e-15</td><td>27.13</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_Dokholyan_2'>-></a></td></tr>
+<tr><td>RNAComposerR3</td><td>4</td><td>13.737</td><td>17.574</td><td>0.782</td><td>0.810</td><td>0.354</td><td>0.791</td><td>8.460</td><td>1.43e-14</td><td>26.09</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_RNAComposerR3_4'>-></a></td></tr>
+<tr><td>Chen</td><td>4</td><td>13.922</td><td>17.811</td><td>0.782</td><td>0.869</td><td>0.000</td><td>0.794</td><td>69.560</td><td>3.14e-14</td><td>18.39</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_Chen_4'>-></a></td></tr>
+<tr><td>ChenR3</td><td>3</td><td>14.027</td><td>18.037</td><td>0.778</td><td>0.887</td><td>0.354</td><td>0.754</td><td>2.820</td><td>4.91e-14</td><td>23.96</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_ChenR3_3'>-></a></td></tr>
+<tr><td>RNAComposerR3</td><td>3</td><td>14.557</td><td>19.778</td><td>0.736</td><td>0.772</td><td>0.250</td><td>0.752</td><td>9.520</td><td>4.37e-13</td><td>24.64</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_RNAComposerR3_3'>-></a></td></tr>
+<tr><td>BujnickiR3</td><td>2</td><td>14.600</td><td>17.973</td><td>0.812</td><td>0.893</td><td>0.408</td><td>0.810</td><td>2.820</td><td>5.21e-13</td><td>20.98</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_BujnickiR3_2'>-></a></td></tr>
+<tr><td>Xiao</td><td>1</td><td>14.862</td><td>20.463</td><td>0.726</td><td>0.825</td><td>0.354</td><td>0.705</td><td>2.470</td><td>1.48e-12</td><td>38.12</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_Xiao_1'>-></a></td></tr>
+<tr><td>RNAComposerR3</td><td>5</td><td>15.052</td><td>20.066</td><td>0.750</td><td>0.849</td><td>0.378</td><td>0.745</td><td>15.160</td><td>3.12e-12</td><td>26.36</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_RNAComposerR3_5'>-></a></td></tr>
+<tr><td>ChenR3</td><td>2</td><td>15.999</td><td>20.256</td><td>0.790</td><td>0.945</td><td>0.354</td><td>0.750</td><td>1.410</td><td>1.09e-10</td><td>23.75</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_ChenR3_2'>-></a></td></tr>
+<tr><td>RNAComposerR3</td><td>1</td><td>16.018</td><td>20.657</td><td>0.775</td><td>0.810</td><td>0.354</td><td>0.782</td><td>9.170</td><td>1.17e-10</td><td>25.25</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_RNAComposerR3_1'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>3</td><td>16.259</td><td>23.104</td><td>0.704</td><td>0.866</td><td>0.000</td><td>0.663</td><td>9.870</td><td>2.76e-10</td><td>25.55</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_Dokholyan_3'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>2</td><td>16.438</td><td>28.828</td><td>0.570</td><td>0.315</td><td>0.289</td><td>0.690</td><td>11.280</td><td>5.18e-10</td><td>31.08</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_RNAComposer_2'>-></a></td></tr>
+<tr><td>RNAComposerR3</td><td>2</td><td>16.790</td><td>21.888</td><td>0.767</td><td>0.815</td><td>0.289</td><td>0.773</td><td>8.110</td><td>1.73e-09</td><td>24.48</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_RNAComposerR3_2'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>4</td><td>17.081</td><td>27.437</td><td>0.623</td><td>0.718</td><td>0.000</td><td>0.615</td><td>8.460</td><td>4.54e-09</td><td>24.79</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_RNAComposer_4'>-></a></td></tr>
+<tr><td>DokholyanR3</td><td>1</td><td>17.744</td><td>25.335</td><td>0.700</td><td>0.873</td><td>0.000</td><td>0.675</td><td>87.450</td><td>3.76e-08</td><td>24.35</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_DokholyanR3_1'>-></a></td></tr>
+<tr><td>Lee</td><td>4</td><td>18.090</td><td>39.627</td><td>0.457</td><td>0.598</td><td>0.000</td><td>0.431</td><td>4.930</td><td>1.07e-07</td><td>36.48</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_Lee_4'>-></a></td></tr>
+<tr><td>DokholyanR3</td><td>4</td><td>18.109</td><td>24.794</td><td>0.730</td><td>0.832</td><td>0.000</td><td>0.728</td><td>72.640</td><td>1.14e-07</td><td>23.30</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_DokholyanR3_4'>-></a></td></tr>
+<tr><td>ChenR3</td><td>5</td><td>18.179</td><td>22.483</td><td>0.809</td><td>0.907</td><td>0.500</td><td>0.788</td><td>4.590</td><td>1.40e-07</td><td>23.86</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_ChenR3_5'>-></a></td></tr>
+<tr><td>Lee</td><td>5</td><td>19.217</td><td>55.478</td><td>0.346</td><td>0.247</td><td>0.000</td><td>0.420</td><td>3.530</td><td>2.56e-06</td><td>27.45</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_Lee_5'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>4</td><td>19.480</td><td>27.960</td><td>0.697</td><td>0.825</td><td>0.000</td><td>0.670</td><td>9.170</td><td>5.08e-06</td><td>24.99</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_Dokholyan_4'>-></a></td></tr>
+<tr><td>Xiao</td><td>5</td><td>19.708</td><td>28.876</td><td>0.683</td><td>0.709</td><td>0.204</td><td>0.721</td><td>0.350</td><td>9.05e-06</td><td>41.04</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_Xiao_5'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>5</td><td>20.030</td><td>29.253</td><td>0.685</td><td>0.788</td><td>-</td><td>0.661</td><td>13.400</td><td>1.99e-05</td><td>24.07</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_Dokholyan_5'>-></a></td></tr>
+<tr><td>Xiao</td><td>3</td><td>20.040</td><td>29.771</td><td>0.673</td><td>0.756</td><td>0.204</td><td>0.689</td><td>1.060</td><td>2.04e-05</td><td>35.60</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_Xiao_3'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>2</td><td>20.171</td><td>24.587</td><td>0.820</td><td>0.869</td><td>0.289</td><td>0.827</td><td>0.350</td><td>2.79e-05</td><td>19.36</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_Bujnicki_2'>-></a></td></tr>
+<tr><td>ChenR3</td><td>4</td><td>20.524</td><td>26.832</td><td>0.765</td><td>0.926</td><td>0.224</td><td>0.739</td><td>2.820</td><td>6.30e-05</td><td>23.31</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_ChenR3_4'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>5</td><td>21.127</td><td>26.393</td><td>0.800</td><td>0.869</td><td>0.289</td><td>0.797</td><td>0.000</td><td>2.33e-04</td><td>21.77</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_Bujnicki_5'>-></a></td></tr>
+<tr><td>Chen</td><td>3</td><td>21.814</td><td>29.866</td><td>0.730</td><td>0.867</td><td>0.000</td><td>0.716</td><td>64.310</td><td>9.12e-04</td><td>20.49</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_Chen_3'>-></a></td></tr>
+<tr><td>Xiao</td><td>2</td><td>22.474</td><td>30.738</td><td>0.731</td><td>0.780</td><td>0.289</td><td>0.738</td><td>1.760</td><td>2.97e-03</td><td>37.97</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_Xiao_2'>-></a></td></tr>
+<tr><td>DokholyanR3</td><td>3</td><td>22.910</td><td>32.678</td><td>0.701</td><td>0.887</td><td>0.000</td><td>0.688</td><td>61.710</td><td>6.06e-03</td><td>22.97</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_DokholyanR3_3'>-></a></td></tr>
+<tr><td>Lee</td><td>3</td><td>22.912</td><td>47.994</td><td>0.477</td><td>0.363</td><td>0.000</td><td>0.567</td><td>4.580</td><td>6.08e-03</td><td>28.90</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_Lee_3'>-></a></td></tr>
+<tr><td>Lee</td><td>1</td><td>22.963</td><td>46.290</td><td>0.496</td><td>0.412</td><td>0.000</td><td>0.552</td><td>4.230</td><td>6.59e-03</td><td>29.24</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_Lee_1'>-></a></td></tr>
+<tr><td>Xiao</td><td>4</td><td>23.085</td><td>31.363</td><td>0.736</td><td>0.845</td><td>0.289</td><td>0.719</td><td>0.350</td><td>7.95e-03</td><td>33.02</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_Xiao_4'>-></a></td></tr>
+<tr><td>Lee</td><td>2</td><td>23.349</td><td>39.234</td><td>0.595</td><td>0.737</td><td>0.000</td><td>0.572</td><td>2.470</td><td>1.18e-02</td><td>29.20</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_Lee_2'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>4</td><td>24.486</td><td>32.849</td><td>0.745</td><td>0.822</td><td>0.000</td><td>0.756</td><td>1.060</td><td>5.13e-02</td><td>23.63</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_Bujnicki_4'>-></a></td></tr>
+<tr><td>DokholyanR3</td><td>2</td><td>25.107</td><td>35.585</td><td>0.706</td><td>0.887</td><td>0.000</td><td>0.674</td><td>64.170</td><td>9.89e-02</td><td>24.62</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_DokholyanR3_2'>-></a></td></tr>
+<tr><td>BujnickiR3</td><td>3</td><td>25.250</td><td>31.782</td><td>0.794</td><td>0.912</td><td>0.204</td><td>0.789</td><td>1.760</td><td>1.13e-01</td><td>21.16</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_BujnickiR3_3'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>1</td><td>25.375</td><td>32.904</td><td>0.771</td><td>0.897</td><td>0.289</td><td>0.744</td><td>0.350</td><td>1.27e-01</td><td>19.54</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_Bujnicki_1'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>5</td><td>30.733</td><td>62.360</td><td>0.493</td><td>0.355</td><td>0.000</td><td>0.579</td><td>16.220</td><td>9.67e-01</td><td>26.88</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR8_RNAComposer_5'>-></a></td></tr>
+
+</table>
+-: No true positive interaction in the predicted structure.
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Puzzle UR7 Table]]></title>
+    <link href="http://rnapuzzles.github.io/blog/2000/01/01/UR7-3d/"/>
+    <updated>2000-01-01T00:00:01+00:00</updated>
+    <id>http://rnapuzzles.github.io/blog/2000/01/01/UR7-3d</id>
+    <content type="html"><![CDATA[<script src="/javascripts/sorttable.js"></script>
+
+
+<script>
+    window.onload = function() {
+        (document.getElementsByTagName( 'th' )[1]).click();
+    };
+</script>
+
+
+<p><br/></p>
+
+<div align="center">
+Please click the tags to sort data.<br/>
+<table class="sortable" border=1>
+  <tr>
+    <th>Lab</th>
+    <th>Num</th>
+    <th>RMSD</th>
+    <th>DI all</th>
+    <th>INF all</th>
+    <th>INF wc</th>
+    <th>INF nwc</th>
+    <th>INF stacking</th>
+    <th>Clash Score</th>
+    <th>P-value</th>
+    <th>mcq</th>
+    <th>best sol.</th>
+    <th>Detail</th>
+  </tr>
+  <tr><td>Bujnicki</td><td>5</td><td>0.000</td><td>0.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>0.460</td><td>0.00e+00</td><td>0.00</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR7_Bujnicki_5'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>2</td><td>13.499</td><td>16.447</td><td>0.821</td><td>0.872</td><td>0.258</td><td>0.820</td><td>0.690</td><td>0.00e+00</td><td>16.73</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR7_Bujnicki_2'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>4</td><td>16.962</td><td>19.787</td><td>0.857</td><td>0.894</td><td>0.289</td><td>0.860</td><td>1.380</td><td>0.00e+00</td><td>15.13</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR7_Bujnicki_4'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>2</td><td>19.249</td><td>30.102</td><td>0.639</td><td>0.801</td><td>0.000</td><td>0.604</td><td>12.170</td><td>0.00e+00</td><td>31.07</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR7_RNAComposer_2'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>3</td><td>20.508</td><td>24.743</td><td>0.829</td><td>0.842</td><td>0.000</td><td>0.842</td><td>0.000</td><td>1.11e-16</td><td>14.67</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR7_Bujnicki_3'>-></a></td></tr>
+<tr><td>Chen</td><td>4</td><td>22.301</td><td>31.062</td><td>0.718</td><td>0.750</td><td>0.000</td><td>0.742</td><td>97.980</td><td>2.96e-13</td><td>20.00</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR7_Chen_4'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>1</td><td>22.914</td><td>35.024</td><td>0.654</td><td>0.775</td><td>0.000</td><td>0.645</td><td>8.720</td><td>3.39e-12</td><td>26.70</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR7_RNAComposer_1'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>2</td><td>23.679</td><td>34.724</td><td>0.682</td><td>0.787</td><td>0.000</td><td>0.650</td><td>7.110</td><td>6.09e-11</td><td>23.39</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR7_Dokholyan_2'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>1</td><td>24.966</td><td>34.400</td><td>0.726</td><td>0.701</td><td>0.204</td><td>0.762</td><td>1.380</td><td>5.25e-09</td><td>17.86</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR7_Bujnicki_1'>-></a></td></tr>
+<tr><td>Xiao</td><td>1</td><td>25.628</td><td>46.837</td><td>0.547</td><td>0.602</td><td>0.000</td><td>0.544</td><td>14.920</td><td>4.29e-08</td><td>42.33</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR7_Xiao_1'>-></a></td></tr>
+<tr><td>Lee</td><td>4</td><td>25.918</td><td>44.602</td><td>0.581</td><td>0.744</td><td>0.000</td><td>0.533</td><td>3.440</td><td>1.03e-07</td><td>33.63</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR7_Lee_4'>-></a></td></tr>
+<tr><td>Xiao</td><td>5</td><td>26.051</td><td>43.261</td><td>0.602</td><td>0.671</td><td>-</td><td>0.582</td><td>1.840</td><td>1.53e-07</td><td>39.21</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR7_Xiao_5'>-></a></td></tr>
+<tr><td>Xiao</td><td>4</td><td>27.159</td><td>46.226</td><td>0.588</td><td>0.587</td><td>0.000</td><td>0.606</td><td>0.920</td><td>3.34e-06</td><td>44.91</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR7_Xiao_4'>-></a></td></tr>
+<tr><td>Xiao</td><td>3</td><td>27.395</td><td>49.115</td><td>0.558</td><td>0.605</td><td>0.000</td><td>0.571</td><td>10.560</td><td>6.14e-06</td><td>40.11</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR7_Xiao_3'>-></a></td></tr>
+<tr><td>Xiao</td><td>2</td><td>27.511</td><td>49.208</td><td>0.559</td><td>0.605</td><td>0.000</td><td>0.559</td><td>0.690</td><td>8.22e-06</td><td>43.30</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR7_Xiao_2'>-></a></td></tr>
+<tr><td>Chen</td><td>3</td><td>27.963</td><td>37.965</td><td>0.737</td><td>0.820</td><td>0.000</td><td>0.731</td><td>66.940</td><td>2.48e-05</td><td>17.79</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR7_Chen_3'>-></a></td></tr>
+<tr><td>Chen</td><td>2</td><td>28.317</td><td>37.325</td><td>0.759</td><td>0.791</td><td>0.000</td><td>0.775</td><td>51.680</td><td>5.65e-05</td><td>16.57</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR7_Chen_2'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>1</td><td>28.715</td><td>41.658</td><td>0.689</td><td>0.775</td><td>0.000</td><td>0.666</td><td>8.490</td><td>1.37e-04</td><td>21.16</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR7_Dokholyan_1'>-></a></td></tr>
+<tr><td>Lee</td><td>2</td><td>29.006</td><td>91.578</td><td>0.317</td><td>0.073</td><td>0.000</td><td>0.418</td><td>4.590</td><td>2.53e-04</td><td>29.06</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR7_Lee_2'>-></a></td></tr>
+<tr><td>Chen</td><td>1</td><td>29.295</td><td>40.029</td><td>0.732</td><td>0.826</td><td>0.000</td><td>0.725</td><td>93.130</td><td>4.55e-04</td><td>19.32</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR7_Chen_1'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>3</td><td>30.156</td><td>49.228</td><td>0.613</td><td>0.484</td><td>0.000</td><td>0.690</td><td>8.720</td><td>2.27e-03</td><td>23.23</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR7_RNAComposer_3'>-></a></td></tr>
+<tr><td>Lee</td><td>5</td><td>31.379</td><td>67.246</td><td>0.467</td><td>0.254</td><td>0.000</td><td>0.578</td><td>5.050</td><td>1.54e-02</td><td>29.78</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR7_Lee_5'>-></a></td></tr>
+<tr><td>Chen</td><td>5</td><td>32.322</td><td>45.866</td><td>0.705</td><td>0.743</td><td>0.000</td><td>0.715</td><td>79.260</td><td>5.10e-02</td><td>18.44</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR7_Chen_5'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>5</td><td>34.305</td><td>48.785</td><td>0.703</td><td>0.787</td><td>0.000</td><td>0.682</td><td>6.660</td><td>2.97e-01</td><td>21.68</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR7_Dokholyan_5'>-></a></td></tr>
+<tr><td>Lee</td><td>3</td><td>34.335</td><td>110.774</td><td>0.310</td><td>0.097</td><td>0.000</td><td>0.449</td><td>2.980</td><td>3.03e-01</td><td>31.02</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR7_Lee_3'>-></a></td></tr>
+<tr><td>Lee</td><td>1</td><td>34.469</td><td>79.829</td><td>0.432</td><td>0.275</td><td>0.000</td><td>0.499</td><td>1.840</td><td>3.29e-01</td><td>29.60</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR7_Lee_1'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>4</td><td>35.443</td><td>56.865</td><td>0.623</td><td>0.764</td><td>0.000</td><td>0.599</td><td>8.490</td><td>5.39e-01</td><td>22.26</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR7_Dokholyan_4'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>3</td><td>37.086</td><td>56.335</td><td>0.658</td><td>0.799</td><td>0.000</td><td>0.617</td><td>10.100</td><td>8.44e-01</td><td>21.57</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR7_Dokholyan_3'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>4</td><td>41.760</td><td>91.868</td><td>0.455</td><td>0.130</td><td>0.000</td><td>0.614</td><td>9.640</td><td>1.00e+00</td><td>25.93</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR7_RNAComposer_4'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>5</td><td>42.264</td><td>91.989</td><td>0.459</td><td>0.182</td><td>0.000</td><td>0.607</td><td>10.790</td><td>1.00e+00</td><td>24.72</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR7_RNAComposer_5'>-></a></td></tr>
+
+</table>
+-: No true positive interaction in the predicted structure.
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Puzzle UR6 Table]]></title>
+    <link href="http://rnapuzzles.github.io/blog/2000/01/01/UR6-3d/"/>
+    <updated>2000-01-01T00:00:01+00:00</updated>
+    <id>http://rnapuzzles.github.io/blog/2000/01/01/UR6-3d</id>
+    <content type="html"><![CDATA[<script src="/javascripts/sorttable.js"></script>
+
+
+<script>
+    window.onload = function() {
+        (document.getElementsByTagName( 'th' )[1]).click();
+    };
+</script>
+
+
+<p><br/></p>
+
+<div align="center">
+Please click the tags to sort data.<br/>
+<table class="sortable" border=1>
+  <tr>
+    <th>Lab</th>
+    <th>Num</th>
+    <th>RMSD</th>
+    <th>DI all</th>
+    <th>INF all</th>
+    <th>INF wc</th>
+    <th>INF nwc</th>
+    <th>INF stacking</th>
+    <th>Clash Score</th>
+    <th>P-value</th>
+    <th>mcq</th>
+    <th>best sol.</th>
+    <th>Detail</th>
+  </tr>
+  <tr><td>DasR3</td><td>5</td><td>0.000</td><td>0.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>3.810</td><td>0.00e+00</td><td>0.00</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_DasR3_5'>-></a></td></tr>
+<tr><td>DasR3</td><td>2</td><td>4.151</td><td>4.531</td><td>0.916</td><td>0.904</td><td>0.000</td><td>0.933</td><td>1.900</td><td>0.00e+00</td><td>10.25</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_DasR3_2'>-></a></td></tr>
+<tr><td>BujnickiR3</td><td>5</td><td>4.288</td><td>4.852</td><td>0.884</td><td>0.901</td><td>0.000</td><td>0.899</td><td>0.760</td><td>0.00e+00</td><td>15.06</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_BujnickiR3_5'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>2</td><td>5.054</td><td>6.535</td><td>0.773</td><td>0.839</td><td>0.000</td><td>0.779</td><td>10.290</td><td>0.00e+00</td><td>18.71</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_RNAComposer_2'>-></a></td></tr>
+<tr><td>XiaoR3</td><td>3</td><td>5.243</td><td>6.791</td><td>0.772</td><td>0.723</td><td>0.000</td><td>0.822</td><td>0.380</td><td>0.00e+00</td><td>19.10</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_XiaoR3_3'>-></a></td></tr>
+<tr><td>DasR3</td><td>4</td><td>5.259</td><td>5.665</td><td>0.928</td><td>0.919</td><td>-</td><td>0.938</td><td>1.520</td><td>0.00e+00</td><td>9.91</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_DasR3_4'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>1</td><td>5.439</td><td>7.065</td><td>0.770</td><td>0.839</td><td>0.000</td><td>0.769</td><td>9.900</td><td>0.00e+00</td><td>18.91</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_RNAComposer_1'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>5</td><td>5.726</td><td>7.387</td><td>0.775</td><td>0.839</td><td>0.000</td><td>0.776</td><td>10.290</td><td>0.00e+00</td><td>19.30</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_RNAComposer_5'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>4</td><td>6.117</td><td>7.891</td><td>0.775</td><td>0.915</td><td>0.000</td><td>0.731</td><td>11.050</td><td>0.00e+00</td><td>19.50</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_RNAComposer_4'>-></a></td></tr>
+<tr><td>XiaoR3</td><td>2</td><td>6.120</td><td>7.628</td><td>0.802</td><td>0.746</td><td>0.000</td><td>0.844</td><td>0.760</td><td>0.00e+00</td><td>16.57</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_XiaoR3_2'>-></a></td></tr>
+<tr><td>BujnickiR3</td><td>4</td><td>6.122</td><td>7.380</td><td>0.830</td><td>0.856</td><td>0.000</td><td>0.846</td><td>0.760</td><td>0.00e+00</td><td>15.82</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_BujnickiR3_4'>-></a></td></tr>
+<tr><td>DasR3</td><td>3</td><td>6.193</td><td>6.765</td><td>0.915</td><td>0.932</td><td>-</td><td>0.914</td><td>2.290</td><td>0.00e+00</td><td>10.51</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_DasR3_3'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>1</td><td>6.310</td><td>8.135</td><td>0.776</td><td>0.823</td><td>-</td><td>0.758</td><td>8.000</td><td>0.00e+00</td><td>17.86</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_Dokholyan_1'>-></a></td></tr>
+<tr><td>BujnickiR3</td><td>2</td><td>6.512</td><td>7.687</td><td>0.847</td><td>0.744</td><td>0.000</td><td>0.905</td><td>4.190</td><td>0.00e+00</td><td>15.72</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_BujnickiR3_2'>-></a></td></tr>
+<tr><td>DokholyanR3</td><td>3</td><td>6.553</td><td>8.212</td><td>0.798</td><td>0.855</td><td>0.000</td><td>0.804</td><td>59.030</td><td>0.00e+00</td><td>16.23</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_DokholyanR3_3'>-></a></td></tr>
+<tr><td>Xiao</td><td>2</td><td>6.600</td><td>7.785</td><td>0.848</td><td>0.855</td><td>0.000</td><td>0.870</td><td>3.810</td><td>0.00e+00</td><td>27.16</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_Xiao_2'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>3</td><td>6.911</td><td>7.669</td><td>0.901</td><td>0.846</td><td>-</td><td>0.931</td><td>1.520</td><td>0.00e+00</td><td>14.28</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_Bujnicki_3'>-></a></td></tr>
+<tr><td>DasR3</td><td>1</td><td>7.122</td><td>7.694</td><td>0.926</td><td>0.933</td><td>-</td><td>0.928</td><td>1.520</td><td>0.00e+00</td><td>11.27</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_DasR3_1'>-></a></td></tr>
+<tr><td>Xiao</td><td>3</td><td>7.263</td><td>9.043</td><td>0.803</td><td>0.838</td><td>0.000</td><td>0.806</td><td>12.580</td><td>0.00e+00</td><td>29.64</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_Xiao_3'>-></a></td></tr>
+<tr><td>Xiao</td><td>1</td><td>8.005</td><td>10.098</td><td>0.793</td><td>0.791</td><td>-</td><td>0.798</td><td>0.380</td><td>0.00e+00</td><td>31.87</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_Xiao_1'>-></a></td></tr>
+<tr><td>Xiao</td><td>4</td><td>8.023</td><td>10.257</td><td>0.782</td><td>0.806</td><td>0.000</td><td>0.797</td><td>1.900</td><td>0.00e+00</td><td>38.77</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_Xiao_4'>-></a></td></tr>
+<tr><td>BujnickiR2</td><td>1</td><td>8.053</td><td>9.594</td><td>0.839</td><td>0.767</td><td>0.000</td><td>0.891</td><td>16.000</td><td>0.00e+00</td><td>14.26</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_BujnickiR2_1'>-></a></td></tr>
+<tr><td>XiaoR3</td><td>4</td><td>8.104</td><td>10.797</td><td>0.751</td><td>0.651</td><td>0.000</td><td>0.808</td><td>1.140</td><td>0.00e+00</td><td>19.35</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_XiaoR3_4'>-></a></td></tr>
+<tr><td>BujnickiR3</td><td>3</td><td>8.162</td><td>9.250</td><td>0.882</td><td>0.795</td><td>0.000</td><td>0.938</td><td>4.950</td><td>0.00e+00</td><td>15.32</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_BujnickiR3_3'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>1</td><td>8.381</td><td>9.585</td><td>0.874</td><td>0.917</td><td>0.000</td><td>0.872</td><td>0.760</td><td>0.00e+00</td><td>14.88</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_Bujnicki_1'>-></a></td></tr>
+<tr><td>XiaoR3</td><td>5</td><td>8.396</td><td>10.437</td><td>0.804</td><td>0.715</td><td>0.000</td><td>0.865</td><td>1.900</td><td>0.00e+00</td><td>15.10</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_XiaoR3_5'>-></a></td></tr>
+<tr><td>BujnickiR3</td><td>1</td><td>8.523</td><td>9.846</td><td>0.866</td><td>0.810</td><td>0.000</td><td>0.906</td><td>0.760</td><td>0.00e+00</td><td>16.62</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_BujnickiR3_1'>-></a></td></tr>
+<tr><td>XiaoR3</td><td>1</td><td>8.761</td><td>11.090</td><td>0.790</td><td>0.658</td><td>-</td><td>0.850</td><td>12.570</td><td>0.00e+00</td><td>16.81</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_XiaoR3_1'>-></a></td></tr>
+<tr><td>Xiao</td><td>5</td><td>8.836</td><td>11.711</td><td>0.755</td><td>0.698</td><td>0.000</td><td>0.797</td><td>14.860</td><td>0.00e+00</td><td>31.62</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_Xiao_5'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>3</td><td>8.902</td><td>11.776</td><td>0.756</td><td>0.839</td><td>-</td><td>0.723</td><td>11.430</td><td>0.00e+00</td><td>20.48</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_RNAComposer_3'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>2</td><td>9.374</td><td>10.246</td><td>0.915</td><td>0.849</td><td>-</td><td>0.950</td><td>1.520</td><td>0.00e+00</td><td>14.22</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_Bujnicki_2'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>2</td><td>9.415</td><td>11.590</td><td>0.812</td><td>0.806</td><td>0.000</td><td>0.827</td><td>10.290</td><td>0.00e+00</td><td>15.49</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_Dokholyan_2'>-></a></td></tr>
+<tr><td>DokholyanR3</td><td>1</td><td>9.744</td><td>12.098</td><td>0.805</td><td>0.797</td><td>0.000</td><td>0.841</td><td>60.620</td><td>0.00e+00</td><td>16.55</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_DokholyanR3_1'>-></a></td></tr>
+<tr><td>DokholyanR3</td><td>2</td><td>9.744</td><td>12.098</td><td>0.805</td><td>0.797</td><td>0.000</td><td>0.841</td><td>60.620</td><td>0.00e+00</td><td>16.55</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_DokholyanR3_2'>-></a></td></tr>
+<tr><td>Chen</td><td>4</td><td>9.926</td><td>12.942</td><td>0.767</td><td>0.855</td><td>0.000</td><td>0.765</td><td>72.080</td><td>0.00e+00</td><td>14.92</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_Chen_4'>-></a></td></tr>
+<tr><td>Chen</td><td>5</td><td>10.092</td><td>13.485</td><td>0.748</td><td>0.806</td><td>0.000</td><td>0.733</td><td>69.390</td><td>0.00e+00</td><td>15.87</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_Chen_5'>-></a></td></tr>
+<tr><td>ChenR3</td><td>2</td><td>10.361</td><td>14.550</td><td>0.712</td><td>0.756</td><td>0.000</td><td>0.733</td><td>3.430</td><td>0.00e+00</td><td>19.60</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_ChenR3_2'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>5</td><td>10.568</td><td>13.350</td><td>0.792</td><td>0.839</td><td>0.000</td><td>0.781</td><td>9.520</td><td>0.00e+00</td><td>17.09</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_Dokholyan_5'>-></a></td></tr>
+<tr><td>Chen</td><td>2</td><td>10.784</td><td>14.518</td><td>0.743</td><td>0.774</td><td>0.000</td><td>0.741</td><td>60.240</td><td>0.00e+00</td><td>16.26</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_Chen_2'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>3</td><td>11.154</td><td>13.998</td><td>0.797</td><td>0.854</td><td>-</td><td>0.775</td><td>12.190</td><td>0.00e+00</td><td>15.96</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_Dokholyan_3'>-></a></td></tr>
+<tr><td>Chen</td><td>1</td><td>11.455</td><td>16.297</td><td>0.703</td><td>0.774</td><td>0.000</td><td>0.701</td><td>72.490</td><td>1.11e-16</td><td>15.70</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_Chen_1'>-></a></td></tr>
+<tr><td>ChenR3</td><td>3</td><td>11.969</td><td>15.926</td><td>0.752</td><td>0.756</td><td>0.000</td><td>0.774</td><td>4.190</td><td>9.44e-16</td><td>18.33</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_ChenR3_3'>-></a></td></tr>
+<tr><td>ChenR3</td><td>1</td><td>12.166</td><td>15.242</td><td>0.798</td><td>0.840</td><td>0.000</td><td>0.790</td><td>2.290</td><td>2.22e-15</td><td>19.23</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_ChenR3_1'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>4</td><td>12.189</td><td>15.616</td><td>0.781</td><td>0.789</td><td>-</td><td>0.781</td><td>8.000</td><td>2.50e-15</td><td>16.32</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_Dokholyan_4'>-></a></td></tr>
+<tr><td>Chen</td><td>3</td><td>12.387</td><td>16.770</td><td>0.739</td><td>0.789</td><td>0.000</td><td>0.741</td><td>61.310</td><td>5.88e-15</td><td>14.39</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_Chen_3'>-></a></td></tr>
+<tr><td>ChenR3</td><td>5</td><td>13.343</td><td>17.139</td><td>0.778</td><td>0.806</td><td>-</td><td>0.771</td><td>2.290</td><td>3.30e-13</td><td>20.65</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_ChenR3_5'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>4</td><td>13.522</td><td>16.161</td><td>0.837</td><td>0.773</td><td>0.000</td><td>0.887</td><td>0.760</td><td>6.82e-13</td><td>15.50</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_Bujnicki_4'>-></a></td></tr>
+<tr><td>ChenR3</td><td>4</td><td>13.829</td><td>18.293</td><td>0.756</td><td>0.774</td><td>0.000</td><td>0.759</td><td>0.380</td><td>2.30e-12</td><td>20.62</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_ChenR3_4'>-></a></td></tr>
+<tr><td>Lee</td><td>5</td><td>14.214</td><td>20.530</td><td>0.692</td><td>0.754</td><td>0.000</td><td>0.690</td><td>4.190</td><td>1.02e-11</td><td>21.84</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_Lee_5'>-></a></td></tr>
+<tr><td>Lee</td><td>1</td><td>15.485</td><td>20.539</td><td>0.754</td><td>0.823</td><td>0.000</td><td>0.733</td><td>4.570</td><td>1.00e-09</td><td>21.62</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_Lee_1'>-></a></td></tr>
+<tr><td>DokholyanR3</td><td>4</td><td>16.985</td><td>21.601</td><td>0.786</td><td>0.808</td><td>-</td><td>0.781</td><td>63.240</td><td>1.21e-07</td><td>16.68</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_DokholyanR3_4'>-></a></td></tr>
+<tr><td>Lee</td><td>3</td><td>23.055</td><td>37.123</td><td>0.621</td><td>0.662</td><td>0.000</td><td>0.663</td><td>6.850</td><td>3.66e-02</td><td>28.87</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_Lee_3'>-></a></td></tr>
+<tr><td>Lee</td><td>2</td><td>25.229</td><td>59.176</td><td>0.426</td><td>0.120</td><td>0.000</td><td>0.596</td><td>4.190</td><td>2.80e-01</td><td>24.07</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_Lee_2'>-></a></td></tr>
+<tr><td>Lee</td><td>4</td><td>25.757</td><td>49.539</td><td>0.520</td><td>0.176</td><td>0.000</td><td>0.673</td><td>2.290</td><td>3.86e-01</td><td>24.26</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR6_Lee_4'>-></a></td></tr>
+
+</table>
+-: No true positive interaction in the predicted structure.
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Puzzle UR5 Table]]></title>
+    <link href="http://rnapuzzles.github.io/blog/2000/01/01/UR5-3d/"/>
+    <updated>2000-01-01T00:00:01+00:00</updated>
+    <id>http://rnapuzzles.github.io/blog/2000/01/01/UR5-3d</id>
+    <content type="html"><![CDATA[<script src="/javascripts/sorttable.js"></script>
+
+
+<script>
+    window.onload = function() {
+        (document.getElementsByTagName( 'th' )[1]).click();
+    };
+</script>
+
+
+<p><br/></p>
+
+<div align="center">
+Please click the tags to sort data.<br/>
+<table class="sortable" border=1>
+  <tr>
+    <th>Lab</th>
+    <th>Num</th>
+    <th>RMSD</th>
+    <th>DI all</th>
+    <th>INF all</th>
+    <th>INF wc</th>
+    <th>INF nwc</th>
+    <th>INF stacking</th>
+    <th>Clash Score</th>
+    <th>P-value</th>
+    <th>mcq</th>
+    <th>best sol.</th>
+    <th>Detail</th>
+  </tr>
+  <tr><td>ChenR3</td><td>5</td><td>12.934</td><td>20.468</td><td>0.632</td><td>0.777</td><td>0.000</td><td>0.629</td><td>4.100</td><td>1.43e-06</td><td>26.76</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_ChenR3_5'>-></a></td></tr>
+<tr><td>DasR3</td><td>4</td><td>13.488</td><td>22.149</td><td>0.609</td><td>0.632</td><td>0.000</td><td>0.663</td><td>7.240</td><td>6.14e-06</td><td>17.75</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_DasR3_4'>-></a></td></tr>
+<tr><td>DasR3</td><td>1</td><td>13.645</td><td>24.943</td><td>0.547</td><td>0.651</td><td>0.000</td><td>0.548</td><td>2.520</td><td>9.11e-06</td><td>17.50</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_DasR3_1'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>2</td><td>13.985</td><td>18.911</td><td>0.740</td><td>0.810</td><td>0.000</td><td>0.740</td><td>0.940</td><td>2.10e-05</td><td>20.31</td><td>2</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_Bujnicki_2'>-></a></td></tr>
+<tr><td>ChenR3</td><td>2</td><td>14.285</td><td>22.056</td><td>0.648</td><td>0.777</td><td>0.000</td><td>0.628</td><td>2.210</td><td>4.25e-05</td><td>28.14</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_ChenR3_2'>-></a></td></tr>
+<tr><td>RNAComposerR3</td><td>5</td><td>14.437</td><td>-14.437</td><td>-1.000</td><td>-</td><td>-</td><td>-</td><td>9.130</td><td>6.02e-05</td><td>28.85</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_RNAComposerR3_5'>-></a></td></tr>
+<tr><td>RNAComposerR3</td><td>3</td><td>14.462</td><td>-14.462</td><td>-1.000</td><td>-</td><td>-</td><td>-</td><td>12.590</td><td>6.37e-05</td><td>33.72</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_RNAComposerR3_3'>-></a></td></tr>
+<tr><td>RNAComposerR3</td><td>2</td><td>14.624</td><td>-14.624</td><td>-1.000</td><td>-</td><td>-</td><td>-</td><td>12.280</td><td>9.15e-05</td><td>31.34</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_RNAComposerR3_2'>-></a></td></tr>
+<tr><td>RNAComposerR3</td><td>1</td><td>14.803</td><td>-14.803</td><td>-1.000</td><td>-</td><td>-</td><td>-</td><td>10.710</td><td>1.35e-04</td><td>28.04</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_RNAComposerR3_1'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>3</td><td>14.823</td><td>24.589</td><td>0.603</td><td>0.742</td><td>0.000</td><td>0.582</td><td>7.240</td><td>1.41e-04</td><td>24.46</td><td>2</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_Dokholyan_3'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>2</td><td>15.894</td><td>23.629</td><td>0.673</td><td>0.775</td><td>-</td><td>0.646</td><td>5.670</td><td>1.20e-03</td><td>26.20</td><td>2</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_Dokholyan_2'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>1</td><td>16.055</td><td>27.149</td><td>0.591</td><td>0.744</td><td>0.000</td><td>0.552</td><td>7.560</td><td>1.61e-03</td><td>22.48</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_Dokholyan_1'>-></a></td></tr>
+<tr><td>XiaoR3</td><td>2</td><td>16.134</td><td>-16.134</td><td>-1.000</td><td>-</td><td>-</td><td>-</td><td>9.450</td><td>1.85e-03</td><td>25.19</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_XiaoR3_2'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>4</td><td>16.339</td><td>25.788</td><td>0.634</td><td>0.744</td><td>-</td><td>0.600</td><td>10.390</td><td>2.65e-03</td><td>21.98</td><td>2</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_Dokholyan_4'>-></a></td></tr>
+<tr><td>DokholyanR3</td><td>2</td><td>16.425</td><td>26.153</td><td>0.628</td><td>0.744</td><td>0.000</td><td>0.639</td><td>90.340</td><td>3.06e-03</td><td>21.85</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_DokholyanR3_2'>-></a></td></tr>
+<tr><td>Xiao</td><td>5</td><td>16.432</td><td>-16.432</td><td>-1.000</td><td>-</td><td>-</td><td>-</td><td>5.980</td><td>3.10e-03</td><td>38.45</td><td>2</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_Xiao_5'>-></a></td></tr>
+<tr><td>Xiao</td><td>2</td><td>16.455</td><td>-16.455</td><td>-1.000</td><td>-</td><td>-</td><td>-</td><td>9.760</td><td>3.22e-03</td><td>42.36</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_Xiao_2'>-></a></td></tr>
+<tr><td>XiaoR3</td><td>5</td><td>16.721</td><td>-16.721</td><td>-1.000</td><td>-</td><td>-</td><td>-</td><td>1.260</td><td>4.99e-03</td><td>28.56</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_XiaoR3_5'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>5</td><td>16.940</td><td>25.393</td><td>0.667</td><td>0.744</td><td>-</td><td>0.654</td><td>10.080</td><td>7.04e-03</td><td>21.70</td><td>2</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_Dokholyan_5'>-></a></td></tr>
+<tr><td>ChenR3</td><td>1</td><td>17.134</td><td>27.341</td><td>0.627</td><td>0.808</td><td>0.000</td><td>0.586</td><td>5.040</td><td>9.46e-03</td><td>26.49</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_ChenR3_1'>-></a></td></tr>
+<tr><td>ChenR3</td><td>4</td><td>17.302</td><td>28.437</td><td>0.608</td><td>0.777</td><td>0.000</td><td>0.565</td><td>5.980</td><td>1.21e-02</td><td>28.64</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_ChenR3_4'>-></a></td></tr>
+<tr><td>Xiao</td><td>1</td><td>17.821</td><td>-17.821</td><td>-1.000</td><td>-</td><td>-</td><td>-</td><td>0.630</td><td>2.47e-02</td><td>40.24</td><td>2</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_Xiao_1'>-></a></td></tr>
+<tr><td>Lee</td><td>1</td><td>18.004</td><td>33.578</td><td>0.536</td><td>0.671</td><td>0.000</td><td>0.500</td><td>5.040</td><td>3.12e-02</td><td>30.54</td><td>2</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_Lee_1'>-></a></td></tr>
+<tr><td>DasR3</td><td>3</td><td>18.130</td><td>30.303</td><td>0.598</td><td>0.651</td><td>0.000</td><td>0.606</td><td>2.200</td><td>3.65e-02</td><td>18.25</td><td>2</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_DasR3_3'>-></a></td></tr>
+<tr><td>Lee</td><td>2</td><td>18.190</td><td>40.665</td><td>0.447</td><td>0.503</td><td>0.000</td><td>0.449</td><td>5.040</td><td>3.91e-02</td><td>26.89</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_Lee_2'>-></a></td></tr>
+<tr><td>ChenR3</td><td>3</td><td>18.213</td><td>28.668</td><td>0.635</td><td>0.837</td><td>0.000</td><td>0.597</td><td>2.200</td><td>4.03e-02</td><td>26.03</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_ChenR3_3'>-></a></td></tr>
+<tr><td>XiaoR3</td><td>4</td><td>18.359</td><td>-18.359</td><td>-1.000</td><td>-</td><td>-</td><td>-</td><td>0.630</td><td>4.78e-02</td><td>27.08</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_XiaoR3_4'>-></a></td></tr>
+<tr><td>RNAComposerR3</td><td>4</td><td>18.622</td><td>-18.622</td><td>-1.000</td><td>-</td><td>-</td><td>-</td><td>11.960</td><td>6.42e-02</td><td>29.30</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_RNAComposerR3_4'>-></a></td></tr>
+<tr><td>Lee</td><td>4</td><td>18.638</td><td>32.673</td><td>0.570</td><td>0.671</td><td>0.000</td><td>0.567</td><td>4.720</td><td>6.54e-02</td><td>31.39</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_Lee_4'>-></a></td></tr>
+<tr><td>Chen</td><td>4</td><td>19.429</td><td>27.057</td><td>0.718</td><td>0.775</td><td>0.000</td><td>0.737</td><td>52.630</td><td>1.42e-01</td><td>19.61</td><td>2</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_Chen_4'>-></a></td></tr>
+<tr><td>DokholyanR3</td><td>1</td><td>19.490</td><td>30.762</td><td>0.634</td><td>0.742</td><td>0.000</td><td>0.646</td><td>104.600</td><td>1.50e-01</td><td>24.02</td><td>2</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_DokholyanR3_1'>-></a></td></tr>
+<tr><td>Chen</td><td>3</td><td>19.542</td><td>33.143</td><td>0.590</td><td>0.717</td><td>0.000</td><td>0.564</td><td>72.530</td><td>1.56e-01</td><td>19.45</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_Chen_3'>-></a></td></tr>
+<tr><td>XiaoR3</td><td>1</td><td>19.670</td><td>-19.670</td><td>-1.000</td><td>-</td><td>-</td><td>-</td><td>3.780</td><td>1.74e-01</td><td>27.60</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_XiaoR3_1'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>4</td><td>19.896</td><td>32.676</td><td>0.609</td><td>0.635</td><td>0.000</td><td>0.649</td><td>1.570</td><td>2.08e-01</td><td>20.26</td><td>2</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_Bujnicki_4'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>1</td><td>20.302</td><td>29.691</td><td>0.684</td><td>0.632</td><td>0.000</td><td>0.757</td><td>0.310</td><td>2.79e-01</td><td>21.90</td><td>2</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_Bujnicki_1'>-></a></td></tr>
+<tr><td>Xiao</td><td>4</td><td>20.322</td><td>-20.322</td><td>-1.000</td><td>-</td><td>-</td><td>-</td><td>1.570</td><td>2.82e-01</td><td>41.20</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_Xiao_4'>-></a></td></tr>
+<tr><td>Chen</td><td>2</td><td>20.443</td><td>34.245</td><td>0.597</td><td>0.742</td><td>0.000</td><td>0.577</td><td>81.100</td><td>3.05e-01</td><td>18.79</td><td>2</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_Chen_2'>-></a></td></tr>
+<tr><td>Xiao</td><td>3</td><td>20.596</td><td>-20.596</td><td>-1.000</td><td>-</td><td>-</td><td>-</td><td>28.380</td><td>3.36e-01</td><td>43.37</td><td>2</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_Xiao_3'>-></a></td></tr>
+<tr><td>Lee</td><td>3</td><td>20.723</td><td>52.318</td><td>0.396</td><td>0.075</td><td>0.000</td><td>0.609</td><td>5.670</td><td>3.62e-01</td><td>31.62</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_Lee_3'>-></a></td></tr>
+<tr><td>DasR3</td><td>2</td><td>20.949</td><td>35.908</td><td>0.583</td><td>0.632</td><td>0.000</td><td>0.615</td><td>5.980</td><td>4.10e-01</td><td>19.47</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_DasR3_2'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>3</td><td>21.049</td><td>-21.049</td><td>-1.000</td><td>-</td><td>-</td><td>-</td><td>11.650</td><td>4.32e-01</td><td>26.43</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_RNAComposer_3'>-></a></td></tr>
+<tr><td>Chen</td><td>5</td><td>21.148</td><td>34.980</td><td>0.605</td><td>0.775</td><td>0.000</td><td>0.556</td><td>88.590</td><td>4.53e-01</td><td>21.17</td><td>2</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_Chen_5'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>2</td><td>21.196</td><td>-21.196</td><td>-1.000</td><td>-</td><td>-</td><td>-</td><td>15.430</td><td>4.64e-01</td><td>28.27</td><td>2</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_RNAComposer_2'>-></a></td></tr>
+<tr><td>DasR3</td><td>5</td><td>21.544</td><td>36.008</td><td>0.598</td><td>0.651</td><td>-</td><td>0.607</td><td>2.520</td><td>5.41e-01</td><td>18.36</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_DasR3_5'>-></a></td></tr>
+<tr><td>XiaoR3</td><td>3</td><td>21.750</td><td>-21.750</td><td>-1.000</td><td>-</td><td>-</td><td>-</td><td>1.260</td><td>5.86e-01</td><td>28.15</td><td>2</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_XiaoR3_3'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>1</td><td>21.867</td><td>-21.867</td><td>-1.000</td><td>-</td><td>-</td><td>-</td><td>13.220</td><td>6.11e-01</td><td>27.85</td><td>2</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_RNAComposer_1'>-></a></td></tr>
+<tr><td>DokholyanR3</td><td>3</td><td>21.889</td><td>38.888</td><td>0.563</td><td>0.657</td><td>0.000</td><td>0.569</td><td>81.550</td><td>6.16e-01</td><td>23.85</td><td>2</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_DokholyanR3_3'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>3</td><td>22.028</td><td>33.910</td><td>0.650</td><td>0.632</td><td>-</td><td>0.685</td><td>2.200</td><td>6.45e-01</td><td>21.19</td><td>2</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_Bujnicki_3'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>5</td><td>22.474</td><td>36.737</td><td>0.612</td><td>0.580</td><td>-</td><td>0.653</td><td>0.940</td><td>7.32e-01</td><td>21.62</td><td>2</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_Bujnicki_5'>-></a></td></tr>
+<tr><td>Chen</td><td>1</td><td>23.114</td><td>38.807</td><td>0.596</td><td>0.744</td><td>0.000</td><td>0.565</td><td>73.070</td><td>8.35e-01</td><td>22.05</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_Chen_1'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>5</td><td>23.855</td><td>-23.855</td><td>-1.000</td><td>-</td><td>-</td><td>-</td><td>11.020</td><td>9.17e-01</td><td>30.51</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_RNAComposer_5'>-></a></td></tr>
+<tr><td>DokholyanR3</td><td>4</td><td>24.413</td><td>40.896</td><td>0.597</td><td>0.645</td><td>0.000</td><td>0.646</td><td>80.290</td><td>9.55e-01</td><td>22.99</td><td>2</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_DokholyanR3_4'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>4</td><td>24.967</td><td>-24.967</td><td>-1.000</td><td>-</td><td>-</td><td>-</td><td>10.390</td><td>9.78e-01</td><td>31.33</td><td>1</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_RNAComposer_4'>-></a></td></tr>
+<tr><td>Lee</td><td>5</td><td>26.846</td><td>73.645</td><td>0.365</td><td>0.200</td><td>-</td><td>0.447</td><td>5.670</td><td>9.99e-01</td><td>29.06</td><td>2</td><td><a href='http://rnapuzzles.github.io/show/index.html?id=UR5_Lee_5'>-></a></td></tr>
+
+</table>
+-: No true positive interaction in the predicted structure.
+</div>
+
+]]></content>
+  </entry>
+  
+</feed>
