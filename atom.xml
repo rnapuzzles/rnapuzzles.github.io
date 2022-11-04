@@ -4,7 +4,7 @@
   <title><![CDATA[RNA-Puzzles]]></title>
   <link href="http://www.rnapuzzles.org/atom.xml" rel="self"/>
   <link href="http://www.rnapuzzles.org/"/>
-  <updated>2022-08-25T03:41:56+01:00</updated>
+  <updated>2022-11-04T00:15:47+00:00</updated>
   <id>http://www.rnapuzzles.org/</id>
   <author>
     <name><![CDATA[Chichau Miao]]></name>
@@ -80,6 +80,31 @@ Alternatively, the website can be accessed by <a href="rnapuzzles.tk">rnapuzzles
   </entry>
   
   <entry>
+    <title type="html"><![CDATA[Puzzle 34]]></title>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ34/"/>
+    <updated>2017-11-18T20:42:23+00:00</updated>
+    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ34</id>
+    <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
+
+<p>GCGGGCUGACCGACCCCCCGAGUUCGCUCGGGGACAACUAGA
+CAUACAGUAUGAAAAUACUGAGCCCGC</p>
+
+<p><strong>Puzzle</strong>:
+methyl transferase ribozyme</p>
+
+<p>Crystal structure kindly provided by: <a href="http://jwz.syshospital.org/Item/468017.aspx"><strong>Lin Huang</strong></a></p>
+
+<p><strong>Reference</strong>:
+Structure and mechanism of a methyltransferase ribozyme.
+<a href="https://pubmed.ncbi.nlm.nih.gov/35301479/">Nat Chem Biol. (2022) </a></p>
+
+<p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=7v9e">7v9e</a></p>
+
+<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/gh-pages/data/PZ34/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ34-3d/">Assessment results</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Puzzle 33]]></title>
     <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ33/"/>
     <updated>2017-11-18T20:42:23+00:00</updated>
@@ -113,7 +138,9 @@ Insights into xanthine riboswitch structure and metal ion-mediated ligand recogn
     <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ30</id>
     <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
 
-<p>GAACCCCGCCUGGAGGCCGCGGUCGGCCCGGGGCUUCUCCGGAGGCACCCACUGCCACCGCGAAGAGUUGGGCUCUGUCAGCCGCGGG</p>
+<p>GAACCCCGCCUGGAGGCCGCGGUCGGCCCGGGGCUUCUCCGG
+AGGCACCCACUGCCACCGCGAAGAGUUGGGCUCUGUCAGCCG
+CGGG</p>
 
 <p><strong>Puzzle</strong>:
 human telomerase RNA</p>
@@ -435,29 +462,6 @@ Zika virus produces noncoding RNAs using a multi-pseudoknot structure that confo
 <p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=5tpy">5tpy</a></p>
 
 <p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ18/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ18-3d/">Assessment results</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Puzzle 17]]></title>
-    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ17/"/>
-    <updated>2017-11-18T20:42:13+00:00</updated>
-    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ17</id>
-    <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):
-CGUGGUUAGGGCCACGUUAAAUAGUUGCUUAAGCCCUAAGCGUUGAUAAA
-UAUCAGGUGCAA</p>
-
-<p><strong>Puzzle</strong>:
-Pistol ribozyme.</p>
-
-<p>Crystal structure kindly provided by: <a href="https://www.mskcc.org/research-areas/labs/dinshaw-patel"><strong>Dinshaw Patel</strong></a></p>
-
-<p><strong>Reference</strong>:
-Pistol ribozyme adopts a pseudoknot fold facilitating site-specific in-line cleavage. <a href="http://www.nature.com/nchembio/journal/v12/n9/full/nchembio.2125.html">Nature Chemical Biology 12, 702–708 (2016) doi:10.1038/nchembio.2125.</a></p>
-
-<p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=5k7c">5k7c</a></p>
-
-<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ17/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ17-3d/">Assessment results</a></p>
 ]]></content>
   </entry>
   

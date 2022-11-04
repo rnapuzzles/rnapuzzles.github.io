@@ -4,7 +4,7 @@
   <title><![CDATA[Results | RNA-Puzzles]]></title>
   <link href="http://www.rnapuzzles.org/blog/categories/results/atom.xml" rel="self"/>
   <link href="http://www.rnapuzzles.org/"/>
-  <updated>2022-08-25T03:41:56+01:00</updated>
+  <updated>2022-11-04T00:15:47+00:00</updated>
   <id>http://www.rnapuzzles.org/</id>
   <author>
     <name><![CDATA[Chichau Miao]]></name>
@@ -12,6 +12,31 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Puzzle 34]]></title>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ34/"/>
+    <updated>2017-11-18T20:42:23+00:00</updated>
+    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ34</id>
+    <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
+
+<p>GCGGGCUGACCGACCCCCCGAGUUCGCUCGGGGACAACUAGA
+CAUACAGUAUGAAAAUACUGAGCCCGC</p>
+
+<p><strong>Puzzle</strong>:
+methyl transferase ribozyme</p>
+
+<p>Crystal structure kindly provided by: <a href="http://jwz.syshospital.org/Item/468017.aspx"><strong>Lin Huang</strong></a></p>
+
+<p><strong>Reference</strong>:
+Structure and mechanism of a methyltransferase ribozyme.
+<a href="https://pubmed.ncbi.nlm.nih.gov/35301479/">Nat Chem Biol. (2022) </a></p>
+
+<p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=7v9e">7v9e</a></p>
+
+<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/gh-pages/data/PZ34/pdb">raw prediction</a>   |   <a href="/blog/2000/01/01/PZ34-3d/">Assessment results</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Puzzle 33]]></title>
@@ -47,7 +72,9 @@ Insights into xanthine riboswitch structure and metal ion-mediated ligand recogn
     <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ30</id>
     <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
 
-<p>GAACCCCGCCUGGAGGCCGCGGUCGGCCCGGGGCUUCUCCGGAGGCACCCACUGCCACCGCGAAGAGUUGGGCUCUGUCAGCCGCGGG</p>
+<p>GAACCCCGCCUGGAGGCCGCGGUCGGCCCGGGGCUUCUCCGG
+AGGCACCCACUGCCACCGCGAAGAGUUGGGCUCUGUCAGCCG
+CGGG</p>
 
 <p><strong>Puzzle</strong>:
 human telomerase RNA</p>
@@ -116,38 +143,6 @@ High-affinity recognition of specific tRNAs by an mRNA anticodon-binding groove.
 <p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=6ufm">6ufm</a></p>
 
 <p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/gh-pages/data/PZ28/pdb">raw prediction</a>   |   Assessment results <a href="/blog/2000/01/01/PZ28-3d/">Complex</a> <a href="/blog/2000/01/01/PZ28tBox-3d/">T-box</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Puzzle 27]]></title>
-    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ27/"/>
-    <updated>2017-11-18T20:42:23+00:00</updated>
-    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ27</id>
-    <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
-
-<p>tRNA:
-GCGGAAGTAGTTCAGTGGTAGAACACCACCTTGCCAAGGTGGG   <br/>
-GGTCGCGGGTTCGAATCCCGTCTTCCGCTCCA</p>
-
-<p>T-box:
-GUUGCAGUGAGAGAAAGAAGUACUUGCGUUUACCUCAUGAAAG   <br/>
-CGACCUUAGGGCGGUGUAAGCUAAGGAUGAGCACGCAACGAAA   <br/>
-GGCAUUCUUGAGCAAUUUUAAAAAAGAGGCUGGGAUUUUGUUC   <br/>
-UCAGCAACUAGGGUGGAACCGCGGGAGAACUCUCGUCCCUA</p>
-
-<p><strong>Puzzle</strong>:
-T-box riboswitch - tRNA complex (Bacillus subtilis glyQS)</p>
-
-<p>Crystal structure kindly provided by: <a href="https://irp.nih.gov/pi/jinwei-zhang"><strong>Jingwei Zhang</strong></a></p>
-
-<p><strong>Reference</strong>:
-Structural basis of amino acid surveillance by higher-order tRNA-mRNA interactions.
-<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=31740854">Nat Struct Mol Biol. 2019 Dec;26(12):1094-1105. doi: 10.1038/s41594-019-0326-7. Epub 2019 Nov 18.</a></p>
-
-<p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=6pom">6pom</a></p>
-
-<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/gh-pages/data/PZ27/pdb">raw prediction</a>   |   Assessment results <a href="/blog/2000/01/01/PZ27-3d/">Complex</a> <a href="/blog/2000/01/01/PZ27tBox-3d/">T-box</a></p>
 ]]></content>
   </entry>
   
