@@ -4,7 +4,7 @@
   <title><![CDATA[RNA-Puzzles]]></title>
   <link href="http://www.rnapuzzles.org/atom.xml" rel="self"/>
   <link href="http://www.rnapuzzles.org/"/>
-  <updated>2022-11-08T00:42:07+00:00</updated>
+  <updated>2022-11-22T13:52:41+00:00</updated>
   <id>http://www.rnapuzzles.org/</id>
   <author>
     <name><![CDATA[Chichau Miao]]></name>
@@ -128,6 +128,57 @@ Insights into xanthine riboswitch structure and metal ion-mediated ligand recogn
             <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=7els">7els</a></p>
 
 <p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/gh-pages/data/PZ33/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ33-3d/">Assessment results</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Puzzle 32]]></title>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ32/"/>
+    <updated>2017-11-18T20:42:23+00:00</updated>
+    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ32</id>
+    <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
+
+<p>GGCGCACUGGCGCUGCGCCUUCGGGCGCCAAUCGUAGCGUGU
+CGGCGCC</p>
+
+<p><strong>Puzzle</strong>:
+Pepper Aptamer</p>
+
+<p>Crystal structure kindly provided by: <a href="https://person.zju.edu.cn/renlab"><strong>Aiming Ren</strong></a></p>
+
+<p><strong>Reference</strong>:
+Structure-based investigation of fluorogenic Pepper aptamer.
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=34725509">Nat Chem Biol (2021) 17: 1289-1295</a></p>
+
+<p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=7eoj">7eoj</a></p>
+
+<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/gh-pages/data/PZ32/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ32-3d/">Assessment results</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Puzzle 31]]></title>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ31/"/>
+    <updated>2017-11-18T20:42:23+00:00</updated>
+    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ31</id>
+    <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
+
+<p>GGCGGUGUAAGUGCAGCCCGUCUUACACCGUGCGGCACAGAA
+ACACUGAUGUCGUAUACAGGGCG</p>
+
+<p><strong>Puzzle</strong>:
+PFSE in Sars-CoV-2</p>
+
+<p>Crystal structure kindly provided by: <a href="https://piccirillilab.uchicago.edu/"><strong>Joseph A Piccirilli</strong></a></p>
+
+<p><strong>Reference</strong>:
+The SARS-CoV-2 Programmed -1 Ribosomal Frameshifting Element Crystal Structure
+Solved to 2.09 angstrom Using Chaperone-Assisted RNA Crystallography.
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=34328734">ACS Chem Biol (2021) 16: 1469-1481</a></p>
+
+<p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=7mlx">7mlx</a></p>
+
+<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/gh-pages/data/PZ31/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ31-3d/">Assessment results</a></p>
 ]]></content>
   </entry>
   
@@ -415,53 +466,6 @@ Zheng, L., Mairhofer, E., Teplova, M., Zhang, Y., Ma, J., Patel, D.J., Micura, R
 <p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=5y85">5y85</a> <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=5y87">5y87</a></p>
 
 <p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ20/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ20-3d/">Assessment results</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Puzzle 19]]></title>
-    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ19/"/>
-    <updated>2017-11-18T20:42:18+00:00</updated>
-    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ19</id>
-    <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
-
-<p>GCAGGGCAAGGCCCAGUCCCGUGCAAGCCGGGACCGCCCC-
-GGGGCGCGGCGCUCAUUCCUGC</p>
-
-<p><strong>Puzzle</strong>:
-One Twister Sister robozyme</p>
-
-<p>Crystal structure kindly provided by: <a href="http://www.lifesci.dundee.ac.uk/groups/nasg/"><strong>David M J Lilley</strong></a></p>
-
-<p><strong>Reference</strong>:
-The structure of a nucleolytic ribozyme that employs a catalytic metal ion. <a href="https://www.nature.com/nchembio/journal/v13/n5/full/nchembio.2333.html">Nature Chemical Biology 13, 508–513 (2017) doi:10.1038/nchembio.2333.</a></p>
-
-<p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=5t5a">5t5a</a></p>
-
-<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ19/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ19-3d/">Assessment results</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Puzzle 18]]></title>
-    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ18/"/>
-    <updated>2017-11-18T20:42:16+00:00</updated>
-    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ18</id>
-    <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):
-GGGUCAGGCCGGCGAAAGUCGCCACAGUUUGGGGAAAGCUGUGCAGCCUG
-UAACCCCCCCACGAAAGUGGG</p>
-
-<p><strong>Puzzle</strong>:
-Zika virus.</p>
-
-<p>Crystal structure kindly provided by: <a href="http://www.ucdenver.edu/academics/colleges/medicalschool/departments/biochemistry/Research/researchlabs/KieftLab/Pages/KieftLab.aspx"><strong>Jeffrey S. Kieft</strong></a></p>
-
-<p><strong>Reference</strong>:
-Zika virus produces noncoding RNAs using a multi-pseudoknot structure that confounds a cellular exonuclease. (2016) <a href="http://science.sciencemag.org/content/early/2016/11/04/science.aah3963">Science 354: 1148-1152. DOI: 10.1126/science.aah3963.</a></p>
-
-<p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=5tpy">5tpy</a></p>
-
-<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ18/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ18-3d/">Assessment results</a></p>
 ]]></content>
   </entry>
   
