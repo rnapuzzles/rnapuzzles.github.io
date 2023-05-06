@@ -4,11 +4,11 @@
   <title><![CDATA[RNA-Puzzles]]></title>
   <link href="http://www.rnapuzzles.org/atom.xml" rel="self"/>
   <link href="http://www.rnapuzzles.org/"/>
-  <updated>2023-02-20T12:08:51+00:00</updated>
+  <updated>2023-05-06T02:24:45+01:00</updated>
   <id>http://www.rnapuzzles.org/</id>
   <author>
     <name><![CDATA[Chichau Miao]]></name>
-    <email><![CDATA[rnapuzzles@gzlab.ac.cn]]></email>
+    <email><![CDATA[miao_zhichao@gzlab.ac.cn]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
@@ -76,6 +76,137 @@ Alternatively, the website can be accessed by <a href="rnapuzzles.tk">rnapuzzles
 <p>Best Wishes!</p>
 
 <p>Chichau</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Puzzle 39]]></title>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ39/"/>
+    <updated>2017-11-18T20:42:23+00:00</updated>
+    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ39</id>
+    <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
+
+<p>GGUAAAACAGCCUGUGGGUGAAACACA
+CCCACAGGGCCCAUUGGGCGCUAGCAC
+UCUGGUAUCACGGUACCUUUGUGCGCC
+UGUUUUACC</p>
+
+<p><strong>Puzzle</strong>:
+B3 cloverleaf RRE</p>
+
+<p>Crystal structure kindly provided by: <a href="https://chemistry.umbc.edu/faculty/deepak-koirala/"><strong>Deepak Koirala</strong></a></p>
+
+<p><strong>Reference</strong>:
+Crystal structure of a highly conserved enteroviral 5' cloverleaf RNA replication element.
+<a href="https://pubmed.ncbi.nlm.nih.gov/37029118/">Nat Commun 14: 1955-1955. (2023) </a></p>
+
+<p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=8dp3">8dp3</a></p>
+
+<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/gh-pages/data/PZ39/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ39-3d/">Assessment results</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Puzzle 38]]></title>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ38/"/>
+    <updated>2017-11-18T20:42:23+00:00</updated>
+    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ38</id>
+    <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
+
+<p>GCGGCGUUGCGUCCGAAAGUCUAAACAG
+ACACGGCCGCUUAAAAACAAAAGGAGA</p>
+
+<p><strong>Puzzle</strong>:
+NAD+ II riboswitch (another)</p>
+
+<p>Crystal structure kindly provided by: <a href="http://jwz.syshospital.org/Item/468017.aspx"><strong>Lin Huang</strong></a></p>
+
+<p><strong>Reference</strong>:
+Crystal structures of the NAD+-II riboswitch reveal two distinct ligand-binding pockets.
+<a href="https://pubmed.ncbi.nlm.nih.gov/36840714/">Nucleic Acids Res 51: 2904-2914 (2023) </a></p>
+
+<p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=8hb8">8hb8</a></p>
+
+<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/gh-pages/data/PZ38/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ38-3d/">Assessment results</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Puzzle 37]]></title>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ37/"/>
+    <updated>2017-11-18T20:42:23+00:00</updated>
+    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ37</id>
+    <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
+
+<p>GGAGCGUUACGUCCGAAAGUCGCAUUGCACU
+CCGCGACACGGCUCUUUAAAAACAAAAGGA</p>
+
+<p><strong>Puzzle</strong>:
+NAD+ II riboswitch</p>
+
+<p>Crystal structure kindly provided by: <a href="https://person.zju.edu.cn/renlab"><strong>Aiming Ren</strong></a></p>
+
+<p><strong>Reference</strong>:
+Structure-based investigations of the NAD+-II riboswitch.
+<a href="https://pubmed.ncbi.nlm.nih.gov/36610789/">Nucleic Acids Res 51: 54-67 (2023)</a></p>
+
+<p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=8gxc">8gxc</a></p>
+
+<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/gh-pages/data/PZ37/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ37-3d/">Assessment results</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Puzzle 36]]></title>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ36/"/>
+    <updated>2017-11-18T20:42:23+00:00</updated>
+    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ36</id>
+    <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
+
+<p>GGGGGCCACAGCAGAAGCGUUCACGUCGCGGCCCC
+UGUCAGCCAUUGCACUCCGGCUGCGAAUUCUGCU</p>
+
+<p>(Predict as dimer)</p>
+
+<p><strong>Puzzle</strong>:
+Chimpanzee CPEB3 HDV-like ribozyme</p>
+
+<p>Crystal structure kindly provided by: <a href=""><strong>Beno&Icirc;t Masquida</strong></a></p>
+
+<p><strong>Reference</strong>:
+Anticodon-like loop-mediated dimerization in the crystal structures of HdV-like CPEB3 ribozymes.
+<a href="https://doi.org/10.1101/2022.09.22.508989">Biorxiv (2022) </a></p>
+
+<p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=7qr3">7qr3</a></p>
+
+<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/gh-pages/data/PZ36/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ36-3d/">Assessment results</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Puzzle 35]]></title>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ35/"/>
+    <updated>2017-11-18T20:42:23+00:00</updated>
+    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ35</id>
+    <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
+
+<p>GGGGGCCACAGCAGAAGCGUUCACGUCGCAGCCCC
+UGUCAGCCAUUGCACUCCGGCUGCGAAUUCUGCU</p>
+
+<p>(Predict as dimer)</p>
+
+<p><strong>Puzzle</strong>:
+human CPEB3 HDV-like ribozyme</p>
+
+<p>Crystal structure kindly provided by: <a href=""><strong>Beno&Icirc;t Masquida</strong></a></p>
+
+<p><strong>Reference</strong>:
+Anticodon-like loop-mediated dimerization in the crystal structures of HdV-like CPEB3 ribozymes.
+<a href="https://doi.org/10.1101/2022.09.22.508989">Biorxiv (2022) </a></p>
+
+<p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=7qr4">7qr4</a></p>
+
+<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/gh-pages/data/PZ35/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ35-3d/">Assessment results</a></p>
 ]]></content>
   </entry>
   
@@ -346,126 +477,6 @@ Structural basis for 2'-deoxyguanosine recognition by the 2'-dG-II class of ribo
 <p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=6p2h">6p2h</a></p>
 
 <p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/gh-pages/data/PZ25/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ25-3d/">Assessment results</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Puzzle 24]]></title>
-    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ24/"/>
-    <updated>2017-11-18T20:42:23+00:00</updated>
-    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ24</id>
-    <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
-
-<p>GGACCUCGCAAGGGUAUCAUGGCGGACGACCGGGGUUCGAACCCCGGAUC  <br/>
-CGGCCGUCCGCCGUGAUCCAUGCGGUUACCGCCCGCGUGUCGAACCCAGG  <br/>
-UGUGCGAGGUCC</p>
-
-<p><strong>Puzzle</strong>:
-adenovirus virus-associated RNA</p>
-
-<p>Crystal structure kindly provided by: <a href="https://irp.nih.gov/pi/jinwei-zhang"><strong>Jingwei Zhang</strong></a></p>
-
-<p><strong>Reference</strong>:
-Crystal structure of an adenovirus virus-associated RNA. <a href="https://www.nature.com/articles/s41467-019-10752-6">Nature Communicationsvolume 10, Article number: 2871 (2019).</a></p>
-
-<p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=6ol3">6ol3</a></p>
-
-<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/gh-pages/data/PZ24/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ24-3d/">Assessment results</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Puzzle 23]]></title>
-    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ23/"/>
-    <updated>2017-11-18T20:42:23+00:00</updated>
-    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ23</id>
-    <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
-
-<p>GUACGAAGGAAGGUUUGGUAUGGGGUAGUUGUCGUAC</p>
-
-<p><strong>Puzzle</strong>:
-Mango-III aptamer</p>
-
-<p>Crystal structure kindly provided by: <a href="https://rna.nhlbi.nih.gov/"><strong>Ferre-D'Amare, A.R.</strong></a></p>
-
-<p><strong>Reference</strong>:
-Structure and functional reselection of the Mango-III fluorogenic RNA aptamer. <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=30992561">Nat Chem Biol. 2019 May;15(5):472-479. doi: 10.1038/s41589-019-0267-9. Epub 2019 Apr 15.</a></p>
-
-<p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=6e8u">6e8u</a></p>
-
-<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ23/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ23-3d/">Assessment results</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Puzzle 22]]></title>
-    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ22/"/>
-    <updated>2017-11-18T20:42:23+00:00</updated>
-    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ22</id>
-    <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
-
-<p>UUACUGUGAGAAUCAGUAACAAACAUGUGGGGCUUAUAU
-CUAAUCGAAAGAUUAGUAUUAGUGCAGAC</p>
-
-<p>GUUAAAACCAUGUC</p>
-
-<p><strong>Puzzle</strong>:
-Hatchet Ribozyme</p>
-
-<p>Crystal structure kindly provided by: <a href="https://person.zju.edu.cn/renlab"><strong>Aiming Ren</strong></a></p>
-
-<p><strong>Reference</strong>:
-Hatchet ribozyme structure and implications for cleavage mechanism. <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=31088965">Proc Natl Acad Sci U S A. 2019 May 28;116(22):10783-10791. doi: 10.1073/pnas.1902413116. Epub 2019 May 14.</a></p>
-
-<p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=6jq5">6jq5</a>  <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=6jq6">6jq6</a></p>
-
-<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ22/pdb">raw prediction</a>   |   Assessment results <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ22-3d/">monomer</a> <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ22dimer-3d/">dimer</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Puzzle 21]]></title>
-    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ21/"/>
-    <updated>2017-11-18T20:42:23+00:00</updated>
-    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ21</id>
-    <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
-
-<p>CCGGACGAGGUGCGCCGUACCCGGUCAGGACAAGACGGCGC</p>
-
-<p><strong>Puzzle</strong>:
-Guanidine III Riboswitch</p>
-
-<p>Crystal structure kindly provided by: <a href="http://www.lifesci.dundee.ac.uk/groups/nasg/"><strong>David M J Lilley</strong></a></p>
-
-<p><strong>Reference</strong>:
-Structure of the Guanidine III Riboswitch. <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=28988949">Cell Chem Biol. 2017 Nov 16;24(11):1407-1415.e2. doi: 10.1016/j.chembiol.2017.08.021. Epub 2017 Oct 5.</a></p>
-
-<p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=5nwq">5nwq</a>  <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=5nz6">5nz6</a></p>
-
-<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ21/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ21-3d/">Assessment results</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Puzzle 20]]></title>
-    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ20/"/>
-    <updated>2017-11-18T20:42:22+00:00</updated>
-    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ20</id>
-    <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):  <br/>
-ACCCGCAAGGCCGACGGC-GCCGCCGCUGGUGCAAGUCCAGCCACGCUUC
-GGCGUGGGCGCUCAUGGGU</p>
-
-<p><strong>Puzzle</strong>:
-Another Twister Sister ribozyme</p>
-
-<p>Crystal structure kindly provided by: <a href="http://lsi.zju.edu.cn/redir.php?catalog_id=54267">Amy Ren</a></p>
-
-<p><strong>Reference</strong>:
-Zheng, L., Mairhofer, E., Teplova, M., Zhang, Y., Ma, J., Patel, D.J., Micura, R., Ren, A. Structure-based insights into self-cleavage by a four-way junctional twister-sister ribozyme. <a href="https://www.nature.com/articles/s41467-017-01276-y">(2017) Nat Commun 8: 1180-1180</a></p>
-
-<p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=5y85">5y85</a> <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=5y87">5y87</a></p>
-
-<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ20/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ20-3d/">Assessment results</a></p>
 ]]></content>
   </entry>
   
