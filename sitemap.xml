@@ -532,9 +532,6 @@
 <loc>http://www.rnapuzzles.org/open-puzzle/</loc>
 </url>
 <url>
-<loc>http://www.rnapuzzles.org/news/</loc>
-</url>
-<url>
 <loc>http://www.rnapuzzles.org/blog/archives/</loc>
 </url>
 <url>
@@ -547,10 +544,13 @@
 <loc>http://www.rnapuzzles.org/results/</loc>
 </url>
 <url>
-<loc>http://www.rnapuzzles.org/publication/</loc>
+<loc>http://www.rnapuzzles.org/news/</loc>
 </url>
 <url>
 <loc>http://www.rnapuzzles.org/show/</loc>
+</url>
+<url>
+<loc>http://www.rnapuzzles.org/publication/</loc>
 </url>
 <url>
 <loc>http://www.rnapuzzles.org/blog/categories/table/</loc>
