@@ -4,7 +4,7 @@
   <title><![CDATA[News | RNA-Puzzles]]></title>
   <link href="http://www.rnapuzzles.org/blog/categories/news/atom.xml" rel="self"/>
   <link href="http://www.rnapuzzles.org/"/>
-  <updated>2023-10-07T09:26:01+08:00</updated>
+  <updated>2023-10-07T11:54:02+08:00</updated>
   <id>http://www.rnapuzzles.org/</id>
   <author>
     <name><![CDATA[Chichau Miao]]></name>
@@ -12,6 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Puzzle Round V]]></title>
+    <link href="http://www.rnapuzzles.org/blog/2023/10/07/Puzzles-Round-V/"/>
+    <updated>2023-10-07T14:26:17+00:00</updated>
+    <id>http://www.rnapuzzles.org/blog/2023/10/07/Puzzles-Round-V</id>
+    <content type="html"><![CDATA[<p><strong>Research Spectrum</strong>:
+Compared to CASP15, structures in Round V are categorized either as natural or nano-designed. Natural structures vary from simple to challenging, especially those interacting with proteins. Despite CASP15&rsquo;s stable metrics, Round V expanded with 23 themes, covering areas like RNA and Viral elements, Aptamers, Ribozymes, and Riboswitches, providing deeper insights into RNA structural intricacies and diminishing convergence in evaluations.</p>
+
+<p><strong>Participating Teams</strong>:
+19 renowned global RNA structural prediction teams participated, including both veterans from previous rounds and new entrants, pushing forward the RNA prediction frontier.</p>
+
+<p><strong>Methodological Progress</strong>:
+Regarding accuracy assessment in RNA structure prediction, we&rsquo;ve introduced a hierarchical complexity level. Initially, prediction models must capture the Watson-Crick base pairs accurately, laying down the primary scaffolding for RNA secondary structure. Subsequent evaluation benchmarks consider the intricacies at helical junctions, such as 2-way, 3-way, and 4-way junctions. This demands algorithms to be adept not just at the secondary structural tier but also in ensuring global folding precision at the tertiary level. Preliminary results indicate that most models adeptly predict the overall topology and Watson-Crick base pairs, but challenges persist in intricate 3D junctions and multiple junction points. Notably, some prediction methods' precision requires refinement, especially when handling RNAs with non waston crick base pairs and long-range interactions.</p>
+
+<p><strong>Recent Engagements</strong>:
+At the recent RNA-Puzzles conference held in Canada held from September 21 to September 22, 2023, spanning two days, Prof. Eric Westhof initiated and concluded the event, encapsulating the salient features and challenges of Puzzle Round V, along with introducing the revamped registration and submission protocols for RNA puzzles. Day one spotlighted prediction groups showcasing their RNA 3D predictive algorithms, with notable mentions like Prof. Yaoqi Zhou, Prof. Nikolay Dokholyan, and Prof. Shi-Jie Chen. Day two centered around lectures highlighting RNA structural attributes by luminaries like Prof. Dave Mathews, Prof. Alberto Perez, and Prof. Marcin Magnus. This forum facilitated profound academic discussions and exchange with international counterparts, propelling the boundaries of RNA structural prediction.</p>
+
+<p><strong>Submission Process</strong>:
+The Automated web server mandates a 48-hour window, while human expert submissions span 3~4 weeks. Unlike previous systems, current protocols permit up to five model submissions per prediction method, and a single team can proffer multiple predictive methodologies. With standardized file formats being a prerequisite, ligand formats are designated as HETATM, with the website performing a format check. For added security, dual submissions, both via the website and email, are encouraged. As of April 2023, announcements include PZ40, PZ41, and PZ42, with PZ42 concluding submissions by September 20, 2023.</p>
+
+<p><strong>Future Outlook</strong>:
+Post the successful Round V, preparations for the next are underway, aiming to explore fresh challenges in RNA structural prediction.
+We warmly welcome academic peers to stay updated with our progress and eagerly anticipate collaborations for Puzzle Round VI, charting new avenues in RNA research.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[RNA-Puzzles Bench]]></title>
