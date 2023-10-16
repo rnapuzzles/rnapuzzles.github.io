@@ -4,7 +4,7 @@
   <title><![CDATA[RNA-Puzzles]]></title>
   <link href="http://www.rnapuzzles.org/atom.xml" rel="self"/>
   <link href="http://www.rnapuzzles.org/"/>
-  <updated>2023-10-07T23:11:51+08:00</updated>
+  <updated>2023-10-16T22:33:58+08:00</updated>
   <id>http://www.rnapuzzles.org/</id>
   <author>
     <name><![CDATA[Chichau Miao]]></name>
@@ -510,7 +510,7 @@ Hatchet ribozyme structure and implications for cleavage mechanism. <a href="htt
 
 <p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=6jq5">6jq5</a>  <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=6jq6">6jq6</a></p>
 
-<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ22/pdb">raw prediction</a>   |   Assessment results <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ22-3d/">monomer</a> <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ22dimer-3d/">dimer</a></p>
+<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ22/pdb">raw prediction</a>   |   Assessment results <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ22-3d/">monomer</a> <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ22Dimer-3d/">dimer</a></p>
 ]]></content>
   </entry>
   
