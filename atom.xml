@@ -4,7 +4,7 @@
   <title><![CDATA[RNA-Puzzles]]></title>
   <link href="http://www.rnapuzzles.org/atom.xml" rel="self"/>
   <link href="http://www.rnapuzzles.org/"/>
-  <updated>2023-11-14T15:10:29+08:00</updated>
+  <updated>2023-12-10T01:30:53+08:00</updated>
   <id>http://www.rnapuzzles.org/</id>
   <author>
     <name><![CDATA[Chichau Miao]]></name>
@@ -430,13 +430,13 @@ Structural basis of amino acid surveillance by higher-order tRNA-mRNA interactio
     <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ26</id>
     <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
 
-<p>T-box:  <br/>
-GCGGAAGTAGTTCAGTGGTAGAACACCACCTTGCCAAGGTGG  <br/>
-GGGTCGCGGGTTCGAATCCCGTCTTCCGCTCCA</p>
-
 <p>tRNA:  <br/>
-GAAAGUGGGUGCGCGUUUGGCGCAUCAACUCGGGUGGAACCG  <br/>
-CGGGAGCUACGCUCUCGUCCCGAG</p>
+GCGGAAGTAGTTCAGTGGTAGAACACCACCTTGCCAAGGTGGGGGTCGCGGG
+TTCGAATCCCGTCTTCCGCTCCA</p>
+
+<p>T-box:  <br/>
+GAAAGUGGGUGCGCGUUUGGCGCAUCAACUCGGGUGGAACCGCGGGA
+GCUACGCUCUCGUCCCGAG</p>
 
 <p><strong>Puzzle</strong>:
 T-box riboswitch - tRNA complex (Geobacillus kaustophilus glyQ)</p>
