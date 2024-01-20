@@ -4,7 +4,7 @@
   <title><![CDATA[RNA-Puzzles]]></title>
   <link href="http://www.rnapuzzles.org/atom.xml" rel="self"/>
   <link href="http://www.rnapuzzles.org/"/>
-  <updated>2023-12-10T01:30:53+08:00</updated>
+  <updated>2024-01-20T19:59:06+08:00</updated>
   <id>http://www.rnapuzzles.org/</id>
   <author>
     <name><![CDATA[Chichau Miao]]></name>
@@ -283,7 +283,7 @@ Structure-based investigation of fluorogenic Pepper aptamer.
     <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ31</id>
     <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
 
-<p>GGCGGUGUAAGUGCAGCCCGUCUUACACCGUGCGGCACAGAA
+<p>CGGUGUAAGUGCAGCCCGUCUUACACCGUGCGGCACAGAA
 ACACUGAUGUCGUAUACAGGGCG</p>
 
 <p><strong>Puzzle</strong>:
