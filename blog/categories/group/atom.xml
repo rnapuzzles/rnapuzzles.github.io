@@ -4,7 +4,7 @@
   <title><![CDATA[Group | RNA-Puzzles]]></title>
   <link href="http://www.rnapuzzles.org/blog/categories/group/atom.xml" rel="self"/>
   <link href="http://www.rnapuzzles.org/"/>
-  <updated>2024-03-18T17:22:41+08:00</updated>
+  <updated>2024-03-31T11:53:43+08:00</updated>
   <id>http://www.rnapuzzles.org/</id>
   <author>
     <name><![CDATA[Chichau Miao]]></name>
@@ -25,9 +25,9 @@
 
 <ul>
 <li><a href="http://biophy.hust.edu.cn/3dRNA"><strong>3dRNA</strong></a>: Automatic building of ncRNA 3D structures.</li>
-<li><a href="http://biophy.hust.edu.cn/3dRNAscore"><strong>3dRNAscore</strong></a>: Evaluation of RNA 3D structures.</li>
+<li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4446410/"><strong>3dRNAscore</strong></a>: Evaluation of RNA 3D structures.</li>
 <li><a href="https://github.com/hust220/nsp"><strong>3dRNA program</strong></a>: Automatic building of ncRNA 3D structures.</li>
-<li><a href="http://biophy.hust.edu.cn/3dRNAscore.html"><strong>3dRNAscore program</strong></a>: Evaluation of RNA 3D structures.</li>
+<li><a href="http://biophy.hust.edu.cn/new/resources/3dRNAscore"><strong>3dRNAscore program</strong></a>: Evaluation of RNA 3D structures.</li>
 </ul>
 
 
@@ -57,8 +57,8 @@
 
 <h2>Publications:</h2>
 
-<p>Zhao, Y., et al., <a href="http://biophy.hust.edu.cn/download/3dRNA.pdf">Automated and fast building of three-dimensional RNA structures</a>. Scientific Reports, 2012. 2: p. 734.
-Wang, J., et al., <a href="http://biophy.hust.edu.cn/download/3dRNAscore.pdf">3dRNAscore: a distance and torsion angle dependent evaluation function of 3D RNA structures</a>. Nucleic Acids Res, 2015. 43(10): p. e63.</p>
+<p>Zhao, Y., et al., <a href="https://www.nature.com/articles/srep00734">Automated and fast building of three-dimensional RNA structures</a>. Scientific Reports, 2012. 2: p. 734.
+Wang, J., et al., <a href="https://academic.oup.com/nar/article/43/10/e63/2408972?login=true">3dRNAscore: a distance and torsion angle dependent evaluation function of 3D RNA structures</a>. Nucleic Acids Res, 2015. 43(10): p. e63.</p>
 ]]></content>
   </entry>
   
