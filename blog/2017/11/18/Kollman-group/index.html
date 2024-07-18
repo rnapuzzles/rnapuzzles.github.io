@@ -170,11 +170,13 @@
 -->
 
 
-<p>Dfold (from kOLLMANN Group ()) is a Deep Learning approach to predict 3D folding structures of RNAs from their nucleic acid sequence. It combines a Vector Quantised Variational Autoencoder (VQ-VAE), an autoregressive Deep Generative Model, Monte Carlo Tree Search (MCTS), and a score model to find and rank the most likely folding structures for a given RNA sequence. Training is executed on all available RNAs from the protein data base as well as a large corpus of drifted structures augmented from that base set. To encode 3D RNA structures, Dfold uses a rotational invariant representation that was given by the Euclidean distances between nucleotides followed by a VQ-VAE to compress the Euclidean distances between the selected atoms into three distance classes for each possible nucleotide pair. Hence, the prediction problem is now greatly reduced to the prediction of a distance class map of shape LxLx3. The autoregressive network learns via the masked pixel objective to map from sequence to distance classes and consists of a deep residual architecture as well as attention layers to further extract information from SHAPE data as well as homologous sequences. For inference Dfold uses a MCTS to pixel wise sample a map of distance classes with the probability values of the autoregressive network. A sampled distance map is ranked by a score network that based on structures and drifted structures learns to rank them towards minimal energy. The ranked output of distance class maps are calculated back to Euclidean space via the VQ-VA. Thus, Dfold computes an ensemble of ranked tertiary candidate structures.</p>
+<p><a href="https://www.mathmodeling.hhu.de/unser-team" target="_balnk"><strong>Kollmann</strong> </a> group is from Computer Science, Heinrich-Heine-Universität Düsseldorf, Düsseldorf, Germany.
+<a href="https://www.mathmodeling.hhu.de/unsere-forschung " target="_blank"><strong></br>(Click here to find more information about Kollmann Group)</strong></a>
+</br></p>
 
 <h2>Publications:</h2>
 
-<p>TBA</p>
+<p>Ramakers J, Blum CF, König S, Harmeling S, Kollmann M. <a href="https://pubmed.ncbi.nlm.nih.gov/38358972/">De novo prediction of RNA 3D structures with deep generative models.</a> PLoS One. 2024 Feb 15;19(2):e0297105. doi: 10.1371/journal.pone.0297105. PMID: 38358972; PMCID: PMC10868834.</p>
 </div>
 
 
