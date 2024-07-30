@@ -4,7 +4,7 @@
   <title><![CDATA[Results | RNA-Puzzles]]></title>
   <link href="http://www.rnapuzzles.org/blog/categories/results/atom.xml" rel="self"/>
   <link href="http://www.rnapuzzles.org/"/>
-  <updated>2024-07-18T20:43:02+08:00</updated>
+  <updated>2024-07-30T23:38:01+08:00</updated>
   <id>http://www.rnapuzzles.org/</id>
   <author>
     <name><![CDATA[Chichau Miao]]></name>
@@ -12,6 +12,83 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Puzzle 44]]></title>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ44/"/>
+    <updated>2017-11-18T20:42:23+00:00</updated>
+    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ44</id>
+    <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
+
+<p>GGGUGUGUACCGUUCAACUCGUCCCAGCUUCGACUGGGACUACGGGAGCGCCU</p>
+
+<p><strong>Puzzle</strong>:
+THF-II riboswitch</p>
+
+<p>Crystal structure kindly provided by: <a href=""><strong>Aiming Ren</strong></a></p>
+
+<p><strong>Reference</strong>:
+Structure-based characterization and compound identification of the wild-type THF class-II riboswitch.
+<a href="https://pubmed.ncbi.nlm.nih.gov/38769061/">Nucleic Acids Res. (2024):gkae377</a></p>
+
+<p><strong>PDB id</strong>: <a href="https://www.rcsb.org/structure/8XZE">8xze,8xzk,8xzl,8xzm,8xzn,8xzo,8xzp,8xzq,8xzr,8xzw</a></p>
+
+<p><strong>Puzzle Submission/Deadline:</strong> 2023.03.22/04.12</p>
+
+<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ44/pdb">raw prediction</a>   |   <a href="/blog/2000/01/01/PZ44-3d/">Assessment results</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Puzzle 43]]></title>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ43/"/>
+    <updated>2017-11-18T20:42:23+00:00</updated>
+    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ43</id>
+    <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
+
+<p>GGAAGAUUGUAAACAUGCCGAAAGGCAGACACUUCC</p>
+
+<p><strong>Puzzle</strong>:
+RNA aptamer</p>
+
+<p>Crystal structure kindly provided by: <a href=""><strong>Aiming Ren</strong></a></p>
+
+<p><strong>Reference</strong>:
+Structural basis of a small monomeric Clivia fluorogenic RNA with a large Stokes shift.
+<a href="https://pubmed.ncbi.nlm.nih.gov/38816645/">Nat Chem Biol. (2024)</a></p>
+
+<p><strong>PDB id</strong>: <a href="https://www.rcsb.org/structure/8HZK">8hzk,8hze,8hzm</a></p>
+
+<p><strong>Puzzle Submission/Deadline:</strong> 2024.03.21/04.11</p>
+
+<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ43/pdb">raw prediction</a>   |   <a href="/blog/2000/01/01/PZ43-3d/">Assessment results</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Puzzle 40]]></title>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ40/"/>
+    <updated>2017-11-18T20:42:23+00:00</updated>
+    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ40</id>
+    <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
+
+<p>GGGAGUUAGACUCGCGAAAGCGAGGAACUGCGAAAGCAGUACUUCC</p>
+
+<p><strong>Puzzle</strong>:
+DUF-3268 k-junction</p>
+
+<p>Crystal structure kindly provided by: <a href="https://chemistry.umbc.edu/faculty/deepak-koirala/"><strong>Lin Huang</strong></a></p>
+
+<p><strong>Reference</strong>:
+To be published</p>
+
+<p><strong>PDB id</strong>: <a href="https://www.rcsb.org/structure/8ITS">8its</a></p>
+
+<p><strong>Puzzle Submission/Deadline:</strong> 2023.04.11/05.02</p>
+
+<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ40/pdb">raw prediction</a>   |   <a href="/blog/2000/01/01/PZ40-3d/">Assessment results</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Puzzle 39]]></title>
@@ -66,91 +143,6 @@ Crystal structures of the NAD+-II riboswitch reveal two distinct ligand-binding 
 <p><strong>Puzzle Submission/Deadline:</strong> 2012.11.30/12.21</p>
 
 <p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ38/pdb">raw prediction</a>   |   <a href="/blog/2000/01/01/PZ38-3d/">Assessment results</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Puzzle 37]]></title>
-    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ37/"/>
-    <updated>2017-11-18T20:42:23+00:00</updated>
-    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ37</id>
-    <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
-
-<p>GGAGCGUUACGUCCGAAAGUCGCAUUGCACU
-CCGCGACACGGCUCUUUAAAAACAAAAGGA</p>
-
-<p><strong>Puzzle</strong>:
-NAD+ II riboswitch</p>
-
-<p>Crystal structure kindly provided by: <a href="https://person.zju.edu.cn/renlab"><strong>Aiming Ren</strong></a></p>
-
-<p><strong>Reference</strong>:
-Structure-based investigations of the NAD+-II riboswitch.
-<a href="https://pubmed.ncbi.nlm.nih.gov/36610789/">Nucleic Acids Res 51: 54-67 (2023)</a></p>
-
-<p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=8gxc">8gxc</a></p>
-
-<p><strong>Puzzle Submission/Deadline:</strong> 2022.10.20/11.10</p>
-
-<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ37/pdb">raw prediction</a>   |   <a href="/blog/2000/01/01/PZ37-3d/">Assessment results</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Puzzle 36]]></title>
-    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ36/"/>
-    <updated>2017-11-18T20:42:23+00:00</updated>
-    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ36</id>
-    <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
-
-<p>GGGGGCCACAGCAGAAGCGUUCACGUCGCGGCCCC
-UGUCAGCCAUUGCACUCCGGCUGCGAAUUCUGCU</p>
-
-<p>(Predict as dimer)</p>
-
-<p><strong>Puzzle</strong>:
-Chimpanzee CPEB3 HDV-like ribozyme</p>
-
-<p>Crystal structure kindly provided by: <a href=""><strong>Beno&Icirc;t Masquida</strong></a></p>
-
-<p><strong>Reference</strong>:
-Anticodon-like loop-mediated dimerization in the crystal structures of HdV-like CPEB3 ribozymes.
-<a href="https://doi.org/10.1101/2022.09.22.508989">Biorxiv (2022) </a></p>
-
-<p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=7qr3">7qr3</a></p>
-
-<p><strong>Puzzle Submission/Deadline:</strong> 2022.04.29/05.20</p>
-
-<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ36/pdb">raw prediction</a>   |   <a href="/blog/2000/01/01/PZ36-3d/">Assessment results</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Puzzle 35]]></title>
-    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ35/"/>
-    <updated>2017-11-18T20:42:23+00:00</updated>
-    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ35</id>
-    <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
-
-<p>GGGGGCCACAGCAGAAGCGUUCACGUCGCAGCCCC
-UGUCAGCCAUUGCACUCCGGCUGCGAAUUCUGCU</p>
-
-<p>(Predict as dimer)</p>
-
-<p><strong>Puzzle</strong>:
-human CPEB3 HDV-like ribozyme</p>
-
-<p>Crystal structure kindly provided by: <a href=""><strong>Beno&Icirc;t Masquida</strong></a></p>
-
-<p><strong>Reference</strong>:
-Anticodon-like loop-mediated dimerization in the crystal structures of HdV-like CPEB3 ribozymes.
-<a href="https://doi.org/10.1101/2022.09.22.508989">Biorxiv (2022) </a></p>
-
-<p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=7qr4">7qr4</a></p>
-
-<p><strong>Puzzle Submission/Deadline:</strong> 2022.04.29/05.20</p>
-
-<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ35/pdb">raw prediction</a>   |   <a href="/blog/2000/01/01/PZ35-3d/">Assessment results</a></p>
 ]]></content>
   </entry>
   

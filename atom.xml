@@ -4,7 +4,7 @@
   <title><![CDATA[RNA-Puzzles]]></title>
   <link href="http://www.rnapuzzles.org/atom.xml" rel="self"/>
   <link href="http://www.rnapuzzles.org/"/>
-  <updated>2024-07-18T20:43:02+08:00</updated>
+  <updated>2024-07-30T23:38:01+08:00</updated>
   <id>http://www.rnapuzzles.org/</id>
   <author>
     <name><![CDATA[Chichau Miao]]></name>
@@ -65,6 +65,83 @@
     <id>http://www.rnapuzzles.org/blog/2023/10/07/Future Outlook</id>
     <content type="html"><![CDATA[<p>Post the successful Round V, preparations for the next are underway, aiming to explore fresh challenges in RNA structural prediction.
 We warmly welcome academic peers to stay updated with our progress and eagerly anticipate collaborations for Puzzle Round VI, charting new avenues in RNA research.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Puzzle 44]]></title>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ44/"/>
+    <updated>2017-11-18T20:42:23+00:00</updated>
+    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ44</id>
+    <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
+
+<p>GGGUGUGUACCGUUCAACUCGUCCCAGCUUCGACUGGGACUACGGGAGCGCCU</p>
+
+<p><strong>Puzzle</strong>:
+THF-II riboswitch</p>
+
+<p>Crystal structure kindly provided by: <a href=""><strong>Aiming Ren</strong></a></p>
+
+<p><strong>Reference</strong>:
+Structure-based characterization and compound identification of the wild-type THF class-II riboswitch.
+<a href="https://pubmed.ncbi.nlm.nih.gov/38769061/">Nucleic Acids Res. (2024):gkae377</a></p>
+
+<p><strong>PDB id</strong>: <a href="https://www.rcsb.org/structure/8XZE">8xze,8xzk,8xzl,8xzm,8xzn,8xzo,8xzp,8xzq,8xzr,8xzw</a></p>
+
+<p><strong>Puzzle Submission/Deadline:</strong> 2023.03.22/04.12</p>
+
+<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ44/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ44-3d/">Assessment results</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Puzzle 43]]></title>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ43/"/>
+    <updated>2017-11-18T20:42:23+00:00</updated>
+    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ43</id>
+    <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
+
+<p>GGAAGAUUGUAAACAUGCCGAAAGGCAGACACUUCC</p>
+
+<p><strong>Puzzle</strong>:
+RNA aptamer</p>
+
+<p>Crystal structure kindly provided by: <a href=""><strong>Aiming Ren</strong></a></p>
+
+<p><strong>Reference</strong>:
+Structural basis of a small monomeric Clivia fluorogenic RNA with a large Stokes shift.
+<a href="https://pubmed.ncbi.nlm.nih.gov/38816645/">Nat Chem Biol. (2024)</a></p>
+
+<p><strong>PDB id</strong>: <a href="https://www.rcsb.org/structure/8HZK">8hzk,8hze,8hzm</a></p>
+
+<p><strong>Puzzle Submission/Deadline:</strong> 2024.03.21/04.11</p>
+
+<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ43/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ43-3d/">Assessment results</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Puzzle 40]]></title>
+    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ40/"/>
+    <updated>2017-11-18T20:42:23+00:00</updated>
+    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ40</id>
+    <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
+
+<p>GGGAGUUAGACUCGCGAAAGCGAGGAACUGCGAAAGCAGUACUUCC</p>
+
+<p><strong>Puzzle</strong>:
+DUF-3268 k-junction</p>
+
+<p>Crystal structure kindly provided by: <a href="https://chemistry.umbc.edu/faculty/deepak-koirala/"><strong>Lin Huang</strong></a></p>
+
+<p><strong>Reference</strong>:
+To be published</p>
+
+<p><strong>PDB id</strong>: <a href="https://www.rcsb.org/structure/8ITS">8its</a></p>
+
+<p><strong>Puzzle Submission/Deadline:</strong> 2023.04.11/05.02</p>
+
+<p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ40/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ40-3d/">Assessment results</a></p>
 ]]></content>
   </entry>
   
@@ -371,117 +448,6 @@ Structure and ligand binding of the ADP-binding domain of the NAD + riboswitch.
 <p><strong>Puzzle Submission/Deadline:</strong> 2020.03.25/04.14</p>
 
 <p><a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ29/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ29-3d/">Assessment results</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Puzzle 28]]></title>
-    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ28/"/>
-    <updated>2017-11-18T20:42:23+00:00</updated>
-    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ28</id>
-    <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
-
-<p>tRNA:  <br/>
-GGGCCUAUAGCUCAGGCGGUUAGAGCGCUUCGCUGAUAACGA  <br/>
-AGAGGUCGGAGGUUCGAGUCCUCCUAGGCCCACCA</p>
-
-<p>T-box:  <br/>
-GGCGACGAUCCGGCCAUCACCGGGGAGCCUUCGGAAGAACGG  <br/>
-CGCCGCCGGAAACGGCGGCGCUCAGUAGAACCGAACGGGUGA  <br/>
-GCCCGUCACAGCUC</p>
-
-<p><strong>Puzzle</strong>:
-T-box riboswitch - tRNA complex (Nocardia farcinica ileS)</p>
-
-<p>Crystal structure kindly provided by: <a href="https://irp.nih.gov/pi/jinwei-zhang"><strong>Jingwei Zhang</strong></a></p>
-
-<p><strong>Reference</strong>:
-High-affinity recognition of specific tRNAs by an mRNA anticodon-binding groove.
-<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=31792448">Nat Struct Mol Biol. 2019 Dec;26(12):1114-1122. doi: 10.1038/s41594-019-0335-6. Epub 2019 Dec 2.</a></p>
-
-<p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=6ufm">6ufm</a></p>
-
-<p><strong>Puzzle Submission/Deadline:</strong> 2019.10.28/11.18</p>
-
-<p><strong>Assessment of complex:</strong> <a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ28/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ28-3d/">Assessment results</a></p>
-
-<p><strong>Assessment of tBox:</strong> <a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ28tBox/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ28tBox-3d/">Assessment results</a></p>
-
-<p><strong>Assessment of tRNA:</strong> <a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ28tRNA/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ28tRNA-3d/">Assessment results</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Puzzle 27]]></title>
-    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ27/"/>
-    <updated>2017-11-18T20:42:23+00:00</updated>
-    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ27</id>
-    <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
-
-<p>tRNA:
-GCGGAAGTAGTTCAGTGGTAGAACACCACCTTGCCAAGGTGGG   <br/>
-GGTCGCGGGTTCGAATCCCGTCTTCCGCTCCA</p>
-
-<p>T-box:
-GUUGCAGUGAGAGAAAGAAGUACUUGCGUUUACCUCAUGAAAG   <br/>
-CGACCUUAGGGCGGUGUAAGCUAAGGAUGAGCACGCAACGAAA   <br/>
-GGCAUUCUUGAGCAAUUUUAAAAAAGAGGCUGGGAUUUUGUUC   <br/>
-UCAGCAACUAGGGUGGAACCGCGGGAGAACUCUCGUCCCUA</p>
-
-<p><strong>Puzzle</strong>:
-T-box riboswitch - tRNA complex (Bacillus subtilis glyQS)</p>
-
-<p>Crystal structure kindly provided by: <a href="https://irp.nih.gov/pi/jinwei-zhang"><strong>Jingwei Zhang</strong></a></p>
-
-<p><strong>Reference</strong>:
-Structural basis of amino acid surveillance by higher-order tRNA-mRNA interactions.
-<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=31740854">Nat Struct Mol Biol. 2019 Dec;26(12):1094-1105. doi: 10.1038/s41594-019-0326-7. Epub 2019 Nov 18.</a></p>
-
-<p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=6pom">6pom</a></p>
-
-<p><strong>Puzzle Submission/Deadline:</strong> 2019.10.21/11.11</p>
-
-<p><strong>Assessment of complex:</strong> <a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ27/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ27-3d/">Assessment results</a></p>
-
-<p><strong>Assessment of tBox:</strong> <a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ27tBox/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ27tBox-3d/">Assessment results</a></p>
-
-<p><strong>Assessment of tRNA:</strong> <a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ27tRNA/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ27tRNA-3d/">Assessment results</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Puzzle 26]]></title>
-    <link href="http://www.rnapuzzles.org/blog/2017/11/18/PZ26/"/>
-    <updated>2017-11-18T20:42:23+00:00</updated>
-    <id>http://www.rnapuzzles.org/blog/2017/11/18/PZ26</id>
-    <content type="html"><![CDATA[<p><strong>Sequence</strong> (5' to 3'):</p>
-
-<p>tRNA:  <br/>
-GCGGAAGTAGTTCAGTGGTAGAACACCACCTTGCCAAGGTGGGGGTCGCGGG
-TTCGAATCCCGTCTTCCGCTCCA</p>
-
-<p>T-box:  <br/>
-GAAAGUGGGUGCGCGUUUGGCGCAUCAACUCGGGUGGAACCGCGGGA
-GCUACGCUCUCGUCCCGAG</p>
-
-<p><strong>Puzzle</strong>:
-T-box riboswitch - tRNA complex (Geobacillus kaustophilus glyQ)</p>
-
-<p>Crystal structure kindly provided by: <a href="https://irp.nih.gov/pi/jinwei-zhang"><strong>Jingwei Zhang</strong></a></p>
-
-<p><strong>Reference</strong>:
-Structural basis of amino acid surveillance by higher-order tRNA-mRNA interactions.
-<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=31740854">Nat Struct Mol Biol. 2019 Dec;26(12):1094-1105. doi: 10.1038/s41594-019-0326-7. Epub 2019 Nov 18.</a></p>
-
-<p><strong>PDB id</strong>: <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=6pmo">6pmo</a></p>
-
-<p><strong>Puzzle Submission/Deadline:</strong> 2019.10.21/11.11</p>
-
-<p><strong>Assessment of complex:</strong> <a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ26/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ26-3d/">Assessment results</a></p>
-
-<p><strong>Assessment of tBox:</strong> <a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ26tBox/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ26tBox-3d/">Assessment results</a></p>
-
-<p><strong>Assessment of tRNA:</strong> <a href="https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ26tRNA/pdb">raw prediction</a>   |   <a href="http://www.rnapuzzles.org/blog/2000/01/01/PZ26tRNA-3d/">Assessment results</a></p>
 ]]></content>
   </entry>
   

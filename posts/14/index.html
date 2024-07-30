@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>RNA-Puzzles</title>
+  <meta name="author" content="Chichau Miao">
+
+  
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://www.rnapuzzles.org/posts/14/">
+  <link href="/favicon.png" type="image/png" rel="icon">
+  <link href="/atom.xml" rel="alternate" title="RNA-Puzzles" type="application/atom+xml">
+
+  <!-- http://opengraphprotocol.org/ -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://www.rnapuzzles.org/posts/14/">
+  <meta property="og:title" content="RNA-Puzzles">
+  <meta property="og:description" content="RNA-Puzzles a community-wide blind evaluation of RNA 3D structure prediction.">
+
+  <script src="/assets/bootstrap/dist/js/jquery-3.2.1.min.js"></script>
+
+<link href="/assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="/assets/bootstrap/dist/css/stylish-portfolio.css" rel="stylesheet" type = "text/css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="//jpswalsh.github.io/academicons/css/academicons.css" rel="stylesheet">
+
+
+  
+  <link href="/stylesheets/screen.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+  <body   >
+    <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+    <div id="wrap">
+      <header role="banner">
+        <nav class="navbar navbar-custom" role="navigation">
+	
+    <div class="container">
+        <div class="navbar-header">
+<!--
+            <button type="button" class="navbar-toggle" title="toggle navbar" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+-->
+            <img src="/images/logo.jpg" style='max-height:50px;' alt="logo">
+            <a class="navbar-brand" href="/">RNA-Puzzles</a>
+        </div>
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+<!--
+                <li >
+                    <a href="/news">News</a>
+                </li>
+-->
+                <li >
+                    <a href="/results">Results</a>
+                </li>
+                <li >
+                    <a href="/open-puzzle">Open Puzzles</a>
+                </li>
+                <li >
+                    <a href="/group">Groups</a>
+                </li>
+                <li >
+                    <a href="/publication">Publications</a>
+                </li>
+                <li >
+                    <a href="https://chichaumiau.github.io/rnapuzzlestoolkit">Resource</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="subscribe-rss" href="/atom.xml" title="subscribe via RSS">
+                        <span class="visible-xs">RSS</span>
+                        <img class="hidden-xs" src="/images/rss.png" alt="RSS">
+                    </a>
+                </li>
+                
+            </ul>
+            
+                <form class="navbar-form navbar-right" action="https://www.google.com/search" method="GET">
+                    <input type="hidden" name="sitesearch" value="www.rnapuzzles.org">
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="q" placeholder="Search">
+                    </div>
+                </form>
+            
+        </div>
+    </div>
+</nav>
+
+
+<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+<nav id="sidebar-wrapper">
+	<ul class="sidebar-nav">
+		<a id="menu-close" href="#" class="btn btn-dark btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+		<li class="sidebar-brand"><a href="https://github.com/RNA-Puzzles" onclick=$("#menu-close").click();>RNA-Puzzles</a></li>
+		<li><a href="#top" onclick=$("#menu-close").click();>Home</a></li>
+<!--
+		<li><a href="/news" onclick=$("#menu-close").click();>News</a></li>
+-->
+		<li><a href="/results" onclick=$("#menu-close").click();>Results</a></li>
+		<li><a href="/open-puzzle" onclick=$("#menu-close").click();>Open Challenges</a></li>
+		<li><a href="/group" onclick=$("#menu-close").click();>Community</a></li>
+		<li><a href="/publication" onclick=$("#menu-close").click();>Publications</a></li>
+		<li><a href="https://chichaumiau.github.io/rnapuzzlestoolkit" onclick=$("#menu-close").click();>Resouce</a></li>
+		<li><a href="https://github.com/RNA-Puzzles" onclick=$("#menu-close").click();>Github</a></li>
+	</ul>
+</nav>
+
+
+      </header>
+      <div id="main" role="main" class="container">
+        <div id="content">
+          <div class="row">
+<div class="page-content col-md-9">
+<div class="blog-index" itemscope itemtype="http://schema.org/Blog">
+    <meta itemprop="name" content="RNA-Puzzles" />
+    <meta itemprop="description" content="RNA-Puzzles a community-wide blind evaluation of RNA 3D structure prediction." />
+    <meta itemprop="url" content="http://www.rnapuzzles.org" />
+
+
+<h2>RNA-Puzzles</h2> is a collective experiment for blind RNA structure prediction.<br/>
+
+The sequence of a solved RNA structure is confidentially communicated to participating modelling groups a couple of weeks prior to publication. The results are assessed and presented in common publications involving structuralists and modellers.</br>
+<hr/>
+    
+<div class="panel panel-info">
+	<div class="panel-heading">
+	    <h3 class="panel-title">Aims of the project</h3>
+	</div>
+	<li>To determine the capabilities and limitations of current computational methods of 3D RNA structure prediction based on sequence;</li>
+	<li>To assess progress made and to improve assessment protocols and methods;</li>
+	<li>To identify whether there are specific bottlenecks that hold back progress;</li>
+	<li>To promote the available methods and guide potential users in the choice of suitable tools;</li>
+	<li>To encourage the RNA structure prediction community in their efforts to improve the current tools and to make automated prediction tools available;</li>
+	<li>To explore the underlying mechanism of ligand-RNA binding and associated conformational changes.</li>
+</div>
+
+<div class="panel panel-info">
+    <div class="panel-heading"><h3 class="panel-title">Basic Rules <a style="color:red">(PLEASE READ CAREFULLY)</a></h3></div>
+	<li>Confidential agreement required from new users: "I will use the provided sequence data for prediction purposes only. I will not distribute the sequences in any form outside my working group."</li>
+	<li>It is strongly recommended to avoid assessment error that all the predictions be formatted in standard <b><a href="https://cdn.rcsb.org/wwpdb/docs/documentation/file-format/PDB_format_1992.pdf">PDB format</a></b>. We provide a python script <b><a href="https://chichaumiau.github.io/RNA-Puzzles_format/">here</a></b> for generating standard PDB format files into which the coordinates need to be replaced by the predictors. </li>
+	<li>Please name the submission file without space in the file name. The suggested names are: PZ#_Method.pdb for web servers and PZ#_GroupName.pdb for human predictors. </li>
+	<li>RNA chains should be named in alphabetical order: A for the first chain, B for the second chain, and so on. </li>
+	<li>Up to <b>FIVE</b> prediction models should be submitted as the final results for each puzzle from each prediction method. Each prediction group can submit results from several prediction methods (automatic or manual, etc.). </li>
+	<li>Please put all prediction models together in one PDB file as in the NMR format (Separate models by lines: "MODEL n" and "ENDMDL").  </li>
+	<li>For submission, please either use the online <a href="http://www.rnapuzzles.org/open-puzzle/">registration and submission</a> portal (see the open-puzzle tag: http://www.rnapuzzles.org/open-puzzle/) or send us an <b><a href="mailto:e.westhof@ibmc-cnrs.unistra.fr?cc=ibmc.cnrs@gmail.com&amp;subject=RNA-Puzzles%20Submission">email</a></b>  (Please send an email to e.westhof@ibmc-cnrs.unistra.fr and cc. ibmc.cnrs@gmail.com).</li>
+    <li>For structure comparison metrics, please refer to RNA-Puzzles toolkit at <a href="https://chichaumiau.github.io/rnapuzzlestoolkit">https://chichaumiau.github.io/rnapuzzlestoolkit</a>. Please find the reference at <a href="https://pubmed.ncbi.nlm.nih.gov/31799609/">Nucleic Acids Res. 2020 Jan 24;48(2):576-588</a>. To use evaluation metrics in CASP15, please also refer to the repos: <a href="https://github.com/DasLab/casp-rna">https://github.com/DasLab/casp-rna</a> and <a href="https://github.com/DasLab/CASP15_RNA_EM">https://github.com/DasLab/CASP15_RNA_EM</a>. The reference can be found at <a href="">biorxiv</a>.</li>
+</div>
+<div class="panel panel-info">
+	<div class="panel-heading"><h3 class="panel-title">Call for participants</h3></div>
+        <li>We hope more structural biologists can help us in providing more crystallographic, cryo-EM or NMR structures. Any kind of RNA related structure information is encouraged. Anyone who may have a RNA structure ready for publication please contact <a href="mailto:e.westhof@ibmc-cnrs.unistra.fr?cc=ibmc.cnrs@gmail.com&amp;subject=[RNA-Puzzles]%20Structure%20Provide">us</a> (Please send an email to e.westhof@ibmc-cnrs.unistra.fr and cc. ibmc.cnrs@gmail.com).</li>
+        <li>We encourage more predictors who are interested in RNA structure prediction to take part in this compitition to push forward the field. Anyone who is interested please send us an <a href="mailto:e.westhof@ibmc-cnrs.unistra.fr?subject=[Help]%20RNA-Puzzles&cc=ibmc.cnrs@gmail.com">email</a> (Please send an email to e.westhof@ibmc-cnrs.unistra.fr and cc. ibmc.cnrs@gmail.com).</li>
+</div>
+
+<div class="panel panel-info">
+	<div class="panel-heading"><h3 class="panel-title">Updates</h3></div>
+	<div class="list-group">
+      
+      
+      
+        <article class="list-group-item ">
+          
+
+
+<span class="glyphicon glyphicon-tags"></span>&nbsp;
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/table/'>table</a>
+  
+</span>
+
+ &nbsp;&nbsp;&nbsp;
+<a href="/blog/2000/01/01/CR1117-3d/" itemprop="url">Puzzle CR1117 Table</a>
+
+
+        </article>
+      
+      
+        <article class="list-group-item ">
+          
+
+
+<span class="glyphicon glyphicon-tags"></span>&nbsp;
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/table/'>table</a>
+  
+</span>
+
+ &nbsp;&nbsp;&nbsp;
+<a href="/blog/2000/01/01/CR1116-3d/" itemprop="url">Puzzle CR1116 Table</a>
+
+
+        </article>
+      
+      
+        <article class="list-group-item ">
+          
+
+
+<span class="glyphicon glyphicon-tags"></span>&nbsp;
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/table/'>table</a>
+  
+</span>
+
+ &nbsp;&nbsp;&nbsp;
+<a href="/blog/2000/01/01/CR1108-3d/" itemprop="url">Puzzle CR1108 Table</a>
+
+
+        </article>
+      
+      
+        <article class="list-group-item ">
+          
+
+
+<span class="glyphicon glyphicon-tags"></span>&nbsp;
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/table/'>table</a>
+  
+</span>
+
+ &nbsp;&nbsp;&nbsp;
+<a href="/blog/2000/01/01/CR1107-3d/" itemprop="url">Puzzle CR1107 Table</a>
+
+
+        </article>
+      
+     </div>
+</div>
+</div>
+</div>
+
+  
+    <aside class="sidebar col-md-3">
+      
+        <section>
+  <h1>RNA-Puzzles</h1>
+  <p>A collective blind evaluation of RNA three-dimensional structure prediction</p>
+	<a href="https://github.com/RNA-Puzzles"><i class="fa fa-github-square fa-fw fa-2x"></i></a>
+	<a href="mailto:ibmc.cnrs@gmail.com"><i class="fa fa-envelope-square fa-fw fa-2x"></i></a>
+	<a href="https://twitter.com/RNAPuzzles"><i class="fa fa-twitter-square fa-fw fa-2x"></i></a>     
+<!--
+	<a href="https://plus.google.com/u/0/108009192908181986924"><i class="fa fa-google-plus-square fa-fw fa-2x"></i></a>
+-->
+	<a href=""><i class="fa fa-coffee fa-fw fa-2x"></i></a>
+</section>
+<section class="panel panel-info">
+  <div class="panel-heading">
+    <h3 class="panel-title">Recent Posts</h3>
+  </div>
+  
+  <div id="recent_posts" class="list-group">
+    
+    <a class="list-group-item " href="/blog/2023/10/07/Submission%20Process/">Submission Process</a>
+    
+    <a class="list-group-item " href="/blog/2023/10/07/Research-Spectrum/">Research Spectrum</a>
+    
+    <a class="list-group-item " href="/blog/2023/10/07/Recent-Engagements/">Recent Engagements</a>
+    
+    <a class="list-group-item " href="/blog/2023/10/07/Participating-Teams/">Participating Teams</a>
+    
+    <a class="list-group-item " href="/blog/2023/10/07/Methodological-Progress/">Methodological Progress</a>
+    
+  </div>
+</section>
+
+<section class="panel panel-info clearfix">
+  <div class="panel-heading">
+      <h3 class="panel-title">GitHub Repos</h3>
+  </div>
+  <div class="list-group" id="gh_repos">
+    <p class="loading">Status updating...</p>
+  </div>
+  
+    <div class="gh-profile-link pull-right text-muted">
+      <a href="https://github.com/RNA-Puzzles">@RNA-Puzzles</a> on GitHub
+    </div>
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'RNA-Puzzles',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+<section class="panel panel-info clearfix">
+  <div class="panel-heading">
+      <h3 class="panel-title">Categories</h3>
+  </div>
+    <div class='list-group-item'><a href='/blog/categories/group/'>group (16)</a></div>
+<div class='list-group-item'><a href='/blog/categories/news/'>news (7)</a></div>
+<div class='list-group-item'><a href='/blog/categories/results/'>results (42)</a></div>
+<div class='list-group-item'><a href='/blog/categories/table/'>table (69)</a></div>
+
+
+</section>
+
+<section class="googleplus googleplus-hidden panel panel-default">
+  <div class="panel-body">
+    <h2>
+      <a href="https://plus.google.com/108009192908181986924?rel=author">
+        <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+        Google+
+      </a>
+    </h2>
+  </div>
+</section>
+
+
+
+
+
+      
+    </aside>
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+    <footer role="contentinfo"><div class="container">
+    <p class="text-muted credits" align="center">
+  Copyright &copy; 2024 - <a href="mailto:miao_zhichao@gzlab.ac.cn">Chichau Miao</a>;
+  The website is powered by <a href="https://www.cloudna.cn/">cloudna</a>.
+  
+  <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+</p>
+
+</div>
+</footer>
+    
+
+<script type="text/javascript">
+      var disqus_shortname = 'rna-puzzles';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+
+<script src="/assets/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/javascripts/modernizr.js"></script>
+
+
+<!-- Custom Theme JavaScript -->
+<script>
+// Closes the sidebar menu
+$("#menu-close").click(function(e) {
+	e.preventDefault();
+	$("#sidebar-wrapper").toggleClass("active");
+});
+// Opens the sidebar menu
+$("#menu-toggle").click(function(e) {
+	e.preventDefault();
+	$("#sidebar-wrapper").toggleClass("active");
+});
+// Scrolls to the selected menu item on the page
+$(function() {
+	$('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+			var target = $(this.hash);
+			target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+			if (target.length) {
+				$('html,body').animate({
+					scrollTop: target.offset().top
+				}, 1000);
+				return false;
+			}
+		}
+	});
+});
+//#to-top button appears after scrolling
+var fixed = false;
+$(document).scroll(function() {
+	if ($(this).scrollTop() > 250) {
+		if (!fixed) {
+			fixed = true;
+			// $('#to-top').css({position:'fixed', display:'block'});
+			$('#to-top').show("slow", function() {
+				$('#to-top').css({
+					position: 'fixed',
+					display: 'block'
+				});
+			});
+		}
+	} else {
+		if (fixed) {
+			fixed = false;
+			$('#to-top').hide("slow", function() {
+				$('#to-top').css({
+					display: 'none'
+				});
+			});
+		}
+	}
+});
+</script>
+
+
+  </body>
+</html>
