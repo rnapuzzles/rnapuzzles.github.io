@@ -1,0 +1,101 @@
+---
+layout: post
+title: "Puzzle PZ18 table"
+date: 2000-01-01 00:00:01 +0000
+comments: false
+categories: 
+- table
+---
+
+<script src="{{ root_url }}/javascripts/sorttable.js"></script>
+<script>
+    window.onload = function() {
+        (document.getElementsByTagName( 'th' )[1]).click();
+    };
+</script>
+<br/>
+<div align="center">
+Please click the tags to sort data.<br/>
+<table class="sortable" border=1>
+  <tr>
+    <th>Lab</th>
+    <th>Num</th>
+    <th>RMSD</th>
+    <th>DI all</th>
+    <th>INF all</th>
+    <th>INF wc</th>
+    <th>INF nwc</th>
+    <th>INF stacking</th>
+    <th>Clash Score</th>
+    <th>P-value</th>
+    <th>mcq</th>
+    <th>TM-score</th>
+    <th>best sol.</th>
+    <th>Detail</th>
+  </tr>
+  <tr><td>DasORIGINAL</td><td>3</td><td>3.208</td><td>3.736</td><td>0.859</td><td>0.939</td><td>0.671</td><td>0.840</td><td>8.700</td><td>0.00e+00</td><td>16.11</td><td>0.5820</td><td>1</td><td><a href='/show/index.html?id=PZ18_DasORIGINAL_3'>-></a></td></tr>
+<tr><td>Chen</td><td>1</td><td>3.740</td><td>4.837</td><td>0.773</td><td>0.917</td><td>-</td><td>0.738</td><td>0.430</td><td>0.00e+00</td><td>24.85</td><td>0.5190</td><td>1</td><td><a href='/show/index.html?id=PZ18_Chen_1'>-></a></td></tr>
+<tr><td>Das</td><td>2</td><td>3.877</td><td>4.424</td><td>0.876</td><td>0.981</td><td>0.500</td><td>0.857</td><td>16.090</td><td>0.00e+00</td><td>16.15</td><td>0.4900</td><td>1</td><td><a href='/show/index.html?id=PZ18_Das_2'>-></a></td></tr>
+<tr><td>DasORIGINAL</td><td>2</td><td>4.034</td><td>4.662</td><td>0.865</td><td>0.939</td><td>0.671</td><td>0.850</td><td>9.130</td><td>0.00e+00</td><td>16.03</td><td>0.5030</td><td>1</td><td><a href='/show/index.html?id=PZ18_DasORIGINAL_2'>-></a></td></tr>
+<tr><td>Das</td><td>1</td><td>5.496</td><td>6.388</td><td>0.860</td><td>0.981</td><td>0.671</td><td>0.824</td><td>13.050</td><td>0.00e+00</td><td>16.59</td><td>0.4700</td><td>1</td><td><a href='/show/index.html?id=PZ18_Das_1'>-></a></td></tr>
+<tr><td>DasORIGINAL</td><td>1</td><td>5.633</td><td>6.511</td><td>0.865</td><td>0.939</td><td>0.671</td><td>0.850</td><td>9.570</td><td>0.00e+00</td><td>16.28</td><td>0.4800</td><td>1</td><td><a href='/show/index.html?id=PZ18_DasORIGINAL_1'>-></a></td></tr>
+<tr><td>Das</td><td>3</td><td>5.633</td><td>6.511</td><td>0.865</td><td>0.939</td><td>0.671</td><td>0.850</td><td>9.570</td><td>0.00e+00</td><td>16.28</td><td>0.4800</td><td>1</td><td><a href='/show/index.html?id=PZ18_Das_3'>-></a></td></tr>
+<tr><td>DasORIGINAL</td><td>4</td><td>5.698</td><td>6.618</td><td>0.861</td><td>0.962</td><td>0.289</td><td>0.851</td><td>13.050</td><td>0.00e+00</td><td>16.68</td><td>0.4410</td><td>1</td><td><a href='/show/index.html?id=PZ18_DasORIGINAL_4'>-></a></td></tr>
+<tr><td>Das</td><td>4</td><td>5.698</td><td>6.618</td><td>0.861</td><td>0.962</td><td>0.289</td><td>0.851</td><td>13.050</td><td>0.00e+00</td><td>16.68</td><td>0.4410</td><td>1</td><td><a href='/show/index.html?id=PZ18_Das_4'>-></a></td></tr>
+<tr><td>Chen</td><td>2</td><td>6.636</td><td>8.183</td><td>0.811</td><td>0.917</td><td>-</td><td>0.794</td><td>2.170</td><td>0.00e+00</td><td>26.76</td><td>0.4600</td><td>1</td><td><a href='/show/index.html?id=PZ18_Chen_2'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>3</td><td>7.903</td><td>11.727</td><td>0.674</td><td>0.857</td><td>-</td><td>0.607</td><td>13.480</td><td>0.00e+00</td><td>24.91</td><td>0.3360</td><td>1</td><td><a href='/show/index.html?id=PZ18_Dokholyan_3'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>1</td><td>8.440</td><td>11.672</td><td>0.723</td><td>0.840</td><td>-</td><td>0.694</td><td>9.570</td><td>0.00e+00</td><td>23.07</td><td>0.3450</td><td>1</td><td><a href='/show/index.html?id=PZ18_Dokholyan_1'>-></a></td></tr>
+<tr><td>Szachniuk</td><td>5</td><td>9.082</td><td>12.611</td><td>0.720</td><td>0.784</td><td>0.000</td><td>0.723</td><td>8.700</td><td>5.55e-17</td><td>17.55</td><td>0.4300</td><td>1</td><td><a href='/show/index.html?id=PZ18_Szachniuk_5'>-></a></td></tr>
+<tr><td>Chen</td><td>3</td><td>9.165</td><td>12.809</td><td>0.716</td><td>0.776</td><td>0.000</td><td>0.720</td><td>4.780</td><td>5.55e-17</td><td>24.66</td><td>0.4280</td><td>1</td><td><a href='/show/index.html?id=PZ18_Chen_3'>-></a></td></tr>
+<tr><td>Szachniuk</td><td>2</td><td>9.222</td><td>12.676</td><td>0.727</td><td>0.784</td><td>0.000</td><td>0.741</td><td>12.610</td><td>1.11e-16</td><td>17.89</td><td>0.4200</td><td>1</td><td><a href='/show/index.html?id=PZ18_Szachniuk_2'>-></a></td></tr>
+<tr><td>Szachniuk</td><td>3</td><td>9.262</td><td>12.779</td><td>0.725</td><td>0.784</td><td>0.000</td><td>0.730</td><td>10.000</td><td>1.11e-16</td><td>17.77</td><td>0.4130</td><td>1</td><td><a href='/show/index.html?id=PZ18_Szachniuk_3'>-></a></td></tr>
+<tr><td>Chen</td><td>4</td><td>9.273</td><td>13.842</td><td>0.670</td><td>0.716</td><td>0.000</td><td>0.680</td><td>4.780</td><td>1.11e-16</td><td>24.02</td><td>0.4090</td><td>1</td><td><a href='/show/index.html?id=PZ18_Chen_4'>-></a></td></tr>
+<tr><td>Szachniuk</td><td>1</td><td>9.433</td><td>12.838</td><td>0.735</td><td>0.784</td><td>0.000</td><td>0.745</td><td>8.700</td><td>2.22e-16</td><td>17.65</td><td>0.3980</td><td>1</td><td><a href='/show/index.html?id=PZ18_Szachniuk_1'>-></a></td></tr>
+<tr><td>RW3D</td><td>2</td><td>9.820</td><td>15.011</td><td>0.654</td><td>0.784</td><td>0.000</td><td>0.623</td><td>5.220</td><td>1.39e-15</td><td>15.78</td><td>0.3750</td><td>1</td><td><a href='/show/index.html?id=PZ18_RW3D_2'>-></a></td></tr>
+<tr><td>SimRNA</td><td>2</td><td>10.277</td><td>16.792</td><td>0.612</td><td>0.680</td><td>0.000</td><td>0.609</td><td>87.750</td><td>1.02e-14</td><td>20.89</td><td>0.2920</td><td>1</td><td><a href='/show/index.html?id=PZ18_SimRNA_2'>-></a></td></tr>
+<tr><td>RW3D</td><td>6</td><td>10.342</td><td>15.543</td><td>0.665</td><td>0.784</td><td>0.000</td><td>0.640</td><td>3.910</td><td>1.34e-14</td><td>17.85</td><td>0.3500</td><td>1</td><td><a href='/show/index.html?id=PZ18_RW3D_6'>-></a></td></tr>
+<tr><td>Szachniuk</td><td>4</td><td>10.833</td><td>15.079</td><td>0.718</td><td>0.784</td><td>0.000</td><td>0.720</td><td>6.960</td><td>1.07e-13</td><td>16.82</td><td>0.4030</td><td>1</td><td><a href='/show/index.html?id=PZ18_Szachniuk_4'>-></a></td></tr>
+<tr><td>DasORIGINAL</td><td>5</td><td>10.904</td><td>13.559</td><td>0.804</td><td>0.917</td><td>0.250</td><td>0.798</td><td>19.570</td><td>1.43e-13</td><td>19.66</td><td>0.4530</td><td>1</td><td><a href='/show/index.html?id=PZ18_DasORIGINAL_5'>-></a></td></tr>
+<tr><td>Das</td><td>5</td><td>10.904</td><td>13.559</td><td>0.804</td><td>0.917</td><td>0.250</td><td>0.798</td><td>19.570</td><td>1.43e-13</td><td>19.66</td><td>0.4530</td><td>1</td><td><a href='/show/index.html?id=PZ18_Das_5'>-></a></td></tr>
+<tr><td>RW3D</td><td>4</td><td>11.509</td><td>16.824</td><td>0.684</td><td>0.784</td><td>0.000</td><td>0.676</td><td>3.480</td><td>1.65e-12</td><td>16.27</td><td>0.2990</td><td>1</td><td><a href='/show/index.html?id=PZ18_RW3D_4'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>2</td><td>11.954</td><td>16.151</td><td>0.740</td><td>0.840</td><td>-</td><td>0.720</td><td>14.790</td><td>9.25e-12</td><td>22.64</td><td>0.3030</td><td>1</td><td><a href='/show/index.html?id=PZ18_Dokholyan_2'>-></a></td></tr>
+<tr><td>3dRNA</td><td>4</td><td>12.449</td><td>18.025</td><td>0.691</td><td>0.776</td><td>-</td><td>0.678</td><td>0.870</td><td>5.89e-11</td><td>27.64</td><td>0.3380</td><td>1</td><td><a href='/show/index.html?id=PZ18_3dRNA_4'>-></a></td></tr>
+<tr><td>RW3D</td><td>3</td><td>12.490</td><td>18.677</td><td>0.669</td><td>0.784</td><td>0.000</td><td>0.659</td><td>10.440</td><td>6.85e-11</td><td>16.96</td><td>0.2920</td><td>1</td><td><a href='/show/index.html?id=PZ18_RW3D_3'>-></a></td></tr>
+<tr><td>RW3D</td><td>5</td><td>13.362</td><td>20.082</td><td>0.665</td><td>0.784</td><td>0.000</td><td>0.647</td><td>8.260</td><td>1.47e-09</td><td>19.13</td><td>0.2500</td><td>1</td><td><a href='/show/index.html?id=PZ18_RW3D_5'>-></a></td></tr>
+<tr><td>RW3D</td><td>10</td><td>13.383</td><td>19.839</td><td>0.675</td><td>0.784</td><td>0.000</td><td>0.654</td><td>6.520</td><td>1.58e-09</td><td>18.21</td><td>0.2660</td><td>1</td><td><a href='/show/index.html?id=PZ18_RW3D_10'>-></a></td></tr>
+<tr><td>RW3D</td><td>7</td><td>14.957</td><td>21.822</td><td>0.685</td><td>0.784</td><td>0.000</td><td>0.671</td><td>7.390</td><td>2.22e-07</td><td>15.95</td><td>0.2920</td><td>1</td><td><a href='/show/index.html?id=PZ18_RW3D_7'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>5</td><td>15.211</td><td>24.183</td><td>0.629</td><td>0.760</td><td>0.000</td><td>0.603</td><td>13.920</td><td>4.60e-07</td><td>20.46</td><td>0.2470</td><td>1</td><td><a href='/show/index.html?id=PZ18_RNAComposer_5'>-></a></td></tr>
+<tr><td>RW3D</td><td>8</td><td>15.707</td><td>24.213</td><td>0.649</td><td>0.784</td><td>0.000</td><td>0.628</td><td>3.480</td><td>1.81e-06</td><td>19.07</td><td>0.2740</td><td>1</td><td><a href='/show/index.html?id=PZ18_RW3D_8'>-></a></td></tr>
+<tr><td>Chen</td><td>5</td><td>15.848</td><td>22.464</td><td>0.705</td><td>0.735</td><td>0.000</td><td>0.723</td><td>1.310</td><td>2.64e-06</td><td>21.94</td><td>0.2900</td><td>1</td><td><a href='/show/index.html?id=PZ18_Chen_5'>-></a></td></tr>
+<tr><td>Ding</td><td>5</td><td>16.148</td><td>24.269</td><td>0.665</td><td>0.760</td><td>0.000</td><td>0.652</td><td>9.130</td><td>5.75e-06</td><td>20.70</td><td>0.2150</td><td>1</td><td><a href='/show/index.html?id=PZ18_Ding_5'>-></a></td></tr>
+<tr><td>RW3D</td><td>1</td><td>16.346</td><td>24.896</td><td>0.657</td><td>0.784</td><td>0.000</td><td>0.640</td><td>6.520</td><td>9.47e-06</td><td>17.82</td><td>0.2570</td><td>1</td><td><a href='/show/index.html?id=PZ18_RW3D_1'>-></a></td></tr>
+<tr><td>Ding</td><td>3</td><td>16.450</td><td>24.317</td><td>0.676</td><td>0.694</td><td>-</td><td>0.692</td><td>7.830</td><td>1.22e-05</td><td>21.90</td><td>0.1780</td><td>1</td><td><a href='/show/index.html?id=PZ18_Ding_3'>-></a></td></tr>
+<tr><td>RW3D</td><td>9</td><td>17.208</td><td>25.861</td><td>0.665</td><td>0.784</td><td>0.000</td><td>0.647</td><td>1.740</td><td>7.28e-05</td><td>17.06</td><td>0.2250</td><td>1</td><td><a href='/show/index.html?id=PZ18_RW3D_9'>-></a></td></tr>
+<tr><td>LeeAS</td><td>5</td><td>18.454</td><td>30.357</td><td>0.608</td><td>0.640</td><td>-</td><td>0.615</td><td>2.170</td><td>9.49e-04</td><td>19.17</td><td>0.2320</td><td>1</td><td><a href='/show/index.html?id=PZ18_LeeAS_5'>-></a></td></tr>
+<tr><td>YagoubAli</td><td>1</td><td>18.636</td><td>29.251</td><td>0.637</td><td>0.784</td><td>-</td><td>0.590</td><td>8.290</td><td>1.33e-03</td><td>24.92</td><td>0.1890</td><td>1</td><td><a href='/show/index.html?id=PZ18_YagoubAli_1'>-></a></td></tr>
+<tr><td>3dRNA</td><td>1</td><td>18.821</td><td>26.749</td><td>0.704</td><td>0.776</td><td>-</td><td>0.696</td><td>11.740</td><td>1.86e-03</td><td>27.28</td><td>0.2700</td><td>1</td><td><a href='/show/index.html?id=PZ18_3dRNA_1'>-></a></td></tr>
+<tr><td>LeeAS</td><td>4</td><td>18.918</td><td>31.544</td><td>0.600</td><td>0.640</td><td>-</td><td>0.602</td><td>4.780</td><td>2.20e-03</td><td>20.36</td><td>0.2500</td><td>1</td><td><a href='/show/index.html?id=PZ18_LeeAS_4'>-></a></td></tr>
+<tr><td>3dRNA</td><td>2</td><td>19.207</td><td>26.673</td><td>0.720</td><td>0.760</td><td>-</td><td>0.727</td><td>0.430</td><td>3.60e-03</td><td>23.01</td><td>0.2220</td><td>1</td><td><a href='/show/index.html?id=PZ18_3dRNA_2'>-></a></td></tr>
+<tr><td>Ding</td><td>1</td><td>20.280</td><td>32.693</td><td>0.620</td><td>0.640</td><td>-</td><td>0.634</td><td>10.440</td><td>1.82e-02</td><td>19.42</td><td>0.2420</td><td>1</td><td><a href='/show/index.html?id=PZ18_Ding_1'>-></a></td></tr>
+<tr><td>3dRNA</td><td>3</td><td>20.287</td><td>28.062</td><td>0.723</td><td>0.816</td><td>-</td><td>0.707</td><td>12.610</td><td>1.84e-02</td><td>24.45</td><td>0.2230</td><td>1</td><td><a href='/show/index.html?id=PZ18_3dRNA_3'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>3</td><td>20.619</td><td>30.987</td><td>0.665</td><td>0.667</td><td>0.000</td><td>0.697</td><td>10.870</td><td>2.85e-02</td><td>22.81</td><td>0.2220</td><td>1</td><td><a href='/show/index.html?id=PZ18_RNAComposer_3'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>1</td><td>20.737</td><td>30.391</td><td>0.682</td><td>0.784</td><td>0.000</td><td>0.666</td><td>12.610</td><td>3.31e-02</td><td>23.48</td><td>0.2350</td><td>1</td><td><a href='/show/index.html?id=PZ18_RNAComposer_1'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>4</td><td>20.774</td><td>29.776</td><td>0.698</td><td>0.784</td><td>0.000</td><td>0.689</td><td>10.870</td><td>3.46e-02</td><td>22.01</td><td>0.2140</td><td>1</td><td><a href='/show/index.html?id=PZ18_RNAComposer_4'>-></a></td></tr>
+<tr><td>Ding</td><td>2</td><td>21.130</td><td>29.411</td><td>0.718</td><td>0.800</td><td>-</td><td>0.707</td><td>10.870</td><td>5.27e-02</td><td>19.69</td><td>0.1970</td><td>1</td><td><a href='/show/index.html?id=PZ18_Ding_2'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>2</td><td>21.143</td><td>30.640</td><td>0.690</td><td>0.792</td><td>-</td><td>0.669</td><td>10.870</td><td>5.35e-02</td><td>23.95</td><td>0.2010</td><td>1</td><td><a href='/show/index.html?id=PZ18_RNAComposer_2'>-></a></td></tr>
+<tr><td>Lee</td><td>2</td><td>21.159</td><td>33.897</td><td>0.624</td><td>0.640</td><td>-</td><td>0.638</td><td>3.910</td><td>5.44e-02</td><td>18.73</td><td>0.2460</td><td>1</td><td><a href='/show/index.html?id=PZ18_Lee_2'>-></a></td></tr>
+<tr><td>Lee</td><td>3</td><td>21.421</td><td>48.652</td><td>0.440</td><td>0.298</td><td>-</td><td>0.516</td><td>1.740</td><td>7.25e-02</td><td>21.57</td><td>0.2160</td><td>1</td><td><a href='/show/index.html?id=PZ18_Lee_3'>-></a></td></tr>
+<tr><td>LeeAS</td><td>3</td><td>21.425</td><td>47.929</td><td>0.447</td><td>0.306</td><td>-</td><td>0.525</td><td>3.480</td><td>7.28e-02</td><td>23.04</td><td>0.2190</td><td>1</td><td><a href='/show/index.html?id=PZ18_LeeAS_3'>-></a></td></tr>
+<tr><td>Lee</td><td>4</td><td>22.158</td><td>37.434</td><td>0.592</td><td>0.640</td><td>-</td><td>0.591</td><td>3.910</td><td>1.47e-01</td><td>18.45</td><td>0.2430</td><td>1</td><td><a href='/show/index.html?id=PZ18_Lee_4'>-></a></td></tr>
+<tr><td>Lee</td><td>1</td><td>22.793</td><td>40.827</td><td>0.558</td><td>0.628</td><td>0.000</td><td>0.558</td><td>1.740</td><td>2.43e-01</td><td>18.41</td><td>0.2060</td><td>1</td><td><a href='/show/index.html?id=PZ18_Lee_1'>-></a></td></tr>
+<tr><td>SimRNA</td><td>1</td><td>23.141</td><td>44.728</td><td>0.517</td><td>0.320</td><td>0.000</td><td>0.622</td><td>100.480</td><td>3.08e-01</td><td>21.05</td><td>0.2500</td><td>1</td><td><a href='/show/index.html?id=PZ18_SimRNA_1'>-></a></td></tr>
+<tr><td>LeeAS</td><td>1</td><td>23.172</td><td>40.969</td><td>0.566</td><td>0.653</td><td>0.000</td><td>0.558</td><td>0.870</td><td>3.14e-01</td><td>20.37</td><td>0.2230</td><td>1</td><td><a href='/show/index.html?id=PZ18_LeeAS_1'>-></a></td></tr>
+<tr><td>LeeAS</td><td>2</td><td>23.498</td><td>37.643</td><td>0.624</td><td>0.640</td><td>-</td><td>0.639</td><td>4.350</td><td>3.81e-01</td><td>20.55</td><td>0.2380</td><td>1</td><td><a href='/show/index.html?id=PZ18_LeeAS_2'>-></a></td></tr>
+<tr><td>3dRNA</td><td>5</td><td>24.091</td><td>36.073</td><td>0.668</td><td>0.776</td><td>0.000</td><td>0.650</td><td>0.430</td><td>5.10e-01</td><td>28.85</td><td>0.2160</td><td>1</td><td><a href='/show/index.html?id=PZ18_3dRNA_5'>-></a></td></tr>
+<tr><td>Lee</td><td>5</td><td>24.549</td><td>41.506</td><td>0.591</td><td>0.653</td><td>-</td><td>0.584</td><td>2.170</td><td>6.10e-01</td><td>19.00</td><td>0.2250</td><td>1</td><td><a href='/show/index.html?id=PZ18_Lee_5'>-></a></td></tr>
+<tr><td>SimRNA</td><td>3</td><td>24.633</td><td>42.683</td><td>0.577</td><td>0.549</td><td>0.000</td><td>0.615</td><td>100.780</td><td>6.28e-01</td><td>20.65</td><td>0.2700</td><td>1</td><td><a href='/show/index.html?id=PZ18_SimRNA_3'>-></a></td></tr>
+<tr><td>Ding</td><td>4</td><td>24.924</td><td>50.909</td><td>0.490</td><td>0.292</td><td>-</td><td>0.591</td><td>8.260</td><td>6.88e-01</td><td>19.72</td><td>0.2190</td><td>1</td><td><a href='/show/index.html?id=PZ18_Ding_4'>-></a></td></tr>
+
+</table>
+-: No true positive interaction in the predicted structure.
+</div>

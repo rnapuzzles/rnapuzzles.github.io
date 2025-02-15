@@ -1,0 +1,44 @@
+---
+layout: post
+title: "Puzzle R0253 table"
+date: 2000-01-01 00:00:01 +0000
+comments: false
+categories: 
+- table
+---
+
+<script src="{{ root_url }}/javascripts/sorttable.js"></script>
+<script>
+    window.onload = function() {
+        (document.getElementsByTagName( 'th' )[1]).click();
+    };
+</script>
+<br/>
+<div align="center">
+Please click the tags to sort data.<br/>
+<table class="sortable" border=1>
+  <tr>
+    <th>Lab</th>
+    <th>Num</th>
+    <th>RMSD</th>
+    <th>DI all</th>
+    <th>INF all</th>
+    <th>INF wc</th>
+    <th>INF nwc</th>
+    <th>INF stacking</th>
+    <th>Clash Score</th>
+    <th>P-value</th>
+    <th>mcq</th>
+    <th>TM-score</th>
+    <th>best sol.</th>
+    <th>Detail</th>
+  </tr>
+  <tr><td>model</td><td>4</td><td>36.196</td><td>55.685</td><td>0.650</td><td>0.815</td><td>0.289</td><td>0.605</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>24.79</td><td>0.2630</td><td>7</td><td><a href='/show/index.html?id=R0253_model_4'>-></a></td></tr>
+<tr><td>model</td><td>1</td><td>42.011</td><td>64.976</td><td>0.647</td><td>0.781</td><td>0.258</td><td>0.611</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>25.49</td><td>0.2240</td><td>14</td><td><a href='/show/index.html?id=R0253_model_1'>-></a></td></tr>
+<tr><td>model</td><td>2</td><td>43.953</td><td>66.658</td><td>0.659</td><td>0.776</td><td>0.373</td><td>0.627</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>25.56</td><td>0.1810</td><td>2</td><td><a href='/show/index.html?id=R0253_model_2'>-></a></td></tr>
+<tr><td>model</td><td>0</td><td>46.681</td><td>71.308</td><td>0.655</td><td>0.790</td><td>0.258</td><td>0.620</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>25.58</td><td>0.2340</td><td>1</td><td><a href='/show/index.html?id=R0253_model_0'>-></a></td></tr>
+<tr><td>model</td><td>3</td><td>47.202</td><td>72.755</td><td>0.649</td><td>0.762</td><td>0.323</td><td>0.621</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>25.67</td><td>0.1820</td><td>6</td><td><a href='/show/index.html?id=R0253_model_3'>-></a></td></tr>
+
+</table>
+-: No true positive interaction in the predicted structure.
+</div>

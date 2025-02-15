@@ -1,0 +1,65 @@
+---
+layout: post
+title: "Puzzle PZ10 table"
+date: 2000-01-01 00:00:01 +0000
+comments: false
+categories: 
+- table
+---
+
+<script src="{{ root_url }}/javascripts/sorttable.js"></script>
+<script>
+    window.onload = function() {
+        (document.getElementsByTagName( 'th' )[1]).click();
+    };
+</script>
+<br/>
+<div align="center">
+Please click the tags to sort data.<br/>
+<table class="sortable" border=1>
+  <tr>
+    <th>Lab</th>
+    <th>Num</th>
+    <th>RMSD</th>
+    <th>DI all</th>
+    <th>INF all</th>
+    <th>INF wc</th>
+    <th>INF nwc</th>
+    <th>INF stacking</th>
+    <th>Clash Score</th>
+    <th>P-value</th>
+    <th>mcq</th>
+    <th>TM-score</th>
+    <th>best sol.</th>
+    <th>Detail</th>
+  </tr>
+  <tr><td>Das</td><td>3</td><td>6.803</td><td>8.323</td><td>0.817</td><td>0.923</td><td>0.801</td><td>0.786</td><td>13.440</td><td>0.00e+00</td><td>22.80</td><td>0.2020</td><td>1</td><td><a href='/show/index.html?id=PZ10_Das_3'>-></a></td></tr>
+<tr><td>Das</td><td>4</td><td>7.062</td><td>8.502</td><td>0.831</td><td>0.913</td><td>0.801</td><td>0.809</td><td>12.260</td><td>0.00e+00</td><td>21.52</td><td>0.2050</td><td>1</td><td><a href='/show/index.html?id=PZ10_Das_4'>-></a></td></tr>
+<tr><td>Das</td><td>1</td><td>7.580</td><td>9.109</td><td>0.832</td><td>0.913</td><td>0.801</td><td>0.811</td><td>14.230</td><td>0.00e+00</td><td>22.46</td><td>0.2440</td><td>1</td><td><a href='/show/index.html?id=PZ10_Das_1'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>4</td><td>9.339</td><td>12.629</td><td>0.739</td><td>0.844</td><td>0.258</td><td>0.738</td><td>0.790</td><td>0.00e+00</td><td>26.91</td><td>0.5390</td><td>1</td><td><a href='/show/index.html?id=PZ10_Bujnicki_4'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>1</td><td>10.177</td><td>12.368</td><td>0.823</td><td>0.876</td><td>0.433</td><td>0.833</td><td>1.380</td><td>0.00e+00</td><td>26.18</td><td>0.5530</td><td>1</td><td><a href='/show/index.html?id=PZ10_Bujnicki_1'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>8</td><td>10.193</td><td>12.395</td><td>0.822</td><td>0.876</td><td>0.589</td><td>0.824</td><td>2.760</td><td>0.00e+00</td><td>25.01</td><td>0.5530</td><td>1</td><td><a href='/show/index.html?id=PZ10_Bujnicki_8'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>7</td><td>10.248</td><td>12.958</td><td>0.791</td><td>0.839</td><td>0.516</td><td>0.797</td><td>2.170</td><td>0.00e+00</td><td>26.92</td><td>0.5450</td><td>1</td><td><a href='/show/index.html?id=PZ10_Bujnicki_7'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>5</td><td>10.274</td><td>12.475</td><td>0.824</td><td>0.872</td><td>0.577</td><td>0.828</td><td>1.970</td><td>0.00e+00</td><td>26.04</td><td>0.5600</td><td>1</td><td><a href='/show/index.html?id=PZ10_Bujnicki_5'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>9</td><td>10.359</td><td>12.782</td><td>0.810</td><td>0.872</td><td>0.612</td><td>0.807</td><td>1.180</td><td>0.00e+00</td><td>26.80</td><td>0.5460</td><td>1</td><td><a href='/show/index.html?id=PZ10_Bujnicki_9'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>6</td><td>10.361</td><td>12.879</td><td>0.805</td><td>0.830</td><td>0.433</td><td>0.823</td><td>1.580</td><td>0.00e+00</td><td>25.59</td><td>0.5530</td><td>1</td><td><a href='/show/index.html?id=PZ10_Bujnicki_6'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>3</td><td>10.375</td><td>12.704</td><td>0.817</td><td>0.863</td><td>0.645</td><td>0.817</td><td>0.990</td><td>0.00e+00</td><td>29.08</td><td>0.5460</td><td>1</td><td><a href='/show/index.html?id=PZ10_Bujnicki_3'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>2</td><td>10.390</td><td>12.794</td><td>0.812</td><td>0.872</td><td>0.645</td><td>0.808</td><td>2.370</td><td>0.00e+00</td><td>25.52</td><td>0.5550</td><td>1</td><td><a href='/show/index.html?id=PZ10_Bujnicki_2'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>10</td><td>10.397</td><td>12.707</td><td>0.818</td><td>0.903</td><td>0.696</td><td>0.803</td><td>1.180</td><td>0.00e+00</td><td>28.87</td><td>0.5460</td><td>1</td><td><a href='/show/index.html?id=PZ10_Bujnicki_10'>-></a></td></tr>
+<tr><td>Das</td><td>5</td><td>10.417</td><td>12.403</td><td>0.840</td><td>0.904</td><td>0.833</td><td>0.823</td><td>13.250</td><td>0.00e+00</td><td>23.12</td><td>0.2700</td><td>1</td><td><a href='/show/index.html?id=PZ10_Das_5'>-></a></td></tr>
+<tr><td>Das</td><td>2</td><td>10.447</td><td>12.648</td><td>0.826</td><td>0.899</td><td>0.833</td><td>0.803</td><td>13.640</td><td>0.00e+00</td><td>22.69</td><td>0.2350</td><td>1</td><td><a href='/show/index.html?id=PZ10_Das_2'>-></a></td></tr>
+<tr><td>Chen</td><td>1</td><td>11.304</td><td>16.224</td><td>0.697</td><td>0.706</td><td>0.504</td><td>0.709</td><td>9.880</td><td>0.00e+00</td><td>34.41</td><td>0.4820</td><td>2</td><td><a href='/show/index.html?id=PZ10_Chen_1'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>3</td><td>12.496</td><td>17.667</td><td>0.707</td><td>0.800</td><td>-</td><td>0.710</td><td>9.680</td><td>0.00e+00</td><td>28.19</td><td>0.2300</td><td>1</td><td><a href='/show/index.html?id=PZ10_Dokholyan_3'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>1</td><td>13.157</td><td>18.971</td><td>0.694</td><td>0.821</td><td>-</td><td>0.684</td><td>13.630</td><td>0.00e+00</td><td>27.38</td><td>0.1870</td><td>1</td><td><a href='/show/index.html?id=PZ10_Dokholyan_1'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>10</td><td>13.202</td><td>19.666</td><td>0.671</td><td>0.815</td><td>-</td><td>0.654</td><td>14.220</td><td>0.00e+00</td><td>28.68</td><td>0.1990</td><td>1</td><td><a href='/show/index.html?id=PZ10_Dokholyan_10'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>4</td><td>13.367</td><td>19.545</td><td>0.684</td><td>0.815</td><td>-</td><td>0.672</td><td>12.240</td><td>0.00e+00</td><td>28.39</td><td>0.2250</td><td>1</td><td><a href='/show/index.html?id=PZ10_Dokholyan_4'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>2</td><td>13.889</td><td>21.128</td><td>0.657</td><td>0.818</td><td>-</td><td>0.632</td><td>10.860</td><td>0.00e+00</td><td>27.03</td><td>0.2360</td><td>2</td><td><a href='/show/index.html?id=PZ10_Dokholyan_2'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>8</td><td>15.586</td><td>23.892</td><td>0.652</td><td>0.769</td><td>0.000</td><td>0.647</td><td>13.230</td><td>0.00e+00</td><td>27.76</td><td>0.1640</td><td>1</td><td><a href='/show/index.html?id=PZ10_Dokholyan_8'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>7</td><td>16.264</td><td>24.356</td><td>0.668</td><td>0.810</td><td>0.000</td><td>0.659</td><td>8.290</td><td>0.00e+00</td><td>27.77</td><td>0.2140</td><td>1</td><td><a href='/show/index.html?id=PZ10_Dokholyan_7'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>9</td><td>16.681</td><td>25.467</td><td>0.655</td><td>0.765</td><td>0.000</td><td>0.653</td><td>12.840</td><td>0.00e+00</td><td>27.44</td><td>0.1850</td><td>1</td><td><a href='/show/index.html?id=PZ10_Dokholyan_9'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>5</td><td>16.750</td><td>26.788</td><td>0.625</td><td>0.805</td><td>-</td><td>0.592</td><td>11.650</td><td>0.00e+00</td><td>28.61</td><td>0.1860</td><td>1</td><td><a href='/show/index.html?id=PZ10_Dokholyan_5'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>6</td><td>17.442</td><td>26.074</td><td>0.669</td><td>0.906</td><td>0.000</td><td>0.621</td><td>8.890</td><td>0.00e+00</td><td>28.82</td><td>0.1780</td><td>1</td><td><a href='/show/index.html?id=PZ10_Dokholyan_6'>-></a></td></tr>
+
+</table>
+-: No true positive interaction in the predicted structure.
+</div>

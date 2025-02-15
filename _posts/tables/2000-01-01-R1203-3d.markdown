@@ -1,0 +1,42 @@
+---
+layout: post
+title: "Puzzle R1203 table"
+date: 2000-01-01 00:00:01 +0000
+comments: false
+categories: 
+- table
+---
+
+<script src="{{ root_url }}/javascripts/sorttable.js"></script>
+<script>
+    window.onload = function() {
+        (document.getElementsByTagName( 'th' )[1]).click();
+    };
+</script>
+<br/>
+<div align="center">
+Please click the tags to sort data.<br/>
+<table class="sortable" border=1>
+  <tr>
+    <th>Lab</th>
+    <th>Num</th>
+    <th>RMSD</th>
+    <th>DI all</th>
+    <th>INF all</th>
+    <th>INF wc</th>
+    <th>INF nwc</th>
+    <th>INF stacking</th>
+    <th>Clash Score</th>
+    <th>P-value</th>
+    <th>mcq</th>
+    <th>TM-score</th>
+    <th>best sol.</th>
+    <th>Detail</th>
+  </tr>
+  <tr><td>model</td><td>2</td><td>7.560</td><td>13.552</td><td>0.558</td><td>0.149</td><td>0.218</td><td>0.680</td><td>7.180</td><td>0.00e+00</td><td>65.64</td><td>0.5680</td><td>1</td><td><a href='/show/index.html?id=R1203_model_2'>-></a></td></tr>
+<tr><td>model</td><td>1</td><td>12.352</td><td>20.636</td><td>0.599</td><td>0.422</td><td>0.000</td><td>0.690</td><td>8.340</td><td>0.00e+00</td><td>67.65</td><td>0.5640</td><td>1</td><td><a href='/show/index.html?id=R1203_model_1'>-></a></td></tr>
+<tr><td>model</td><td>0</td><td>12.784</td><td>12.784</td><td>-1.000</td><td>-</td><td>-</td><td>-</td><td>8.570</td><td>0.00e+00</td><td>47.52</td><td>0.5780</td><td>1</td><td><a href='/show/index.html?id=R1203_model_0'>-></a></td></tr>
+
+</table>
+-: No true positive interaction in the predicted structure.
+</div>

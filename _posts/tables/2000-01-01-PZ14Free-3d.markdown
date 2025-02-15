@@ -1,0 +1,91 @@
+---
+layout: post
+title: "Puzzle PZ14Free table"
+date: 2000-01-01 00:00:01 +0000
+comments: false
+categories: 
+- table
+---
+
+<script src="{{ root_url }}/javascripts/sorttable.js"></script>
+<script>
+    window.onload = function() {
+        (document.getElementsByTagName( 'th' )[1]).click();
+    };
+</script>
+<br/>
+<div align="center">
+Please click the tags to sort data.<br/>
+<table class="sortable" border=1>
+  <tr>
+    <th>Lab</th>
+    <th>Num</th>
+    <th>RMSD</th>
+    <th>DI all</th>
+    <th>INF all</th>
+    <th>INF wc</th>
+    <th>INF nwc</th>
+    <th>INF stacking</th>
+    <th>Clash Score</th>
+    <th>P-value</th>
+    <th>mcq</th>
+    <th>TM-score</th>
+    <th>best sol.</th>
+    <th>Detail</th>
+  </tr>
+  <tr><td>DasPostExp</td><td>2</td><td>6.513</td><td>8.745</td><td>0.745</td><td>0.667</td><td>-</td><td>0.805</td><td>4.890</td><td>7.22e-16</td><td>24.52</td><td>0.3930</td><td>2</td><td><a href='/show/index.html?id=PZ14Free_DasPostExp_2'>-></a></td></tr>
+<tr><td>DasPostExp</td><td>6</td><td>6.895</td><td>8.192</td><td>0.842</td><td>0.800</td><td>0.750</td><td>0.865</td><td>11.410</td><td>3.94e-15</td><td>20.93</td><td>0.4060</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_DasPostExp_6'>-></a></td></tr>
+<tr><td>DasPreExp</td><td>1</td><td>6.895</td><td>8.192</td><td>0.842</td><td>0.800</td><td>0.750</td><td>0.865</td><td>11.410</td><td>3.94e-15</td><td>20.93</td><td>0.4060</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_DasPreExp_1'>-></a></td></tr>
+<tr><td>DingPostExp</td><td>8</td><td>7.063</td><td>9.777</td><td>0.722</td><td>0.933</td><td>-</td><td>0.671</td><td>14.130</td><td>8.16e-15</td><td>25.79</td><td>0.2840</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_DingPostExp_8'>-></a></td></tr>
+<tr><td>DasPostExp</td><td>3</td><td>7.065</td><td>8.451</td><td>0.836</td><td>0.775</td><td>0.866</td><td>0.857</td><td>4.350</td><td>8.27e-15</td><td>22.02</td><td>0.3780</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_DasPostExp_3'>-></a></td></tr>
+<tr><td>DingPostExp</td><td>9</td><td>7.199</td><td>11.003</td><td>0.654</td><td>0.901</td><td>-</td><td>0.559</td><td>10.870</td><td>1.47e-14</td><td>26.38</td><td>0.2590</td><td>2</td><td><a href='/show/index.html?id=PZ14Free_DingPostExp_9'>-></a></td></tr>
+<tr><td>DingPostExp</td><td>6</td><td>7.543</td><td>11.204</td><td>0.673</td><td>0.801</td><td>-</td><td>0.627</td><td>11.960</td><td>6.34e-14</td><td>23.91</td><td>0.2870</td><td>2</td><td><a href='/show/index.html?id=PZ14Free_DingPostExp_6'>-></a></td></tr>
+<tr><td>DasPreExp</td><td>9</td><td>8.382</td><td>10.386</td><td>0.807</td><td>0.828</td><td>0.866</td><td>0.795</td><td>3.800</td><td>1.91e-12</td><td>22.68</td><td>0.3360</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_DasPreExp_9'>-></a></td></tr>
+<tr><td>DasPostExp</td><td>5</td><td>8.658</td><td>11.144</td><td>0.777</td><td>0.733</td><td>0.750</td><td>0.795</td><td>5.980</td><td>5.59e-12</td><td>22.57</td><td>0.3570</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_DasPostExp_5'>-></a></td></tr>
+<tr><td>DingPostExp</td><td>4</td><td>8.719</td><td>13.052</td><td>0.668</td><td>0.968</td><td>-</td><td>0.573</td><td>11.410</td><td>7.07e-12</td><td>25.31</td><td>0.2940</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_DingPostExp_4'>-></a></td></tr>
+<tr><td>DingPreExp</td><td>4</td><td>8.931</td><td>12.261</td><td>0.728</td><td>0.933</td><td>-</td><td>0.682</td><td>16.850</td><td>1.58e-11</td><td>25.68</td><td>0.3210</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_DingPreExp_4'>-></a></td></tr>
+<tr><td>ChenPostExp</td><td>2</td><td>9.356</td><td>11.673</td><td>0.801</td><td>0.966</td><td>0.000</td><td>0.801</td><td>5.430</td><td>7.63e-11</td><td>26.75</td><td>0.2870</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_ChenPostExp_2'>-></a></td></tr>
+<tr><td>DingPreExp</td><td>1</td><td>9.507</td><td>14.140</td><td>0.672</td><td>0.820</td><td>0.000</td><td>0.662</td><td>11.410</td><td>1.32e-10</td><td>23.90</td><td>0.2830</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_DingPreExp_1'>-></a></td></tr>
+<tr><td>DasPostExp</td><td>10</td><td>9.775</td><td>12.464</td><td>0.784</td><td>0.775</td><td>0.750</td><td>0.791</td><td>5.980</td><td>3.42e-10</td><td>23.84</td><td>0.2940</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_DasPostExp_10'>-></a></td></tr>
+<tr><td>DasPreExp</td><td>5</td><td>9.775</td><td>12.464</td><td>0.784</td><td>0.775</td><td>0.750</td><td>0.791</td><td>5.980</td><td>3.42e-10</td><td>23.84</td><td>0.2940</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_DasPreExp_5'>-></a></td></tr>
+<tr><td>DingPostExp</td><td>10</td><td>10.069</td><td>13.734</td><td>0.733</td><td>0.859</td><td>-</td><td>0.687</td><td>9.240</td><td>9.49e-10</td><td>24.73</td><td>0.2310</td><td>2</td><td><a href='/show/index.html?id=PZ14Free_DingPostExp_10'>-></a></td></tr>
+<tr><td>DasPreExp</td><td>3</td><td>10.086</td><td>13.980</td><td>0.721</td><td>0.741</td><td>-</td><td>0.741</td><td>7.070</td><td>1.01e-09</td><td>22.79</td><td>0.2820</td><td>2</td><td><a href='/show/index.html?id=PZ14Free_DasPreExp_3'>-></a></td></tr>
+<tr><td>ChenPostExp</td><td>5</td><td>10.563</td><td>13.252</td><td>0.797</td><td>0.933</td><td>-</td><td>0.786</td><td>1.630</td><td>4.96e-09</td><td>26.32</td><td>0.3290</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_ChenPostExp_5'>-></a></td></tr>
+<tr><td>ChenPostExp</td><td>6</td><td>11.337</td><td>14.850</td><td>0.763</td><td>0.897</td><td>-</td><td>0.751</td><td>4.890</td><td>5.74e-08</td><td>24.00</td><td>0.3010</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_ChenPostExp_6'>-></a></td></tr>
+<tr><td>DasPostExp</td><td>7</td><td>11.406</td><td>14.134</td><td>0.807</td><td>0.828</td><td>0.866</td><td>0.795</td><td>3.800</td><td>7.06e-08</td><td>22.33</td><td>0.3220</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_DasPostExp_7'>-></a></td></tr>
+<tr><td>DasPreExp</td><td>2</td><td>11.406</td><td>14.134</td><td>0.807</td><td>0.828</td><td>0.866</td><td>0.795</td><td>3.800</td><td>7.06e-08</td><td>22.33</td><td>0.3220</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_DasPreExp_2'>-></a></td></tr>
+<tr><td>DasPostExp</td><td>4</td><td>11.467</td><td>15.409</td><td>0.744</td><td>0.693</td><td>-</td><td>0.796</td><td>7.070</td><td>8.48e-08</td><td>23.10</td><td>0.3350</td><td>2</td><td><a href='/show/index.html?id=PZ14Free_DasPostExp_4'>-></a></td></tr>
+<tr><td>BujnickiPreExp</td><td>3</td><td>11.601</td><td>14.996</td><td>0.774</td><td>0.859</td><td>-</td><td>0.764</td><td>8.150</td><td>1.26e-07</td><td>21.84</td><td>0.3050</td><td>2</td><td><a href='/show/index.html?id=PZ14Free_BujnickiPreExp_3'>-></a></td></tr>
+<tr><td>DasPostExp</td><td>9</td><td>11.749</td><td>15.827</td><td>0.742</td><td>0.839</td><td>0.354</td><td>0.736</td><td>6.520</td><td>1.96e-07</td><td>24.04</td><td>0.2340</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_DasPostExp_9'>-></a></td></tr>
+<tr><td>DasPreExp</td><td>10</td><td>11.749</td><td>15.827</td><td>0.742</td><td>0.839</td><td>0.354</td><td>0.736</td><td>6.520</td><td>1.96e-07</td><td>24.04</td><td>0.2340</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_DasPreExp_10'>-></a></td></tr>
+<tr><td>DingPostExp</td><td>3</td><td>12.600</td><td>17.045</td><td>0.739</td><td>0.897</td><td>-</td><td>0.714</td><td>15.760</td><td>2.11e-06</td><td>24.96</td><td>0.2670</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_DingPostExp_3'>-></a></td></tr>
+<tr><td>BujnickiPreExp</td><td>1</td><td>12.745</td><td>14.159</td><td>0.900</td><td>0.968</td><td>0.707</td><td>0.892</td><td>3.800</td><td>3.09e-06</td><td>23.08</td><td>0.3090</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_BujnickiPreExp_1'>-></a></td></tr>
+<tr><td>ChenPostExp</td><td>7</td><td>13.114</td><td>17.821</td><td>0.736</td><td>0.859</td><td>-</td><td>0.693</td><td>5.430</td><td>7.98e-06</td><td>24.56</td><td>0.3000</td><td>2</td><td><a href='/show/index.html?id=PZ14Free_ChenPostExp_7'>-></a></td></tr>
+<tr><td>BujnickiPostExp</td><td>1</td><td>13.240</td><td>16.687</td><td>0.793</td><td>0.889</td><td>0.866</td><td>0.751</td><td>11.410</td><td>1.09e-05</td><td>24.73</td><td>0.2600</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_BujnickiPostExp_1'>-></a></td></tr>
+<tr><td>DasPostExp</td><td>1</td><td>13.279</td><td>17.400</td><td>0.763</td><td>0.828</td><td>0.707</td><td>0.747</td><td>10.870</td><td>1.20e-05</td><td>25.34</td><td>0.2740</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_DasPostExp_1'>-></a></td></tr>
+<tr><td>DasPreExp</td><td>6</td><td>13.279</td><td>17.400</td><td>0.763</td><td>0.828</td><td>0.707</td><td>0.747</td><td>10.870</td><td>1.20e-05</td><td>25.34</td><td>0.2740</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_DasPreExp_6'>-></a></td></tr>
+<tr><td>BujnickiPreExp</td><td>4</td><td>13.897</td><td>20.827</td><td>0.667</td><td>0.866</td><td>-</td><td>0.617</td><td>7.610</td><td>5.23e-05</td><td>25.83</td><td>0.1840</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_BujnickiPreExp_4'>-></a></td></tr>
+<tr><td>ChenPostExp</td><td>10</td><td>14.796</td><td>19.432</td><td>0.761</td><td>0.901</td><td>-</td><td>0.723</td><td>3.800</td><td>3.62e-04</td><td>23.73</td><td>0.3270</td><td>2</td><td><a href='/show/index.html?id=PZ14Free_ChenPostExp_10'>-></a></td></tr>
+<tr><td>BujnickiPostExp</td><td>2</td><td>15.094</td><td>19.248</td><td>0.784</td><td>0.904</td><td>0.707</td><td>0.751</td><td>19.570</td><td>6.53e-04</td><td>23.32</td><td>0.2600</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_BujnickiPostExp_2'>-></a></td></tr>
+<tr><td>DasPreExp</td><td>8</td><td>15.825</td><td>20.028</td><td>0.790</td><td>0.828</td><td>0.866</td><td>0.771</td><td>3.800</td><td>2.49e-03</td><td>22.59</td><td>0.2980</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_DasPreExp_8'>-></a></td></tr>
+<tr><td>BujnickiPostExp</td><td>3</td><td>15.983</td><td>24.362</td><td>0.656</td><td>0.866</td><td>-</td><td>0.600</td><td>11.410</td><td>3.25e-03</td><td>24.16</td><td>0.1940</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_BujnickiPostExp_3'>-></a></td></tr>
+<tr><td>DasPreExp</td><td>7</td><td>16.446</td><td>23.380</td><td>0.703</td><td>0.716</td><td>-</td><td>0.734</td><td>5.430</td><td>6.88e-03</td><td>23.34</td><td>0.2550</td><td>2</td><td><a href='/show/index.html?id=PZ14Free_DasPreExp_7'>-></a></td></tr>
+<tr><td>DingPostExp</td><td>1</td><td>16.461</td><td>22.701</td><td>0.725</td><td>0.933</td><td>-</td><td>0.683</td><td>13.590</td><td>7.03e-03</td><td>22.65</td><td>0.2570</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_DingPostExp_1'>-></a></td></tr>
+<tr><td>ChenPostExp</td><td>1</td><td>16.851</td><td>25.041</td><td>0.673</td><td>0.859</td><td>-</td><td>0.608</td><td>5.430</td><td>1.26e-02</td><td>25.26</td><td>0.3010</td><td>2</td><td><a href='/show/index.html?id=PZ14Free_ChenPostExp_1'>-></a></td></tr>
+<tr><td>DingPostExp</td><td>7</td><td>17.081</td><td>24.719</td><td>0.691</td><td>0.968</td><td>-</td><td>0.610</td><td>10.330</td><td>1.74e-02</td><td>25.98</td><td>0.2990</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_DingPostExp_7'>-></a></td></tr>
+<tr><td>DingPostExp</td><td>5</td><td>17.190</td><td>24.341</td><td>0.706</td><td>0.933</td><td>-</td><td>0.648</td><td>8.150</td><td>2.02e-02</td><td>22.83</td><td>0.3110</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_DingPostExp_5'>-></a></td></tr>
+<tr><td>BujnickiPreExp</td><td>2</td><td>17.217</td><td>20.536</td><td>0.838</td><td>0.968</td><td>0.500</td><td>0.815</td><td>8.150</td><td>2.09e-02</td><td>24.43</td><td>0.2970</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_BujnickiPreExp_2'>-></a></td></tr>
+<tr><td>DingPreExp</td><td>2</td><td>17.758</td><td>24.158</td><td>0.735</td><td>0.968</td><td>-</td><td>0.678</td><td>9.780</td><td>4.14e-02</td><td>25.46</td><td>0.2550</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_DingPreExp_2'>-></a></td></tr>
+<tr><td>BujnickiPostExp</td><td>4</td><td>17.978</td><td>23.246</td><td>0.773</td><td>0.939</td><td>0.500</td><td>0.732</td><td>15.220</td><td>5.34e-02</td><td>30.15</td><td>0.2310</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_BujnickiPostExp_4'>-></a></td></tr>
+<tr><td>DingPostExp</td><td>2</td><td>18.381</td><td>25.503</td><td>0.721</td><td>0.897</td><td>-</td><td>0.688</td><td>12.500</td><td>8.25e-02</td><td>24.68</td><td>0.2050</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_DingPostExp_2'>-></a></td></tr>
+<tr><td>ChenPostExp</td><td>8</td><td>18.560</td><td>24.289</td><td>0.764</td><td>0.859</td><td>-</td><td>0.741</td><td>4.350</td><td>9.87e-02</td><td>23.63</td><td>0.3210</td><td>2</td><td><a href='/show/index.html?id=PZ14Free_ChenPostExp_8'>-></a></td></tr>
+<tr><td>ChenPostExp</td><td>9</td><td>18.837</td><td>24.044</td><td>0.783</td><td>0.933</td><td>0.000</td><td>0.777</td><td>5.430</td><td>1.28e-01</td><td>23.70</td><td>0.3130</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_ChenPostExp_9'>-></a></td></tr>
+<tr><td>ChenPostExp</td><td>4</td><td>18.944</td><td>22.997</td><td>0.824</td><td>0.933</td><td>0.707</td><td>0.795</td><td>1.090</td><td>1.41e-01</td><td>26.60</td><td>0.3290</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_ChenPostExp_4'>-></a></td></tr>
+<tr><td>DasPostExp</td><td>8</td><td>19.765</td><td>25.006</td><td>0.790</td><td>0.828</td><td>0.750</td><td>0.782</td><td>5.430</td><td>2.68e-01</td><td>24.30</td><td>0.3180</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_DasPostExp_8'>-></a></td></tr>
+<tr><td>DasPreExp</td><td>4</td><td>19.765</td><td>25.006</td><td>0.790</td><td>0.828</td><td>0.750</td><td>0.782</td><td>5.430</td><td>2.68e-01</td><td>24.30</td><td>0.3180</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_DasPreExp_4'>-></a></td></tr>
+<tr><td>DingPreExp</td><td>3</td><td>20.170</td><td>28.241</td><td>0.714</td><td>0.933</td><td>-</td><td>0.659</td><td>13.040</td><td>3.46e-01</td><td>24.98</td><td>0.2790</td><td>1</td><td><a href='/show/index.html?id=PZ14Free_DingPreExp_3'>-></a></td></tr>
+<tr><td>ChenPostExp</td><td>3</td><td>21.793</td><td>30.467</td><td>0.715</td><td>0.859</td><td>-</td><td>0.700</td><td>3.800</td><td>6.94e-01</td><td>21.05</td><td>0.3420</td><td>2</td><td><a href='/show/index.html?id=PZ14Free_ChenPostExp_3'>-></a></td></tr>
+
+</table>
+-: No true positive interaction in the predicted structure.
+</div>

@@ -1,0 +1,90 @@
+---
+layout: post
+title: "Puzzle PZ35 table"
+date: 2000-01-01 00:00:01 +0000
+comments: false
+categories: 
+- table
+---
+
+<script src="{{ root_url }}/javascripts/sorttable.js"></script>
+<script>
+    window.onload = function() {
+        (document.getElementsByTagName( 'th' )[1]).click();
+    };
+</script>
+<br/>
+<div align="center">
+Please click the tags to sort data.<br/>
+<table class="sortable" border=1>
+  <tr>
+    <th>Lab</th>
+    <th>Num</th>
+    <th>RMSD</th>
+    <th>DI all</th>
+    <th>INF all</th>
+    <th>INF wc</th>
+    <th>INF nwc</th>
+    <th>INF stacking</th>
+    <th>Clash Score</th>
+    <th>P-value</th>
+    <th>mcq</th>
+    <th>TM-score</th>
+    <th>best sol.</th>
+    <th>Detail</th>
+  </tr>
+  <tr><td>Bujnicki</td><td>3</td><td>5.982</td><td>7.899</td><td>0.757</td><td>0.854</td><td>-</td><td>0.729</td><td>27.550</td><td>0.00e+00</td><td>22.58</td><td>0.3970</td><td>1</td><td><a href='/show/index.html?id=PZ35_Bujnicki_3'>-></a></td></tr>
+<tr><td>Chen</td><td>5</td><td>6.498</td><td>8.284</td><td>0.784</td><td>0.836</td><td>-</td><td>0.766</td><td>0.000</td><td>0.00e+00</td><td>22.48</td><td>0.4100</td><td>1</td><td><a href='/show/index.html?id=PZ35_Chen_5'>-></a></td></tr>
+<tr><td>Chen</td><td>7</td><td>6.556</td><td>8.357</td><td>0.784</td><td>0.836</td><td>-</td><td>0.766</td><td>0.000</td><td>0.00e+00</td><td>22.63</td><td>0.4040</td><td>1</td><td><a href='/show/index.html?id=PZ35_Chen_7'>-></a></td></tr>
+<tr><td>Chen</td><td>9</td><td>6.601</td><td>8.450</td><td>0.781</td><td>0.854</td><td>-</td><td>0.755</td><td>0.000</td><td>0.00e+00</td><td>22.61</td><td>0.4190</td><td>1</td><td><a href='/show/index.html?id=PZ35_Chen_9'>-></a></td></tr>
+<tr><td>Chen</td><td>2</td><td>6.646</td><td>8.417</td><td>0.790</td><td>0.854</td><td>-</td><td>0.766</td><td>0.000</td><td>0.00e+00</td><td>23.47</td><td>0.4160</td><td>1</td><td><a href='/show/index.html?id=PZ35_Chen_2'>-></a></td></tr>
+<tr><td>Chen</td><td>4</td><td>6.657</td><td>8.343</td><td>0.798</td><td>0.854</td><td>-</td><td>0.778</td><td>0.000</td><td>0.00e+00</td><td>23.41</td><td>0.4110</td><td>1</td><td><a href='/show/index.html?id=PZ35_Chen_4'>-></a></td></tr>
+<tr><td>Chen</td><td>1</td><td>6.797</td><td>8.608</td><td>0.790</td><td>0.874</td><td>-</td><td>0.759</td><td>0.000</td><td>0.00e+00</td><td>22.87</td><td>0.4160</td><td>1</td><td><a href='/show/index.html?id=PZ35_Chen_1'>-></a></td></tr>
+<tr><td>SimRNA</td><td>4</td><td>7.718</td><td>10.359</td><td>0.745</td><td>0.896</td><td>-</td><td>0.705</td><td>104.570</td><td>0.00e+00</td><td>26.96</td><td>0.3900</td><td>1</td><td><a href='/show/index.html?id=PZ35_SimRNA_4'>-></a></td></tr>
+<tr><td>SimRNA</td><td>5</td><td>7.791</td><td>10.712</td><td>0.727</td><td>0.836</td><td>-</td><td>0.687</td><td>118.790</td><td>0.00e+00</td><td>24.05</td><td>0.3540</td><td>1</td><td><a href='/show/index.html?id=PZ35_SimRNA_5'>-></a></td></tr>
+<tr><td>SimRNA</td><td>2</td><td>7.833</td><td>10.640</td><td>0.736</td><td>0.823</td><td>-</td><td>0.712</td><td>93.040</td><td>0.00e+00</td><td>21.49</td><td>0.3400</td><td>1</td><td><a href='/show/index.html?id=PZ35_SimRNA_2'>-></a></td></tr>
+<tr><td>SimRNA</td><td>1</td><td>8.054</td><td>11.227</td><td>0.717</td><td>0.804</td><td>-</td><td>0.692</td><td>109.860</td><td>0.00e+00</td><td>28.23</td><td>0.3570</td><td>1</td><td><a href='/show/index.html?id=PZ35_SimRNA_1'>-></a></td></tr>
+<tr><td>Szachniuk</td><td>4</td><td>8.804</td><td>13.374</td><td>0.658</td><td>0.648</td><td>-</td><td>0.673</td><td>0.000</td><td>1.11e-16</td><td>34.65</td><td>0.3240</td><td>1</td><td><a href='/show/index.html?id=PZ35_Szachniuk_4'>-></a></td></tr>
+<tr><td>SimRNA</td><td>3</td><td>11.536</td><td>14.769</td><td>0.781</td><td>0.843</td><td>-</td><td>0.766</td><td>85.820</td><td>9.62e-12</td><td>25.44</td><td>0.2950</td><td>1</td><td><a href='/show/index.html?id=PZ35_SimRNA_3'>-></a></td></tr>
+<tr><td>Szachniuk</td><td>3</td><td>13.111</td><td>17.902</td><td>0.732</td><td>0.669</td><td>-</td><td>0.763</td><td>0.900</td><td>2.67e-09</td><td>22.33</td><td>0.3230</td><td>1</td><td><a href='/show/index.html?id=PZ35_Szachniuk_3'>-></a></td></tr>
+<tr><td>Szachniuk</td><td>1</td><td>14.097</td><td>19.666</td><td>0.717</td><td>0.693</td><td>-</td><td>0.733</td><td>0.000</td><td>6.16e-08</td><td>24.40</td><td>0.3330</td><td>1</td><td><a href='/show/index.html?id=PZ35_Szachniuk_1'>-></a></td></tr>
+<tr><td>Szachniuk</td><td>2</td><td>14.112</td><td>19.516</td><td>0.723</td><td>0.719</td><td>-</td><td>0.733</td><td>0.000</td><td>6.43e-08</td><td>24.18</td><td>0.3300</td><td>1</td><td><a href='/show/index.html?id=PZ35_Szachniuk_2'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>5</td><td>14.742</td><td>21.736</td><td>0.678</td><td>0.800</td><td>-</td><td>0.635</td><td>97.840</td><td>4.11e-07</td><td>26.93</td><td>0.2400</td><td>1</td><td><a href='/show/index.html?id=PZ35_Bujnicki_5'>-></a></td></tr>
+<tr><td>Chen</td><td>8</td><td>15.308</td><td>21.386</td><td>0.716</td><td>0.648</td><td>-</td><td>0.746</td><td>0.000</td><td>1.96e-06</td><td>22.96</td><td>0.3350</td><td>1</td><td><a href='/show/index.html?id=PZ35_Chen_8'>-></a></td></tr>
+<tr><td>Ding</td><td>3</td><td>15.591</td><td>26.706</td><td>0.584</td><td>0.487</td><td>-</td><td>0.627</td><td>11.760</td><td>4.13e-06</td><td>26.98</td><td>0.2540</td><td>1</td><td><a href='/show/index.html?id=PZ35_Ding_3'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>1</td><td>16.050</td><td>21.047</td><td>0.763</td><td>0.800</td><td>-</td><td>0.758</td><td>44.260</td><td>1.31e-05</td><td>22.53</td><td>0.3410</td><td>1</td><td><a href='/show/index.html?id=PZ35_Bujnicki_1'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>1</td><td>16.161</td><td>26.089</td><td>0.619</td><td>0.693</td><td>-</td><td>0.594</td><td>0.460</td><td>1.72e-05</td><td>31.78</td><td>0.2940</td><td>1</td><td><a href='/show/index.html?id=PZ35_Dokholyan_1'>-></a></td></tr>
+<tr><td>Chen</td><td>10</td><td>16.439</td><td>23.311</td><td>0.705</td><td>0.648</td><td>-</td><td>0.731</td><td>0.000</td><td>3.33e-05</td><td>23.92</td><td>0.3380</td><td>1</td><td><a href='/show/index.html?id=PZ35_Chen_10'>-></a></td></tr>
+<tr><td>Ding</td><td>1</td><td>16.495</td><td>28.907</td><td>0.571</td><td>0.457</td><td>-</td><td>0.622</td><td>12.660</td><td>3.81e-05</td><td>29.37</td><td>0.2250</td><td>1</td><td><a href='/show/index.html?id=PZ35_Ding_1'>-></a></td></tr>
+<tr><td>Chen</td><td>6</td><td>16.513</td><td>22.948</td><td>0.720</td><td>0.648</td><td>-</td><td>0.750</td><td>0.000</td><td>3.97e-05</td><td>23.74</td><td>0.3290</td><td>1</td><td><a href='/show/index.html?id=PZ35_Chen_6'>-></a></td></tr>
+<tr><td>Nithin</td><td>5</td><td>16.626</td><td>20.980</td><td>0.792</td><td>0.743</td><td>-</td><td>0.810</td><td>19.940</td><td>5.14e-05</td><td>26.01</td><td>0.2870</td><td>1</td><td><a href='/show/index.html?id=PZ35_Nithin_5'>-></a></td></tr>
+<tr><td>Ding</td><td>4</td><td>16.735</td><td>29.605</td><td>0.565</td><td>0.457</td><td>-</td><td>0.617</td><td>11.760</td><td>6.58e-05</td><td>28.82</td><td>0.2290</td><td>1</td><td><a href='/show/index.html?id=PZ35_Ding_4'>-></a></td></tr>
+<tr><td>Ding</td><td>7</td><td>16.852</td><td>28.974</td><td>0.582</td><td>0.471</td><td>-</td><td>0.627</td><td>11.760</td><td>8.56e-05</td><td>26.69</td><td>0.3140</td><td>1</td><td><a href='/show/index.html?id=PZ35_Ding_7'>-></a></td></tr>
+<tr><td>Ding</td><td>2</td><td>17.067</td><td>33.211</td><td>0.514</td><td>0.457</td><td>-</td><td>0.543</td><td>8.590</td><td>1.37e-04</td><td>28.96</td><td>0.2220</td><td>1</td><td><a href='/show/index.html?id=PZ35_Ding_2'>-></a></td></tr>
+<tr><td>Chen</td><td>3</td><td>17.203</td><td>24.395</td><td>0.705</td><td>0.629</td><td>-</td><td>0.731</td><td>0.000</td><td>1.83e-04</td><td>23.91</td><td>0.3400</td><td>1</td><td><a href='/show/index.html?id=PZ35_Chen_3'>-></a></td></tr>
+<tr><td>Ding</td><td>5</td><td>17.425</td><td>30.825</td><td>0.565</td><td>0.412</td><td>-</td><td>0.631</td><td>13.570</td><td>2.91e-04</td><td>25.96</td><td>0.2150</td><td>1</td><td><a href='/show/index.html?id=PZ35_Ding_5'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>2</td><td>17.573</td><td>22.861</td><td>0.769</td><td>0.800</td><td>-</td><td>0.758</td><td>110.510</td><td>3.93e-04</td><td>24.54</td><td>0.2890</td><td>1</td><td><a href='/show/index.html?id=PZ35_Bujnicki_2'>-></a></td></tr>
+<tr><td>Ding</td><td>6</td><td>17.722</td><td>33.650</td><td>0.527</td><td>0.457</td><td>-</td><td>0.557</td><td>17.640</td><td>5.28e-04</td><td>26.69</td><td>0.2190</td><td>1</td><td><a href='/show/index.html?id=PZ35_Ding_6'>-></a></td></tr>
+<tr><td>Nithin</td><td>3</td><td>17.836</td><td>24.049</td><td>0.742</td><td>0.722</td><td>-</td><td>0.751</td><td>2.270</td><td>6.60e-04</td><td>24.91</td><td>0.2320</td><td>1</td><td><a href='/show/index.html?id=PZ35_Nithin_3'>-></a></td></tr>
+<tr><td>Nithin</td><td>1</td><td>17.991</td><td>24.052</td><td>0.748</td><td>0.730</td><td>-</td><td>0.754</td><td>7.710</td><td>8.87e-04</td><td>27.15</td><td>0.2290</td><td>1</td><td><a href='/show/index.html?id=PZ35_Nithin_1'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>3</td><td>18.095</td><td>25.765</td><td>0.702</td><td>0.825</td><td>-</td><td>0.656</td><td>15.830</td><td>1.08e-03</td><td>26.99</td><td>0.3000</td><td>1</td><td><a href='/show/index.html?id=PZ35_RNAComposer_3'>-></a></td></tr>
+<tr><td>Nithin</td><td>2</td><td>18.121</td><td>24.528</td><td>0.739</td><td>0.766</td><td>-</td><td>0.729</td><td>3.630</td><td>1.13e-03</td><td>26.25</td><td>0.2230</td><td>1</td><td><a href='/show/index.html?id=PZ35_Nithin_2'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>1</td><td>18.170</td><td>28.349</td><td>0.641</td><td>0.719</td><td>-</td><td>0.612</td><td>16.730</td><td>1.24e-03</td><td>29.09</td><td>0.2820</td><td>1</td><td><a href='/show/index.html?id=PZ35_RNAComposer_1'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>4</td><td>18.570</td><td>25.730</td><td>0.722</td><td>0.825</td><td>-</td><td>0.683</td><td>12.210</td><td>2.52e-03</td><td>25.74</td><td>0.2740</td><td>1</td><td><a href='/show/index.html?id=PZ35_RNAComposer_4'>-></a></td></tr>
+<tr><td>Nithin</td><td>4</td><td>19.561</td><td>27.271</td><td>0.717</td><td>0.730</td><td>-</td><td>0.713</td><td>10.410</td><td>1.21e-02</td><td>25.19</td><td>0.2390</td><td>1</td><td><a href='/show/index.html?id=PZ35_Nithin_4'>-></a></td></tr>
+<tr><td>Dfold2</td><td>8</td><td>20.146</td><td>35.738</td><td>0.564</td><td>0.183</td><td>-</td><td>0.687</td><td>96.880</td><td>2.69e-02</td><td>27.94</td><td>0.2330</td><td>1</td><td><a href='/show/index.html?id=PZ35_Dfold2_8'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>5</td><td>20.246</td><td>28.432</td><td>0.712</td><td>0.825</td><td>-</td><td>0.670</td><td>10.400</td><td>3.05e-02</td><td>27.52</td><td>0.2930</td><td>1</td><td><a href='/show/index.html?id=PZ35_RNAComposer_5'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>4</td><td>20.382</td><td>28.399</td><td>0.718</td><td>0.730</td><td>-</td><td>0.714</td><td>161.120</td><td>3.61e-02</td><td>25.07</td><td>0.3000</td><td>1</td><td><a href='/show/index.html?id=PZ35_Bujnicki_4'>-></a></td></tr>
+<tr><td>Dfold2</td><td>5</td><td>20.911</td><td>42.103</td><td>0.497</td><td>0.000</td><td>-</td><td>0.661</td><td>109.250</td><td>6.64e-02</td><td>25.23</td><td>0.2500</td><td>1</td><td><a href='/show/index.html?id=PZ35_Dfold2_5'>-></a></td></tr>
+<tr><td>Dfold2</td><td>1</td><td>20.943</td><td>43.569</td><td>0.481</td><td>0.000</td><td>-</td><td>0.644</td><td>13.120</td><td>6.87e-02</td><td>24.06</td><td>0.2490</td><td>1</td><td><a href='/show/index.html?id=PZ35_Dfold2_1'>-></a></td></tr>
+<tr><td>Dfold2</td><td>6</td><td>24.265</td><td>47.517</td><td>0.511</td><td>0.211</td><td>-</td><td>0.622</td><td>140.140</td><td>6.41e-01</td><td>27.88</td><td>0.2610</td><td>1</td><td><a href='/show/index.html?id=PZ35_Dfold2_6'>-></a></td></tr>
+<tr><td>Dfold2</td><td>4</td><td>24.325</td><td>43.294</td><td>0.562</td><td>0.316</td><td>-</td><td>0.648</td><td>123.080</td><td>6.53e-01</td><td>26.12</td><td>0.2610</td><td>1</td><td><a href='/show/index.html?id=PZ35_Dfold2_4'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>2</td><td>24.936</td><td>41.271</td><td>0.604</td><td>0.612</td><td>-</td><td>0.610</td><td>2.310</td><td>7.68e-01</td><td>38.17</td><td>0.1630</td><td>1</td><td><a href='/show/index.html?id=PZ35_Dokholyan_2'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>2</td><td>25.815</td><td>42.206</td><td>0.612</td><td>0.693</td><td>-</td><td>0.582</td><td>13.570</td><td>8.89e-01</td><td>27.68</td><td>0.2610</td><td>1</td><td><a href='/show/index.html?id=PZ35_RNAComposer_2'>-></a></td></tr>
+<tr><td>Dfold2</td><td>7</td><td>28.883</td><td>64.084</td><td>0.451</td><td>0.000</td><td>-</td><td>0.610</td><td>93.990</td><td>9.98e-01</td><td>25.44</td><td>0.2080</td><td>1</td><td><a href='/show/index.html?id=PZ35_Dfold2_7'>-></a></td></tr>
+<tr><td>Dfold2</td><td>3</td><td>30.185</td><td>56.478</td><td>0.534</td><td>0.000</td><td>-</td><td>0.722</td><td>153.430</td><td>1.00e+00</td><td>24.23</td><td>0.2070</td><td>1</td><td><a href='/show/index.html?id=PZ35_Dfold2_3'>-></a></td></tr>
+<tr><td>Dfold2</td><td>2</td><td>31.398</td><td>64.905</td><td>0.484</td><td>0.000</td><td>-</td><td>0.661</td><td>104.120</td><td>1.00e+00</td><td>25.45</td><td>0.2720</td><td>1</td><td><a href='/show/index.html?id=PZ35_Dfold2_2'>-></a></td></tr>
+
+</table>
+-: No true positive interaction in the predicted structure.
+</div>

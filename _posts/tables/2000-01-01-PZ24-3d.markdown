@@ -1,0 +1,129 @@
+---
+layout: post
+title: "Puzzle PZ24 table"
+date: 2000-01-01 00:00:01 +0000
+comments: false
+categories: 
+- table
+---
+
+<script src="{{ root_url }}/javascripts/sorttable.js"></script>
+<script>
+    window.onload = function() {
+        (document.getElementsByTagName( 'th' )[1]).click();
+    };
+</script>
+<br/>
+<div align="center">
+Please click the tags to sort data.<br/>
+<table class="sortable" border=1>
+  <tr>
+    <th>Lab</th>
+    <th>Num</th>
+    <th>RMSD</th>
+    <th>DI all</th>
+    <th>INF all</th>
+    <th>INF wc</th>
+    <th>INF nwc</th>
+    <th>INF stacking</th>
+    <th>Clash Score</th>
+    <th>P-value</th>
+    <th>mcq</th>
+    <th>TM-score</th>
+    <th>best sol.</th>
+    <th>Detail</th>
+  </tr>
+  <tr><td>DasTFN</td><td>10</td><td>4.829</td><td>5.471</td><td>0.883</td><td>0.911</td><td>-</td><td>0.871</td><td>0.560</td><td>0.00e+00</td><td>16.20</td><td>0.5610</td><td>1</td><td><a href='/show/index.html?id=PZ24_DasTFN_10'>-></a></td></tr>
+<tr><td>DasTFN</td><td>6</td><td>6.570</td><td>8.165</td><td>0.805</td><td>0.891</td><td>-</td><td>0.760</td><td>4.200</td><td>0.00e+00</td><td>18.98</td><td>0.4860</td><td>1</td><td><a href='/show/index.html?id=PZ24_DasTFN_6'>-></a></td></tr>
+<tr><td>FARFAR2</td><td>9</td><td>7.680</td><td>8.863</td><td>0.867</td><td>0.911</td><td>-</td><td>0.846</td><td>1.120</td><td>0.00e+00</td><td>17.01</td><td>0.4650</td><td>1</td><td><a href='/show/index.html?id=PZ24_FARFAR2_9'>-></a></td></tr>
+<tr><td>DasTFN</td><td>9</td><td>8.915</td><td>10.373</td><td>0.859</td><td>0.913</td><td>-</td><td>0.834</td><td>2.240</td><td>0.00e+00</td><td>16.72</td><td>0.5060</td><td>1</td><td><a href='/show/index.html?id=PZ24_DasTFN_9'>-></a></td></tr>
+<tr><td>FARFAR2</td><td>6</td><td>8.915</td><td>10.373</td><td>0.859</td><td>0.913</td><td>-</td><td>0.834</td><td>2.240</td><td>0.00e+00</td><td>16.72</td><td>0.5060</td><td>1</td><td><a href='/show/index.html?id=PZ24_FARFAR2_6'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>2</td><td>9.752</td><td>11.074</td><td>0.881</td><td>0.913</td><td>-</td><td>0.865</td><td>0.280</td><td>0.00e+00</td><td>17.86</td><td>0.3480</td><td>1</td><td><a href='/show/index.html?id=PZ24_Bujnicki_2'>-></a></td></tr>
+<tr><td>Adamiak</td><td>5</td><td>9.850</td><td>11.846</td><td>0.831</td><td>0.911</td><td>-</td><td>0.789</td><td>11.470</td><td>0.00e+00</td><td>20.13</td><td>0.4130</td><td>1</td><td><a href='/show/index.html?id=PZ24_Adamiak_5'>-></a></td></tr>
+<tr><td>FARFAR2</td><td>10</td><td>10.134</td><td>11.911</td><td>0.851</td><td>0.923</td><td>-</td><td>0.826</td><td>3.080</td><td>0.00e+00</td><td>18.41</td><td>0.4270</td><td>1</td><td><a href='/show/index.html?id=PZ24_FARFAR2_10'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>2</td><td>10.209</td><td>12.579</td><td>0.812</td><td>0.922</td><td>-</td><td>0.758</td><td>12.030</td><td>0.00e+00</td><td>26.28</td><td>0.3990</td><td>1</td><td><a href='/show/index.html?id=PZ24_RNAComposer_2'>-></a></td></tr>
+<tr><td>Adamiak</td><td>1</td><td>10.272</td><td>12.796</td><td>0.803</td><td>0.886</td><td>-</td><td>0.760</td><td>10.920</td><td>0.00e+00</td><td>22.65</td><td>0.3630</td><td>1</td><td><a href='/show/index.html?id=PZ24_Adamiak_1'>-></a></td></tr>
+<tr><td>iFoldRNA</td><td>2</td><td>10.301</td><td>12.127</td><td>0.849</td><td>0.933</td><td>-</td><td>0.809</td><td>1.680</td><td>0.00e+00</td><td>20.36</td><td>0.3220</td><td>1</td><td><a href='/show/index.html?id=PZ24_iFoldRNA_2'>-></a></td></tr>
+<tr><td>DasTFN</td><td>8</td><td>10.620</td><td>12.167</td><td>0.873</td><td>0.903</td><td>-</td><td>0.863</td><td>5.600</td><td>0.00e+00</td><td>17.07</td><td>0.4070</td><td>1</td><td><a href='/show/index.html?id=PZ24_DasTFN_8'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>3</td><td>10.777</td><td>13.141</td><td>0.820</td><td>0.889</td><td>-</td><td>0.792</td><td>0.280</td><td>0.00e+00</td><td>20.24</td><td>0.3230</td><td>1</td><td><a href='/show/index.html?id=PZ24_Bujnicki_3'>-></a></td></tr>
+<tr><td>DasTFN</td><td>1</td><td>10.901</td><td>12.813</td><td>0.851</td><td>0.934</td><td>-</td><td>0.818</td><td>3.360</td><td>0.00e+00</td><td>18.95</td><td>0.4220</td><td>1</td><td><a href='/show/index.html?id=PZ24_DasTFN_1'>-></a></td></tr>
+<tr><td>Adamiak</td><td>2</td><td>10.936</td><td>13.972</td><td>0.783</td><td>0.910</td><td>-</td><td>0.713</td><td>14.550</td><td>0.00e+00</td><td>26.34</td><td>0.3300</td><td>1</td><td><a href='/show/index.html?id=PZ24_Adamiak_2'>-></a></td></tr>
+<tr><td>Vfold3D</td><td>5</td><td>11.033</td><td>13.159</td><td>0.838</td><td>0.967</td><td>-</td><td>0.774</td><td>5.040</td><td>0.00e+00</td><td>23.01</td><td>0.3580</td><td>1</td><td><a href='/show/index.html?id=PZ24_Vfold3D_5'>-></a></td></tr>
+<tr><td>FARFAR2</td><td>7</td><td>12.198</td><td>13.993</td><td>0.872</td><td>0.901</td><td>-</td><td>0.859</td><td>1.680</td><td>0.00e+00</td><td>15.99</td><td>0.3680</td><td>1</td><td><a href='/show/index.html?id=PZ24_FARFAR2_7'>-></a></td></tr>
+<tr><td>Vfold3D</td><td>2</td><td>12.787</td><td>15.488</td><td>0.826</td><td>0.989</td><td>-</td><td>0.739</td><td>5.040</td><td>0.00e+00</td><td>24.02</td><td>0.2640</td><td>1</td><td><a href='/show/index.html?id=PZ24_Vfold3D_2'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>4</td><td>12.830</td><td>15.609</td><td>0.822</td><td>0.956</td><td>-</td><td>0.751</td><td>8.400</td><td>0.00e+00</td><td>19.70</td><td>0.3760</td><td>1</td><td><a href='/show/index.html?id=PZ24_RNAComposer_4'>-></a></td></tr>
+<tr><td>FARFAR2</td><td>8</td><td>12.922</td><td>14.824</td><td>0.872</td><td>0.934</td><td>-</td><td>0.844</td><td>0.840</td><td>0.00e+00</td><td>13.88</td><td>0.3490</td><td>1</td><td><a href='/show/index.html?id=PZ24_FARFAR2_8'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>3</td><td>12.975</td><td>16.122</td><td>0.805</td><td>0.886</td><td>-</td><td>0.765</td><td>6.160</td><td>0.00e+00</td><td>20.64</td><td>0.3110</td><td>1</td><td><a href='/show/index.html?id=PZ24_RNAComposer_3'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>1</td><td>13.286</td><td>16.178</td><td>0.821</td><td>0.911</td><td>-</td><td>0.780</td><td>8.960</td><td>0.00e+00</td><td>21.13</td><td>0.3440</td><td>1</td><td><a href='/show/index.html?id=PZ24_RNAComposer_1'>-></a></td></tr>
+<tr><td>DasTFN</td><td>2</td><td>13.302</td><td>16.449</td><td>0.809</td><td>0.901</td><td>-</td><td>0.765</td><td>5.040</td><td>0.00e+00</td><td>20.41</td><td>0.4030</td><td>1</td><td><a href='/show/index.html?id=PZ24_DasTFN_2'>-></a></td></tr>
+<tr><td>FARFAR2</td><td>4</td><td>13.552</td><td>16.330</td><td>0.830</td><td>0.889</td><td>-</td><td>0.808</td><td>0.560</td><td>0.00e+00</td><td>15.12</td><td>0.3980</td><td>1</td><td><a href='/show/index.html?id=PZ24_FARFAR2_4'>-></a></td></tr>
+<tr><td>Das</td><td>7</td><td>13.633</td><td>15.515</td><td>0.879</td><td>0.989</td><td>-</td><td>0.832</td><td>1.400</td><td>0.00e+00</td><td>16.21</td><td>0.3450</td><td>1</td><td><a href='/show/index.html?id=PZ24_Das_7'>-></a></td></tr>
+<tr><td>VfoldLA</td><td>5</td><td>13.651</td><td>18.677</td><td>0.731</td><td>0.897</td><td>-</td><td>0.646</td><td>145.010</td><td>0.00e+00</td><td>24.63</td><td>0.3240</td><td>1</td><td><a href='/show/index.html?id=PZ24_VfoldLA_5'>-></a></td></tr>
+<tr><td>SimRNA</td><td>3</td><td>13.738</td><td>19.508</td><td>0.704</td><td>0.614</td><td>-</td><td>0.753</td><td>122.370</td><td>0.00e+00</td><td>20.07</td><td>0.3690</td><td>1</td><td><a href='/show/index.html?id=PZ24_SimRNA_3'>-></a></td></tr>
+<tr><td>Das</td><td>9</td><td>14.141</td><td>16.188</td><td>0.874</td><td>0.989</td><td>-</td><td>0.824</td><td>1.400</td><td>0.00e+00</td><td>16.43</td><td>0.3840</td><td>1</td><td><a href='/show/index.html?id=PZ24_Das_9'>-></a></td></tr>
+<tr><td>Vfold3D</td><td>4</td><td>14.196</td><td>17.810</td><td>0.797</td><td>0.921</td><td>-</td><td>0.734</td><td>3.080</td><td>0.00e+00</td><td>23.24</td><td>0.2460</td><td>1</td><td><a href='/show/index.html?id=PZ24_Vfold3D_4'>-></a></td></tr>
+<tr><td>VfoldLA</td><td>4</td><td>14.248</td><td>18.071</td><td>0.788</td><td>0.921</td><td>-</td><td>0.717</td><td>153.760</td><td>0.00e+00</td><td>24.59</td><td>0.2880</td><td>1</td><td><a href='/show/index.html?id=PZ24_VfoldLA_4'>-></a></td></tr>
+<tr><td>VfoldLA</td><td>3</td><td>14.323</td><td>19.395</td><td>0.738</td><td>0.847</td><td>-</td><td>0.683</td><td>159.380</td><td>0.00e+00</td><td>20.19</td><td>0.2890</td><td>1</td><td><a href='/show/index.html?id=PZ24_VfoldLA_3'>-></a></td></tr>
+<tr><td>Adamiak</td><td>3</td><td>14.372</td><td>17.595</td><td>0.817</td><td>0.922</td><td>-</td><td>0.760</td><td>10.360</td><td>0.00e+00</td><td>23.65</td><td>0.3720</td><td>1</td><td><a href='/show/index.html?id=PZ24_Adamiak_3'>-></a></td></tr>
+<tr><td>Das</td><td>5</td><td>14.377</td><td>16.287</td><td>0.883</td><td>0.989</td><td>-</td><td>0.838</td><td>1.400</td><td>0.00e+00</td><td>16.21</td><td>0.4100</td><td>1</td><td><a href='/show/index.html?id=PZ24_Das_5'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>5</td><td>14.583</td><td>17.706</td><td>0.824</td><td>0.899</td><td>-</td><td>0.791</td><td>5.040</td><td>0.00e+00</td><td>17.81</td><td>0.3060</td><td>1</td><td><a href='/show/index.html?id=PZ24_Bujnicki_5'>-></a></td></tr>
+<tr><td>Das</td><td>6</td><td>14.595</td><td>16.842</td><td>0.867</td><td>0.978</td><td>-</td><td>0.820</td><td>1.680</td><td>0.00e+00</td><td>17.04</td><td>0.3830</td><td>1</td><td><a href='/show/index.html?id=PZ24_Das_6'>-></a></td></tr>
+<tr><td>Vfold3D</td><td>1</td><td>14.738</td><td>17.249</td><td>0.854</td><td>0.967</td><td>-</td><td>0.798</td><td>2.800</td><td>0.00e+00</td><td>24.33</td><td>0.2350</td><td>1</td><td><a href='/show/index.html?id=PZ24_Vfold3D_1'>-></a></td></tr>
+<tr><td>Das</td><td>8</td><td>14.931</td><td>17.013</td><td>0.878</td><td>0.989</td><td>-</td><td>0.830</td><td>1.400</td><td>0.00e+00</td><td>17.00</td><td>0.3100</td><td>1</td><td><a href='/show/index.html?id=PZ24_Das_8'>-></a></td></tr>
+<tr><td>VfoldLA</td><td>1</td><td>14.997</td><td>19.672</td><td>0.762</td><td>0.872</td><td>-</td><td>0.706</td><td>146.040</td><td>0.00e+00</td><td>17.65</td><td>0.3020</td><td>1</td><td><a href='/show/index.html?id=PZ24_VfoldLA_1'>-></a></td></tr>
+<tr><td>Das</td><td>4</td><td>15.015</td><td>16.953</td><td>0.886</td><td>0.989</td><td>-</td><td>0.842</td><td>1.680</td><td>0.00e+00</td><td>15.95</td><td>0.3100</td><td>1</td><td><a href='/show/index.html?id=PZ24_Das_4'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>1</td><td>15.072</td><td>18.534</td><td>0.813</td><td>0.860</td><td>-</td><td>0.799</td><td>0.560</td><td>0.00e+00</td><td>20.20</td><td>0.3550</td><td>1</td><td><a href='/show/index.html?id=PZ24_Bujnicki_1'>-></a></td></tr>
+<tr><td>Adamiak</td><td>4</td><td>15.075</td><td>18.302</td><td>0.824</td><td>0.934</td><td>-</td><td>0.765</td><td>12.030</td><td>0.00e+00</td><td>22.52</td><td>0.3710</td><td>1</td><td><a href='/show/index.html?id=PZ24_Adamiak_4'>-></a></td></tr>
+<tr><td>VfoldLA</td><td>2</td><td>15.353</td><td>19.297</td><td>0.796</td><td>0.897</td><td>-</td><td>0.741</td><td>171.320</td><td>0.00e+00</td><td>21.29</td><td>0.2890</td><td>1</td><td><a href='/show/index.html?id=PZ24_VfoldLA_2'>-></a></td></tr>
+<tr><td>SimRNA</td><td>5</td><td>15.376</td><td>22.203</td><td>0.693</td><td>0.598</td><td>-</td><td>0.739</td><td>96.330</td><td>0.00e+00</td><td>20.58</td><td>0.2550</td><td>1</td><td><a href='/show/index.html?id=PZ24_SimRNA_5'>-></a></td></tr>
+<tr><td>3dRNA</td><td>1</td><td>15.445</td><td>19.008</td><td>0.813</td><td>0.834</td><td>-</td><td>0.807</td><td>0.280</td><td>0.00e+00</td><td>20.03</td><td>0.3880</td><td>1</td><td><a href='/show/index.html?id=PZ24_3dRNA_1'>-></a></td></tr>
+<tr><td>Vfold3D</td><td>3</td><td>15.497</td><td>18.788</td><td>0.825</td><td>0.978</td><td>-</td><td>0.741</td><td>1.960</td><td>0.00e+00</td><td>25.60</td><td>0.2950</td><td>1</td><td><a href='/show/index.html?id=PZ24_Vfold3D_3'>-></a></td></tr>
+<tr><td>3dRNA</td><td>4</td><td>15.572</td><td>19.114</td><td>0.815</td><td>0.921</td><td>-</td><td>0.764</td><td>0.000</td><td>0.00e+00</td><td>22.38</td><td>0.3570</td><td>1</td><td><a href='/show/index.html?id=PZ24_3dRNA_4'>-></a></td></tr>
+<tr><td>Das</td><td>1</td><td>15.942</td><td>18.000</td><td>0.886</td><td>0.989</td><td>-</td><td>0.842</td><td>1.400</td><td>0.00e+00</td><td>15.76</td><td>0.3920</td><td>1</td><td><a href='/show/index.html?id=PZ24_Das_1'>-></a></td></tr>
+<tr><td>Das</td><td>10</td><td>16.477</td><td>18.838</td><td>0.875</td><td>0.989</td><td>-</td><td>0.826</td><td>1.400</td><td>5.55e-17</td><td>16.05</td><td>0.3920</td><td>1</td><td><a href='/show/index.html?id=PZ24_Das_10'>-></a></td></tr>
+<tr><td>Das</td><td>3</td><td>16.765</td><td>19.079</td><td>0.879</td><td>0.989</td><td>-</td><td>0.832</td><td>1.400</td><td>1.66e-16</td><td>16.02</td><td>0.3190</td><td>1</td><td><a href='/show/index.html?id=PZ24_Das_3'>-></a></td></tr>
+<tr><td>DasTFN</td><td>3</td><td>16.774</td><td>20.140</td><td>0.833</td><td>0.911</td><td>-</td><td>0.796</td><td>1.680</td><td>1.66e-16</td><td>17.61</td><td>0.3530</td><td>1</td><td><a href='/show/index.html?id=PZ24_DasTFN_3'>-></a></td></tr>
+<tr><td>FARFAR2</td><td>1</td><td>16.774</td><td>20.140</td><td>0.833</td><td>0.911</td><td>-</td><td>0.796</td><td>1.680</td><td>1.66e-16</td><td>17.61</td><td>0.3530</td><td>1</td><td><a href='/show/index.html?id=PZ24_FARFAR2_1'>-></a></td></tr>
+<tr><td>DasTFN</td><td>7</td><td>16.785</td><td>19.555</td><td>0.858</td><td>0.901</td><td>-</td><td>0.838</td><td>5.880</td><td>2.22e-16</td><td>16.85</td><td>0.3520</td><td>1</td><td><a href='/show/index.html?id=PZ24_DasTFN_7'>-></a></td></tr>
+<tr><td>FARFAR2</td><td>2</td><td>16.866</td><td>20.354</td><td>0.829</td><td>0.923</td><td>-</td><td>0.783</td><td>0.280</td><td>2.78e-16</td><td>15.65</td><td>0.4160</td><td>1</td><td><a href='/show/index.html?id=PZ24_FARFAR2_2'>-></a></td></tr>
+<tr><td>RNAComposer</td><td>5</td><td>16.970</td><td>22.325</td><td>0.760</td><td>0.875</td><td>-</td><td>0.701</td><td>5.880</td><td>4.44e-16</td><td>21.63</td><td>0.3390</td><td>1</td><td><a href='/show/index.html?id=PZ24_RNAComposer_5'>-></a></td></tr>
+<tr><td>Das</td><td>2</td><td>17.264</td><td>19.493</td><td>0.886</td><td>0.989</td><td>-</td><td>0.842</td><td>1.400</td><td>1.78e-15</td><td>15.82</td><td>0.3560</td><td>1</td><td><a href='/show/index.html?id=PZ24_Das_2'>-></a></td></tr>
+<tr><td>3dRNA</td><td>3</td><td>18.225</td><td>21.627</td><td>0.843</td><td>0.909</td><td>-</td><td>0.813</td><td>0.000</td><td>1.09e-13</td><td>21.33</td><td>0.4230</td><td>1</td><td><a href='/show/index.html?id=PZ24_3dRNA_3'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>4</td><td>18.301</td><td>21.438</td><td>0.854</td><td>0.935</td><td>-</td><td>0.820</td><td>0.280</td><td>1.49e-13</td><td>18.86</td><td>0.2620</td><td>1</td><td><a href='/show/index.html?id=PZ24_Bujnicki_4'>-></a></td></tr>
+<tr><td>FARFAR2</td><td>5</td><td>18.405</td><td>21.770</td><td>0.845</td><td>0.911</td><td>-</td><td>0.816</td><td>0.840</td><td>2.28e-13</td><td>14.99</td><td>0.3470</td><td>1</td><td><a href='/show/index.html?id=PZ24_FARFAR2_5'>-></a></td></tr>
+<tr><td>3dRNA</td><td>5</td><td>18.421</td><td>22.018</td><td>0.837</td><td>0.897</td><td>-</td><td>0.809</td><td>1.120</td><td>2.43e-13</td><td>18.19</td><td>0.3550</td><td>1</td><td><a href='/show/index.html?id=PZ24_3dRNA_5'>-></a></td></tr>
+<tr><td>FARFAR2</td><td>3</td><td>19.079</td><td>21.887</td><td>0.872</td><td>0.911</td><td>-</td><td>0.855</td><td>0.560</td><td>3.37e-12</td><td>14.53</td><td>0.3870</td><td>1</td><td><a href='/show/index.html?id=PZ24_FARFAR2_3'>-></a></td></tr>
+<tr><td>Ding</td><td>6</td><td>19.105</td><td>29.472</td><td>0.648</td><td>0.590</td><td>-</td><td>0.676</td><td>11.470</td><td>3.72e-12</td><td>18.87</td><td>0.2380</td><td>1</td><td><a href='/show/index.html?id=PZ24_Ding_6'>-></a></td></tr>
+<tr><td>Ding</td><td>5</td><td>19.178</td><td>30.080</td><td>0.638</td><td>0.584</td><td>-</td><td>0.673</td><td>9.240</td><td>4.93e-12</td><td>18.23</td><td>0.2360</td><td>1</td><td><a href='/show/index.html?id=PZ24_Ding_5'>-></a></td></tr>
+<tr><td>iFoldRNA</td><td>1</td><td>19.395</td><td>23.284</td><td>0.833</td><td>0.944</td><td>-</td><td>0.778</td><td>0.840</td><td>1.13e-11</td><td>20.04</td><td>0.3030</td><td>1</td><td><a href='/show/index.html?id=PZ24_iFoldRNA_1'>-></a></td></tr>
+<tr><td>DasTFN</td><td>5</td><td>19.588</td><td>23.135</td><td>0.847</td><td>0.911</td><td>-</td><td>0.822</td><td>4.200</td><td>2.34e-11</td><td>16.18</td><td>0.3550</td><td>1</td><td><a href='/show/index.html?id=PZ24_DasTFN_5'>-></a></td></tr>
+<tr><td>Ding</td><td>10</td><td>19.616</td><td>30.471</td><td>0.644</td><td>0.602</td><td>-</td><td>0.665</td><td>8.120</td><td>2.60e-11</td><td>19.49</td><td>0.2770</td><td>1</td><td><a href='/show/index.html?id=PZ24_Ding_10'>-></a></td></tr>
+<tr><td>3dRNA</td><td>2</td><td>19.877</td><td>24.361</td><td>0.816</td><td>0.847</td><td>-</td><td>0.805</td><td>0.000</td><td>6.82e-11</td><td>21.22</td><td>0.3890</td><td>1</td><td><a href='/show/index.html?id=PZ24_3dRNA_2'>-></a></td></tr>
+<tr><td>Ding</td><td>1</td><td>19.910</td><td>32.223</td><td>0.618</td><td>0.584</td><td>-</td><td>0.636</td><td>7.560</td><td>7.70e-11</td><td>18.93</td><td>0.2440</td><td>1</td><td><a href='/show/index.html?id=PZ24_Ding_1'>-></a></td></tr>
+<tr><td>iFoldRNA</td><td>3</td><td>20.375</td><td>27.689</td><td>0.736</td><td>0.708</td><td>-</td><td>0.749</td><td>2.240</td><td>4.04e-10</td><td>20.91</td><td>0.3000</td><td>1</td><td><a href='/show/index.html?id=PZ24_iFoldRNA_3'>-></a></td></tr>
+<tr><td>Ding</td><td>3</td><td>20.590</td><td>32.633</td><td>0.631</td><td>0.584</td><td>-</td><td>0.654</td><td>13.150</td><td>8.52e-10</td><td>18.10</td><td>0.2710</td><td>1</td><td><a href='/show/index.html?id=PZ24_Ding_3'>-></a></td></tr>
+<tr><td>Ding</td><td>2</td><td>20.821</td><td>33.057</td><td>0.630</td><td>0.615</td><td>-</td><td>0.638</td><td>9.800</td><td>1.87e-09</td><td>18.71</td><td>0.2990</td><td>1</td><td><a href='/show/index.html?id=PZ24_Ding_2'>-></a></td></tr>
+<tr><td>Ding</td><td>9</td><td>21.018</td><td>31.917</td><td>0.659</td><td>0.602</td><td>-</td><td>0.685</td><td>10.080</td><td>3.60e-09</td><td>19.49</td><td>0.3020</td><td>1</td><td><a href='/show/index.html?id=PZ24_Ding_9'>-></a></td></tr>
+<tr><td>SimRNA</td><td>1</td><td>21.098</td><td>31.851</td><td>0.662</td><td>0.523</td><td>-</td><td>0.732</td><td>119.570</td><td>4.69e-09</td><td>22.44</td><td>0.2530</td><td>1</td><td><a href='/show/index.html?id=PZ24_SimRNA_1'>-></a></td></tr>
+<tr><td>DasTFN</td><td>4</td><td>21.887</td><td>26.548</td><td>0.824</td><td>0.899</td><td>-</td><td>0.790</td><td>1.960</td><td>5.69e-08</td><td>19.79</td><td>0.2590</td><td>1</td><td><a href='/show/index.html?id=PZ24_DasTFN_4'>-></a></td></tr>
+<tr><td>iFoldRNA</td><td>5</td><td>23.158</td><td>33.833</td><td>0.684</td><td>0.646</td><td>-</td><td>0.718</td><td>0.560</td><td>2.14e-06</td><td>21.02</td><td>0.2850</td><td>1</td><td><a href='/show/index.html?id=PZ24_iFoldRNA_5'>-></a></td></tr>
+<tr><td>Ding</td><td>8</td><td>23.969</td><td>38.184</td><td>0.628</td><td>0.602</td><td>-</td><td>0.642</td><td>9.520</td><td>1.69e-05</td><td>19.99</td><td>0.2730</td><td>1</td><td><a href='/show/index.html?id=PZ24_Ding_8'>-></a></td></tr>
+<tr><td>SimRNA</td><td>2</td><td>24.725</td><td>48.334</td><td>0.512</td><td>0.199</td><td>-</td><td>0.660</td><td>135.590</td><td>9.70e-05</td><td>21.48</td><td>0.2740</td><td>1</td><td><a href='/show/index.html?id=PZ24_SimRNA_2'>-></a></td></tr>
+<tr><td>Kollmann</td><td>2</td><td>25.155</td><td>40.804</td><td>0.616</td><td>0.491</td><td>-</td><td>0.698</td><td>129.870</td><td>2.44e-04</td><td>18.60</td><td>0.1980</td><td>1</td><td><a href='/show/index.html?id=PZ24_Kollmann_2'>-></a></td></tr>
+<tr><td>Ding</td><td>7</td><td>26.072</td><td>43.036</td><td>0.606</td><td>0.584</td><td>-</td><td>0.623</td><td>10.920</td><td>1.45e-03</td><td>18.96</td><td>0.3060</td><td>1</td><td><a href='/show/index.html?id=PZ24_Ding_7'>-></a></td></tr>
+<tr><td>SimRNA</td><td>4</td><td>26.224</td><td>42.707</td><td>0.614</td><td>0.396</td><td>-</td><td>0.721</td><td>98.660</td><td>1.90e-03</td><td>22.43</td><td>0.2120</td><td>1</td><td><a href='/show/index.html?id=PZ24_SimRNA_4'>-></a></td></tr>
+<tr><td>iFoldRNA</td><td>4</td><td>27.068</td><td>39.256</td><td>0.690</td><td>0.568</td><td>-</td><td>0.744</td><td>1.960</td><td>7.65e-03</td><td>21.39</td><td>0.2370</td><td>1</td><td><a href='/show/index.html?id=PZ24_iFoldRNA_4'>-></a></td></tr>
+<tr><td>Ding</td><td>4</td><td>27.557</td><td>39.396</td><td>0.699</td><td>0.590</td><td>-</td><td>0.748</td><td>12.590</td><td>1.57e-02</td><td>18.34</td><td>0.2920</td><td>1</td><td><a href='/show/index.html?id=PZ24_Ding_4'>-></a></td></tr>
+<tr><td>Kollmann</td><td>7</td><td>29.000</td><td>54.869</td><td>0.529</td><td>0.295</td><td>-</td><td>0.646</td><td>118.630</td><td>8.82e-02</td><td>20.34</td><td>0.2040</td><td>1</td><td><a href='/show/index.html?id=PZ24_Kollmann_7'>-></a></td></tr>
+<tr><td>Kollmann</td><td>9</td><td>29.579</td><td>61.015</td><td>0.485</td><td>0.199</td><td>-</td><td>0.622</td><td>104.140</td><td>1.52e-01</td><td>22.06</td><td>0.2220</td><td>1</td><td><a href='/show/index.html?id=PZ24_Kollmann_9'>-></a></td></tr>
+<tr><td>Kollmann</td><td>10</td><td>29.586</td><td>60.229</td><td>0.491</td><td>0.239</td><td>-</td><td>0.626</td><td>111.610</td><td>1.52e-01</td><td>20.56</td><td>0.1890</td><td>1</td><td><a href='/show/index.html?id=PZ24_Kollmann_10'>-></a></td></tr>
+<tr><td>Kollmann</td><td>1</td><td>30.154</td><td>46.229</td><td>0.652</td><td>0.541</td><td>-</td><td>0.718</td><td>115.980</td><td>2.39e-01</td><td>22.42</td><td>0.1820</td><td>1</td><td><a href='/show/index.html?id=PZ24_Kollmann_1'>-></a></td></tr>
+<tr><td>Kollmann</td><td>6</td><td>30.524</td><td>49.938</td><td>0.611</td><td>0.431</td><td>-</td><td>0.708</td><td>92.970</td><td>3.07e-01</td><td>18.85</td><td>0.1550</td><td>1</td><td><a href='/show/index.html?id=PZ24_Kollmann_6'>-></a></td></tr>
+<tr><td>Kollmann</td><td>4</td><td>32.088</td><td>54.910</td><td>0.584</td><td>0.469</td><td>-</td><td>0.646</td><td>123.770</td><td>6.42e-01</td><td>18.85</td><td>0.1650</td><td>1</td><td><a href='/show/index.html?id=PZ24_Kollmann_4'>-></a></td></tr>
+<tr><td>Kollmann</td><td>8</td><td>32.427</td><td>61.663</td><td>0.526</td><td>0.449</td><td>-</td><td>0.573</td><td>115.130</td><td>7.10e-01</td><td>16.64</td><td>0.1880</td><td>1</td><td><a href='/show/index.html?id=PZ24_Kollmann_8'>-></a></td></tr>
+<tr><td>Kollmann</td><td>5</td><td>32.523</td><td>50.612</td><td>0.643</td><td>0.622</td><td>-</td><td>0.658</td><td>119.920</td><td>7.28e-01</td><td>21.57</td><td>0.1650</td><td>1</td><td><a href='/show/index.html?id=PZ24_Kollmann_5'>-></a></td></tr>
+<tr><td>Kollmann</td><td>3</td><td>32.864</td><td>55.467</td><td>0.592</td><td>0.462</td><td>-</td><td>0.671</td><td>119.250</td><td>7.87e-01</td><td>20.10</td><td>0.2060</td><td>1</td><td><a href='/show/index.html?id=PZ24_Kollmann_3'>-></a></td></tr>
+
+</table>
+-: No true positive interaction in the predicted structure.
+</div>
