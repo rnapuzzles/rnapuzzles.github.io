@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Puzzle 5"
+date: 2017-11-18 20:41:37 +0000
+comments: false
+categories: 
+- results
+image: results/img5.png
+---
+**Sequence** (5' to 3'): 
+CAUCCGGUAUCCCAAGACAAUCUCGGGUUGGGUUGGGAAGUAUCAUGGCUAAUC
+ACCAUGAUGCAAUCGGGUUGAACACUUAAUUGGGUUAAAACGGUGGGGGACGAU
+CCCGUAACAUCCGUCCUAACGGCGACAGACUGCACGGCCCUGCCUCAGGUGUGU
+CCAAUGAACAGUCGUUCCGAAAGGAAG
+
+**Puzzle**:
+group I intron. 
+
+Crystal structure kindly provided by: [**Beno&Icirc;t Masquida**]()
+
+**Reference**:
+Mélanie Meyer, Henrik Nielsen, Vincent Oliéric, Pierre Roblin, Steinar D. Johansen, Eric Westhof and BenoÎt Masquida. 2014. Speciation of a group I intron into a lariat capping ribozyme. [PNAS.111(21):7659-64.](http://www.pnas.org/content/111/21/7659.long) 
+
+**PDB id**: [4p9r](http://www.rcsb.org/pdb/explore/explore.do?structureId=4p9r)
+
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ5/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ5-3d/)

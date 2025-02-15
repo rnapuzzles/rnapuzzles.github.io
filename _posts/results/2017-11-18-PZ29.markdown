@@ -1,0 +1,27 @@
+---
+layout: post
+title: "Puzzle 29"
+date: 2017-11-18 20:42:23 +0000
+comments: false
+categories: 
+- results
+image: results/PZ29.jpeg
+---
+**Sequence** (5' to 3'): 
+
+GGCUUCAACAACCCCGUAGGUUGGGCCGAAAGGCAGCGAAUCUACUGGAGCC
+
+**Puzzle**:
+NAD+ riboswitch (Candidatus Koribacter versatilis Ellin345)
+
+Crystal structure kindly provided by: [**Lin Huang**](http://jwz.syshospital.org/Item/468017.aspx)
+
+**Reference**:
+Structure and ligand binding of the ADP-binding domain of the NAD + riboswitch.
+[RNA (2020) 26: 878-887](https://www.ncbi.nlm.nih.gov/pubmed/?term=32295864)
+
+**PDB id**: [6tb7](http://www.rcsb.org/pdb/explore/explore.do?structureId=6tb7) 
+
+**Puzzle Submission/Deadline:** 2020.03.25/04.14
+
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ29/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ29-3d/)

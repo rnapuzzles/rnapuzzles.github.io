@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Puzzle 4"
+date: 2017-11-18 20:41:34 +0000
+comments: false
+categories: 
+- results
+image: results/img4.png
+---
+**Sequence** (5' to 3'): 
+GGCUUAUCAAGAGAGGUGGAGGGACUGGCCCGAUGAAACCCGGCAACCACUAGU
+CUAGCGUCAGCUUCGGCUGACGCUAGGCUAGUGGUGCCAAUUCCUGCAGCGGAA
+ACGUUGAAAGAUGAGCCA
+
+**Puzzle**:
+SAM-I riboswitch aptamer. 
+
+Crystal structure kindly provided by: [**Adrian Ferr&eacute;-D'amar&eacute;**](http://rna.nhlbi.nih.gov/)
+
+**Reference**:
+Baird NJ, Zhang J, Hamma T, Ferre-D'Amare AR. 2012. YbxF and YlxQ are bacterial homologs of L7Ae and bind K-turns but not K-loops. [RNA 18, 759-770.](http://rnajournal.cshlp.org/content/18/4/759.long)
+
+**PDB id**: [3v7e](http://www.rcsb.org/pdb/explore/explore.do?structureId=3v7e)
+
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ4/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ4-3d/)

@@ -1,0 +1,32 @@
+---
+layout: post
+title: "Puzzle 14"
+date: 2017-11-18 20:42:06 +0000
+comments: false
+categories: 
+- results
+image: results/img14.png
+---
+**Sequence** (5' to 3'):   
+Bound form:  
+CGUUGACCCAGGAAACUGGGCGGAAGUAAGGCCCAUUGCACUCCGGGCCUGAAG
+CAACGCG   
+Free form:  
+CGUUGGCCCAGGAAACUGGGUGGAAGUAAGGCCCAUUGCACUCCGGGCCUGAAG
+CAACGCU
+
+**Puzzle**:
+L-glutamine riboswitch. Predict both Free and Bound forms. 
+
+Crystal structure kindly provided by: [**Dinshaw Patel**](https://www.mskcc.org/research-areas/labs/dinshaw-patel)
+
+**Reference**:
+Aiming Ren, Yi Xue, Alla Peselis, Alexander Serganov, Hashim M. Al-Hashimi, Dinshaw J. Patel. Structural and Dynamic Basis for Low-Affinity, High- Selectivity Binding of L-Glutamine by the Glutamine Riboswitch. [Cell Rep. 2015 Dec 1;13(9):1800-13.](http://www.cell.com/cell-reports/abstract/S2211-1247(15)01251-6)
+
+**PDB id**: [5ddo](http://www.rcsb.org/pdb/explore/explore.do?structureId=5ddo)
+
+**Puzzle Submission/Deadline:** 2015.08.10/08.31
+
+**Bound Form:** [raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ14Bound/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ14Bound-3d/)
+
+**Free Form:** [raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ14Free/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ14Free-3d/)

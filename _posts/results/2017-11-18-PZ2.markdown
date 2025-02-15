@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Puzzle 2"
+date: 2017-11-18 20:41:24 +0000
+comments: false
+categories: 
+- results
+image: results/img2.png
+---
+**Sequence** (5' to 3'): 
+
+
+**Puzzle**:
+The crystal structure shows a 100 nt square that assembles from four inner and four outer strands. The secondary structure shown was used for the design of the square. Actual base pairing in the crystal may deviate. 3D coordinates of the nucleotides in the inner strands (B,D,F,H) were provided. What are the structures of the outer strands (A,C,E,G)? 
+
+Crystal structure kindly provided by: [**Thomas Hermann**](http://tch.ucsd.edu/TCH1.html)
+
+**Reference**:
+Dibrov SM, McLean J, Parsons J, Hermann T. 2011. Self-assembling RNA square. [PNAS 108, 6405-6408.](http://www.pnas.org/content/108/16/6405.short) 
+
+**PDB id**: [3p59](http://www.rcsb.org/pdb/explore/explore.do?structureId=3p59)
+
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ2/pdb)   &#124;   [Assessment results](/table/2000/01/01/PZ2-3d/)

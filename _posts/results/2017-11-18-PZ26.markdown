@@ -1,0 +1,39 @@
+---
+layout: post
+title: "Puzzle 26"
+date: 2017-11-18 20:42:23 +0000
+comments: false
+categories: 
+- results
+image: results/PZ26.jpg
+---
+**Sequence** (5' to 3'): 
+
+tRNA:    
+GCGGAAGTAGTTCAGTGGTAGAACACCACCTTGCCAAGGTGGGGGTCGCGGG
+TTCGAATCCCGTCTTCCGCTCCA
+
+T-box:    
+GAAAGUGGGUGCGCGUUUGGCGCAUCAACUCGGGUGGAACCGCGGGA
+GCUACGCUCUCGUCCCGAG
+
+
+**Puzzle**:
+T-box riboswitch - tRNA complex (Geobacillus kaustophilus glyQ)
+
+Crystal structure kindly provided by: [**Jingwei Zhang**](https://irp.nih.gov/pi/jinwei-zhang)
+
+**Reference**:
+Structural basis of amino acid surveillance by higher-order tRNA-mRNA interactions. 
+[Nat Struct Mol Biol. 2019 Dec;26(12):1094-1105. doi: 10.1038/s41594-019-0326-7. Epub 2019 Nov 18.](https://www.ncbi.nlm.nih.gov/pubmed/?term=31740854)
+
+**PDB id**: [6pmo](http://www.rcsb.org/pdb/explore/explore.do?structureId=6pmo) 
+
+**Puzzle Submission/Deadline:** 2019.10.21/11.11
+
+
+**Assessment of complex:** [raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ26/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ26-3d/)
+
+**Assessment of tBox:** [raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ26tBox/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ26tBox-3d/)
+
+**Assessment of tRNA:** [raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ26tRNA/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ26tRNA-3d/)

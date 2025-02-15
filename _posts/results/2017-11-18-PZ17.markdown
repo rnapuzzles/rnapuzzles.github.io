@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Puzzle 17"
+date: 2017-11-18 20:42:13 +0000
+comments: false
+categories: 
+- results
+image: results/img17.png
+---
+**Sequence** (5' to 3'): 
+CGUGGUUAGGGCCACGUUAAAUAGUUGCUUAAGCCCUAAGCGUUGAUAAA
+UAUCAGGUGCAA 
+
+**Puzzle**:
+Pistol ribozyme. 
+
+Crystal structure kindly provided by: [**Dinshaw Patel**](https://www.mskcc.org/research-areas/labs/dinshaw-patel)
+
+**Reference**:
+Pistol ribozyme adopts a pseudoknot fold facilitating site-specific in-line cleavage. [Nature Chemical Biology 12, 702–708 (2016) doi:10.1038/nchembio.2125.](http://www.nature.com/nchembio/journal/v12/n9/full/nchembio.2125.html)
+
+**PDB id**: [5k7c](http://www.rcsb.org/pdb/explore/explore.do?structureId=5k7c)
+
+**Puzzle Submission/Deadline:** 2016.06.06/07.05
+
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ17/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ17-3d/)

@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Puzzle 9"
+date: 2017-11-18 20:41:54 +0000
+comments: false
+categories: 
+- results
+image: results/img9.png
+---
+**Sequence** (5' to 3'): 
+GGACACUGAUGAUCGCGUGGAUAUGGCACGCAUUGAAUUGU    
+UGGACACCGUAAAUGUCCUAACACGUGUCC
+
+**Puzzle**:
+5-hydroxytryptophan aptamer
+
+Crystal structure kindly provided by: [**Robert T. Batey**](http://chem.colorado.edu/bateygroup/)
+
+**Reference**:
+Ely B Porter, Jacob T Polaski, Makenna M Morck & Robert T Batey. Recurrent RNA motifs as scaffolds for genetically encodable small-molecule biosensors. [Nature Chemical Biology volume 13, pages 295–301 (2017)](https://www.nature.com/articles/nchembio.2278)
+
+**PDB id**: [5kpy](http://www.rcsb.org/pdb/explore/explore.do?structureId=5kpy) 
+
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ9/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ9-3d/)
+

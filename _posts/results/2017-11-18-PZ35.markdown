@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Puzzle 35"
+date: 2017-11-18 20:42:23 +0000
+comments: false
+categories: 
+- results
+image: results/PZ35.jpeg
+---
+**Sequence** (5' to 3'): 
+
+GGGGGCCACAGCAGAAGCGUUCACGUCGCAGCCCC
+UGUCAGCCAUUGCACUCCGGCUGCGAAUUCUGCU
+
+(Predict as dimer)
+
+**Puzzle**:
+human CPEB3 HDV-like ribozyme
+
+Crystal structure kindly provided by: [**Beno&Icirc;t Masquida**]()
+
+**Reference**:
+Anticodon-like loop-mediated dimerization in the crystal structures of HdV-like CPEB3 ribozymes.
+[Biorxiv (2022) ](https://doi.org/10.1101/2022.09.22.508989)
+
+**PDB id**: [7qr4](http://www.rcsb.org/pdb/explore/explore.do?structureId=7qr4) 
+
+**Puzzle Submission/Deadline:** 2022.04.29/05.20
+
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ35/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ35-3d/)

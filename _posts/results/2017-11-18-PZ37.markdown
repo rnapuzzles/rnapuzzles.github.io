@@ -1,0 +1,28 @@
+---
+layout: post
+title: "Puzzle 37"
+date: 2017-11-18 20:42:23 +0000
+comments: false
+categories: 
+- results
+image: results/PZ37.jpeg
+---
+**Sequence** (5' to 3'): 
+
+GGAGCGUUACGUCCGAAAGUCGCAUUGCACU
+CCGCGACACGGCUCUUUAAAAACAAAAGGA
+
+**Puzzle**:
+NAD+ II riboswitch
+
+Crystal structure kindly provided by: [**Aiming Ren**](https://person.zju.edu.cn/renlab)
+
+**Reference**:
+Structure-based investigations of the NAD+-II riboswitch.
+[Nucleic Acids Res 51: 54-67 (2023)](https://pubmed.ncbi.nlm.nih.gov/36610789/)
+
+**PDB id**: [8gxc](http://www.rcsb.org/pdb/explore/explore.do?structureId=8gxc) 
+
+**Puzzle Submission/Deadline:** 2022.10.20/11.10
+
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ37/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ37-3d/)

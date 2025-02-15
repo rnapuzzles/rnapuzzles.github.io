@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Puzzle 18"
+date: 2017-11-18 20:42:16 +0000
+comments: false
+categories: 
+- results
+image: results/img18.png
+---
+**Sequence** (5' to 3'): 
+GGGUCAGGCCGGCGAAAGUCGCCACAGUUUGGGGAAAGCUGUGCAGCCUG
+UAACCCCCCCACGAAAGUGGG
+
+**Puzzle**:
+Zika virus. 
+
+Crystal structure kindly provided by: [**Jeffrey S. Kieft**](http://www.ucdenver.edu/academics/colleges/medicalschool/departments/biochemistry/Research/researchlabs/KieftLab/Pages/KieftLab.aspx)
+
+**Reference**:
+Zika virus produces noncoding RNAs using a multi-pseudoknot structure that confounds a cellular exonuclease. (2016) [Science 354: 1148-1152. DOI: 10.1126/science.aah3963.](http://science.sciencemag.org/content/early/2016/11/04/science.aah3963) 
+
+**PDB id**: [5tpy](http://www.rcsb.org/pdb/explore/explore.do?structureId=5tpy)
+
+**Puzzle Submission/Deadline:** 2016.10.24/11.10
+
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ18/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ18-3d/)

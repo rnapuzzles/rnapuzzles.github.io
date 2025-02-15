@@ -1,0 +1,27 @@
+---
+layout: post
+title: "Puzzle 13"
+date: 2017-11-18 20:42:02 +0000
+comments: false
+categories: 
+- results
+image: results/img13.png
+---
+**Sequence** (5' to 3'): 
+GGGUCGUGACUGGCGAACAGGUGGGAAACCACCGGGGAGCGACCCCGGCAUCGA
+UAGCCGCCCGCCUGGGC
+
+**Puzzle**:
+ZMP Riboswitch. 
+
+Crystal structure kindly provided by: [**Robert T. Batey**](http://chem.colorado.edu/bateygroup/)
+
+**Reference**:
+Trausch JJ, Marcano-Velázquez JG, Matyjasik MM, Batey RT. Metal Ion-Mediated Nucleobase Recognition by the ZTP Riboswitch. [Chem Biol. 2015 Jul 23;22(7):829-37.](http://www.sciencedirect.com/science/article/pii/S1074552115002331) 
+
+**PDB id**: [4xw7](http://www.rcsb.org/pdb/explore/explore.do?structureId=4xw7)
+
+**Puzzle Submission/Deadline:** 2014.04.27/05.31??
+
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ13/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ13-3d/)
+

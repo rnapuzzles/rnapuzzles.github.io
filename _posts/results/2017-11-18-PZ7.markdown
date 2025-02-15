@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Puzzle 7"
+date: 2017-11-18 20:41:50 +0000
+comments: false
+categories: 
+- results
+image: results/img7.png
+---
+**Sequence** (5' to 3'): 
+GCGCUGUGUCGCAAUCUGCGAAGGGCGUCGUCGGCCCGAGCGGUAGUAAGCAGG
+GAACUCACCUCCAAUGAAACACAUUGUCGUAGCAGUUGACUACUGUUAUGUGAU
+UGGUAGAGGCUAAGUGACGGUAUUGGCGUAAGCCAAUACCGCGGCACAGCACAA
+GCCCGCUUGCGAGAUUACAGCGC
+
+**Puzzle**:
+Varkud satellite ribozyme. 
+
+Crystal structure kindly provided by: [**Joseph A Piccirilli**](https://piccirillilab.uchicago.edu/)
+
+**Reference**:
+Nikolai B Suslov, Saurja DasGupta, Hao Huang, James R Fuller, David M J Lilley, Phoebe A Rice& Joseph A Piccirilli. 2015. Crystal structure of the Varkud satellite ribozyme. [Nature Chemical Biology 11, 840–846.](http://www.nature.com/nchembio/journal/v11/n11/full/nchembio.1929.html)
+
+**PDB id**: [4r4v](http://www.rcsb.org/pdb/explore/explore.do?structureId=4r4v)
+
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ7/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ7-3d/)

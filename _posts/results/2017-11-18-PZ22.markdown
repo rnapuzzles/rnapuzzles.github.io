@@ -1,0 +1,29 @@
+---
+layout: post
+title: "Puzzle 22"
+date: 2017-11-18 20:42:23 +0000
+comments: false
+categories: 
+- results
+image: results/PZ22.jpg
+---
+**Sequence** (5' to 3'): 
+
+UUACUGUGAGAAUCAGUAACAAACAUGUGGGGCUUAUAUCUAAUC
+GAAAGAUUAGUAUUAGUGCAGAC
+
+GUUAAAACCAUGUC
+
+**Puzzle**:
+Hatchet Ribozyme
+
+Crystal structure kindly provided by: [**Aiming Ren**](https://person.zju.edu.cn/renlab)
+
+**Reference**:
+Hatchet ribozyme structure and implications for cleavage mechanism. [Proc Natl Acad Sci U S A. 2019 May 28;116(22):10783-10791. doi: 10.1073/pnas.1902413116. Epub 2019 May 14.](https://www.ncbi.nlm.nih.gov/pubmed/?term=31088965)
+
+**PDB id**: [6jq5](http://www.rcsb.org/pdb/explore/explore.do?structureId=6jq5)  [6jq6](http://www.rcsb.org/pdb/explore/explore.do?structureId=6jq6)
+
+**Puzzle Submission/Deadline:** 2018.11.19/12.10
+
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ22/pdb) &#124; Assessment results: [monomer](/table/2000/01/01/PZ22-3d/)  [dimer](/table/2000/01/01/PZ22Dimer-3d/)

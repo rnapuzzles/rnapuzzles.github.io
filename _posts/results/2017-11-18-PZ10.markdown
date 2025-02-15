@@ -1,0 +1,33 @@
+---
+layout: post
+title: "Puzzle 10"
+date: 2017-11-18 20:41:57 +0000
+comments: false
+categories: 
+- results
+image: results/img10.png
+---
+**Sequence** (5' to 3'):   
+T-box:  
+UGCGAUGAGAAGAAGAGUAUUAAGGAUUUACUAUGAUUAGCGACUCUAGGAUAG
+UGAAAGCUAGAGGAUAGUAACCUUAAGAAGGCACUUCGAGCA
+
+tRNA:   
+GCGGAAGUAGUUCAGUGGUAGAACACCACCUUGCCAAGGUGGGGGUCGCGGGUU
+CGAAUCCCGUCUUCCGCUCCA
+
+**Puzzle**:
+T-box riboswitch - tRNA complex. 
+
+Crystal structure kindly provided by: [**Adrian Ferré-D'amaré**](http://rna.nhlbi.nih.gov/)
+
+**Reference**:
+Zhang, J. & Ferré-D'Amaré, A.R. Co-crystal structure of a T-box riboswitch stem I domain in complex with its cognate tRNA. [Nature 500, 363-366 (2013).](http://www.nature.com/nature/journal/v500/n7462/full/nature12440.html)
+
+**PDB id**: [4lck](http://www.rcsb.org/pdb/explore/explore.do?structureId=4lck)
+
+**Assessment of complex:** [raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ10/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ10-3d/)
+
+**Assessment of tBox:** [raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ10tBox/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ10tBox-3d/)
+
+**Assessment of tRNA:** [raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ10tRNA/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ10tRNA-3d/)

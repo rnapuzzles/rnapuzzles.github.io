@@ -1,0 +1,24 @@
+---
+layout: post
+title: "Puzzle 1"
+date: 2017-11-18 01:58:38 +0000
+comments: false
+categories:
+ - results
+image: results/img1.png
+---
+**Sequence** (5' to 3'): 
+CCGCCGCGCCAUGCCUGUGGCGG
+
+**Puzzle**:
+knowing that the crystal structure shows a homodimer that contains two strands of the sequence. The strands hybridize with blunt ends (C-G closing base pairs). 
+
+Crystal structure kindly provided by: [**Thomas Hermann**](http://tch.ucsd.edu/TCH1.html)
+
+**Reference**:
+Dibrov SM, McLean J, Hermann T. 2011. Structure of an RNA dimer of a regulatory element from human thymidylate synthase mRNA, [Acta Cryst. D, Biological Crystallography 67, 97-104.](http://www.ncbi.nlm.nih.gov/pubmed/21245530) 
+
+**PDB id**: [3mei](http://www.rcsb.org/pdb/explore/explore.do?structureId=3mei)
+
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ1/pdb)    &#124; [Assessment results](/table/2000/01/01/PZ1-3d/)
+

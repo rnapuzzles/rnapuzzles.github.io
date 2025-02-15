@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Puzzle 8"
+date: 2017-11-18 20:41:52 +0000
+comments: false
+categories: 
+- results
+image: results/img8.png
+---
+**Sequence** (5' to 3'): 
+GGAUCACGAGGGGGAGACCCCGGCAACCUGGGACGGACACCCAAGGUGCUCACA
+CCGGAGACGGUGGAUCCGGCCCGAGAGGGCAACGAAGUCCGU
+
+**Puzzle**:
+SAM riboswitch. 
+
+Crystal structure kindly provided by: [**Robert T. Batey**](http://chem.colorado.edu/bateygroup/)
+
+**Reference**:
+Trausch JJ, Xu Z, Edwards AL, Reyes FE, Ross PE, Knight R, Batey RT. 2014. Structural basis for diversity in the SAM clan of riboswitches. [PNAS.111(18):6624-9.](http://www.pnas.org/content/111/18/6624.long) 
+
+**PDB id**: [4l81](http://www.rcsb.org/pdb/explore/explore.do?structureId=4l81)
+
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ8/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ8-3d/)
+

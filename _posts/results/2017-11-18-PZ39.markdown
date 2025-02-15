@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Puzzle 39"
+date: 2017-11-18 20:42:23 +0000
+comments: false
+categories: 
+- results
+image: results/PZ39.jpeg
+---
+**Sequence** (5' to 3'): 
+
+GGUAAAACAGCCUGUGGGUGAAACACA
+CCCACAGGGCCCAUUGGGCGCUAGCAC
+UCUGGUAUCACGGUACCUUUGUGCGCC
+UGUUUUACC
+
+**Puzzle**:
+B3 cloverleaf RRE 
+
+Crystal structure kindly provided by: [**Deepak Koirala**](https://chemistry.umbc.edu/faculty/deepak-koirala/)
+
+**Reference**:
+Crystal structure of a highly conserved enteroviral 5' cloverleaf RNA replication element.
+[Nat Commun 14: 1955-1955. (2023) ](https://pubmed.ncbi.nlm.nih.gov/37029118/)
+
+**PDB id**: [8dp3](http://www.rcsb.org/pdb/explore/explore.do?structureId=8dp3) 
+
+**Puzzle Submission/Deadline:** 2023.01.18/02.08
+
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ39/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ39-3d/)
