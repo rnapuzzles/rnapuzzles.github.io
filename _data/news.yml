@@ -1,0 +1,280 @@
+- date: 30. Dec 2024
+  headline: "We published a paper in Nature Communications [Alleviating batch effects in cell type deconvolution with SCCAF-D](https://www.nature.com/articles/s41467-024-55213-x). \
+  we present 'SCCAF-D' (Single-Cell Clustering Assessment Framework optimised reference for Deconvolution), a framework that achieves stable accuracies about 0.75 Pearson Correlation Coefficient (PCC) in a 'cross-reference' setting via optimally prepared reference data, thereby improving the accuracy of cell proportion inference."
+
+- date: 30. Dec 2024
+  headline: "We published a paper in European Journal of Human Genetics [RICTOR variants are associated with neurodevelopmental disorders](https://www.nature.com/articles/s41431-024-01774-w). \
+  This study revealed that the mTORC2 pathway was hyperactivated in a patient’s fibroblasts carrying a missense variant, while the expression of RICTOR remained unchanged, indicating a gain-of-function mechanism and confirming the potential role of RICTOR in neuronal cell development."
+
+- date: 2. Dec 2024
+  headline: "Recently, Prof.Zhichao Miao and Academician Eric Westhof collaborated on an article \
+  entitled [RNA-Puzzles Round V:Blind predictions of 23 RNA structures]\
+  (https://www.nature.com/articles/s41592-024-02543-9) in the Nature Methods. \
+  The article published the results of RNA-Puzzles Round V, which conducted a large-scale evaluation of predictions from 18 teams around the world, involving 23 RNA structures, including RNA elements, aptamers, viral elements, ribozymes, and nuclear switches."
+
+- date: 1. Dec 2024
+  headline: "Congyu Lu is joining the lab as a Postdoc. "
+  
+- date: 24. Oct 2024
+  headline: "We published a paper in Front Cell Infect Microbiol [Virome analysis provides new insights into the pathogenesis mechanism and treatment of SLE disease](https://www.frontiersin.org/journals/cellular-and-infection-microbiology/articles/10.3389/fcimb.2024.1484529/full). \
+  This study revealed the diversity of the SLE virome and the association between viral infection and the disease, providing new insights into the prevention and control of the disease."
+
+- date: 9. Sep 2024
+  headline: "Lijing Huang is joining the lab as a Research Assistant. "
+
+- date: 6. Aug 2024
+  headline: "Guoquan Ning is joining the lab as a Research Assistant. "
+
+- date: 2. Aug 2024
+  headline: "Significant Update! Prof.Zhichao Miao and Prof.Sheng Liu collaborated on an article \
+  entitled [A brain cell atlas integrating single-cell transcriptomes across human brain regions]\
+  (https://www.nature.com/articles/s41591-024-03150-z) in the Nature Medicine. \
+  The study presents a comprehensive single-cell atlas of the human brain, covering nearly all major brain regions in health and disease, and demonstrates the utility of using the atlas to discover putative neural progenitor cells (NPCs) and understand microenvironment-driven differences in microglia. The brain cell atlas will become a valuable resource for studying brain cells and functions, and enhance our understanding of neuronal processes and neurodegenerative diseases."
+
+- date: 1. Aug 2024
+  headline: "Yadi Tang is joining the lab as a Research Assistant. "
+
+- date: 1. Jul 2024
+  headline: "Recently, Prof.Zhichao Miao and Prof.Hongjie Yao collaborated on an article \
+  entitled [CTCF mutation at R567 causes developmental disorders via 3D genome rearrangement and abnormal neurodevelopment]\
+  (https://www.nature.com/articles/s41467-024-49684-1) in the Nature Communications. \
+  This study elucidates the influence of the CTCF<sup>R567W</sup> mutation on human neurodevelopmental disorders, paving the way for potential therapeutic interventions."
+
+- date: 25. May 2024
+  headline: "We published a paper in Neurogenetics [Clinical genomics expands the link between erroneous cell division, primary microcephaly and intellectual disability](https://link.springer.com/article/10.1007/s10048-024-00759-7)\
+  The research suggest that bi-allelic variants in CENPJ, STIL, CDK5RAP2, RBBP8, and CEP135 affect cell cycle progression and cause syndromic or non-syndromic microcephaly and expand the knowledge on genotype–phenotype correlations in variant-associated microcephaly."
+
+- date: 21. Apr 2024
+  headline: "Our deconvolution paper at Bioinformatics Advances [CATD: a reproducible pipeline for selecting cell-type deconvolution methods across tissues](https://doi.org/10.1093/bioadv/vbae048) is now available on line. "
+
+- date: 8. Apr 2024
+  headline: "Linyan Hu is joining the lab as a Research Assistant. "
+
+- date: 27. Feb 2024
+  headline: "Jiaxin Zhao is joining the lab as a Graduate student. "
+
+- date: 13. Dec 2023
+  headline: "Recently, Prof.Zhichao Miao, Prof.Amjad Khan, and Prof.Muhammad Khisroon collaborated on an article \
+  entitled [Exome sequencing identifies homozygous variants in MBOAT7 associated with neurodevelopmental disorder]\
+  (https://pubmed.ncbi.nlm.nih.gov/38088234/) in the Clinical Genetics. \
+  They dentified three novel homozygous missense variants (NM_024298.5: c.588G > T; p.Trp196Cys, c.736 T > C; p.Tyr246His \
+  and c.524A > C; p. Asp175Ala) and one rare homozygous in-frame deletion variant (c.758_778del;p.Glu253_Ala259del) in \
+  membrane-bound O-acyltransferase family member 7 (MBOAT7) gene previously associated with autosomal recessive \
+  neurodevelopmental disorder."
+
+- date: 1. Nov 2023
+  headline: "Bichun Wu is joining the lab as a Graduate student. "
+
+- date: 1. Nov 2023
+  headline: "Xiaofeng Chen is joining the lab as a Research Assistant. "
+
+- date: 26. Oct 2023
+  headline: "Recently, Prof.Zhichao Miao and Prof.Qiong Zhang co-published an article \
+  entitled [Regulatory circular RNAs in viral diseases: applications in diagnosis and therapy]\
+  (https://doi.org/10.1080/15476286.2023.2272118) in the RNA Biology, They explored the pivotal \
+  roles of viral circRNAs and associated RNA in various biological processes, and highlighted the \
+  applications of circular RNA in biomarker studies as well as circRNA-based therapeutics."
+
+- date: 24. Oct 2023
+  headline: "Recently, Prof.Zhichao Miao and Prof.Eric Westhof co-published an article \
+  entitled [Assessment of three-dimensional RNA structure prediction in CASP15]\
+  (https://pubmed.ncbi.nlm.nih.gov/37876231/) in the Proteins. They reported assessments \
+  of RNA structure predictions in CASP15, the first CASP exercise that involved RNA structure modeling."
+
+- date: 19. Oct 2023
+  headline: "Recently, Prof.Zhichao Miao and Prof.Lin Huang co-published an article \
+  entitled [Ribocentre-switch: a database of riboswitches](https://doi.org/10.1093/nar/gkad891) \
+  in the Nucleic Acids Research, Ribocentre-switch may facilitate the understanding of RNA \
+  structural conformational changes in response to ligand signaling.The database is publicly \
+  available at https://riboswitch.ribocentre.org."
+
+- date: 14. Oct 2023
+  headline: "Recently, Prof.Zhichao Miao, Prof.Yuyao Song, and Prof.Irene Papatheodorou collaborated on an article \
+  entitled [Benchmarking strategies for cross-species integration of single-cell RNA sequencing data]\
+  (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10576752/) in the Nature Communication. \
+  They benchmarked 28 combinations of gene homology mapping methods and data integration \
+  algorithms in a variety of biological settings and develop a new biology conservation metric \
+  to address the maintenance of cell type distinguishability."
+
+- date: 13. Oct 2023
+  headline: "Recently, Prof.Zhichao Miao, Prof.Jie Zha, and Prof.Yong Yu collaborated on an article \
+  entitled [Nr4a1 marks a distinctive ILC2 activation subset in the mouse inflammatory lung]\
+  (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10576290/) in the BMC Biology. \
+  Their findings showed that activated ILC2s are a heterogenous population encompassing distinct subsets \
+  that have different propensities, and therefore provide an opportunity to explore PD-1's role in \
+  modulating the activity of ILC2s for disease prevention and therapy."
+
+
+- date: 15. Sep 2023
+  headline: "Hao Sun is joining the lab as a Research Assistant. "
+
+- date: 10. Aug 2023
+  headline: "Jie Wu is joining the lab as a Postdoc. "
+
+- date: 13. Jul 2023
+  headline: "Liangfeng Huang is joining the lab as a Postdoc. "
+
+- date: 11. Jul 2023
+  headline: "Baowei Huang is joining the lab as a Postdoc. "
+
+- date: 1. Jun 2023
+  headline: "Jiajun Lin is joining the lab as a Research Assistant. "
+
+- date: 6. May 2023
+  headline: "Ying Ao will join the lab as a Master student. "
+
+- date: 14. Apr 2023
+  headline: "Lahong Xu is joining the lab as a Postdoc. "
+
+- date: 30. Mar 2023
+  headline: "Recently, Prof. Zhichao Miao and Prof.Jules A Hoffmann collaborated on an article \
+  entitled [Single Cell Analysis of the Fate of Injected Oncogenic RasV12 Cells in Adult Wild Type Drosophila]\
+  (https://pubmed.ncbi.nlm.nih.gov/36996781/) in the Journal of innate immunity, \
+  They have injected dish-cultured oncogenic RasV12 cells into adult male flies and analyzed by single cell transcriptomics their destiny within the host after 11 days.\
+  They identified in the preinjection samples and in the 11-day postinjection samples in all 16 clusters of cells, of which 5 disappeared during the experiment in the host,\
+  and they hypothesize that this results from a bitter dialogue between the injected cells and the host, while the experiments presented here should contribute to deciphering this dialogue"
+
+
+- date: 1. Mar 2023
+  headline: "Yan Liu is joining the lab as a Research Assistant. "
+
+- date: 24. Feb 2023 
+  headline: "Recently, Prof. Zhichao Miao and Prof.Zhaoming Su collaborated on an article \
+  entitled [Structural basis of sRNA RsmZ regulation of Pseudomonas aeruginosa virulence]\
+  (https://pubmed.ncbi.nlm.nih.gov/36828938/) in the Cell Research, \
+  an intercellular communication network based on cell density, quorum sensing (QS), regulates numerous gene expressions including those related to both \
+  acute and chronic virulence of P. aeruginosa. The global regulatory protein of the repressor of secondary metabolites (Rsm) system in bacteria, RsmA, \
+  is found to predominantly regulate these virulence entities in P. aeruginosa by modulating related gene expressions at transcriptional and posttranscriptional levels."
+- date: 24. Feb 2023 
+  headline: "Recently, Prof. Zhichao Miao and Prof.Xinwen Chen collaborated on an article\
+  [Sterile 20-like kinase 3 promotes tick-borne encephalitis virus assembly by interacting with NS2A and prM and enhancing the NS2A-NS4A association]\
+  (https://pubmed.ncbi.nlm.nih.gov/36840407/) in the Journal of Medical virology, \
+  they found that MST3 interacts with the viral proteins NS2A and prM; and MST3 enhances the interaction of NS2A–NS4A.\
+  Thus, MST3-NS2A complex plays a major role in recruiting prM–E heterodimers and NS4A and mediates the virion assembly. Additionally, \
+  we found that MST3 was biotinylated and combined with other proteins (e.g., ATG5, Sec24A, and SNX4) that are associated with the cellular membrane required for TBEV infection. Overall, \
+  their study revealed a novel function for MST3 in TBEV infection and identified as a novel host factor supporting TBEV assembly"
+
+- date: 13. Feb 2023
+  headline: "Jiuhong Jiang is joining the lab as a Research Assistant. "
+
+- date: 10. Feb 2023
+  headline: "Shuo Feng is joining the lab as an Intern. "
+
+- date: 9. Feb 2023
+  headline: "Bowen Xiao is joining the lab as a Research Assistant. "
+
+- date: 1. Feb 2023
+  headline: "Ke Fang is joining the lab as a Research Assistant. "
+
+- date: 28. Jan 2023 
+  headline: "Recently, Prof. Zhichao Miao published an article \
+  entitled [RNA 3D Structure Comparison Using RNA-Puzzles Toolkit](https://link.springer.com/protocol/10.1007/978-1-0716-2768-6_16#citeas) \
+  in the RNA Structure Prediction, RNA-Puzzles is a community-wide effort on the assessment of blind prediction of RNA tertiary structures. \
+  And RNA-Puzzles toolkit , a computational resource derived from RNA-Puzzles, is required to understand the achievements and bottlenecks of the prediction. "
+
+
+- date: 18. Jan 2023 
+  headline: "Recently, Prof. Zhichao Miao and Prof.Sheng Liu co-published an article \
+  entitled [Defects and asymmetries in the visual pathway of non-human primates with natural strabismus and amblyopia]\
+  (https://doi.org/10.24272/j.issn.2095-8137.2022.254) in the Zoological Research, \
+  natural strabismus and amblyopia are accompanied by abnormal asymmetries of the visual system, especially visual neurophysiological and neurostructural defects. \
+  Their results suggested that future therapeutic and mechanistic studies should consider defects and asymmetries throughout the entire visual system."
+
+- date: 24. Nov 2022
+  headline: "Yalan Bi is joining the lab as a Scientific visitor. "
+
+
+- date: 12. Nov 2022
+  headline: "Recently, Prof. Zhichao Miao and Prof.Sheng Liu co-published an article \
+  entitled [Identification of visual cortex cell types and species differences \
+  using single-cell RNA sequencing](https://www.nature.com/articles/s41467-022-34590-1) \
+  in the Nature Communications, they established a single-cell RNA sequencing dataset of 133,454 macaque visual cortical cells. \
+It covers major cortical cell classes including 25 excitatory neuron types, 37 inhibitory neuron types and all glial cell types. \
+The comparisons not only identified layer-specific markers, two crucial  neuron cell types, \
+but also revealed that glutamatergic neurons may be more diverse across species than GABAergic neurons and non-neuronal cells. \
+These findings pave the way for understanding how the primary cortex fulfills the high-cognitive functions."
+
+
+
+- date: 12. Nov 2022
+  headline: "Zhuoran Yang is joining the lab as a lab manager. "
+
+
+
+- date: 9. Oct 2022
+  headline: "Yin Huang is joining the lab as a Postdoc. "
+
+
+- date: 30. Sep 2022
+  headline: "Recently, Prof. Zhichao Miao and Prof.Lin Huang co-published an article \
+  entitled [Ribocentre: a database of ribozymes](https://doi.org/10.1093/nar/gkac840) \
+  in the Nucleic Acids Research, The Ribocentre database can provide users with an easy \
+  and flexible way to browse from lists of ribozymes and related publications over the past 40 years."
+
+- date: 19. Sep 2022
+  headline: "Ziming Qin is joining the lab as an Intern. "
+
+- date: 15. Sep 2022
+  headline: "Recently, Prof. Zhichao Miao's team published an article \
+  entitled [Single-cell atlas of human liver development reveals pathways directing hepatic cell fates](https://www.nature.com/articles/s41556-022-00989-7) \
+  in the Nature Cell Biology, \
+  they established a platform to investigate the basic mechanisms directing \
+  human liver development and to produce cell types for clinical applications."
+
+- date: 13. Sep 2022
+  headline: "Recently, Prof. Zhichao Miao's team published an article \
+  entitled [Linking transcriptomes with morphological and functional phenotypes in mammalian retinal ganglion cells
+](https://pubmed.ncbi.nlm.nih.gov/36103830/) \
+  in the Cell Report, \
+  the study may provide insight to facilitate the development of RGC atlas."
+
+- date: 9. Sep 2022
+  headline: "Jie Tao is joining the lab as an Intern. "
+
+- date: 25. Aug 2022
+  headline: "Recently, Prof. Zhichao Miao's team published an article \
+  entitled [Computational Pipeline for Reference-Free Comparative Analysis of RNA 3D Structures Applied to SARS-CoV-2 UTR Models](https://www.mdpi.com/1422-0067/23/17/9630/htm) \
+  in the International Journal of Molecular Sciences, \
+  representing the computational pipeline for a reference-free high-throughput comparative analysis of the ensemble of 3D RNA structures. \
+  It is known as the first extensive and holistic approach in RNA structural bioinformatics."
+  
+- date: 12. Aug 2022
+  headline: "Liping Yao is joining the lab as a Research Assistant. "
+
+- date: 11. Jul 2022
+  headline: "Lirong Yang is joining the lab as a Research Assistant. "
+
+- date: 28. jun 2022
+  headline: "Xinyue Chen is joining the lab as a Research Assistant. "
+
+- date: 15. May 2022
+  headline: "Fan Bu will join the lab as a graduate student."
+
+- date: 13. May 2022
+  headline: "Our mouse retina paper is [online](https://iovs.arvojournals.org/article.aspx?articleid=2778820) now."
+
+- date: 7. May 2022
+  headline: "Our B1 B cell development paper is [online](https://pubmed.ncbi.nlm.nih.gov/35526067/) now."
+
+- date: 2. May 2022
+  headline: "Xinyu Guo is joining the lab as a Lab Manager. "
+  
+- date: 1. May 2022
+  headline: "[Volcano Engine](https://www.volcengine.com/) provides technical support to [RNA-Puzzles](http://www.rnapuzzles.org) and completed the online submission function for open puzzles. "
+
+- date: 1. May 2022
+  headline: "Ziliang Huang is joining the lab as a Research Assistant. "
+
+- date: 11. Apr 2022
+  headline: "Chichau was invited to the [NetRNA meeting in Bischenberg](https://ibmc.cnrs.fr/en/agenda/netrna-2022-congress-in-honour-of-prof-eric-westhof/) - 02 au 05 mai 2022. 
+  The meeting is in honour of Eric Westhof. "
+
+- date: 28. Apr 2022
+  headline: "Chichau was invited to the Proceedings Programme Committee of [ECCB2022 conference](https://eccb2022.org/)"
+
+
+
+
+
+
+
