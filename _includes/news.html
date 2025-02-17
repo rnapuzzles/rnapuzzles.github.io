@@ -1,0 +1,105 @@
+<!-- Begin: Sidebar 模块 -->
+<aside class="sidebar col-sm-44" style="padding: 15px;">
+	    <!-- CSS Files -->
+		<link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="/css/stylish-portfolio.css" rel="stylesheet" type="text/css">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="//jpswalsh.github.io/academicons/css/academicons.css" rel="stylesheet">
+		<link href="/stylesheets/screen.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+	<!-- Begin: 关于信息部分 -->
+	<section>
+		<h1>RNA-Puzzles</h1>
+		<p>A collective blind evaluation of RNA three-dimensional structure prediction</p>
+		<!-- GitHub 链接 -->
+		<a href="https://github.com/RNA-Puzzles">
+			<i class="fa fa-github-square fa-fw fa-2x"></i>
+		</a>
+		<!-- Email 链接 -->
+		<a href="mailto:ibmc.cnrs@gmail.com">
+			<i class="fa fa-envelope-square fa-fw fa-2x"></i>
+		</a>
+		<!-- Twitter 链接 -->
+		<a href="https://twitter.com/RNAPuzzles">
+			<i class="fa fa-twitter-square fa-fw fa-2x"></i>
+		</a>
+		<!-- Coffee 链接（示例链接，可根据需要修改） -->
+		<a href="">
+			<i class="fa fa-coffee fa-fw fa-2x"></i>
+		</a>
+
+
+
+	</section>
+	<!-- End: 关于信息部分 -->
+
+	<!-- Begin: 最近文章模块 -->
+	<section class="panel panel-info">
+		<div class="panel-heading">
+			<h3 class="panel-title">Recent Posts</h3>
+		</div>
+		<div id="recent_posts" class="list-group">
+			<a class="list-group-item" href="/news/2023/10/07/Submission-Process/">Submission Process</a>
+			<a class="list-group-item" href="/news/2023/10/07/Research-Spectrum/">Research Spectrum</a>
+			<a class="list-group-item" href="/news/2023/10/07/Recent-Engagements/">Recent Engagements</a>
+			<a class="list-group-item" href="/news/2023/10/07/Participating-Teams/">Participating Teams</a>
+			<a class="list-group-item" href="/news/2023/10/07/Methodological-Progress/">Methodological Progress</a>
+		</div>
+	</section>
+	<!-- End: 最近文章模块 -->
+
+	<!-- Begin: GitHub Repos 模块 -->
+	<section class="panel panel-info clearfix">
+		<div class="panel-heading">
+			<h3 class="panel-title">GitHub Repos</h3>
+		</div>
+		<div class="list-group" id="gh_repos">
+			<p class="loading">Status updating...</p>
+		</div>
+		<div class="gh-profile-link pull-right text-muted">
+			<a href="https://github.com/RNA-Puzzles">@RNA-Puzzles</a> on GitHub
+		</div>
+		<!-- 使用 jQuery 动态加载 GitHub 仓库信息 -->
+		<script type="text/javascript">
+			$(document).ready(function(){
+				// 如果未加载 jXHR 库，则动态加载
+				if (!window.jXHR){
+					var jxhr = document.createElement('script');
+					jxhr.type = 'text/javascript';
+					jxhr.src = '/javascripts/libs/jXHR.js';
+					var s = document.getElementsByTagName('script')[0];
+					s.parentNode.insertBefore(jxhr, s);
+				}
+				// 调用 github.showRepos() 函数显示仓库列表
+				github.showRepos({
+					user: 'RNA-Puzzles',
+					count: 0,
+					skip_forks: true,
+					target: '#gh_repos'
+				});
+			});
+		</script>
+		<script src="/javascripts/github.js" type="text/javascript"></script>
+	</section>
+	<!-- End: GitHub Repos 模块 -->
+
+	<!-- Begin: 分类模块 -->
+	<section class="panel panel-info clearfix">
+		<div class="panel-heading">
+			<h3 class="panel-title">Categories</h3>
+		</div>
+		<div class="list-group-item">
+			<a href="/blog/group_category/">group (16)</a>
+		</div>
+		<div class="list-group-item">
+			<a href="/blog/news_category/">news (7)</a>
+		</div>
+		<div class="list-group-item">
+			<a href="/blog/results_category/">results (39)</a>
+		</div>
+		<div class="list-group-item">
+			<a href="/blog/tables_category/">table (129)</a>
+		</div>
+	</section>
+	<!-- End: 分类模块 -->
+</aside>
+<!-- End: Sidebar 模块 -->

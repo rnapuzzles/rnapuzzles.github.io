@@ -1,0 +1,59 @@
+<!-- 初始化全尺寸 Molstar Viewer -->
+<script type="text/javascript">
+    var options1 = {
+        customData: {
+        //url: '/cifFiles/' + puzzlen + '/pdb/' + idParam + '.pdb',
+        url: '/cifFiles/' + idParam + '.cif',
+        format: 'cif'
+        },
+        reactive: true, // 响应式设计
+        sequencePanel: true, // 显示序列
+        expanded: false,
+        hideControls: true,
+        bgColor: { r: 255, g: 255, b: 255 },
+
+        selection: {
+        data: [
+        {
+            struct_asym_id: 'A',
+            //start_residue_number: 1,
+            //end_residue_number: 20,
+            color: '#008000',  // GREEN: X-Ray structure;
+        },
+        ],
+           nonSelectedColor: '#0000ff', // BLUE: Proposed model
+        },
+    };
+    var viewerContainer1 = document.getElementById('myViewer1');
+    var viewerInstance1 = new PDBeMolstarPlugin();
+    viewerInstance1.render(viewerContainer1, options1);
+</script>
+
+<!-- 初始化小尺寸 Molstar Viewer 预览，把controls统统删掉-->
+<script type="text/javascript">
+    var smallOptions = {
+        customData: {
+        //url: '/cifFiles/' + puzzlen + '/pdb/' + idParam + '.pdb',
+        url: '/cifFiles/' + idParam + '.cif',
+        format: 'cif'
+        },
+        selection: {
+        data: [
+        {
+            struct_asym_id: 'A',
+            //start_residue_number: 1,
+            //end_residue_number: 20,
+            color: '#008000',  // GREEN: X-Ray structure;
+        },
+        ],
+           nonSelectedColor: '#0000ff', // BLUE: Proposed model
+        },
+        expanded: false,
+        hideControls: true, selectInteraction: false, granularity: 'chain',
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle', 'controlInfo'],
+        bgColor: { r: 255, g: 255, b: 255 }
+    };
+    var smallViewerContainer = document.getElementById('myViewer_small');
+    var viewerInstanceSmall = new PDBeMolstarPlugin();
+    viewerInstanceSmall.render(smallViewerContainer, smallOptions);
+</script>
