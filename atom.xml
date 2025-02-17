@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[GZNL - RNA puzzles]]></title>
-  <link href="www.rnapuzzles.org/atom.xml" rel="self"/>
-  <link href="www.rnapuzzles.org/"/>
-  <updated>2025-02-17T16:31:39+08:00</updated>
-  <id>www.rnapuzzles.org/</id>
+  <link href="/atom.xml" rel="self"/>
+  <link href="/"/>
+  <updated>2025-02-17T16:56:14+08:00</updated>
+  <id>/</id>
   <author>
     <name><![CDATA[]]></name>
     <email><![CDATA[miao_zhichao@gzlab.ac.cn]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[2025-02-10-test]]></title>
-    <link href="www.rnapuzzles.org/molstar/2025/02/10/test.html"/>
+    <link href="/molstar/2025/02/10/test.html"/>
     <updated>2025-02-10T00:00:00+08:00</updated>
-    <id>www.rnapuzzles.org/molstar/2025/02/10/test</id>
+    <id>/molstar/2025/02/10/test</id>
     <content type="html"><![CDATA[<p>&lt;!DOCTYPE html&gt;</p>
 <html lang="en">
 <head>
@@ -87,9 +87,9 @@ viewerInstance.render(viewerContainer, options);
   
   <entry>
     <title type="html"><![CDATA[Submission Process]]></title>
-    <link href="www.rnapuzzles.org/news/2023/10/07/Submission-Process.html"/>
+    <link href="/news/2023/10/07/Submission-Process.html"/>
     <updated>2023-10-07T22:26:17+08:00</updated>
-    <id>www.rnapuzzles.org/news/2023/10/07/Submission Process</id>
+    <id>/news/2023/10/07/Submission Process</id>
     <content type="html"><![CDATA[<p>We have updated the data submission process for the RNA Puzzles. The Automated web server mandates a 48-hour window, while human expert submissions span 3~4 weeks. Unlike previous systems, current protocols permit up to five model submissions per prediction method, and a single team can proffer multiple predictive methodologies. With standardized file formats being a prerequisite, ligand formats are designated as HETATM, with the website performing a format check. For added security, dual submissions, both via the website and email, are encouraged. As of April 2023, announcements include PZ40, PZ41, and PZ42, with PZ42 concluding submissions by September 20, 2023.</p>
 
 ]]></content>
@@ -97,9 +97,9 @@ viewerInstance.render(viewerContainer, options);
   
   <entry>
     <title type="html"><![CDATA[Research Spectrum]]></title>
-    <link href="www.rnapuzzles.org/news/2023/10/07/Research-Spectrum.html"/>
+    <link href="/news/2023/10/07/Research-Spectrum.html"/>
     <updated>2023-10-07T22:26:17+08:00</updated>
-    <id>www.rnapuzzles.org/news/2023/10/07/Research-Spectrum</id>
+    <id>/news/2023/10/07/Research-Spectrum</id>
     <content type="html"><![CDATA[<p>Compared to CASP15, structures in Round V are categorized either as natural or nano-designed. Natural structures vary from simple to challenging, especially those interacting with proteins. Despite CASP15’s stable metrics, Round V expanded with 23 themes, covering areas like RNA and Viral elements, Aptamers, Ribozymes, and Riboswitches, providing deeper insights into RNA structural intricacies and diminishing convergence in evaluations.</p>
 
 ]]></content>
@@ -107,9 +107,9 @@ viewerInstance.render(viewerContainer, options);
   
   <entry>
     <title type="html"><![CDATA[Recent Engagements]]></title>
-    <link href="www.rnapuzzles.org/news/2023/10/07/Recent-Engagements.html"/>
+    <link href="/news/2023/10/07/Recent-Engagements.html"/>
     <updated>2023-10-07T22:26:17+08:00</updated>
-    <id>www.rnapuzzles.org/news/2023/10/07/Recent-Engagements</id>
+    <id>/news/2023/10/07/Recent-Engagements</id>
     <content type="html"><![CDATA[<p>At the 3rd RNA-Puzzles Meeting held at the Université du Québec à Montréal(UQAM) in Canada on September 21 and September 22, 2023, Prof. Eric Westhof initiated and concluded the event, encapsulating the salient features and challenges of Puzzle Round V, along with introducing the revamped registration and submission protocols for RNA puzzles. Day one spotlighted prediction groups showcasing their RNA 3D predictive algorithms, with notable mentions like Prof. Yaoqi Zhou, Prof. Nikolay Dokholyan, and Prof. Shi-Jie Chen. Day two centered around lectures highlighting RNA structural attributes by luminaries like Prof. Dave Mathews, Prof. Alberto Perez, and Prof. Marcin Magnus. This forum facilitated profound academic discussions and exchange with international counterparts, propelling the boundaries of RNA structural prediction.</p>
 
 ]]></content>
@@ -117,9 +117,9 @@ viewerInstance.render(viewerContainer, options);
   
   <entry>
     <title type="html"><![CDATA[Participating Teams]]></title>
-    <link href="www.rnapuzzles.org/news/2023/10/07/Participating-Teams.html"/>
+    <link href="/news/2023/10/07/Participating-Teams.html"/>
     <updated>2023-10-07T22:26:17+08:00</updated>
-    <id>www.rnapuzzles.org/news/2023/10/07/Participating-Teams</id>
+    <id>/news/2023/10/07/Participating-Teams</id>
     <content type="html"><![CDATA[<p>In Puzzles Round V, 19 renowned global RNA structural prediction teams participated, including both veterans from previous rounds and new entrants, pushing forward the RNA prediction frontier.</p>
 
 ]]></content>
@@ -127,9 +127,9 @@ viewerInstance.render(viewerContainer, options);
   
   <entry>
     <title type="html"><![CDATA[Methodological Progress]]></title>
-    <link href="www.rnapuzzles.org/news/2023/10/07/Methodological-Progress.html"/>
+    <link href="/news/2023/10/07/Methodological-Progress.html"/>
     <updated>2023-10-07T22:26:17+08:00</updated>
-    <id>www.rnapuzzles.org/news/2023/10/07/Methodological-Progress</id>
+    <id>/news/2023/10/07/Methodological-Progress</id>
     <content type="html"><![CDATA[<p>Regarding accuracy assessment in RNA structure prediction, we’ve introduced a hierarchical complexity level. Initially, prediction models must capture the Watson-Crick base pairs accurately, laying down the primary scaffolding for RNA secondary structure. Subsequent evaluation benchmarks consider the intricacies at helical junctions, such as 2-way, 3-way, and 4-way junctions. This demands algorithms to be adept not just at the secondary structural tier but also in ensuring global folding precision at the tertiary level. Preliminary results indicate that most models adeptly predict the overall topology and Watson-Crick base pairs, but challenges persist in intricate 3D junctions and multiple junction points. Notably, some prediction methods’ precision requires refinement, especially when handling RNAs with non waston crick base pairs and long-range interactions.</p>
 
 ]]></content>
@@ -137,9 +137,9 @@ viewerInstance.render(viewerContainer, options);
   
   <entry>
     <title type="html"><![CDATA[Future Outlook]]></title>
-    <link href="www.rnapuzzles.org/news/2023/10/07/Future-Outlook.html"/>
+    <link href="/news/2023/10/07/Future-Outlook.html"/>
     <updated>2023-10-07T22:26:17+08:00</updated>
-    <id>www.rnapuzzles.org/news/2023/10/07/Future Outlook</id>
+    <id>/news/2023/10/07/Future Outlook</id>
     <content type="html"><![CDATA[<p>Post the successful Round V, preparations for the next are underway, aiming to explore fresh challenges in RNA structural prediction.
 We warmly welcome academic peers to stay updated with our progress and eagerly anticipate collaborations for Puzzle Round VI, charting new avenues in RNA research.</p>
 
@@ -148,9 +148,9 @@ We warmly welcome academic peers to stay updated with our progress and eagerly a
   
   <entry>
     <title type="html"><![CDATA[Puzzle 39]]></title>
-    <link href="www.rnapuzzles.org/results/2017/11/19/PZ39.html"/>
+    <link href="/results/2017/11/19/PZ39.html"/>
     <updated>2017-11-19T04:42:23+08:00</updated>
-    <id>www.rnapuzzles.org/results/2017/11/19/PZ39</id>
+    <id>/results/2017/11/19/PZ39</id>
     <content type="html"><![CDATA[<p><strong>Sequence</strong> (5’ to 3’):</p>
 
 <p>GGUAAAACAGCCUGUGGGUGAAACACA
@@ -177,9 +177,9 @@ Crystal structure of a highly conserved enteroviral 5’ cloverleaf RNA replicat
   
   <entry>
     <title type="html"><![CDATA[Puzzle 38]]></title>
-    <link href="www.rnapuzzles.org/results/2017/11/19/PZ38.html"/>
+    <link href="/results/2017/11/19/PZ38.html"/>
     <updated>2017-11-19T04:42:23+08:00</updated>
-    <id>www.rnapuzzles.org/results/2017/11/19/PZ38</id>
+    <id>/results/2017/11/19/PZ38</id>
     <content type="html"><![CDATA[<p><strong>Sequence</strong> (5’ to 3’):</p>
 
 <p>GCGGCGUUGCGUCCGAAAGUCUAAACAG
@@ -204,9 +204,9 @@ Crystal structures of the NAD+-II riboswitch reveal two distinct ligand-binding 
   
   <entry>
     <title type="html"><![CDATA[Puzzle 37]]></title>
-    <link href="www.rnapuzzles.org/results/2017/11/19/PZ37.html"/>
+    <link href="/results/2017/11/19/PZ37.html"/>
     <updated>2017-11-19T04:42:23+08:00</updated>
-    <id>www.rnapuzzles.org/results/2017/11/19/PZ37</id>
+    <id>/results/2017/11/19/PZ37</id>
     <content type="html"><![CDATA[<p><strong>Sequence</strong> (5’ to 3’):</p>
 
 <p>GGAGCGUUACGUCCGAAAGUCGCAUUGCACU
@@ -231,9 +231,9 @@ Structure-based investigations of the NAD+-II riboswitch.
   
   <entry>
     <title type="html"><![CDATA[Puzzle 36]]></title>
-    <link href="www.rnapuzzles.org/results/2017/11/19/PZ36.html"/>
+    <link href="/results/2017/11/19/PZ36.html"/>
     <updated>2017-11-19T04:42:23+08:00</updated>
-    <id>www.rnapuzzles.org/results/2017/11/19/PZ36</id>
+    <id>/results/2017/11/19/PZ36</id>
     <content type="html"><![CDATA[<p><strong>Sequence</strong> (5’ to 3’):</p>
 
 <p>GGGGGCCACAGCAGAAGCGUUCACGUCGCGGCCCC
@@ -260,9 +260,9 @@ Anticodon-like loop-mediated dimerization in the crystal structures of HdV-like 
   
   <entry>
     <title type="html"><![CDATA[Puzzle 35]]></title>
-    <link href="www.rnapuzzles.org/results/2017/11/19/PZ35.html"/>
+    <link href="/results/2017/11/19/PZ35.html"/>
     <updated>2017-11-19T04:42:23+08:00</updated>
-    <id>www.rnapuzzles.org/results/2017/11/19/PZ35</id>
+    <id>/results/2017/11/19/PZ35</id>
     <content type="html"><![CDATA[<p><strong>Sequence</strong> (5’ to 3’):</p>
 
 <p>GGGGGCCACAGCAGAAGCGUUCACGUCGCAGCCCC
@@ -289,9 +289,9 @@ Anticodon-like loop-mediated dimerization in the crystal structures of HdV-like 
   
   <entry>
     <title type="html"><![CDATA[Puzzle 34]]></title>
-    <link href="www.rnapuzzles.org/results/2017/11/19/PZ34.html"/>
+    <link href="/results/2017/11/19/PZ34.html"/>
     <updated>2017-11-19T04:42:23+08:00</updated>
-    <id>www.rnapuzzles.org/results/2017/11/19/PZ34</id>
+    <id>/results/2017/11/19/PZ34</id>
     <content type="html"><![CDATA[<p><strong>Sequence</strong> (5’ to 3’):</p>
 
 <p>GCGGGCUGACCGACCCCCCGAGUUCGCUCGGGGACAACUAGA
@@ -316,9 +316,9 @@ Structure and mechanism of a methyltransferase ribozyme.
   
   <entry>
     <title type="html"><![CDATA[Puzzle 33]]></title>
-    <link href="www.rnapuzzles.org/results/2017/11/19/PZ33.html"/>
+    <link href="/results/2017/11/19/PZ33.html"/>
     <updated>2017-11-19T04:42:23+08:00</updated>
-    <id>www.rnapuzzles.org/results/2017/11/19/PZ33</id>
+    <id>/results/2017/11/19/PZ33</id>
     <content type="html"><![CDATA[<p><strong>Sequence</strong> (5’ to 3’):</p>
 
 <p>GGAGUAGAAGCGUUCAGCGGCCGAAAGGCCGCCCGGAAAUUGCUCC</p>
@@ -345,9 +345,9 @@ Insights into xanthine riboswitch structure and metal ion-mediated ligand recogn
   
   <entry>
     <title type="html"><![CDATA[Puzzle 32]]></title>
-    <link href="www.rnapuzzles.org/results/2017/11/19/PZ32.html"/>
+    <link href="/results/2017/11/19/PZ32.html"/>
     <updated>2017-11-19T04:42:23+08:00</updated>
-    <id>www.rnapuzzles.org/results/2017/11/19/PZ32</id>
+    <id>/results/2017/11/19/PZ32</id>
     <content type="html"><![CDATA[<p><strong>Sequence</strong> (5’ to 3’):</p>
 
 <p>GGCGCACUGGCGCUGCGCCUUCGGGCGCCAAUCGUAGCGUGU
@@ -372,9 +372,9 @@ Structure-based investigation of fluorogenic Pepper aptamer.
   
   <entry>
     <title type="html"><![CDATA[Puzzle 31]]></title>
-    <link href="www.rnapuzzles.org/results/2017/11/19/PZ31.html"/>
+    <link href="/results/2017/11/19/PZ31.html"/>
     <updated>2017-11-19T04:42:23+08:00</updated>
-    <id>www.rnapuzzles.org/results/2017/11/19/PZ31</id>
+    <id>/results/2017/11/19/PZ31</id>
     <content type="html"><![CDATA[<p><strong>Sequence</strong> (5’ to 3’):</p>
 
 <p>CGGUGUAAGUGCAGCCCGUCUUACACCGUGCGGCACAGAA
@@ -400,9 +400,9 @@ Solved to 2.09 angstrom Using Chaperone-Assisted RNA Crystallography.
   
   <entry>
     <title type="html"><![CDATA[Puzzle 30]]></title>
-    <link href="www.rnapuzzles.org/results/2017/11/19/PZ30.html"/>
+    <link href="/results/2017/11/19/PZ30.html"/>
     <updated>2017-11-19T04:42:23+08:00</updated>
-    <id>www.rnapuzzles.org/results/2017/11/19/PZ30</id>
+    <id>/results/2017/11/19/PZ30</id>
     <content type="html"><![CDATA[<p><strong>Sequence</strong> (5’ to 3’):</p>
 
 <p>GAACCCCGCCUGGAGGCCGCGGUCGGCCCGGGGCUUCUCCGG
@@ -428,9 +428,9 @@ Structure of human telomerase holoenzyme with bound telomeric DNA.
   
   <entry>
     <title type="html"><![CDATA[Puzzle 29]]></title>
-    <link href="www.rnapuzzles.org/results/2017/11/19/PZ29.html"/>
+    <link href="/results/2017/11/19/PZ29.html"/>
     <updated>2017-11-19T04:42:23+08:00</updated>
-    <id>www.rnapuzzles.org/results/2017/11/19/PZ29</id>
+    <id>/results/2017/11/19/PZ29</id>
     <content type="html"><![CDATA[<p><strong>Sequence</strong> (5’ to 3’):</p>
 
 <p>GGCUUCAACAACCCCGUAGGUUGGGCCGAAAGGCAGCGAAUCUACUGGAGCC</p>
@@ -454,9 +454,9 @@ Structure and ligand binding of the ADP-binding domain of the NAD + riboswitch.
   
   <entry>
     <title type="html"><![CDATA[Puzzle 28]]></title>
-    <link href="www.rnapuzzles.org/results/2017/11/19/PZ28.html"/>
+    <link href="/results/2017/11/19/PZ28.html"/>
     <updated>2017-11-19T04:42:23+08:00</updated>
-    <id>www.rnapuzzles.org/results/2017/11/19/PZ28</id>
+    <id>/results/2017/11/19/PZ28</id>
     <content type="html"><![CDATA[<p><strong>Sequence</strong> (5’ to 3’):</p>
 
 <p>tRNA:  <br />
@@ -491,9 +491,9 @@ High-affinity recognition of specific tRNAs by an mRNA anticodon-binding groove.
   
   <entry>
     <title type="html"><![CDATA[Puzzle 27]]></title>
-    <link href="www.rnapuzzles.org/results/2017/11/19/PZ27.html"/>
+    <link href="/results/2017/11/19/PZ27.html"/>
     <updated>2017-11-19T04:42:23+08:00</updated>
-    <id>www.rnapuzzles.org/results/2017/11/19/PZ27</id>
+    <id>/results/2017/11/19/PZ27</id>
     <content type="html"><![CDATA[<p><strong>Sequence</strong> (5’ to 3’):</p>
 
 <p>tRNA:
