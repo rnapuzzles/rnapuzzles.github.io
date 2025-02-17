@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- 开始：HEAD 部分 -->
+    <meta charset="utf-8">
+    <title>Group - RNA-Puzzles</title>
+    <meta name="author" content="Chichau Miao">
+
+    <!-- 移动设备优化相关 Meta 标签 -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- SEO 相关：Canonical URL、Favicon、RSS 订阅链接 -->
+    <link rel="canonical" href="http://www.rnapuzzles.org/group/">
+    <link href="/favicon.png" type="image/png" rel="icon">
+    <link href="/atom.xml" rel="alternate" title="RNA-Puzzles" type="application/atom+xml">
+
+    <!-- Open Graph / Twitter Meta 标签 -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.rnapuzzles.org/group/">
+    <meta property="og:title" content="Group - RNA-Puzzles">
+    
+    <!-- 引入 jQuery -->
+    <script src="/js/jquery-3.2.1.min.js"></script>
+
+    <!-- 引入 CSS 文件 -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/stylish-portfolio.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//jpswalsh.github.io/academicons/css/academicons.css" rel="stylesheet">
+    <link href="/stylesheets/screen.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+    <!-- 结束：HEAD 部分 -->
+</head>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bujnicki Group</title>
+  <meta name="description" content="The lab website of Zhichao Miao lab.
+">
+  <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/_posts/groups/2017-11-16-bujnicki-group.html">
+  <link rel="shortcut icon" type="image/x-icon" href="http://localhost:4000/favicon.png">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  
+
+  <!-- 将汉堡按钮的 CSS 样式放在 style 标签内 -->
+  <style>
+    .navbar-toggle .icon-bar {
+      background-color: #eeeeee;
+    }
+  </style>
+
+</head>
+
+
+  <body>
+
+    <!-- 导航条容器：使用 Bootstrap 的 navbar 类，设置导航条扩展模式、深色主题以及内联样式 -->
+<div class="navbar navbar-expand-lg navbar-dark" style="border-radius: 0; border: 0; background-color: #337ab7" role="navigation">
+	<!-- 限制内容宽度为 1200px 的 fluid 容器 -->
+	<div class="container-fluid" style="max-width: 1500px;">
+		<!-- 导航头部：包含汉堡按钮和品牌链接 -->
+		<div class="navbar-header">
+			<!-- 响应式切换按钮（汉堡菜单）
+			     当屏幕较小时，该按钮显示，点击后控制右侧所有链接、RSS 和搜索框的折叠/展开
+			     为使按钮图标颜色与当前字体颜色（白色）一致，在 CSS 中设置 .navbar-toggle .icon-bar 的背景色 -->
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+
+			<!-- 品牌链接：使用 Flexbox 布局使品牌文字和 logo 分布在两侧 -->
+			<a class="navbar-brand" href="http://localhost:4000/" style="display: flex; justify-content: space-between; align-items: center;">
+				<b style="font-size: 32px; color: #eeeeee;">RNA-Puzzles</b>
+				<img src="http://localhost:4000/images/header/logo.jpg" style="height: 53px; margin-top: 0; margin-bottom: 0; padding: 0px; border-radius: 0;" alt="logo">
+			</a>
+		</div> <!-- end of .navbar-header -->
+
+		<!-- 可折叠的导航菜单部分：包括多个页面链接、搜索框和 RSS 订阅按钮 -->
+		<div class="collapse navbar-collapse" id="navbar-collapse-1">
+			<!-- 右对齐的导航列表 -->
+			<ul class="nav navbar-nav navbar-right">
+				<!-- 页面链接 -->
+				<li>
+					<a class="nav-link-1" href="http://localhost:4000/results">Results</a>
+				</li>
+				<li>
+					<a class="nav-link-1" href="http://localhost:4000/open-puzzle">Open Puzzles</a>
+				</li>
+				<li>
+					<a class="nav-link-1" href="http://localhost:4000/group">Groups</a>
+				</li>
+				<li>
+					<a class="nav-link-1" href="http://localhost:4000/publication">Publications</a>
+				</li>
+				<li>
+					<a class="nav-link-1" href="https://chichaumiau.github.io/rnapuzzlestoolkit/">Resources</a>
+				</li>
+				<!-- 搜索框：
+				     使用 form 表单，置于一个 <li> 内与其他链接同一行显示，
+				     通过 position: relative; top: 2px; 实现向下偏移 2px，
+				     同时保证输入框垂直居中 -->
+				<li>
+					<form class="navbar-form" role="search" action="/search" method="GET" style="margin: 0; padding: 0;">
+						<div class="form-group">
+							<input type="text" class="form-control" name="q" placeholder="search" style="color: #999; vertical-align: middle; position: relative; top: 9px;">
+						</div>
+					</form>
+				</li>
+				<!-- RSS 订阅按钮：
+				     为避免上下空白，通过清除图片的默认 margin/padding，并设置 display: inline-block，
+				     同时保持 vertical-align: middle 使其垂直居中 -->
+				<li>
+					<a class="subscribe-rss" href="/atom.xml" title="subscribe via RSS" style="line-height: 1;">
+						<span class="visible-xs">RSS</span>
+						<img class="hidden-xs" src="/images/header/rss.png" alt="RSS" style="vertical-align: middle; margin: 0; padding: 0; display: inline-block;">
+					</a>
+				</li>
+			</ul>
+		</div> <!-- end of .collapse .navbar-collapse -->
+	</div> <!-- end of .container-fluid -->
+</div> <!-- end of .navbar -->
+
+
+  <!-- 使用 container 保证内容区域居中 -->
+  <div class="container">
+    <div class="row">
+      <!-- 主页内容区域：占用 8 栏 -->
+      <div id="homeid" class="col-md-8">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Bujnicki Group</h1>
+    <p class="post-meta"><time datetime="2017-11-16T18:44:22+08:00" itemprop="datePublished">Nov 16, 2017</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <!--
+# [Bujnicki Group]()
+-->
+<p><a href="https://genesilico.pl/people" target="_blank"><strong>Bujnicki</strong> </a> group is International Institute of Molecular and Cell Biology in Warsaw, Poland.
+<a href="https://genesilico.pl/" target="_blank"><strong>&lt;/br&gt;(Click here to find more information about Bujnicki Group)</strong></a>
+&lt;/br&gt;
+&lt;/br&gt;</p>
+<ul>
+  <li><a href="http://iimcb.genesilico.pl/modernaserver/"><strong>ModeRNA</strong></a>: RNA tertiary structure prediction with ModeRNA.&lt;/br&gt;</li>
+  <li><a href="http://genesilico.pl/SimRNAweb/"><strong>SimRNA</strong></a>: a coarse-grained method for RNA folding simulations and 3D structure prediction.&lt;/br&gt;</li>
+  <li><a href="http://www.genesilico.pl/moderna/"><strong>ModeRNA program</strong></a>&lt;/br&gt;</li>
+  <li><a href="http://genesilico.pl/software/stand-alone/simrna/"><strong>SimRNA program</strong></a></li>
+</ul>
+
+<h2>Prediction Approaches:</h2>
+<p><strong>Strategy I</strong>: Typically, we use a hybrid modeling strategy based on the approach used earlier for protein structure prediction. First, the RNA target sequence is analyzed to identify homologous sequences and to generate a multiple sequence alignment. At this stage we also try to determine similarity to any other RNA with experimentally determined structure. If such RNA is identified, it is used as a template to build a model of the target molecule (or its parts) using a template-based (comparative) modeling method ModeRNA. If the molecule lacks a template, or if certain regions of the molecule cannot be modeled by template-based modeling, they are subjected to template-free folding simulations using the coarse-grained method SimRNA. Template-free folding can be aided by spatial restraints obtained from computational predictions (e.g., information on the secondary structure predicted from the sequence alignment) and from experimental analyses (e.g., on contacts between residues that interact in 3D). Finally, models are refined using the QRNAS method that extends the AMBER force field with energy terms explicitly modeling hydrogen bonds, idealizes base pair planarity and regularizes the backbone conformation. A tutorial that presents this strategy with a detailed example is available: Piatkowski P, Kasprzak JM, Kumar D, Magnus M, Chojnowski G, Bujnicki JM. RNA 3D Structure Modeling by Combination of Template-Based Method ModeRNA, Template-Free Folding with SimRNA, and Refinement with QRNAS. Methods Mol Biol. 2016;1490:217-35</p>
+
+<p><strong>Strategy II</strong>: Recently, in collaboration with the Das group, we have started exploring another strategy, also inspired by successful protein structure prediction. This approach requires a sequence alignment of the target RNA with several homologs. Initially, models are built using the template-free approach for several different sequences. Structural fragments corresponding to the evolutionary conserved regions (in particular helices) – determined from the alignment – are extracted from all models and clustered to identify the most common structural arrangement. The model of the target RNA can be then subjected to refinement, e.g., as in strategy I. This approach is currently under development.</p>
+
+<h2>A real case:</h2>
+<p>Prokaryotic ribosomal protein genes are typically grouped within highly conserved operons. In many cases, one or more of the encoded proteins not only bind to a specific site in the ribosomal RNA, but also to a motif localized within their own mRNA, and thereby regulate expression of the operon. We used computational methods to predict an RNA motif present in many bacterial phyla within the 5′ untranslated region of operons encoding ribosomal proteins S6 and S18. We demonstrated experimentally that this region in RNA indeed functions as the S6:S18 complex-binding motif (S6S18CBM). This motif contains a conserved CCG sequence presented in a bulge flanked by a stem and a hairpin structure. A similar structure containing a CCG trinucleotide forms the S6:S18 complex binding site in 16S ribosomal RNA. We have constructed a 3D structural model of a S6:S18 complex with S6S18CBM, using a combination of template-based and template-free modeling. The model explained how the CCG trinucleotide in a specific structural context could be specifically recognized by the S18 protein. Our prediction was supported by site-directed mutagenesis of both RNA and protein components. Overall, this study, which combined RNA sequence analysis, computational structure modeling, and biochemical analyses, provided a molecular basis for understanding protein-RNA recognition in the regulation of S6 and S18 protein expression.
+[fig]
+S6:S18 ribosomal protein complex interacts with a structural motif present in its own mRNA. Matelska D, Purta E, Panek S, Boniecki MJ, Bujnicki JM, Dunin-Horkawicz S. RNA. 2013 Oct;19(10):1341-8.</p>
+<h2>Publications:</h2>
+<!-- >
+1.	Magnus, M. et al. RNA-Puzzles toolkit: a computational resource of RNA 3D structure benchmark datasets, structure manipulation, and evaluation tools. Nucleic Acids Res. 48, 576–588 (2020).
+8.	Wirecki, T. K. et al. RNAProbe: a web server for normalization and analysis of RNA structure probing data. Nucleic Acids Res. 48, W292–W299 (2020).
+9.	Chojnowski, G., Waleń, T. & Bujnicki, J. M. RNA Bricks—a database of RNA 3D motifs and their interactions. Nucleic Acids Res. 42, D123–D131 (2013).
+10.	Ruiz-Carmona, S. et al. rDock: A Fast, Versatile and Open Source Program for Docking Ligands to Proteins and Nucleic Acids. PLoS Comput. Biol. 10, e1003571 (2014).
+11.	Tuszynska, I., Magnus, M., Jonak, K., Dawson, W. & Bujnicki, J. M. NPDock: a web server for protein–nucleic acid docking. Nucleic Acids Res. 43, W425–W430 (2015).
+12.	Boniecki, M. J. et al. SimRNA: a coarse-grained method for RNA folding simulations and 3D structure prediction. Nucleic Acids Res. 44, e63 (2016).
+13.	Wirecki, T. K., Nithin, C., Mukherjee, S., Bujnicki, J. M. & Boniecki, M. J. Modeling of Three-Dimensional RNA Structures Using SimRNA. Protein Structure Prediction 103–125 (2020).
+14.	Stasiewicz, J., Mukherjee, S., Nithin, C. & Bujnicki, J. M. QRNAS: software tool for refinement of nucleic acid structures. BMC Struct. Biol. 19, 1–11 (2019).
+15.	Szulc, N. A., Mackiewicz, Z., Bujnicki, J. M. & Stefaniak, F. fingeRNAt—A novel tool for high-throughput analysis of nucleic acid-ligand interactions. PLoS Comput. Biol. 18, e1009783 (2022).
+69.	Perez, A., MacCallum, J. L. & Dill, K. A. Accelerating molecular simulations of proteins using Bayesian inference on weak information. Proc. Natl. Acad. Sci. U. S. A. 112, 11846–11851 (2015).
+<-->
+
+<ol>
+  <li>Wirecki TK, Merdas K, Bernat A, Boniecki MJ, Bujnicki JM, Stefaniak F. <a href="https://pubmed.ncbi.nlm.nih.gov/32504492/">RNAProbe: a web server for normalization and analysis of RNA structure probing data.</a> Nucleic Acids Res. 2020 Jul 2;48(W1):W292-W299.</li>
+  <li>Chojnowski G, Walen T, Bujnicki JM. <a href="https://pubmed.ncbi.nlm.nih.gov/24220091/">RNA Bricks–a database of RNA 3D motifs and their interactions.</a> Nucleic Acids Res. 2014 Jan;42(Database issue):D123-31.</li>
+  <li>Tuszynska I, Magnus M, Jonak K, Dawson W, Bujnicki JM. <a href="https://pubmed.ncbi.nlm.nih.gov/25977296/">NPDock: a web server for protein-nucleic acid docking.</a> Nucleic Acids Res. 2015 Jul 1;43(W1):W425-30.</li>
+  <li>Boniecki MJ, Lach G, Dawson WK, Tomala K, Lukasz P, Soltysinski T, Rother KM, Bujnicki JM. <a href="https://pubmed.ncbi.nlm.nih.gov/26687716/">SimRNA: a coarse-grained method for RNA folding simulations and 3D structure prediction.</a> Nucleic Acids Res. 2016 Apr 20;44(7):e63.</li>
+  <li>Wirecki TK, Nithin C, Mukherjee S, Bujnicki JM, Boniecki MJ. <a href="https://pubmed.ncbi.nlm.nih.gov/32621221/">Modeling of Three-Dimensional RNA Structures Using SimRNA.</a> Methods Mol Biol. 2020;2165:103-125.</li>
+  <li>Stasiewicz J, Mukherjee S, Nithin C, Bujnicki JM. <a href="https://pubmed.ncbi.nlm.nih.gov/30898165/">QRNAS: software tool for refinement of nucleic acid structures.</a> BMC Struct Biol. 2019 Mar 21;19(1):5.</li>
+  <li>Szulc NA, Mackiewicz Z, Bujnicki JM, Stefaniak F. <a href="https://pubmed.ncbi.nlm.nih.gov/35653385/">fingeRNAt-A novel tool for high-throughput analysis of nucleic acid-ligand interactions.</a> PLoS Comput Biol. 2022 Jun 2;18(6):e1009783.</li>
+</ol>
+
+
+  </div>
+
+</article>
+
+      </div>
+      <!-- 侧边栏区域：占用 4 栏 -->
+      <div id="newsid" class="col-md-4">
+        <!-- Begin: Sidebar 模块 -->
+<aside class="sidebar col-sm-44" style="padding: 15px;">
+	    <!-- CSS Files -->
+		<link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="/css/stylish-portfolio.css" rel="stylesheet" type="text/css">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="//jpswalsh.github.io/academicons/css/academicons.css" rel="stylesheet">
+		<link href="/stylesheets/screen.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+	<!-- Begin: 关于信息部分 -->
+	<section>
+		<h1>RNA-Puzzles</h1>
+		<p>A collective blind evaluation of RNA three-dimensional structure prediction</p>
+		<!-- GitHub 链接 -->
+		<a href="https://github.com/RNA-Puzzles">
+			<i class="fa fa-github-square fa-fw fa-2x"></i>
+		</a>
+		<!-- Email 链接 -->
+		<a href="mailto:ibmc.cnrs@gmail.com">
+			<i class="fa fa-envelope-square fa-fw fa-2x"></i>
+		</a>
+		<!-- Twitter 链接 -->
+		<a href="https://twitter.com/RNAPuzzles">
+			<i class="fa fa-twitter-square fa-fw fa-2x"></i>
+		</a>
+		<!-- Coffee 链接（示例链接，可根据需要修改） -->
+		<a href="">
+			<i class="fa fa-coffee fa-fw fa-2x"></i>
+		</a>
+
+
+
+	</section>
+	<!-- End: 关于信息部分 -->
+
+	<!-- Begin: 最近文章模块 -->
+	<section class="panel panel-info">
+		<div class="panel-heading">
+			<h3 class="panel-title">Recent Posts</h3>
+		</div>
+		<div id="recent_posts" class="list-group">
+			<a class="list-group-item" href="/news/2023/10/07/Submission-Process/">Submission Process</a>
+			<a class="list-group-item" href="/news/2023/10/07/Research-Spectrum/">Research Spectrum</a>
+			<a class="list-group-item" href="/news/2023/10/07/Recent-Engagements/">Recent Engagements</a>
+			<a class="list-group-item" href="/news/2023/10/07/Participating-Teams/">Participating Teams</a>
+			<a class="list-group-item" href="/news/2023/10/07/Methodological-Progress/">Methodological Progress</a>
+		</div>
+	</section>
+	<!-- End: 最近文章模块 -->
+
+	<!-- Begin: GitHub Repos 模块 -->
+	<section class="panel panel-info clearfix">
+		<div class="panel-heading">
+			<h3 class="panel-title">GitHub Repos</h3>
+		</div>
+		<div class="list-group" id="gh_repos">
+			<p class="loading">Status updating...</p>
+		</div>
+		<div class="gh-profile-link pull-right text-muted">
+			<a href="https://github.com/RNA-Puzzles">@RNA-Puzzles</a> on GitHub
+		</div>
+		<!-- 使用 jQuery 动态加载 GitHub 仓库信息 -->
+		<script type="text/javascript">
+			$(document).ready(function(){
+				// 如果未加载 jXHR 库，则动态加载
+				if (!window.jXHR){
+					var jxhr = document.createElement('script');
+					jxhr.type = 'text/javascript';
+					jxhr.src = '/javascripts/libs/jXHR.js';
+					var s = document.getElementsByTagName('script')[0];
+					s.parentNode.insertBefore(jxhr, s);
+				}
+				// 调用 github.showRepos() 函数显示仓库列表
+				github.showRepos({
+					user: 'RNA-Puzzles',
+					count: 0,
+					skip_forks: true,
+					target: '#gh_repos'
+				});
+			});
+		</script>
+		<script src="/javascripts/github.js" type="text/javascript"></script>
+	</section>
+	<!-- End: GitHub Repos 模块 -->
+
+	<!-- Begin: 分类模块 -->
+	<section class="panel panel-info clearfix">
+		<div class="panel-heading">
+			<h3 class="panel-title">Categories</h3>
+		</div>
+		<div class="list-group-item">
+			<a href="/blog/group_category/">group (16)</a>
+		</div>
+		<div class="list-group-item">
+			<a href="/blog/news_category/">news (7)</a>
+		</div>
+		<div class="list-group-item">
+			<a href="/blog/results_category/">results (39)</a>
+		</div>
+		<div class="list-group-item">
+			<a href="/blog/tables_category/">table (129)</a>
+		</div>
+	</section>
+	<!-- End: 分类模块 -->
+</aside>
+<!-- End: Sidebar 模块 -->
+
+      </div>
+    </div>
+  </div>
+
+    <div id="footer" class="panel">
+  <div class="panel-footer" style='background-color: #333333; color: #eeeeee;'>
+	<div class="container-fluid">
+	  <div class="row">
+		<div class="col-sm-4">
+			
+		  <p>&copy 2025 RNA-Puzzles. </p>
+		  <p>We are part of the <a href="https://gzlab.ac.cn">Guangzhou Laboratory</a> and <a href="http://www.rnapuzzles.org/">RNApuzzles</a>.</p>
+		  <p>Site made with <a href="https://jekyllrb.com">Jekyll</a>;  <a href="http://localhost:4000/aboutwebsite.html">copy and  modify it for your own research group.</a></p>
+		  <p>  </p>
+		  <p>  </p>
+		</div>
+		
+		<div class="col-sm-4">
+		  Funding:<br />
+          - <a href="https://gzlab.ac.cn">R&D Programs of Guangzhou Laboratory</a><br />
+          - <a href="http://www.most.gov.cn/">MOST IT+BT projects</a> <br />
+          - <a href="https://www.nsfc.gov.cn/">NSFC</a> <br />	  
+		</div>
+		
+		<div class="col-sm-4">
+		  Contact:<br />
+		  Building B2, Guangzhou National Laboratory<br />
+		  96 Xingdao South Road, Guangzhou International Bio Island, <br />
+		  Haizhu District, Guangzhou, Guangdong, China.<br />
+          (<a href="https://goo.gl/maps/hDLr6siEAS2Eaypt8">Maps</a>)
+		</div>
+	  </div>
+	</div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://localhost:4000/js/bootstrap.min.js"></script>
+
+
+  </body>
+
+</html>

@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- 开始：HEAD 部分 -->
+    <meta charset="utf-8">
+    <title>Group - RNA-Puzzles</title>
+    <meta name="author" content="Chichau Miao">
+
+    <!-- 移动设备优化相关 Meta 标签 -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- SEO 相关：Canonical URL、Favicon、RSS 订阅链接 -->
+    <link rel="canonical" href="http://www.rnapuzzles.org/group/">
+    <link href="/favicon.png" type="image/png" rel="icon">
+    <link href="/atom.xml" rel="alternate" title="RNA-Puzzles" type="application/atom+xml">
+
+    <!-- Open Graph / Twitter Meta 标签 -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.rnapuzzles.org/group/">
+    <meta property="og:title" content="Group - RNA-Puzzles">
+    
+    <!-- 引入 jQuery -->
+    <script src="/js/jquery-3.2.1.min.js"></script>
+
+    <!-- 引入 CSS 文件 -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/stylish-portfolio.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//jpswalsh.github.io/academicons/css/academicons.css" rel="stylesheet">
+    <link href="/stylesheets/screen.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+    <!-- 结束：HEAD 部分 -->
+</head>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Puzzle PZ39 table</title>
+  <meta name="description" content="The lab website of Zhichao Miao lab.
+">
+  <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/_posts/tables/2000-01-01-PZ39-3d.html">
+  <link rel="shortcut icon" type="image/x-icon" href="http://localhost:4000/favicon.png">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  
+
+  <!-- 将汉堡按钮的 CSS 样式放在 style 标签内 -->
+  <style>
+    .navbar-toggle .icon-bar {
+      background-color: #eeeeee;
+    }
+  </style>
+
+</head>
+
+
+  <body>
+
+    <!-- 导航条容器：使用 Bootstrap 的 navbar 类，设置导航条扩展模式、深色主题以及内联样式 -->
+<div class="navbar navbar-expand-lg navbar-dark" style="border-radius: 0; border: 0; background-color: #337ab7" role="navigation">
+	<!-- 限制内容宽度为 1200px 的 fluid 容器 -->
+	<div class="container-fluid" style="max-width: 1500px;">
+		<!-- 导航头部：包含汉堡按钮和品牌链接 -->
+		<div class="navbar-header">
+			<!-- 响应式切换按钮（汉堡菜单）
+			     当屏幕较小时，该按钮显示，点击后控制右侧所有链接、RSS 和搜索框的折叠/展开
+			     为使按钮图标颜色与当前字体颜色（白色）一致，在 CSS 中设置 .navbar-toggle .icon-bar 的背景色 -->
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+
+			<!-- 品牌链接：使用 Flexbox 布局使品牌文字和 logo 分布在两侧 -->
+			<a class="navbar-brand" href="http://localhost:4000/" style="display: flex; justify-content: space-between; align-items: center;">
+				<b style="font-size: 32px; color: #eeeeee;">RNA-Puzzles</b>
+				<img src="http://localhost:4000/images/header/logo.jpg" style="height: 53px; margin-top: 0; margin-bottom: 0; padding: 0px; border-radius: 0;" alt="logo">
+			</a>
+		</div> <!-- end of .navbar-header -->
+
+		<!-- 可折叠的导航菜单部分：包括多个页面链接、搜索框和 RSS 订阅按钮 -->
+		<div class="collapse navbar-collapse" id="navbar-collapse-1">
+			<!-- 右对齐的导航列表 -->
+			<ul class="nav navbar-nav navbar-right">
+				<!-- 页面链接 -->
+				<li>
+					<a class="nav-link-1" href="http://localhost:4000/results">Results</a>
+				</li>
+				<li>
+					<a class="nav-link-1" href="http://localhost:4000/open-puzzle">Open Puzzles</a>
+				</li>
+				<li>
+					<a class="nav-link-1" href="http://localhost:4000/group">Groups</a>
+				</li>
+				<li>
+					<a class="nav-link-1" href="http://localhost:4000/publication">Publications</a>
+				</li>
+				<li>
+					<a class="nav-link-1" href="https://chichaumiau.github.io/rnapuzzlestoolkit/">Resources</a>
+				</li>
+				<!-- 搜索框：
+				     使用 form 表单，置于一个 <li> 内与其他链接同一行显示，
+				     通过 position: relative; top: 2px; 实现向下偏移 2px，
+				     同时保证输入框垂直居中 -->
+				<li>
+					<form class="navbar-form" role="search" action="/search" method="GET" style="margin: 0; padding: 0;">
+						<div class="form-group">
+							<input type="text" class="form-control" name="q" placeholder="search" style="color: #999; vertical-align: middle; position: relative; top: 9px;">
+						</div>
+					</form>
+				</li>
+				<!-- RSS 订阅按钮：
+				     为避免上下空白，通过清除图片的默认 margin/padding，并设置 display: inline-block，
+				     同时保持 vertical-align: middle 使其垂直居中 -->
+				<li>
+					<a class="subscribe-rss" href="/atom.xml" title="subscribe via RSS" style="line-height: 1;">
+						<span class="visible-xs">RSS</span>
+						<img class="hidden-xs" src="/images/header/rss.png" alt="RSS" style="vertical-align: middle; margin: 0; padding: 0; display: inline-block;">
+					</a>
+				</li>
+			</ul>
+		</div> <!-- end of .collapse .navbar-collapse -->
+	</div> <!-- end of .container-fluid -->
+</div> <!-- end of .navbar -->
+
+
+  <!-- 使用 container 保证内容区域居中 -->
+  <div class="container">
+    <div class="row">
+      <!-- 主页内容区域：占用 8 栏 -->
+      <div id="homeid" class="col-md-8">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Puzzle PZ39 table</h1>
+    <p class="post-meta"><time datetime="2000-01-01T08:00:01+08:00" itemprop="datePublished">Jan 1, 2000</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <script src="/javascripts/sorttable.js"></script>
+
+<script>
+    window.onload = function() {
+        (document.getElementsByTagName( 'th' )[1]).click();
+    };
+</script>
+
+<p><br /></p>
+<div align="center">
+  <p>Please click the tags to sort data.<br /></p>
+  <table class="sortable" border="1">
+  <tr>
+    <th>Lab</th>
+    <th>Num</th>
+    <th>RMSD</th>
+    <th>DI all</th>
+    <th>INF all</th>
+    <th>INF wc</th>
+    <th>INF nwc</th>
+    <th>INF stacking</th>
+    <th>Clash Score</th>
+    <th>P-value</th>
+    <th>mcq</th>
+    <th>TM-score</th>
+    <th>best sol.</th>
+    <th>Detail</th>
+  </tr>
+  <tr><td>GeneSilico4</td><td>1</td><td>3.383</td><td>3.678</td><td>0.920</td><td>0.973</td><td>-</td><td>0.894</td><td>0.350</td><td>0.00e+00</td><td>26.71</td><td>0.6360</td><td>1</td><td><a href="/show/index.html?id=PZ39_GeneSilico4_1">-&gt;</a></td></tr>
+<tr><td>Chen</td><td>1</td><td>3.959</td><td>4.351</td><td>0.910</td><td>0.973</td><td>-</td><td>0.878</td><td>0.350</td><td>0.00e+00</td><td>17.34</td><td>0.5530</td><td>1</td><td><a href="/show/index.html?id=PZ39_Chen_1">-&gt;</a></td></tr>
+<tr><td>SimRNA</td><td>3</td><td>4.821</td><td>5.712</td><td>0.844</td><td>0.945</td><td>-</td><td>0.795</td><td>94.420</td><td>0.00e+00</td><td>20.63</td><td>0.5700</td><td>1</td><td><a href="/show/index.html?id=PZ39_SimRNA_3">-&gt;</a></td></tr>
+<tr><td>Chen</td><td>2</td><td>5.267</td><td>5.762</td><td>0.914</td><td>0.973</td><td>-</td><td>0.884</td><td>0.350</td><td>0.00e+00</td><td>16.60</td><td>0.4830</td><td>1</td><td><a href="/show/index.html?id=PZ39_Chen_2">-&gt;</a></td></tr>
+<tr><td>GeneSilico3</td><td>1</td><td>5.447</td><td>6.106</td><td>0.892</td><td>0.973</td><td>-</td><td>0.851</td><td>0.350</td><td>0.00e+00</td><td>20.69</td><td>0.4340</td><td>1</td><td><a href="/show/index.html?id=PZ39_GeneSilico3_1">-&gt;</a></td></tr>
+<tr><td>DasSWM</td><td>5</td><td>5.594</td><td>6.087</td><td>0.919</td><td>0.987</td><td>-</td><td>0.884</td><td>2.110</td><td>0.00e+00</td><td>13.69</td><td>0.4990</td><td>1</td><td><a href="/show/index.html?id=PZ39_DasSWM_5">-&gt;</a></td></tr>
+<tr><td>Szachniuk</td><td>1</td><td>5.605</td><td>6.118</td><td>0.916</td><td>0.973</td><td>-</td><td>0.887</td><td>7.380</td><td>0.00e+00</td><td>20.03</td><td>0.4620</td><td>1</td><td><a href="/show/index.html?id=PZ39_Szachniuk_1">-&gt;</a></td></tr>
+<tr><td>SoutheRNA</td><td>5</td><td>5.610</td><td>6.818</td><td>0.823</td><td>0.915</td><td>-</td><td>0.778</td><td>81.960</td><td>0.00e+00</td><td>19.10</td><td>0.4730</td><td>1</td><td><a href="/show/index.html?id=PZ39_SoutheRNA_5">-&gt;</a></td></tr>
+<tr><td>GeneSilico1</td><td>2</td><td>5.919</td><td>6.620</td><td>0.894</td><td>0.987</td><td>-</td><td>0.845</td><td>0.000</td><td>0.00e+00</td><td>20.19</td><td>0.4430</td><td>1</td><td><a href="/show/index.html?id=PZ39_GeneSilico1_2">-&gt;</a></td></tr>
+<tr><td>GeneSilico2</td><td>4</td><td>5.959</td><td>6.689</td><td>0.891</td><td>0.987</td><td>-</td><td>0.841</td><td>0.000</td><td>0.00e+00</td><td>20.79</td><td>0.4560</td><td>1</td><td><a href="/show/index.html?id=PZ39_GeneSilico2_4">-&gt;</a></td></tr>
+<tr><td>Ding</td><td>4</td><td>6.446</td><td>7.812</td><td>0.825</td><td>0.945</td><td>-</td><td>0.766</td><td>7.730</td><td>0.00e+00</td><td>21.34</td><td>0.5020</td><td>1</td><td><a href="/show/index.html?id=PZ39_Ding_4">-&gt;</a></td></tr>
+<tr><td>GeneSilico2</td><td>2</td><td>6.618</td><td>7.411</td><td>0.893</td><td>0.987</td><td>-</td><td>0.846</td><td>0.000</td><td>0.00e+00</td><td>20.58</td><td>0.4500</td><td>1</td><td><a href="/show/index.html?id=PZ39_GeneSilico2_2">-&gt;</a></td></tr>
+<tr><td>Dokholyan</td><td>2</td><td>6.779</td><td>8.206</td><td>0.826</td><td>0.855</td><td>-</td><td>0.819</td><td>98.530</td><td>0.00e+00</td><td>20.66</td><td>0.4700</td><td>1</td><td><a href="/show/index.html?id=PZ39_Dokholyan_2">-&gt;</a></td></tr>
+<tr><td>RNAComposer</td><td>4</td><td>6.880</td><td>7.857</td><td>0.876</td><td>0.973</td><td>-</td><td>0.831</td><td>15.810</td><td>0.00e+00</td><td>21.09</td><td>0.4350</td><td>1</td><td><a href="/show/index.html?id=PZ39_RNAComposer_4">-&gt;</a></td></tr>
+<tr><td>DasSWM</td><td>2</td><td>7.191</td><td>7.875</td><td>0.913</td><td>0.973</td><td>-</td><td>0.883</td><td>2.460</td><td>0.00e+00</td><td>16.39</td><td>0.4500</td><td>1</td><td><a href="/show/index.html?id=PZ39_DasSWM_2">-&gt;</a></td></tr>
+<tr><td>SoutheRNA</td><td>10</td><td>7.245</td><td>8.623</td><td>0.840</td><td>0.930</td><td>-</td><td>0.795</td><td>95.270</td><td>0.00e+00</td><td>21.15</td><td>0.4540</td><td>1</td><td><a href="/show/index.html?id=PZ39_SoutheRNA_10">-&gt;</a></td></tr>
+<tr><td>Ding</td><td>1</td><td>7.452</td><td>8.856</td><td>0.841</td><td>0.945</td><td>-</td><td>0.795</td><td>8.780</td><td>0.00e+00</td><td>19.36</td><td>0.4430</td><td>1</td><td><a href="/show/index.html?id=PZ39_Ding_1">-&gt;</a></td></tr>
+<tr><td>DasSWM</td><td>3</td><td>7.464</td><td>8.256</td><td>0.904</td><td>0.973</td><td>-</td><td>0.875</td><td>4.210</td><td>0.00e+00</td><td>16.92</td><td>0.4430</td><td>1</td><td><a href="/show/index.html?id=PZ39_DasSWM_3">-&gt;</a></td></tr>
+<tr><td>SimRNA</td><td>2</td><td>7.507</td><td>9.110</td><td>0.824</td><td>0.886</td><td>-</td><td>0.795</td><td>68.420</td><td>0.00e+00</td><td>21.91</td><td>0.4820</td><td>1</td><td><a href="/show/index.html?id=PZ39_SimRNA_2">-&gt;</a></td></tr>
+<tr><td>Chen</td><td>3</td><td>7.649</td><td>8.497</td><td>0.900</td><td>0.987</td><td>-</td><td>0.858</td><td>0.000</td><td>0.00e+00</td><td>19.31</td><td>0.4660</td><td>1</td><td><a href="/show/index.html?id=PZ39_Chen_3">-&gt;</a></td></tr>
+<tr><td>DasSWM</td><td>4</td><td>7.893</td><td>8.828</td><td>0.894</td><td>0.987</td><td>-</td><td>0.845</td><td>3.160</td><td>0.00e+00</td><td>18.19</td><td>0.3880</td><td>1</td><td><a href="/show/index.html?id=PZ39_DasSWM_4">-&gt;</a></td></tr>
+<tr><td>GeneSilico2</td><td>5</td><td>7.898</td><td>8.844</td><td>0.893</td><td>0.987</td><td>-</td><td>0.846</td><td>0.000</td><td>0.00e+00</td><td>22.27</td><td>0.4200</td><td>1</td><td><a href="/show/index.html?id=PZ39_GeneSilico2_5">-&gt;</a></td></tr>
+<tr><td>Perez</td><td>3</td><td>7.959</td><td>9.444</td><td>0.843</td><td>0.945</td><td>-</td><td>0.792</td><td>1.050</td><td>0.00e+00</td><td>20.92</td><td>0.4330</td><td>1</td><td><a href="/show/index.html?id=PZ39_Perez_3">-&gt;</a></td></tr>
+<tr><td>DasSWM</td><td>1</td><td>8.023</td><td>8.834</td><td>0.908</td><td>0.987</td><td>-</td><td>0.874</td><td>1.760</td><td>0.00e+00</td><td>17.07</td><td>0.4040</td><td>1</td><td><a href="/show/index.html?id=PZ39_DasSWM_1">-&gt;</a></td></tr>
+<tr><td>GeneSilico2</td><td>3</td><td>8.162</td><td>9.060</td><td>0.901</td><td>0.987</td><td>-</td><td>0.857</td><td>0.000</td><td>0.00e+00</td><td>21.78</td><td>0.4290</td><td>1</td><td><a href="/show/index.html?id=PZ39_GeneSilico2_3">-&gt;</a></td></tr>
+<tr><td>GeneSilico2</td><td>1</td><td>8.768</td><td>9.797</td><td>0.895</td><td>0.987</td><td>-</td><td>0.847</td><td>0.350</td><td>0.00e+00</td><td>20.09</td><td>0.4030</td><td>1</td><td><a href="/show/index.html?id=PZ39_GeneSilico2_1">-&gt;</a></td></tr>
+<tr><td>Perez</td><td>10</td><td>8.947</td><td>11.700</td><td>0.765</td><td>0.870</td><td>-</td><td>0.717</td><td>1.400</td><td>0.00e+00</td><td>23.52</td><td>0.3450</td><td>1</td><td><a href="/show/index.html?id=PZ39_Perez_10">-&gt;</a></td></tr>
+<tr><td>Perez</td><td>8</td><td>9.246</td><td>12.773</td><td>0.724</td><td>0.870</td><td>-</td><td>0.664</td><td>0.350</td><td>0.00e+00</td><td>23.14</td><td>0.3440</td><td>1</td><td><a href="/show/index.html?id=PZ39_Perez_8">-&gt;</a></td></tr>
+<tr><td>Perez</td><td>5</td><td>9.757</td><td>13.028</td><td>0.749</td><td>0.886</td><td>-</td><td>0.703</td><td>1.050</td><td>0.00e+00</td><td>23.89</td><td>0.3430</td><td>1</td><td><a href="/show/index.html?id=PZ39_Perez_5">-&gt;</a></td></tr>
+<tr><td>Xiong</td><td>4</td><td>10.376</td><td>11.182</td><td>0.928</td><td>0.987</td><td>-</td><td>0.904</td><td>11.970</td><td>0.00e+00</td><td>13.82</td><td>0.3870</td><td>1</td><td><a href="/show/index.html?id=PZ39_Xiong_4">-&gt;</a></td></tr>
+<tr><td>Chen</td><td>4</td><td>10.562</td><td>11.747</td><td>0.899</td><td>0.945</td><td>-</td><td>0.884</td><td>0.000</td><td>0.00e+00</td><td>21.83</td><td>0.4090</td><td>1</td><td><a href="/show/index.html?id=PZ39_Chen_4">-&gt;</a></td></tr>
+<tr><td>Szachniuk</td><td>2</td><td>10.922</td><td>12.230</td><td>0.893</td><td>0.987</td><td>-</td><td>0.846</td><td>0.000</td><td>0.00e+00</td><td>18.76</td><td>0.4580</td><td>1</td><td><a href="/show/index.html?id=PZ39_Szachniuk_2">-&gt;</a></td></tr>
+<tr><td>Szachniuk</td><td>3</td><td>11.047</td><td>12.907</td><td>0.856</td><td>0.959</td><td>-</td><td>0.811</td><td>0.000</td><td>0.00e+00</td><td>19.43</td><td>0.3830</td><td>1</td><td><a href="/show/index.html?id=PZ39_Szachniuk_3">-&gt;</a></td></tr>
+<tr><td>Xiong</td><td>5</td><td>11.667</td><td>12.950</td><td>0.901</td><td>0.987</td><td>-</td><td>0.863</td><td>9.860</td><td>0.00e+00</td><td>14.00</td><td>0.3690</td><td>1</td><td><a href="/show/index.html?id=PZ39_Xiong_5">-&gt;</a></td></tr>
+<tr><td>GeneSilico1</td><td>4</td><td>11.730</td><td>13.092</td><td>0.896</td><td>0.987</td><td>-</td><td>0.849</td><td>0.000</td><td>0.00e+00</td><td>20.92</td><td>0.3220</td><td>1</td><td><a href="/show/index.html?id=PZ39_GeneSilico1_4">-&gt;</a></td></tr>
+<tr><td>Perez</td><td>9</td><td>11.846</td><td>16.413</td><td>0.722</td><td>0.870</td><td>-</td><td>0.664</td><td>1.050</td><td>0.00e+00</td><td>24.16</td><td>0.4000</td><td>1</td><td><a href="/show/index.html?id=PZ39_Perez_9">-&gt;</a></td></tr>
+<tr><td>Ding</td><td>8</td><td>12.102</td><td>14.423</td><td>0.839</td><td>0.945</td><td>-</td><td>0.784</td><td>8.080</td><td>0.00e+00</td><td>19.89</td><td>0.3700</td><td>1</td><td><a href="/show/index.html?id=PZ39_Ding_8">-&gt;</a></td></tr>
+<tr><td>Ding</td><td>2</td><td>12.537</td><td>14.885</td><td>0.842</td><td>0.945</td><td>-</td><td>0.788</td><td>11.590</td><td>0.00e+00</td><td>19.69</td><td>0.3040</td><td>1</td><td><a href="/show/index.html?id=PZ39_Ding_2">-&gt;</a></td></tr>
+<tr><td>Szachniuk</td><td>4</td><td>13.002</td><td>14.723</td><td>0.883</td><td>0.973</td><td>-</td><td>0.836</td><td>7.380</td><td>2.22e-16</td><td>21.80</td><td>0.2900</td><td>1</td><td><a href="/show/index.html?id=PZ39_Szachniuk_4">-&gt;</a></td></tr>
+<tr><td>Ding</td><td>7</td><td>13.614</td><td>17.488</td><td>0.778</td><td>0.945</td><td>-</td><td>0.695</td><td>9.480</td><td>3.72e-15</td><td>19.76</td><td>0.4030</td><td>1</td><td><a href="/show/index.html?id=PZ39_Ding_7">-&gt;</a></td></tr>
+<tr><td>Chen</td><td>8</td><td>14.426</td><td>16.507</td><td>0.874</td><td>0.930</td><td>-</td><td>0.848</td><td>0.000</td><td>1.19e-13</td><td>21.06</td><td>0.2700</td><td>1</td><td><a href="/show/index.html?id=PZ39_Chen_8">-&gt;</a></td></tr>
+<tr><td>SimRNA</td><td>5</td><td>15.204</td><td>18.069</td><td>0.841</td><td>0.930</td><td>-</td><td>0.797</td><td>75.190</td><td>2.73e-12</td><td>21.35</td><td>0.3480</td><td>1</td><td><a href="/show/index.html?id=PZ39_SimRNA_5">-&gt;</a></td></tr>
+<tr><td>Xiao</td><td>5</td><td>15.246</td><td>19.368</td><td>0.787</td><td>0.855</td><td>-</td><td>0.765</td><td>1.050</td><td>3.22e-12</td><td>21.05</td><td>0.2880</td><td>1</td><td><a href="/show/index.html?id=PZ39_Xiao_5">-&gt;</a></td></tr>
+<tr><td>Xiao</td><td>4</td><td>15.470</td><td>18.897</td><td>0.819</td><td>0.839</td><td>-</td><td>0.811</td><td>0.000</td><td>7.63e-12</td><td>18.62</td><td>0.3060</td><td>1</td><td><a href="/show/index.html?id=PZ39_Xiao_4">-&gt;</a></td></tr>
+<tr><td>Xiong</td><td>1</td><td>15.634</td><td>17.762</td><td>0.880</td><td>0.987</td><td>-</td><td>0.832</td><td>8.800</td><td>1.43e-11</td><td>13.76</td><td>0.2840</td><td>1</td><td><a href="/show/index.html?id=PZ39_Xiong_1">-&gt;</a></td></tr>
+<tr><td>Xiao</td><td>2</td><td>15.833</td><td>19.405</td><td>0.816</td><td>0.789</td><td>-</td><td>0.838</td><td>0.000</td><td>3.00e-11</td><td>17.92</td><td>0.2820</td><td>1</td><td><a href="/show/index.html?id=PZ39_Xiao_2">-&gt;</a></td></tr>
+<tr><td>SoutheRNA</td><td>7</td><td>15.968</td><td>18.885</td><td>0.846</td><td>0.944</td><td>-</td><td>0.797</td><td>91.680</td><td>4.94e-11</td><td>21.03</td><td>0.4130</td><td>1</td><td><a href="/show/index.html?id=PZ39_SoutheRNA_7">-&gt;</a></td></tr>
+<tr><td>Perez</td><td>4</td><td>16.267</td><td>20.241</td><td>0.804</td><td>0.945</td><td>-</td><td>0.740</td><td>0.350</td><td>1.47e-10</td><td>21.08</td><td>0.3060</td><td>1</td><td><a href="/show/index.html?id=PZ39_Perez_4">-&gt;</a></td></tr>
+<tr><td>Chen</td><td>10</td><td>16.380</td><td>19.052</td><td>0.860</td><td>0.930</td><td>-</td><td>0.827</td><td>0.000</td><td>2.19e-10</td><td>22.15</td><td>0.2630</td><td>1</td><td><a href="/show/index.html?id=PZ39_Chen_10">-&gt;</a></td></tr>
+<tr><td>Xiao</td><td>3</td><td>16.463</td><td>20.574</td><td>0.800</td><td>0.870</td><td>-</td><td>0.776</td><td>0.000</td><td>2.94e-10</td><td>23.93</td><td>0.3140</td><td>1</td><td><a href="/show/index.html?id=PZ39_Xiao_3">-&gt;</a></td></tr>
+<tr><td>YangServer</td><td>5</td><td>16.578</td><td>30.608</td><td>0.542</td><td>0.438</td><td>-</td><td>0.590</td><td>72.710</td><td>4.39e-10</td><td>34.88</td><td>0.2760</td><td>1</td><td><a href="/show/index.html?id=PZ39_YangServer_5">-&gt;</a></td></tr>
+<tr><td>Ding</td><td>6</td><td>17.065</td><td>20.440</td><td>0.835</td><td>0.945</td><td>-</td><td>0.778</td><td>7.380</td><td>2.33e-09</td><td>18.46</td><td>0.2800</td><td>1</td><td><a href="/show/index.html?id=PZ39_Ding_6">-&gt;</a></td></tr>
+<tr><td>Xiong</td><td>2</td><td>17.096</td><td>18.933</td><td>0.903</td><td>0.987</td><td>-</td><td>0.867</td><td>6.340</td><td>2.58e-09</td><td>14.02</td><td>0.2990</td><td>1</td><td><a href="/show/index.html?id=PZ39_Xiong_2">-&gt;</a></td></tr>
+<tr><td>Perez</td><td>1</td><td>17.120</td><td>21.159</td><td>0.809</td><td>0.959</td><td>-</td><td>0.735</td><td>0.350</td><td>2.79e-09</td><td>22.20</td><td>0.2660</td><td>1</td><td><a href="/show/index.html?id=PZ39_Perez_1">-&gt;</a></td></tr>
+<tr><td>GeneSilico1</td><td>5</td><td>17.181</td><td>19.484</td><td>0.882</td><td>0.987</td><td>-</td><td>0.828</td><td>0.000</td><td>3.42e-09</td><td>20.41</td><td>0.3100</td><td>1</td><td><a href="/show/index.html?id=PZ39_GeneSilico1_5">-&gt;</a></td></tr>
+<tr><td>YangServer</td><td>3</td><td>17.525</td><td>27.851</td><td>0.629</td><td>0.593</td><td>-</td><td>0.655</td><td>53.390</td><td>1.05e-08</td><td>35.52</td><td>0.2800</td><td>1</td><td><a href="/show/index.html?id=PZ39_YangServer_3">-&gt;</a></td></tr>
+<tr><td>RNAComposer</td><td>5</td><td>17.645</td><td>20.925</td><td>0.843</td><td>0.945</td><td>-</td><td>0.790</td><td>9.130</td><td>1.54e-08</td><td>23.49</td><td>0.3330</td><td>1</td><td><a href="/show/index.html?id=PZ39_RNAComposer_5">-&gt;</a></td></tr>
+<tr><td>RNAComposer</td><td>2</td><td>17.778</td><td>21.608</td><td>0.823</td><td>0.916</td><td>-</td><td>0.783</td><td>9.480</td><td>2.34e-08</td><td>22.97</td><td>0.2490</td><td>1</td><td><a href="/show/index.html?id=PZ39_RNAComposer_2">-&gt;</a></td></tr>
+<tr><td>Dfold</td><td>1</td><td>18.073</td><td>27.863</td><td>0.649</td><td>0.458</td><td>-</td><td>0.738</td><td>126.890</td><td>5.81e-08</td><td>21.64</td><td>0.2840</td><td>1</td><td><a href="/show/index.html?id=PZ39_Dfold_1">-&gt;</a></td></tr>
+<tr><td>Dfold</td><td>4</td><td>18.239</td><td>33.080</td><td>0.551</td><td>0.336</td><td>-</td><td>0.650</td><td>118.720</td><td>9.60e-08</td><td>21.90</td><td>0.2500</td><td>1</td><td><a href="/show/index.html?id=PZ39_Dfold_4">-&gt;</a></td></tr>
+<tr><td>YangServer</td><td>1</td><td>18.762</td><td>28.797</td><td>0.652</td><td>0.615</td><td>-</td><td>0.685</td><td>52.340</td><td>4.41e-07</td><td>35.00</td><td>0.4300</td><td>1</td><td><a href="/show/index.html?id=PZ39_YangServer_1">-&gt;</a></td></tr>
+<tr><td>RNAComposer</td><td>3</td><td>18.915</td><td>21.175</td><td>0.893</td><td>0.973</td><td>-</td><td>0.852</td><td>9.830</td><td>6.77e-07</td><td>17.73</td><td>0.2740</td><td>1</td><td><a href="/show/index.html?id=PZ39_RNAComposer_3">-&gt;</a></td></tr>
+<tr><td>Dfold</td><td>3</td><td>19.034</td><td>31.898</td><td>0.597</td><td>0.450</td><td>-</td><td>0.673</td><td>74.410</td><td>9.44e-07</td><td>20.10</td><td>0.2520</td><td>1</td><td><a href="/show/index.html?id=PZ39_Dfold_3">-&gt;</a></td></tr>
+<tr><td>Dfold</td><td>2</td><td>19.217</td><td>37.382</td><td>0.514</td><td>0.316</td><td>-</td><td>0.609</td><td>100.460</td><td>1.55e-06</td><td>23.13</td><td>0.2630</td><td>1</td><td><a href="/show/index.html?id=PZ39_Dfold_2">-&gt;</a></td></tr>
+<tr><td>SoutheRNA</td><td>4</td><td>19.247</td><td>23.352</td><td>0.824</td><td>0.930</td><td>-</td><td>0.772</td><td>74.760</td><td>1.68e-06</td><td>20.41</td><td>0.3790</td><td>1</td><td><a href="/show/index.html?id=PZ39_SoutheRNA_4">-&gt;</a></td></tr>
+<tr><td>DasEMinfo</td><td>1</td><td>19.329</td><td>23.471</td><td>0.824</td><td>0.960</td><td>-</td><td>0.753</td><td>8.080</td><td>2.10e-06</td><td>21.33</td><td>0.2930</td><td>1</td><td><a href="/show/index.html?id=PZ39_DasEMinfo_1">-&gt;</a></td></tr>
+<tr><td>SoutheRNA</td><td>3</td><td>19.360</td><td>23.807</td><td>0.813</td><td>0.916</td><td>-</td><td>0.761</td><td>92.380</td><td>2.28e-06</td><td>19.71</td><td>0.3050</td><td>1</td><td><a href="/show/index.html?id=PZ39_SoutheRNA_3">-&gt;</a></td></tr>
+<tr><td>Dokholyan</td><td>3</td><td>19.623</td><td>25.535</td><td>0.768</td><td>0.886</td><td>-</td><td>0.713</td><td>86.500</td><td>4.54e-06</td><td>22.38</td><td>0.2580</td><td>1</td><td><a href="/show/index.html?id=PZ39_Dokholyan_3">-&gt;</a></td></tr>
+<tr><td>Chen</td><td>7</td><td>19.798</td><td>22.523</td><td>0.879</td><td>0.930</td><td>-</td><td>0.856</td><td>0.000</td><td>7.09e-06</td><td>21.18</td><td>0.2760</td><td>1</td><td><a href="/show/index.html?id=PZ39_Chen_7">-&gt;</a></td></tr>
+<tr><td>DasEMinfo</td><td>3</td><td>19.910</td><td>22.348</td><td>0.891</td><td>0.987</td><td>-</td><td>0.841</td><td>2.460</td><td>9.39e-06</td><td>16.30</td><td>0.3300</td><td>1</td><td><a href="/show/index.html?id=PZ39_DasEMinfo_3">-&gt;</a></td></tr>
+<tr><td>Dokholyan</td><td>1</td><td>19.975</td><td>23.703</td><td>0.843</td><td>0.901</td><td>-</td><td>0.816</td><td>101.090</td><td>1.11e-05</td><td>21.15</td><td>0.2960</td><td>1</td><td><a href="/show/index.html?id=PZ39_Dokholyan_1">-&gt;</a></td></tr>
+<tr><td>Xiong</td><td>3</td><td>20.060</td><td>21.975</td><td>0.913</td><td>0.987</td><td>-</td><td>0.882</td><td>8.450</td><td>1.36e-05</td><td>14.50</td><td>0.3050</td><td>1</td><td><a href="/show/index.html?id=PZ39_Xiong_3">-&gt;</a></td></tr>
+<tr><td>DasEMinfo</td><td>2</td><td>20.131</td><td>24.334</td><td>0.827</td><td>0.973</td><td>-</td><td>0.759</td><td>7.380</td><td>1.62e-05</td><td>19.70</td><td>0.3020</td><td>1</td><td><a href="/show/index.html?id=PZ39_DasEMinfo_2">-&gt;</a></td></tr>
+<tr><td>SoutheRNA</td><td>8</td><td>20.316</td><td>24.831</td><td>0.818</td><td>0.930</td><td>-</td><td>0.765</td><td>90.140</td><td>2.53e-05</td><td>20.22</td><td>0.3090</td><td>1</td><td><a href="/show/index.html?id=PZ39_SoutheRNA_8">-&gt;</a></td></tr>
+<tr><td>GeneSilico1</td><td>3</td><td>20.348</td><td>23.251</td><td>0.875</td><td>0.973</td><td>-</td><td>0.832</td><td>0.000</td><td>2.73e-05</td><td>22.86</td><td>0.2840</td><td>1</td><td><a href="/show/index.html?id=PZ39_GeneSilico1_3">-&gt;</a></td></tr>
+<tr><td>DasEMinfo</td><td>4</td><td>20.380</td><td>24.336</td><td>0.837</td><td>0.973</td><td>-</td><td>0.766</td><td>8.780</td><td>2.94e-05</td><td>20.80</td><td>0.3340</td><td>1</td><td><a href="/show/index.html?id=PZ39_DasEMinfo_4">-&gt;</a></td></tr>
+<tr><td>SimRNA</td><td>1</td><td>20.392</td><td>24.198</td><td>0.843</td><td>0.901</td><td>-</td><td>0.816</td><td>87.400</td><td>3.03e-05</td><td>23.32</td><td>0.3970</td><td>1</td><td><a href="/show/index.html?id=PZ39_SimRNA_1">-&gt;</a></td></tr>
+<tr><td>GeneSilico1</td><td>1</td><td>20.433</td><td>22.981</td><td>0.889</td><td>0.959</td><td>-</td><td>0.856</td><td>0.000</td><td>3.33e-05</td><td>21.27</td><td>0.3930</td><td>1</td><td><a href="/show/index.html?id=PZ39_GeneSilico1_1">-&gt;</a></td></tr>
+<tr><td>SoutheRNA</td><td>9</td><td>20.451</td><td>24.187</td><td>0.846</td><td>0.901</td><td>-</td><td>0.820</td><td>126.100</td><td>3.47e-05</td><td>20.71</td><td>0.2910</td><td>1</td><td><a href="/show/index.html?id=PZ39_SoutheRNA_9">-&gt;</a></td></tr>
+<tr><td>RNAComposer</td><td>1</td><td>20.546</td><td>23.219</td><td>0.885</td><td>0.959</td><td>-</td><td>0.853</td><td>13.000</td><td>4.33e-05</td><td>22.49</td><td>0.3870</td><td>1</td><td><a href="/show/index.html?id=PZ39_RNAComposer_1">-&gt;</a></td></tr>
+<tr><td>Chen</td><td>5</td><td>20.570</td><td>24.415</td><td>0.843</td><td>0.973</td><td>-</td><td>0.782</td><td>0.000</td><td>4.58e-05</td><td>19.54</td><td>0.2970</td><td>1</td><td><a href="/show/index.html?id=PZ39_Chen_5">-&gt;</a></td></tr>
+<tr><td>SoutheRNA</td><td>1</td><td>20.575</td><td>24.608</td><td>0.836</td><td>0.916</td><td>-</td><td>0.797</td><td>141.650</td><td>4.63e-05</td><td>22.01</td><td>0.3820</td><td>1</td><td><a href="/show/index.html?id=PZ39_SoutheRNA_1">-&gt;</a></td></tr>
+<tr><td>YangServer</td><td>4</td><td>20.636</td><td>32.129</td><td>0.642</td><td>0.569</td><td>-</td><td>0.685</td><td>53.040</td><td>5.32e-05</td><td>32.27</td><td>0.3030</td><td>1</td><td><a href="/show/index.html?id=PZ39_YangServer_4">-&gt;</a></td></tr>
+<tr><td>Ding</td><td>3</td><td>20.745</td><td>24.117</td><td>0.860</td><td>0.945</td><td>-</td><td>0.817</td><td>9.480</td><td>6.81e-05</td><td>19.96</td><td>0.3780</td><td>1</td><td><a href="/show/index.html?id=PZ39_Ding_3">-&gt;</a></td></tr>
+<tr><td>SoutheRNA</td><td>6</td><td>21.219</td><td>25.416</td><td>0.835</td><td>0.916</td><td>-</td><td>0.797</td><td>93.330</td><td>1.92e-04</td><td>21.04</td><td>0.3900</td><td>1</td><td><a href="/show/index.html?id=PZ39_SoutheRNA_6">-&gt;</a></td></tr>
+<tr><td>Szachniuk</td><td>5</td><td>21.417</td><td>24.228</td><td>0.884</td><td>0.973</td><td>-</td><td>0.844</td><td>5.970</td><td>2.89e-04</td><td>21.70</td><td>0.3200</td><td>1</td><td><a href="/show/index.html?id=PZ39_Szachniuk_5">-&gt;</a></td></tr>
+<tr><td>SoutheRNA</td><td>2</td><td>21.446</td><td>26.987</td><td>0.795</td><td>0.916</td><td>-</td><td>0.741</td><td>72.710</td><td>3.07e-04</td><td>20.87</td><td>0.3210</td><td>1</td><td><a href="/show/index.html?id=PZ39_SoutheRNA_2">-&gt;</a></td></tr>
+<tr><td>Chen</td><td>9</td><td>21.596</td><td>24.712</td><td>0.874</td><td>0.930</td><td>-</td><td>0.848</td><td>0.000</td><td>4.16e-04</td><td>21.18</td><td>0.3270</td><td>1</td><td><a href="/show/index.html?id=PZ39_Chen_9">-&gt;</a></td></tr>
+<tr><td>Zhou</td><td>5</td><td>21.756</td><td>118.544</td><td>0.184</td><td>-</td><td>-</td><td>0.236</td><td>5.620</td><td>5.71e-04</td><td>28.92</td><td>0.4300</td><td>1</td><td><a href="/show/index.html?id=PZ39_Zhou_5">-&gt;</a></td></tr>
+<tr><td>Perez</td><td>6</td><td>21.806</td><td>27.637</td><td>0.789</td><td>0.959</td><td>-</td><td>0.708</td><td>1.050</td><td>6.29e-04</td><td>24.21</td><td>0.3490</td><td>1</td><td><a href="/show/index.html?id=PZ39_Perez_6">-&gt;</a></td></tr>
+<tr><td>Perez</td><td>7</td><td>21.888</td><td>26.012</td><td>0.841</td><td>0.945</td><td>-</td><td>0.795</td><td>0.700</td><td>7.37e-04</td><td>20.19</td><td>0.2440</td><td>1</td><td><a href="/show/index.html?id=PZ39_Perez_7">-&gt;</a></td></tr>
+<tr><td>Zhou</td><td>2</td><td>21.916</td><td>121.899</td><td>0.180</td><td>-</td><td>-</td><td>0.229</td><td>9.130</td><td>7.77e-04</td><td>29.48</td><td>0.3790</td><td>1</td><td><a href="/show/index.html?id=PZ39_Zhou_2">-&gt;</a></td></tr>
+<tr><td>Zhou</td><td>1</td><td>21.994</td><td>143.765</td><td>0.153</td><td>0.000</td><td>-</td><td>0.190</td><td>0.700</td><td>9.01e-04</td><td>41.37</td><td>0.3660</td><td>1</td><td><a href="/show/index.html?id=PZ39_Zhou_1">-&gt;</a></td></tr>
+<tr><td>Perez</td><td>2</td><td>22.100</td><td>27.748</td><td>0.796</td><td>0.901</td><td>-</td><td>0.759</td><td>0.700</td><td>1.10e-03</td><td>22.78</td><td>0.3170</td><td>1</td><td><a href="/show/index.html?id=PZ39_Perez_2">-&gt;</a></td></tr>
+<tr><td>SimRNA</td><td>4</td><td>22.273</td><td>26.464</td><td>0.842</td><td>0.959</td><td>-</td><td>0.784</td><td>76.170</td><td>1.51e-03</td><td>20.84</td><td>0.3900</td><td>1</td><td><a href="/show/index.html?id=PZ39_SimRNA_4">-&gt;</a></td></tr>
+<tr><td>Zhou</td><td>4</td><td>22.277</td><td>109.298</td><td>0.204</td><td>-</td><td>-</td><td>0.264</td><td>16.510</td><td>1.52e-03</td><td>24.95</td><td>0.3910</td><td>1</td><td><a href="/show/index.html?id=PZ39_Zhou_4">-&gt;</a></td></tr>
+<tr><td>YangServer</td><td>2</td><td>22.309</td><td>27.028</td><td>0.825</td><td>0.870</td><td>-</td><td>0.806</td><td>9.480</td><td>1.61e-03</td><td>19.20</td><td>0.3330</td><td>1</td><td><a href="/show/index.html?id=PZ39_YangServer_2">-&gt;</a></td></tr>
+<tr><td>Chen</td><td>6</td><td>22.787</td><td>26.029</td><td>0.875</td><td>0.987</td><td>-</td><td>0.822</td><td>0.000</td><td>3.68e-03</td><td>20.68</td><td>0.2640</td><td>1</td><td><a href="/show/index.html?id=PZ39_Chen_6">-&gt;</a></td></tr>
+<tr><td>Dokholyan</td><td>5</td><td>22.847</td><td>42.981</td><td>0.532</td><td>0.245</td><td>-</td><td>0.664</td><td>142.810</td><td>4.06e-03</td><td>19.61</td><td>0.2580</td><td>1</td><td><a href="/show/index.html?id=PZ39_Dokholyan_5">-&gt;</a></td></tr>
+<tr><td>Zhou</td><td>3</td><td>22.847</td><td>149.432</td><td>0.153</td><td>-</td><td>-</td><td>0.191</td><td>9.830</td><td>4.06e-03</td><td>37.73</td><td>0.3760</td><td>1</td><td><a href="/show/index.html?id=PZ39_Zhou_3">-&gt;</a></td></tr>
+<tr><td>Dfold</td><td>5</td><td>23.037</td><td>40.270</td><td>0.572</td><td>0.336</td><td>-</td><td>0.688</td><td>141.210</td><td>5.52e-03</td><td>20.65</td><td>0.2110</td><td>1</td><td><a href="/show/index.html?id=PZ39_Dfold_5">-&gt;</a></td></tr>
+<tr><td>DasEMinfo</td><td>5</td><td>23.038</td><td>27.373</td><td>0.842</td><td>0.959</td><td>-</td><td>0.784</td><td>7.730</td><td>5.53e-03</td><td>18.32</td><td>0.3100</td><td>1</td><td><a href="/show/index.html?id=PZ39_DasEMinfo_5">-&gt;</a></td></tr>
+<tr><td>Dokholyan</td><td>4</td><td>23.211</td><td>42.650</td><td>0.544</td><td>0.257</td><td>-</td><td>0.674</td><td>132.020</td><td>7.24e-03</td><td>21.92</td><td>0.2340</td><td>1</td><td><a href="/show/index.html?id=PZ39_Dokholyan_4">-&gt;</a></td></tr>
+<tr><td>Ding</td><td>5</td><td>23.301</td><td>28.395</td><td>0.821</td><td>0.930</td><td>-</td><td>0.762</td><td>6.320</td><td>8.32e-03</td><td>20.73</td><td>0.2860</td><td>1</td><td><a href="/show/index.html?id=PZ39_Ding_5">-&gt;</a></td></tr>
+<tr><td>Xiao</td><td>1</td><td>23.926</td><td>30.468</td><td>0.785</td><td>0.855</td><td>-</td><td>0.752</td><td>4.220</td><td>2.03e-02</td><td>23.82</td><td>0.2750</td><td>1</td><td><a href="/show/index.html?id=PZ39_Xiao_1">-&gt;</a></td></tr>
+
+</table>
+  <p>-: No true positive interaction in the predicted structure.</p>
+</div>
+
+  </div>
+
+</article>
+
+      </div>
+      <!-- 侧边栏区域：占用 4 栏 -->
+      <div id="newsid" class="col-md-4">
+        <!-- Begin: Sidebar 模块 -->
+<aside class="sidebar col-sm-44" style="padding: 15px;">
+	    <!-- CSS Files -->
+		<link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="/css/stylish-portfolio.css" rel="stylesheet" type="text/css">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="//jpswalsh.github.io/academicons/css/academicons.css" rel="stylesheet">
+		<link href="/stylesheets/screen.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+	<!-- Begin: 关于信息部分 -->
+	<section>
+		<h1>RNA-Puzzles</h1>
+		<p>A collective blind evaluation of RNA three-dimensional structure prediction</p>
+		<!-- GitHub 链接 -->
+		<a href="https://github.com/RNA-Puzzles">
+			<i class="fa fa-github-square fa-fw fa-2x"></i>
+		</a>
+		<!-- Email 链接 -->
+		<a href="mailto:ibmc.cnrs@gmail.com">
+			<i class="fa fa-envelope-square fa-fw fa-2x"></i>
+		</a>
+		<!-- Twitter 链接 -->
+		<a href="https://twitter.com/RNAPuzzles">
+			<i class="fa fa-twitter-square fa-fw fa-2x"></i>
+		</a>
+		<!-- Coffee 链接（示例链接，可根据需要修改） -->
+		<a href="">
+			<i class="fa fa-coffee fa-fw fa-2x"></i>
+		</a>
+
+
+
+	</section>
+	<!-- End: 关于信息部分 -->
+
+	<!-- Begin: 最近文章模块 -->
+	<section class="panel panel-info">
+		<div class="panel-heading">
+			<h3 class="panel-title">Recent Posts</h3>
+		</div>
+		<div id="recent_posts" class="list-group">
+			<a class="list-group-item" href="/news/2023/10/07/Submission-Process/">Submission Process</a>
+			<a class="list-group-item" href="/news/2023/10/07/Research-Spectrum/">Research Spectrum</a>
+			<a class="list-group-item" href="/news/2023/10/07/Recent-Engagements/">Recent Engagements</a>
+			<a class="list-group-item" href="/news/2023/10/07/Participating-Teams/">Participating Teams</a>
+			<a class="list-group-item" href="/news/2023/10/07/Methodological-Progress/">Methodological Progress</a>
+		</div>
+	</section>
+	<!-- End: 最近文章模块 -->
+
+	<!-- Begin: GitHub Repos 模块 -->
+	<section class="panel panel-info clearfix">
+		<div class="panel-heading">
+			<h3 class="panel-title">GitHub Repos</h3>
+		</div>
+		<div class="list-group" id="gh_repos">
+			<p class="loading">Status updating...</p>
+		</div>
+		<div class="gh-profile-link pull-right text-muted">
+			<a href="https://github.com/RNA-Puzzles">@RNA-Puzzles</a> on GitHub
+		</div>
+		<!-- 使用 jQuery 动态加载 GitHub 仓库信息 -->
+		<script type="text/javascript">
+			$(document).ready(function(){
+				// 如果未加载 jXHR 库，则动态加载
+				if (!window.jXHR){
+					var jxhr = document.createElement('script');
+					jxhr.type = 'text/javascript';
+					jxhr.src = '/javascripts/libs/jXHR.js';
+					var s = document.getElementsByTagName('script')[0];
+					s.parentNode.insertBefore(jxhr, s);
+				}
+				// 调用 github.showRepos() 函数显示仓库列表
+				github.showRepos({
+					user: 'RNA-Puzzles',
+					count: 0,
+					skip_forks: true,
+					target: '#gh_repos'
+				});
+			});
+		</script>
+		<script src="/javascripts/github.js" type="text/javascript"></script>
+	</section>
+	<!-- End: GitHub Repos 模块 -->
+
+	<!-- Begin: 分类模块 -->
+	<section class="panel panel-info clearfix">
+		<div class="panel-heading">
+			<h3 class="panel-title">Categories</h3>
+		</div>
+		<div class="list-group-item">
+			<a href="/blog/group_category/">group (16)</a>
+		</div>
+		<div class="list-group-item">
+			<a href="/blog/news_category/">news (7)</a>
+		</div>
+		<div class="list-group-item">
+			<a href="/blog/results_category/">results (39)</a>
+		</div>
+		<div class="list-group-item">
+			<a href="/blog/tables_category/">table (129)</a>
+		</div>
+	</section>
+	<!-- End: 分类模块 -->
+</aside>
+<!-- End: Sidebar 模块 -->
+
+      </div>
+    </div>
+  </div>
+
+    <div id="footer" class="panel">
+  <div class="panel-footer" style='background-color: #333333; color: #eeeeee;'>
+	<div class="container-fluid">
+	  <div class="row">
+		<div class="col-sm-4">
+			
+		  <p>&copy 2025 RNA-Puzzles. </p>
+		  <p>We are part of the <a href="https://gzlab.ac.cn">Guangzhou Laboratory</a> and <a href="http://www.rnapuzzles.org/">RNApuzzles</a>.</p>
+		  <p>Site made with <a href="https://jekyllrb.com">Jekyll</a>;  <a href="http://localhost:4000/aboutwebsite.html">copy and  modify it for your own research group.</a></p>
+		  <p>  </p>
+		  <p>  </p>
+		</div>
+		
+		<div class="col-sm-4">
+		  Funding:<br />
+          - <a href="https://gzlab.ac.cn">R&D Programs of Guangzhou Laboratory</a><br />
+          - <a href="http://www.most.gov.cn/">MOST IT+BT projects</a> <br />
+          - <a href="https://www.nsfc.gov.cn/">NSFC</a> <br />	  
+		</div>
+		
+		<div class="col-sm-4">
+		  Contact:<br />
+		  Building B2, Guangzhou National Laboratory<br />
+		  96 Xingdao South Road, Guangzhou International Bio Island, <br />
+		  Haizhu District, Guangzhou, Guangdong, China.<br />
+          (<a href="https://goo.gl/maps/hDLr6siEAS2Eaypt8">Maps</a>)
+		</div>
+	  </div>
+	</div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://localhost:4000/js/bootstrap.min.js"></script>
+
+
+  </body>
+
+</html>

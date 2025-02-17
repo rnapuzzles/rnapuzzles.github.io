@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- 开始：HEAD 部分 -->
+    <meta charset="utf-8">
+    <title>Group - RNA-Puzzles</title>
+    <meta name="author" content="Chichau Miao">
+
+    <!-- 移动设备优化相关 Meta 标签 -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- SEO 相关：Canonical URL、Favicon、RSS 订阅链接 -->
+    <link rel="canonical" href="http://www.rnapuzzles.org/group/">
+    <link href="/favicon.png" type="image/png" rel="icon">
+    <link href="/atom.xml" rel="alternate" title="RNA-Puzzles" type="application/atom+xml">
+
+    <!-- Open Graph / Twitter Meta 标签 -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.rnapuzzles.org/group/">
+    <meta property="og:title" content="Group - RNA-Puzzles">
+    
+    <!-- 引入 jQuery -->
+    <script src="/js/jquery-3.2.1.min.js"></script>
+
+    <!-- 引入 CSS 文件 -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/stylish-portfolio.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//jpswalsh.github.io/academicons/css/academicons.css" rel="stylesheet">
+    <link href="/stylesheets/screen.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+    <!-- 结束：HEAD 部分 -->
+</head>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Puzzle R1250 table</title>
+  <meta name="description" content="  Please click the tags to sort data.        Lab    Num    RMSD    DI all    INF all    INF wc    INF nwc    INF stacking    Clash Score    P-value    mcq   ...">
+  <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/table/2000/01/01/R1250-3d.html">
+  <link rel="shortcut icon" type="image/x-icon" href="http://localhost:4000/favicon.png">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  
+
+  <!-- 将汉堡按钮的 CSS 样式放在 style 标签内 -->
+  <style>
+    .navbar-toggle .icon-bar {
+      background-color: #eeeeee;
+    }
+  </style>
+
+</head>
+
+
+  <body>
+
+    <!-- 导航条容器：使用 Bootstrap 的 navbar 类，设置导航条扩展模式、深色主题以及内联样式 -->
+<div class="navbar navbar-expand-lg navbar-dark" style="border-radius: 0; border: 0; background-color: #337ab7" role="navigation">
+	<!-- 限制内容宽度为 1200px 的 fluid 容器 -->
+	<div class="container-fluid" style="max-width: 1500px;">
+		<!-- 导航头部：包含汉堡按钮和品牌链接 -->
+		<div class="navbar-header">
+			<!-- 响应式切换按钮（汉堡菜单）
+			     当屏幕较小时，该按钮显示，点击后控制右侧所有链接、RSS 和搜索框的折叠/展开
+			     为使按钮图标颜色与当前字体颜色（白色）一致，在 CSS 中设置 .navbar-toggle .icon-bar 的背景色 -->
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+
+			<!-- 品牌链接：使用 Flexbox 布局使品牌文字和 logo 分布在两侧 -->
+			<a class="navbar-brand" href="http://localhost:4000/" style="display: flex; justify-content: space-between; align-items: center;">
+				<b style="font-size: 32px; color: #eeeeee;">RNA-Puzzles</b>
+				<img src="http://localhost:4000/images/header/logo.jpg" style="height: 53px; margin-top: 0; margin-bottom: 0; padding: 0px; border-radius: 0;" alt="logo">
+			</a>
+		</div> <!-- end of .navbar-header -->
+
+		<!-- 可折叠的导航菜单部分：包括多个页面链接、搜索框和 RSS 订阅按钮 -->
+		<div class="collapse navbar-collapse" id="navbar-collapse-1">
+			<!-- 右对齐的导航列表 -->
+			<ul class="nav navbar-nav navbar-right">
+				<!-- 页面链接 -->
+				<li>
+					<a class="nav-link-1" href="http://localhost:4000/results">Results</a>
+				</li>
+				<li>
+					<a class="nav-link-1" href="http://localhost:4000/open-puzzle">Open Puzzles</a>
+				</li>
+				<li>
+					<a class="nav-link-1" href="http://localhost:4000/group">Groups</a>
+				</li>
+				<li>
+					<a class="nav-link-1" href="http://localhost:4000/publication">Publications</a>
+				</li>
+				<li>
+					<a class="nav-link-1" href="https://chichaumiau.github.io/rnapuzzlestoolkit/">Resources</a>
+				</li>
+				<!-- 搜索框：
+				     使用 form 表单，置于一个 <li> 内与其他链接同一行显示，
+				     通过 position: relative; top: 2px; 实现向下偏移 2px，
+				     同时保证输入框垂直居中 -->
+				<li>
+					<form class="navbar-form" role="search" action="/search" method="GET" style="margin: 0; padding: 0;">
+						<div class="form-group">
+							<input type="text" class="form-control" name="q" placeholder="search" style="color: #999; vertical-align: middle; position: relative; top: 9px;">
+						</div>
+					</form>
+				</li>
+				<!-- RSS 订阅按钮：
+				     为避免上下空白，通过清除图片的默认 margin/padding，并设置 display: inline-block，
+				     同时保持 vertical-align: middle 使其垂直居中 -->
+				<li>
+					<a class="subscribe-rss" href="/atom.xml" title="subscribe via RSS" style="line-height: 1;">
+						<span class="visible-xs">RSS</span>
+						<img class="hidden-xs" src="/images/header/rss.png" alt="RSS" style="vertical-align: middle; margin: 0; padding: 0; display: inline-block;">
+					</a>
+				</li>
+			</ul>
+		</div> <!-- end of .collapse .navbar-collapse -->
+	</div> <!-- end of .container-fluid -->
+</div> <!-- end of .navbar -->
+
+
+  <!-- 使用 container 保证内容区域居中 -->
+  <div class="container">
+    <div class="row">
+      <!-- 主页内容区域：占用 8 栏 -->
+      <div id="homeid" class="col-md-8">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Puzzle R1250 table</h1>
+    <p class="post-meta"><time datetime="2000-01-01T08:00:01+08:00" itemprop="datePublished">Jan 1, 2000</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <script src="/javascripts/sorttable.js"></script>
+
+<script>
+    window.onload = function() {
+        (document.getElementsByTagName( 'th' )[1]).click();
+    };
+</script>
+
+<p><br /></p>
+<div align="center">
+  <p>Please click the tags to sort data.<br /></p>
+  <table class="sortable" border="1">
+  <tr>
+    <th>Lab</th>
+    <th>Num</th>
+    <th>RMSD</th>
+    <th>DI all</th>
+    <th>INF all</th>
+    <th>INF wc</th>
+    <th>INF nwc</th>
+    <th>INF stacking</th>
+    <th>Clash Score</th>
+    <th>P-value</th>
+    <th>mcq</th>
+    <th>TM-score</th>
+    <th>best sol.</th>
+    <th>Detail</th>
+  </tr>
+  <tr><td>TS052</td><td>2</td><td>40.506</td><td>62.403</td><td>0.649</td><td>0.629</td><td>0.316</td><td>0.668</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>27.33</td><td>0.2380</td><td>3</td><td><a href="/show/index.html?id=R1250_TS052_2">-&gt;</a></td></tr>
+<tr><td>TS052</td><td>4</td><td>45.909</td><td>337.094</td><td>0.136</td><td>0.557</td><td>0.200</td><td>0.000</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>97.00</td><td>0.1950</td><td>5</td><td><a href="/show/index.html?id=R1250_TS052_4">-&gt;</a></td></tr>
+<tr><td>TS033</td><td>2</td><td>46.438</td><td>68.777</td><td>0.675</td><td>0.591</td><td>0.162</td><td>0.719</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>21.57</td><td>0.2340</td><td>6</td><td><a href="/show/index.html?id=R1250_TS033_2">-&gt;</a></td></tr>
+<tr><td>TS338</td><td>1</td><td>46.477</td><td>67.955</td><td>0.684</td><td>0.701</td><td>0.000</td><td>0.696</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>25.12</td><td>0.2000</td><td>1</td><td><a href="/show/index.html?id=R1250_TS338_1">-&gt;</a></td></tr>
+<tr><td>TS435</td><td>4</td><td>46.836</td><td>70.054</td><td>0.669</td><td>0.596</td><td>0.212</td><td>0.710</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.27</td><td>0.2930</td><td>5</td><td><a href="/show/index.html?id=R1250_TS435_4">-&gt;</a></td></tr>
+<tr><td>TS235</td><td>2</td><td>47.315</td><td>70.719</td><td>0.669</td><td>0.592</td><td>0.237</td><td>0.710</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.54</td><td>0.2340</td><td>5</td><td><a href="/show/index.html?id=R1250_TS235_2">-&gt;</a></td></tr>
+<tr><td>TS183</td><td>3</td><td>47.854</td><td>72.648</td><td>0.659</td><td>0.609</td><td>0.135</td><td>0.694</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>23.18</td><td>0.2640</td><td>5</td><td><a href="/show/index.html?id=R1250_TS183_3">-&gt;</a></td></tr>
+<tr><td>TS052</td><td>3</td><td>47.879</td><td>358.623</td><td>0.134</td><td>0.546</td><td>0.112</td><td>0.000</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>97.59</td><td>0.1690</td><td>5</td><td><a href="/show/index.html?id=R1250_TS052_3">-&gt;</a></td></tr>
+<tr><td>TS033</td><td>1</td><td>47.965</td><td>72.669</td><td>0.660</td><td>0.621</td><td>0.237</td><td>0.689</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.50</td><td>0.2450</td><td>5</td><td><a href="/show/index.html?id=R1250_TS033_1">-&gt;</a></td></tr>
+<tr><td>TS208</td><td>1</td><td>48.015</td><td>70.927</td><td>0.677</td><td>0.621</td><td>0.254</td><td>0.709</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.08</td><td>0.1560</td><td>5</td><td><a href="/show/index.html?id=R1250_TS208_1">-&gt;</a></td></tr>
+<tr><td>TS481</td><td>4</td><td>48.044</td><td>74.437</td><td>0.645</td><td>0.598</td><td>0.000</td><td>0.679</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>26.29</td><td>0.2370</td><td>5</td><td><a href="/show/index.html?id=R1250_TS481_4">-&gt;</a></td></tr>
+<tr><td>TS183</td><td>4</td><td>48.499</td><td>76.148</td><td>0.637</td><td>0.547</td><td>0.158</td><td>0.682</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.89</td><td>0.1720</td><td>5</td><td><a href="/show/index.html?id=R1250_TS183_4">-&gt;</a></td></tr>
+<tr><td>TS231</td><td>1</td><td>48.762</td><td>74.874</td><td>0.651</td><td>0.576</td><td>0.289</td><td>0.689</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.53</td><td>0.1510</td><td>5</td><td><a href="/show/index.html?id=R1250_TS231_1">-&gt;</a></td></tr>
+<tr><td>TS052</td><td>5</td><td>48.801</td><td>99.438</td><td>0.491</td><td>0.450</td><td>-</td><td>0.515</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>43.40</td><td>0.1800</td><td>5</td><td><a href="/show/index.html?id=R1250_TS052_5">-&gt;</a></td></tr>
+<tr><td>TS417</td><td>1</td><td>48.895</td><td>77.216</td><td>0.633</td><td>0.538</td><td>0.124</td><td>0.681</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>24.01</td><td>0.1690</td><td>5</td><td><a href="/show/index.html?id=R1250_TS417_1">-&gt;</a></td></tr>
+<tr><td>TS304</td><td>5</td><td>48.970</td><td>71.772</td><td>0.682</td><td>0.656</td><td>0.067</td><td>0.712</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>21.54</td><td>0.1860</td><td>5</td><td><a href="/show/index.html?id=R1250_TS304_5">-&gt;</a></td></tr>
+<tr><td>TS028</td><td>5</td><td>49.259</td><td>76.423</td><td>0.645</td><td>0.600</td><td>0.158</td><td>0.676</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.91</td><td>0.1620</td><td>5</td><td><a href="/show/index.html?id=R1250_TS028_5">-&gt;</a></td></tr>
+<tr><td>TS110</td><td>4</td><td>49.259</td><td>76.423</td><td>0.645</td><td>0.600</td><td>0.158</td><td>0.676</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.91</td><td>0.1620</td><td>5</td><td><a href="/show/index.html?id=R1250_TS110_4">-&gt;</a></td></tr>
+<tr><td>TS462</td><td>2</td><td>49.259</td><td>76.423</td><td>0.645</td><td>0.600</td><td>0.158</td><td>0.676</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.91</td><td>0.1620</td><td>5</td><td><a href="/show/index.html?id=R1250_TS462_2">-&gt;</a></td></tr>
+<tr><td>TS208</td><td>5</td><td>49.512</td><td>77.451</td><td>0.639</td><td>0.528</td><td>0.067</td><td>0.692</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.50</td><td>0.2050</td><td>5</td><td><a href="/show/index.html?id=R1250_TS208_5">-&gt;</a></td></tr>
+<tr><td>TS481</td><td>3</td><td>49.514</td><td>75.666</td><td>0.654</td><td>0.708</td><td>0.000</td><td>0.653</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>25.10</td><td>0.1950</td><td>5</td><td><a href="/show/index.html?id=R1250_TS481_3">-&gt;</a></td></tr>
+<tr><td>TS028</td><td>4</td><td>49.542</td><td>78.375</td><td>0.632</td><td>0.557</td><td>0.149</td><td>0.675</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>23.13</td><td>0.2140</td><td>5</td><td><a href="/show/index.html?id=R1250_TS028_4">-&gt;</a></td></tr>
+<tr><td>TS110</td><td>5</td><td>49.542</td><td>78.375</td><td>0.632</td><td>0.557</td><td>0.149</td><td>0.675</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>23.14</td><td>0.2140</td><td>5</td><td><a href="/show/index.html?id=R1250_TS110_5">-&gt;</a></td></tr>
+<tr><td>TS462</td><td>5</td><td>49.542</td><td>78.375</td><td>0.632</td><td>0.557</td><td>0.149</td><td>0.675</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>23.14</td><td>0.2140</td><td>5</td><td><a href="/show/index.html?id=R1250_TS462_5">-&gt;</a></td></tr>
+<tr><td>TS304</td><td>1</td><td>49.581</td><td>75.296</td><td>0.658</td><td>0.566</td><td>0.124</td><td>0.707</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.25</td><td>0.2120</td><td>5</td><td><a href="/show/index.html?id=R1250_TS304_1">-&gt;</a></td></tr>
+<tr><td>TS208</td><td>2</td><td>49.703</td><td>72.610</td><td>0.685</td><td>0.631</td><td>0.184</td><td>0.720</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.29</td><td>0.1780</td><td>6</td><td><a href="/show/index.html?id=R1250_TS208_2">-&gt;</a></td></tr>
+<tr><td>TS028</td><td>2</td><td>49.708</td><td>75.692</td><td>0.657</td><td>0.607</td><td>0.149</td><td>0.690</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.35</td><td>0.1880</td><td>5</td><td><a href="/show/index.html?id=R1250_TS028_2">-&gt;</a></td></tr>
+<tr><td>TS110</td><td>2</td><td>49.708</td><td>75.692</td><td>0.657</td><td>0.607</td><td>0.149</td><td>0.690</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.35</td><td>0.1880</td><td>5</td><td><a href="/show/index.html?id=R1250_TS110_2">-&gt;</a></td></tr>
+<tr><td>TS110</td><td>3</td><td>49.708</td><td>75.692</td><td>0.657</td><td>0.607</td><td>0.149</td><td>0.690</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.35</td><td>0.1880</td><td>5</td><td><a href="/show/index.html?id=R1250_TS110_3">-&gt;</a></td></tr>
+<tr><td>TS189</td><td>5</td><td>49.715</td><td>72.410</td><td>0.687</td><td>0.672</td><td>0.169</td><td>0.708</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.55</td><td>0.1830</td><td>5</td><td><a href="/show/index.html?id=R1250_TS189_5">-&gt;</a></td></tr>
+<tr><td>TS189</td><td>1</td><td>49.720</td><td>72.218</td><td>0.688</td><td>0.654</td><td>0.169</td><td>0.716</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>21.73</td><td>0.2320</td><td>5</td><td><a href="/show/index.html?id=R1250_TS189_1">-&gt;</a></td></tr>
+<tr><td>TS241</td><td>5</td><td>49.997</td><td>72.792</td><td>0.687</td><td>0.612</td><td>0.254</td><td>0.726</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>21.53</td><td>0.1980</td><td>5</td><td><a href="/show/index.html?id=R1250_TS241_5">-&gt;</a></td></tr>
+<tr><td>TS028</td><td>3</td><td>50.118</td><td>77.050</td><td>0.650</td><td>0.594</td><td>0.183</td><td>0.685</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>23.06</td><td>0.1700</td><td>5</td><td><a href="/show/index.html?id=R1250_TS028_3">-&gt;</a></td></tr>
+<tr><td>TS317</td><td>2</td><td>50.392</td><td>73.811</td><td>0.683</td><td>0.722</td><td>0.237</td><td>0.684</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>23.69</td><td>0.3100</td><td>2</td><td><a href="/show/index.html?id=R1250_TS317_2">-&gt;</a></td></tr>
+<tr><td>TS338</td><td>4</td><td>50.811</td><td>75.561</td><td>0.672</td><td>0.685</td><td>0.000</td><td>0.686</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>26.14</td><td>0.1900</td><td>6</td><td><a href="/show/index.html?id=R1250_TS338_4">-&gt;</a></td></tr>
+<tr><td>TS369</td><td>5</td><td>50.864</td><td>74.837</td><td>0.680</td><td>0.670</td><td>0.212</td><td>0.699</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.34</td><td>0.1950</td><td>5</td><td><a href="/show/index.html?id=R1250_TS369_5">-&gt;</a></td></tr>
+<tr><td>TS189</td><td>4</td><td>50.994</td><td>79.359</td><td>0.643</td><td>0.580</td><td>0.135</td><td>0.681</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>23.70</td><td>0.2070</td><td>5</td><td><a href="/show/index.html?id=R1250_TS189_4">-&gt;</a></td></tr>
+<tr><td>TS417</td><td>2</td><td>51.017</td><td>76.376</td><td>0.668</td><td>0.622</td><td>0.217</td><td>0.701</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>21.81</td><td>0.1950</td><td>2</td><td><a href="/show/index.html?id=R1250_TS417_2">-&gt;</a></td></tr>
+<tr><td>TS183</td><td>2</td><td>51.041</td><td>76.470</td><td>0.667</td><td>0.634</td><td>0.149</td><td>0.696</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.59</td><td>0.2010</td><td>4</td><td><a href="/show/index.html?id=R1250_TS183_2">-&gt;</a></td></tr>
+<tr><td>TS167</td><td>4</td><td>51.136</td><td>76.781</td><td>0.666</td><td>0.595</td><td>0.075</td><td>0.709</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.46</td><td>0.1800</td><td>5</td><td><a href="/show/index.html?id=R1250_TS167_4">-&gt;</a></td></tr>
+<tr><td>TS450</td><td>4</td><td>51.136</td><td>76.781</td><td>0.666</td><td>0.595</td><td>0.075</td><td>0.709</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.46</td><td>0.1800</td><td>5</td><td><a href="/show/index.html?id=R1250_TS450_4">-&gt;</a></td></tr>
+<tr><td>TS156</td><td>3</td><td>51.176</td><td>84.371</td><td>0.607</td><td>0.551</td><td>0.000</td><td>0.646</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>28.71</td><td>0.2050</td><td>5</td><td><a href="/show/index.html?id=R1250_TS156_3">-&gt;</a></td></tr>
+<tr><td>TS235</td><td>3</td><td>51.275</td><td>75.217</td><td>0.682</td><td>0.623</td><td>0.183</td><td>0.718</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>21.84</td><td>0.2160</td><td>2</td><td><a href="/show/index.html?id=R1250_TS235_3">-&gt;</a></td></tr>
+<tr><td>TS481</td><td>5</td><td>51.370</td><td>76.244</td><td>0.674</td><td>0.622</td><td>0.145</td><td>0.708</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.31</td><td>0.1860</td><td>6</td><td><a href="/show/index.html?id=R1250_TS481_5">-&gt;</a></td></tr>
+<tr><td>TS338</td><td>2</td><td>51.386</td><td>75.242</td><td>0.683</td><td>0.716</td><td>-</td><td>0.687</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>25.79</td><td>0.1860</td><td>6</td><td><a href="/show/index.html?id=R1250_TS338_2">-&gt;</a></td></tr>
+<tr><td>TS189</td><td>3</td><td>51.396</td><td>78.513</td><td>0.655</td><td>0.584</td><td>0.085</td><td>0.696</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.20</td><td>0.1910</td><td>5</td><td><a href="/show/index.html?id=R1250_TS189_3">-&gt;</a></td></tr>
+<tr><td>TS167</td><td>5</td><td>51.423</td><td>79.221</td><td>0.649</td><td>0.587</td><td>0.129</td><td>0.688</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.26</td><td>0.1770</td><td>5</td><td><a href="/show/index.html?id=R1250_TS167_5">-&gt;</a></td></tr>
+<tr><td>TS450</td><td>5</td><td>51.423</td><td>79.221</td><td>0.649</td><td>0.587</td><td>0.129</td><td>0.688</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.26</td><td>0.1770</td><td>5</td><td><a href="/show/index.html?id=R1250_TS450_5">-&gt;</a></td></tr>
+<tr><td>TS156</td><td>1</td><td>51.430</td><td>84.448</td><td>0.609</td><td>0.516</td><td>0.000</td><td>0.661</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>26.45</td><td>0.1790</td><td>3</td><td><a href="/show/index.html?id=R1250_TS156_1">-&gt;</a></td></tr>
+<tr><td>TS241</td><td>4</td><td>51.448</td><td>76.592</td><td>0.672</td><td>0.611</td><td>0.186</td><td>0.710</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.33</td><td>0.1870</td><td>5</td><td><a href="/show/index.html?id=R1250_TS241_4">-&gt;</a></td></tr>
+<tr><td>TS159</td><td>2</td><td>51.800</td><td>75.107</td><td>0.690</td><td>0.638</td><td>0.237</td><td>0.723</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>21.70</td><td>0.2980</td><td>1</td><td><a href="/show/index.html?id=R1250_TS159_2">-&gt;</a></td></tr>
+<tr><td>TS325</td><td>2</td><td>51.800</td><td>75.107</td><td>0.690</td><td>0.638</td><td>0.237</td><td>0.723</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>21.70</td><td>0.2980</td><td>1</td><td><a href="/show/index.html?id=R1250_TS325_2">-&gt;</a></td></tr>
+<tr><td>TS241</td><td>1</td><td>51.859</td><td>78.011</td><td>0.665</td><td>0.628</td><td>0.145</td><td>0.694</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>23.07</td><td>0.1750</td><td>6</td><td><a href="/show/index.html?id=R1250_TS241_1">-&gt;</a></td></tr>
+<tr><td>TS304</td><td>2</td><td>51.859</td><td>78.011</td><td>0.665</td><td>0.628</td><td>0.145</td><td>0.694</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>23.07</td><td>0.1750</td><td>6</td><td><a href="/show/index.html?id=R1250_TS304_2">-&gt;</a></td></tr>
+<tr><td>TS338</td><td>5</td><td>52.144</td><td>77.173</td><td>0.676</td><td>0.712</td><td>0.000</td><td>0.679</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>26.12</td><td>0.2090</td><td>6</td><td><a href="/show/index.html?id=R1250_TS338_5">-&gt;</a></td></tr>
+<tr><td>TS286</td><td>1</td><td>52.170</td><td>89.565</td><td>0.582</td><td>0.445</td><td>0.173</td><td>0.637</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>30.81</td><td>0.1960</td><td>6</td><td><a href="/show/index.html?id=R1250_TS286_1">-&gt;</a></td></tr>
+<tr><td>TS189</td><td>2</td><td>52.247</td><td>78.078</td><td>0.669</td><td>0.598</td><td>0.141</td><td>0.711</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>21.88</td><td>0.1870</td><td>5</td><td><a href="/show/index.html?id=R1250_TS189_2">-&gt;</a></td></tr>
+<tr><td>TS159</td><td>4</td><td>52.342</td><td>75.730</td><td>0.691</td><td>0.641</td><td>0.243</td><td>0.723</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>21.87</td><td>0.2370</td><td>6</td><td><a href="/show/index.html?id=R1250_TS159_4">-&gt;</a></td></tr>
+<tr><td>TS325</td><td>4</td><td>52.342</td><td>75.730</td><td>0.691</td><td>0.641</td><td>0.243</td><td>0.723</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>21.87</td><td>0.2370</td><td>6</td><td><a href="/show/index.html?id=R1250_TS325_4">-&gt;</a></td></tr>
+<tr><td>TS167</td><td>2</td><td>52.351</td><td>78.783</td><td>0.664</td><td>0.626</td><td>0.141</td><td>0.695</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.38</td><td>0.1690</td><td>5</td><td><a href="/show/index.html?id=R1250_TS167_2">-&gt;</a></td></tr>
+<tr><td>TS450</td><td>2</td><td>52.351</td><td>78.783</td><td>0.664</td><td>0.626</td><td>0.141</td><td>0.695</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.38</td><td>0.1690</td><td>5</td><td><a href="/show/index.html?id=R1250_TS450_2">-&gt;</a></td></tr>
+<tr><td>TS159</td><td>3</td><td>52.488</td><td>76.647</td><td>0.685</td><td>0.637</td><td>0.158</td><td>0.718</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.30</td><td>0.2560</td><td>5</td><td><a href="/show/index.html?id=R1250_TS159_3">-&gt;</a></td></tr>
+<tr><td>TS325</td><td>3</td><td>52.488</td><td>76.647</td><td>0.685</td><td>0.637</td><td>0.158</td><td>0.718</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.30</td><td>0.2560</td><td>5</td><td><a href="/show/index.html?id=R1250_TS325_3">-&gt;</a></td></tr>
+<tr><td>TS369</td><td>3</td><td>52.525</td><td>78.315</td><td>0.671</td><td>0.580</td><td>0.138</td><td>0.718</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>21.62</td><td>0.1850</td><td>6</td><td><a href="/show/index.html?id=R1250_TS369_3">-&gt;</a></td></tr>
+<tr><td>TS369</td><td>1</td><td>52.610</td><td>78.930</td><td>0.667</td><td>0.604</td><td>0.135</td><td>0.705</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.33</td><td>0.1980</td><td>5</td><td><a href="/show/index.html?id=R1250_TS369_1">-&gt;</a></td></tr>
+<tr><td>TS241</td><td>3</td><td>52.725</td><td>79.174</td><td>0.666</td><td>0.609</td><td>0.124</td><td>0.704</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.38</td><td>0.2090</td><td>5</td><td><a href="/show/index.html?id=R1250_TS241_3">-&gt;</a></td></tr>
+<tr><td>TS238</td><td>2</td><td>52.758</td><td>78.867</td><td>0.669</td><td>0.636</td><td>0.169</td><td>0.697</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>23.33</td><td>0.2340</td><td>5</td><td><a href="/show/index.html?id=R1250_TS238_2">-&gt;</a></td></tr>
+<tr><td>TS304</td><td>3</td><td>52.767</td><td>79.229</td><td>0.666</td><td>0.582</td><td>0.132</td><td>0.712</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.20</td><td>0.1840</td><td>6</td><td><a href="/show/index.html?id=R1250_TS304_3">-&gt;</a></td></tr>
+<tr><td>TS262</td><td>1</td><td>52.793</td><td>82.086</td><td>0.643</td><td>0.595</td><td>0.158</td><td>0.675</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>24.62</td><td>0.1960</td><td>5</td><td><a href="/show/index.html?id=R1250_TS262_1">-&gt;</a></td></tr>
+<tr><td>TS262</td><td>4</td><td>52.793</td><td>82.086</td><td>0.643</td><td>0.595</td><td>0.158</td><td>0.675</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>24.62</td><td>0.1960</td><td>5</td><td><a href="/show/index.html?id=R1250_TS262_4">-&gt;</a></td></tr>
+<tr><td>TS208</td><td>3</td><td>52.824</td><td>78.486</td><td>0.673</td><td>0.601</td><td>0.087</td><td>0.714</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.58</td><td>0.1630</td><td>6</td><td><a href="/show/index.html?id=R1250_TS208_3">-&gt;</a></td></tr>
+<tr><td>TS052</td><td>1</td><td>52.993</td><td>96.978</td><td>0.546</td><td>0.562</td><td>0.073</td><td>0.560</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>31.15</td><td>0.2010</td><td>6</td><td><a href="/show/index.html?id=R1250_TS052_1">-&gt;</a></td></tr>
+<tr><td>TS338</td><td>3</td><td>53.117</td><td>78.418</td><td>0.677</td><td>0.664</td><td>0.000</td><td>0.702</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>25.58</td><td>0.1890</td><td>1</td><td><a href="/show/index.html?id=R1250_TS338_3">-&gt;</a></td></tr>
+<tr><td>TS208</td><td>4</td><td>53.153</td><td>83.144</td><td>0.639</td><td>0.548</td><td>0.059</td><td>0.689</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>21.94</td><td>0.1920</td><td>6</td><td><a href="/show/index.html?id=R1250_TS208_4">-&gt;</a></td></tr>
+<tr><td>TS167</td><td>3</td><td>53.187</td><td>78.552</td><td>0.677</td><td>0.626</td><td>0.091</td><td>0.712</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.71</td><td>0.1910</td><td>5</td><td><a href="/show/index.html?id=R1250_TS167_3">-&gt;</a></td></tr>
+<tr><td>TS450</td><td>3</td><td>53.187</td><td>78.552</td><td>0.677</td><td>0.626</td><td>0.091</td><td>0.712</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.71</td><td>0.1910</td><td>5</td><td><a href="/show/index.html?id=R1250_TS450_3">-&gt;</a></td></tr>
+<tr><td>TS262</td><td>3</td><td>53.203</td><td>82.954</td><td>0.641</td><td>0.653</td><td>0.158</td><td>0.654</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>25.94</td><td>0.1790</td><td>5</td><td><a href="/show/index.html?id=R1250_TS262_3">-&gt;</a></td></tr>
+<tr><td>TS241</td><td>2</td><td>53.230</td><td>78.961</td><td>0.674</td><td>0.619</td><td>0.149</td><td>0.709</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.41</td><td>0.1940</td><td>5</td><td><a href="/show/index.html?id=R1250_TS241_2">-&gt;</a></td></tr>
+<tr><td>TS481</td><td>2</td><td>53.325</td><td>80.024</td><td>0.666</td><td>0.722</td><td>0.000</td><td>0.664</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>24.91</td><td>0.1840</td><td>5</td><td><a href="/show/index.html?id=R1250_TS481_2">-&gt;</a></td></tr>
+<tr><td>TS481</td><td>1</td><td>53.344</td><td>79.395</td><td>0.672</td><td>0.718</td><td>0.000</td><td>0.673</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>25.10</td><td>0.1820</td><td>5</td><td><a href="/show/index.html?id=R1250_TS481_1">-&gt;</a></td></tr>
+<tr><td>TS417</td><td>4</td><td>53.513</td><td>79.295</td><td>0.675</td><td>0.624</td><td>0.158</td><td>0.708</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.01</td><td>0.1760</td><td>5</td><td><a href="/show/index.html?id=R1250_TS417_4">-&gt;</a></td></tr>
+<tr><td>TS435</td><td>3</td><td>53.610</td><td>78.498</td><td>0.683</td><td>0.657</td><td>0.138</td><td>0.710</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.21</td><td>0.2520</td><td>6</td><td><a href="/show/index.html?id=R1250_TS435_3">-&gt;</a></td></tr>
+<tr><td>TS435</td><td>5</td><td>53.640</td><td>83.888</td><td>0.639</td><td>0.530</td><td>0.169</td><td>0.691</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.58</td><td>0.2340</td><td>3</td><td><a href="/show/index.html?id=R1250_TS435_5">-&gt;</a></td></tr>
+<tr><td>TS369</td><td>2</td><td>53.969</td><td>78.923</td><td>0.684</td><td>0.627</td><td>0.145</td><td>0.720</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>21.93</td><td>0.1530</td><td>6</td><td><a href="/show/index.html?id=R1250_TS369_2">-&gt;</a></td></tr>
+<tr><td>TS417</td><td>5</td><td>54.020</td><td>79.110</td><td>0.683</td><td>0.666</td><td>0.062</td><td>0.711</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>21.93</td><td>0.1620</td><td>5</td><td><a href="/show/index.html?id=R1250_TS417_5">-&gt;</a></td></tr>
+<tr><td>TS304</td><td>4</td><td>54.026</td><td>83.190</td><td>0.649</td><td>0.560</td><td>0.062</td><td>0.700</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.34</td><td>0.1740</td><td>5</td><td><a href="/show/index.html?id=R1250_TS304_4">-&gt;</a></td></tr>
+<tr><td>TS159</td><td>1</td><td>54.200</td><td>80.287</td><td>0.675</td><td>0.648</td><td>0.169</td><td>0.701</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>21.44</td><td>0.2450</td><td>5</td><td><a href="/show/index.html?id=R1250_TS159_1">-&gt;</a></td></tr>
+<tr><td>TS325</td><td>1</td><td>54.200</td><td>80.287</td><td>0.675</td><td>0.648</td><td>0.169</td><td>0.701</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>21.44</td><td>0.2450</td><td>5</td><td><a href="/show/index.html?id=R1250_TS325_1">-&gt;</a></td></tr>
+<tr><td>TS417</td><td>3</td><td>54.200</td><td>81.864</td><td>0.662</td><td>0.562</td><td>0.141</td><td>0.710</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.04</td><td>0.1660</td><td>5</td><td><a href="/show/index.html?id=R1250_TS417_3">-&gt;</a></td></tr>
+<tr><td>TS286</td><td>3</td><td>54.340</td><td>93.175</td><td>0.583</td><td>0.531</td><td>0.100</td><td>0.614</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>29.63</td><td>0.1580</td><td>5</td><td><a href="/show/index.html?id=R1250_TS286_3">-&gt;</a></td></tr>
+<tr><td>TS183</td><td>1</td><td>54.356</td><td>86.073</td><td>0.632</td><td>0.523</td><td>0.158</td><td>0.681</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.13</td><td>0.1810</td><td>5</td><td><a href="/show/index.html?id=R1250_TS183_1">-&gt;</a></td></tr>
+<tr><td>TS167</td><td>1</td><td>54.366</td><td>83.591</td><td>0.650</td><td>0.609</td><td>0.124</td><td>0.683</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.91</td><td>0.1760</td><td>5</td><td><a href="/show/index.html?id=R1250_TS167_1">-&gt;</a></td></tr>
+<tr><td>TS450</td><td>1</td><td>54.366</td><td>83.591</td><td>0.650</td><td>0.609</td><td>0.124</td><td>0.683</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.91</td><td>0.1760</td><td>5</td><td><a href="/show/index.html?id=R1250_TS450_1">-&gt;</a></td></tr>
+<tr><td>TS369</td><td>4</td><td>54.390</td><td>83.867</td><td>0.649</td><td>0.563</td><td>0.091</td><td>0.694</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.21</td><td>0.1690</td><td>5</td><td><a href="/show/index.html?id=R1250_TS369_4">-&gt;</a></td></tr>
+<tr><td>TS286</td><td>5</td><td>54.795</td><td>104.083</td><td>0.526</td><td>0.434</td><td>0.079</td><td>0.571</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>36.29</td><td>0.2090</td><td>5</td><td><a href="/show/index.html?id=R1250_TS286_5">-&gt;</a></td></tr>
+<tr><td>TS294</td><td>1</td><td>54.833</td><td>81.933</td><td>0.669</td><td>0.617</td><td>0.187</td><td>0.702</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.51</td><td>0.1800</td><td>6</td><td><a href="/show/index.html?id=R1250_TS294_1">-&gt;</a></td></tr>
+<tr><td>TS294</td><td>5</td><td>54.833</td><td>81.933</td><td>0.669</td><td>0.617</td><td>0.187</td><td>0.702</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.51</td><td>0.1800</td><td>6</td><td><a href="/show/index.html?id=R1250_TS294_5">-&gt;</a></td></tr>
+<tr><td>TS286</td><td>4</td><td>55.021</td><td>108.170</td><td>0.509</td><td>0.323</td><td>0.091</td><td>0.575</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>34.73</td><td>0.1790</td><td>5</td><td><a href="/show/index.html?id=R1250_TS286_4">-&gt;</a></td></tr>
+<tr><td>TS294</td><td>3</td><td>55.230</td><td>81.519</td><td>0.678</td><td>0.616</td><td>0.187</td><td>0.713</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.03</td><td>0.2570</td><td>6</td><td><a href="/show/index.html?id=R1250_TS294_3">-&gt;</a></td></tr>
+<tr><td>TS235</td><td>5</td><td>55.668</td><td>82.023</td><td>0.679</td><td>0.644</td><td>0.183</td><td>0.706</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>21.64</td><td>0.1970</td><td>5</td><td><a href="/show/index.html?id=R1250_TS235_5">-&gt;</a></td></tr>
+<tr><td>TS262</td><td>2</td><td>55.858</td><td>86.173</td><td>0.648</td><td>0.604</td><td>0.149</td><td>0.679</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>24.24</td><td>0.1660</td><td>5</td><td><a href="/show/index.html?id=R1250_TS262_2">-&gt;</a></td></tr>
+<tr><td>TS262</td><td>5</td><td>55.858</td><td>86.173</td><td>0.648</td><td>0.604</td><td>0.149</td><td>0.679</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>24.24</td><td>0.1660</td><td>5</td><td><a href="/show/index.html?id=R1250_TS262_5">-&gt;</a></td></tr>
+<tr><td>TS156</td><td>4</td><td>55.908</td><td>93.196</td><td>0.600</td><td>0.510</td><td>0.000</td><td>0.650</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>27.70</td><td>0.1790</td><td>5</td><td><a href="/show/index.html?id=R1250_TS156_4">-&gt;</a></td></tr>
+<tr><td>TS033</td><td>5</td><td>55.950</td><td>83.223</td><td>0.672</td><td>0.596</td><td>0.237</td><td>0.712</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.10</td><td>0.2030</td><td>5</td><td><a href="/show/index.html?id=R1250_TS033_5">-&gt;</a></td></tr>
+<tr><td>TS156</td><td>5</td><td>56.075</td><td>92.295</td><td>0.608</td><td>0.538</td><td>0.000</td><td>0.650</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>27.47</td><td>0.1770</td><td>6</td><td><a href="/show/index.html?id=R1250_TS156_5">-&gt;</a></td></tr>
+<tr><td>TS238</td><td>4</td><td>56.547</td><td>87.357</td><td>0.647</td><td>0.577</td><td>0.173</td><td>0.686</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>23.17</td><td>0.2050</td><td>6</td><td><a href="/show/index.html?id=R1250_TS238_4">-&gt;</a></td></tr>
+<tr><td>TS156</td><td>2</td><td>56.653</td><td>95.999</td><td>0.590</td><td>0.516</td><td>0.000</td><td>0.633</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>27.86</td><td>0.1810</td><td>6</td><td><a href="/show/index.html?id=R1250_TS156_2">-&gt;</a></td></tr>
+<tr><td>TS169</td><td>3</td><td>56.679</td><td>109.546</td><td>0.517</td><td>0.320</td><td>0.000</td><td>0.607</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>26.28</td><td>0.1020</td><td>6</td><td><a href="/show/index.html?id=R1250_TS169_3">-&gt;</a></td></tr>
+<tr><td>TS028</td><td>1</td><td>56.762</td><td>83.350</td><td>0.681</td><td>0.642</td><td>0.254</td><td>0.708</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>21.75</td><td>0.2430</td><td>5</td><td><a href="/show/index.html?id=R1250_TS028_1">-&gt;</a></td></tr>
+<tr><td>TS110</td><td>1</td><td>56.762</td><td>83.350</td><td>0.681</td><td>0.642</td><td>0.254</td><td>0.708</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>21.75</td><td>0.2430</td><td>5</td><td><a href="/show/index.html?id=R1250_TS110_1">-&gt;</a></td></tr>
+<tr><td>TS462</td><td>1</td><td>56.762</td><td>83.350</td><td>0.681</td><td>0.642</td><td>0.254</td><td>0.708</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>21.75</td><td>0.2430</td><td>5</td><td><a href="/show/index.html?id=R1250_TS462_1">-&gt;</a></td></tr>
+<tr><td>TS462</td><td>3</td><td>56.762</td><td>83.350</td><td>0.681</td><td>0.642</td><td>0.254</td><td>0.708</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>21.75</td><td>0.2430</td><td>5</td><td><a href="/show/index.html?id=R1250_TS462_3">-&gt;</a></td></tr>
+<tr><td>TS462</td><td>4</td><td>56.762</td><td>83.350</td><td>0.681</td><td>0.642</td><td>0.254</td><td>0.708</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>21.75</td><td>0.2430</td><td>5</td><td><a href="/show/index.html?id=R1250_TS462_4">-&gt;</a></td></tr>
+<tr><td>TS286</td><td>2</td><td>56.804</td><td>98.407</td><td>0.577</td><td>0.511</td><td>0.112</td><td>0.612</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>31.64</td><td>0.1940</td><td>3</td><td><a href="/show/index.html?id=R1250_TS286_2">-&gt;</a></td></tr>
+<tr><td>TS183</td><td>5</td><td>56.959</td><td>89.588</td><td>0.636</td><td>0.551</td><td>0.135</td><td>0.681</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>23.18</td><td>0.1730</td><td>5</td><td><a href="/show/index.html?id=R1250_TS183_5">-&gt;</a></td></tr>
+<tr><td>TS033</td><td>4</td><td>57.040</td><td>86.714</td><td>0.658</td><td>0.592</td><td>0.237</td><td>0.694</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.33</td><td>0.1850</td><td>5</td><td><a href="/show/index.html?id=R1250_TS033_4">-&gt;</a></td></tr>
+<tr><td>TS238</td><td>1</td><td>57.231</td><td>84.927</td><td>0.674</td><td>0.635</td><td>0.202</td><td>0.704</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.63</td><td>0.2260</td><td>5</td><td><a href="/show/index.html?id=R1250_TS238_1">-&gt;</a></td></tr>
+<tr><td>TS238</td><td>3</td><td>57.261</td><td>87.877</td><td>0.652</td><td>0.593</td><td>0.274</td><td>0.685</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>23.23</td><td>0.2490</td><td>5</td><td><a href="/show/index.html?id=R1250_TS238_3">-&gt;</a></td></tr>
+<tr><td>TS435</td><td>2</td><td>57.539</td><td>87.612</td><td>0.657</td><td>0.582</td><td>0.199</td><td>0.698</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.39</td><td>0.2350</td><td>6</td><td><a href="/show/index.html?id=R1250_TS435_2">-&gt;</a></td></tr>
+<tr><td>TS033</td><td>3</td><td>58.024</td><td>87.232</td><td>0.665</td><td>0.613</td><td>0.173</td><td>0.698</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.41</td><td>0.2040</td><td>6</td><td><a href="/show/index.html?id=R1250_TS033_3">-&gt;</a></td></tr>
+<tr><td>TS294</td><td>2</td><td>58.230</td><td>83.623</td><td>0.696</td><td>0.674</td><td>0.237</td><td>0.720</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.46</td><td>0.2030</td><td>5</td><td><a href="/show/index.html?id=R1250_TS294_2">-&gt;</a></td></tr>
+<tr><td>TS238</td><td>5</td><td>58.374</td><td>84.997</td><td>0.687</td><td>0.642</td><td>0.237</td><td>0.717</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>0.00e+00</td><td>22.66</td><td>0.2060</td><td>5</td><td><a href="/show/index.html?id=R1250_TS238_5">-&gt;</a></td></tr>
+<tr><td>TS317</td><td>5</td><td>58.600</td><td>85.446</td><td>0.686</td><td>0.716</td><td>0.184</td><td>0.694</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>5.55e-17</td><td>23.81</td><td>0.2290</td><td>6</td><td><a href="/show/index.html?id=R1250_TS317_5">-&gt;</a></td></tr>
+<tr><td>TS317</td><td>1</td><td>59.252</td><td>86.301</td><td>0.687</td><td>0.715</td><td>0.187</td><td>0.692</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>9.44e-16</td><td>23.60</td><td>0.2230</td><td>6</td><td><a href="/show/index.html?id=R1250_TS317_1">-&gt;</a></td></tr>
+<tr><td>TS317</td><td>4</td><td>59.315</td><td>85.252</td><td>0.696</td><td>0.722</td><td>0.224</td><td>0.703</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>1.28e-15</td><td>23.90</td><td>0.2350</td><td>4</td><td><a href="/show/index.html?id=R1250_TS317_4">-&gt;</a></td></tr>
+<tr><td>TS435</td><td>1</td><td>61.146</td><td>91.582</td><td>0.668</td><td>0.630</td><td>0.224</td><td>0.696</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>2.73e-12</td><td>22.09</td><td>0.2450</td><td>5</td><td><a href="/show/index.html?id=R1250_TS435_1">-&gt;</a></td></tr>
+<tr><td>TS317</td><td>3</td><td>61.741</td><td>88.805</td><td>0.695</td><td>0.728</td><td>0.094</td><td>0.701</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>2.65e-11</td><td>24.28</td><td>0.2390</td><td>6</td><td><a href="/show/index.html?id=R1250_TS317_3">-&gt;</a></td></tr>
+<tr><td>TS294</td><td>4</td><td>62.946</td><td>92.719</td><td>0.679</td><td>0.656</td><td>0.260</td><td>0.701</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>1.90e-09</td><td>22.23</td><td>0.2320</td><td>6</td><td><a href="/show/index.html?id=R1250_TS294_4">-&gt;</a></td></tr>
+<tr><td>TS159</td><td>5</td><td>63.319</td><td>94.548</td><td>0.670</td><td>0.631</td><td>0.218</td><td>0.699</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>6.50e-09</td><td>22.09</td><td>0.2380</td><td>6</td><td><a href="/show/index.html?id=R1250_TS159_5">-&gt;</a></td></tr>
+<tr><td>TS325</td><td>5</td><td>63.319</td><td>94.548</td><td>0.670</td><td>0.631</td><td>0.218</td><td>0.699</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>6.50e-09</td><td>22.09</td><td>0.2380</td><td>6</td><td><a href="/show/index.html?id=R1250_TS325_5">-&gt;</a></td></tr>
+<tr><td>TS169</td><td>5</td><td>71.803</td><td>127.474</td><td>0.563</td><td>0.435</td><td>0.076</td><td>0.625</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>1.66e-01</td><td>25.93</td><td>0.1900</td><td>6</td><td><a href="/show/index.html?id=R1250_TS169_5">-&gt;</a></td></tr>
+<tr><td>TS235</td><td>4</td><td>73.348</td><td>150.466</td><td>0.487</td><td>0.314</td><td>0.000</td><td>0.546</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>4.55e-01</td><td>33.94</td><td>0.1460</td><td>5</td><td><a href="/show/index.html?id=R1250_TS235_4">-&gt;</a></td></tr>
+<tr><td>TS235</td><td>1</td><td>74.083</td><td>133.822</td><td>0.554</td><td>0.339</td><td>0.000</td><td>0.622</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>6.16e-01</td><td>30.82</td><td>0.1560</td><td>5</td><td><a href="/show/index.html?id=R1250_TS235_1">-&gt;</a></td></tr>
+<tr><td>TS169</td><td>1</td><td>76.030</td><td>149.743</td><td>0.508</td><td>0.331</td><td>0.000</td><td>0.584</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>9.16e-01</td><td>26.61</td><td>0.1350</td><td>5</td><td><a href="/show/index.html?id=R1250_TS169_1">-&gt;</a></td></tr>
+<tr><td>TS169</td><td>4</td><td>76.370</td><td>169.325</td><td>0.451</td><td>0.285</td><td>0.000</td><td>0.522</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>9.41e-01</td><td>27.36</td><td>0.1580</td><td>6</td><td><a href="/show/index.html?id=R1250_TS169_4">-&gt;</a></td></tr>
+<tr><td>TS169</td><td>2</td><td>78.604</td><td>148.573</td><td>0.529</td><td>0.410</td><td>0.000</td><td>0.587</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>9.98e-01</td><td>26.76</td><td>0.1810</td><td>5</td><td><a href="/show/index.html?id=R1250_TS169_2">-&gt;</a></td></tr>
+<tr><td>TS306</td><td>1</td><td>81.747</td><td>136.950</td><td>0.597</td><td>0.559</td><td>0.149</td><td>0.625</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>1.00e+00</td><td>28.00</td><td>0.1670</td><td>3</td><td><a href="/show/index.html?id=R1250_TS306_1">-&gt;</a></td></tr>
+<tr><td>TS306</td><td>4</td><td>81.783</td><td>135.849</td><td>0.602</td><td>0.576</td><td>0.194</td><td>0.627</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>1.00e+00</td><td>27.18</td><td>0.1640</td><td>2</td><td><a href="/show/index.html?id=R1250_TS306_4">-&gt;</a></td></tr>
+<tr><td>TS306</td><td>3</td><td>83.600</td><td>134.166</td><td>0.623</td><td>0.623</td><td>0.062</td><td>0.646</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>1.00e+00</td><td>28.38</td><td>0.1570</td><td>2</td><td><a href="/show/index.html?id=R1250_TS306_3">-&gt;</a></td></tr>
+<tr><td>TS306</td><td>2</td><td>84.784</td><td>144.939</td><td>0.585</td><td>0.562</td><td>0.120</td><td>0.613</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>1.00e+00</td><td>27.75</td><td>0.1630</td><td>2</td><td><a href="/show/index.html?id=R1250_TS306_2">-&gt;</a></td></tr>
+<tr><td>TS306</td><td>5</td><td>90.880</td><td>157.100</td><td>0.578</td><td>0.542</td><td>0.071</td><td>0.609</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>1.00e+00</td><td>28.00</td><td>0.1530</td><td>2</td><td><a href="/show/index.html?id=R1250_TS306_5">-&gt;</a></td></tr>
+<tr><td>TS094</td><td>2</td><td>102.776</td><td>208.882</td><td>0.492</td><td>0.317</td><td>0.000</td><td>0.573</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>1.00e+00</td><td>29.62</td><td>0.1010</td><td>3</td><td><a href="/show/index.html?id=R1250_TS094_2">-&gt;</a></td></tr>
+<tr><td>TS094</td><td>4</td><td>106.910</td><td>215.198</td><td>0.497</td><td>0.344</td><td>0.000</td><td>0.569</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>1.00e+00</td><td>28.96</td><td>0.1060</td><td>2</td><td><a href="/show/index.html?id=R1250_TS094_4">-&gt;</a></td></tr>
+<tr><td>TS094</td><td>3</td><td>111.767</td><td>225.222</td><td>0.496</td><td>0.335</td><td>0.000</td><td>0.571</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>1.00e+00</td><td>27.95</td><td>0.1050</td><td>3</td><td><a href="/show/index.html?id=R1250_TS094_3">-&gt;</a></td></tr>
+<tr><td>TS094</td><td>5</td><td>122.484</td><td>257.133</td><td>0.476</td><td>0.316</td><td>0.000</td><td>0.553</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>1.00e+00</td><td>29.02</td><td>0.1100</td><td>3</td><td><a href="/show/index.html?id=R1250_TS094_5">-&gt;</a></td></tr>
+<tr><td>TS094</td><td>1</td><td>124.301</td><td>243.738</td><td>0.510</td><td>0.339</td><td>0.000</td><td>0.591</td><td>10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.000</td><td>1.00e+00</td><td>28.70</td><td>0.1050</td><td>5</td><td><a href="/show/index.html?id=R1250_TS094_1">-&gt;</a></td></tr>
+
+</table>
+  <p>-: No true positive interaction in the predicted structure.</p>
+</div>
+
+  </div>
+
+</article>
+
+      </div>
+      <!-- 侧边栏区域：占用 4 栏 -->
+      <div id="newsid" class="col-md-4">
+        <!-- Begin: Sidebar 模块 -->
+<aside class="sidebar col-sm-44" style="padding: 15px;">
+	    <!-- CSS Files -->
+		<link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="/css/stylish-portfolio.css" rel="stylesheet" type="text/css">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="//jpswalsh.github.io/academicons/css/academicons.css" rel="stylesheet">
+		<link href="/stylesheets/screen.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+	<!-- Begin: 关于信息部分 -->
+	<section>
+		<h1>RNA-Puzzles</h1>
+		<p>A collective blind evaluation of RNA three-dimensional structure prediction</p>
+		<!-- GitHub 链接 -->
+		<a href="https://github.com/RNA-Puzzles">
+			<i class="fa fa-github-square fa-fw fa-2x"></i>
+		</a>
+		<!-- Email 链接 -->
+		<a href="mailto:ibmc.cnrs@gmail.com">
+			<i class="fa fa-envelope-square fa-fw fa-2x"></i>
+		</a>
+		<!-- Twitter 链接 -->
+		<a href="https://twitter.com/RNAPuzzles">
+			<i class="fa fa-twitter-square fa-fw fa-2x"></i>
+		</a>
+		<!-- Coffee 链接（示例链接，可根据需要修改） -->
+		<a href="">
+			<i class="fa fa-coffee fa-fw fa-2x"></i>
+		</a>
+
+
+
+	</section>
+	<!-- End: 关于信息部分 -->
+
+	<!-- Begin: 最近文章模块 -->
+	<section class="panel panel-info">
+		<div class="panel-heading">
+			<h3 class="panel-title">Recent Posts</h3>
+		</div>
+		<div id="recent_posts" class="list-group">
+			<a class="list-group-item" href="/news/2023/10/07/Submission-Process/">Submission Process</a>
+			<a class="list-group-item" href="/news/2023/10/07/Research-Spectrum/">Research Spectrum</a>
+			<a class="list-group-item" href="/news/2023/10/07/Recent-Engagements/">Recent Engagements</a>
+			<a class="list-group-item" href="/news/2023/10/07/Participating-Teams/">Participating Teams</a>
+			<a class="list-group-item" href="/news/2023/10/07/Methodological-Progress/">Methodological Progress</a>
+		</div>
+	</section>
+	<!-- End: 最近文章模块 -->
+
+	<!-- Begin: GitHub Repos 模块 -->
+	<section class="panel panel-info clearfix">
+		<div class="panel-heading">
+			<h3 class="panel-title">GitHub Repos</h3>
+		</div>
+		<div class="list-group" id="gh_repos">
+			<p class="loading">Status updating...</p>
+		</div>
+		<div class="gh-profile-link pull-right text-muted">
+			<a href="https://github.com/RNA-Puzzles">@RNA-Puzzles</a> on GitHub
+		</div>
+		<!-- 使用 jQuery 动态加载 GitHub 仓库信息 -->
+		<script type="text/javascript">
+			$(document).ready(function(){
+				// 如果未加载 jXHR 库，则动态加载
+				if (!window.jXHR){
+					var jxhr = document.createElement('script');
+					jxhr.type = 'text/javascript';
+					jxhr.src = '/javascripts/libs/jXHR.js';
+					var s = document.getElementsByTagName('script')[0];
+					s.parentNode.insertBefore(jxhr, s);
+				}
+				// 调用 github.showRepos() 函数显示仓库列表
+				github.showRepos({
+					user: 'RNA-Puzzles',
+					count: 0,
+					skip_forks: true,
+					target: '#gh_repos'
+				});
+			});
+		</script>
+		<script src="/javascripts/github.js" type="text/javascript"></script>
+	</section>
+	<!-- End: GitHub Repos 模块 -->
+
+	<!-- Begin: 分类模块 -->
+	<section class="panel panel-info clearfix">
+		<div class="panel-heading">
+			<h3 class="panel-title">Categories</h3>
+		</div>
+		<div class="list-group-item">
+			<a href="/blog/group_category/">group (16)</a>
+		</div>
+		<div class="list-group-item">
+			<a href="/blog/news_category/">news (7)</a>
+		</div>
+		<div class="list-group-item">
+			<a href="/blog/results_category/">results (39)</a>
+		</div>
+		<div class="list-group-item">
+			<a href="/blog/tables_category/">table (129)</a>
+		</div>
+	</section>
+	<!-- End: 分类模块 -->
+</aside>
+<!-- End: Sidebar 模块 -->
+
+      </div>
+    </div>
+  </div>
+
+    <div id="footer" class="panel">
+  <div class="panel-footer" style='background-color: #333333; color: #eeeeee;'>
+	<div class="container-fluid">
+	  <div class="row">
+		<div class="col-sm-4">
+			
+		  <p>&copy 2025 RNA-Puzzles. </p>
+		  <p>We are part of the <a href="https://gzlab.ac.cn">Guangzhou Laboratory</a> and <a href="http://www.rnapuzzles.org/">RNApuzzles</a>.</p>
+		  <p>Site made with <a href="https://jekyllrb.com">Jekyll</a>;  <a href="http://localhost:4000/aboutwebsite.html">copy and  modify it for your own research group.</a></p>
+		  <p>  </p>
+		  <p>  </p>
+		</div>
+		
+		<div class="col-sm-4">
+		  Funding:<br />
+          - <a href="https://gzlab.ac.cn">R&D Programs of Guangzhou Laboratory</a><br />
+          - <a href="http://www.most.gov.cn/">MOST IT+BT projects</a> <br />
+          - <a href="https://www.nsfc.gov.cn/">NSFC</a> <br />	  
+		</div>
+		
+		<div class="col-sm-4">
+		  Contact:<br />
+		  Building B2, Guangzhou National Laboratory<br />
+		  96 Xingdao South Road, Guangzhou International Bio Island, <br />
+		  Haizhu District, Guangzhou, Guangdong, China.<br />
+          (<a href="https://goo.gl/maps/hDLr6siEAS2Eaypt8">Maps</a>)
+		</div>
+	  </div>
+	</div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://localhost:4000/js/bootstrap.min.js"></script>
+
+
+  </body>
+
+</html>

@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- 开始：HEAD 部分 -->
+    <meta charset="utf-8">
+    <title>Group - RNA-Puzzles</title>
+    <meta name="author" content="Chichau Miao">
+
+    <!-- 移动设备优化相关 Meta 标签 -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- SEO 相关：Canonical URL、Favicon、RSS 订阅链接 -->
+    <link rel="canonical" href="http://www.rnapuzzles.org/group/">
+    <link href="/favicon.png" type="image/png" rel="icon">
+    <link href="/atom.xml" rel="alternate" title="RNA-Puzzles" type="application/atom+xml">
+
+    <!-- Open Graph / Twitter Meta 标签 -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.rnapuzzles.org/group/">
+    <meta property="og:title" content="Group - RNA-Puzzles">
+    
+    <!-- 引入 jQuery -->
+    <script src="/js/jquery-3.2.1.min.js"></script>
+
+    <!-- 引入 CSS 文件 -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/stylish-portfolio.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//jpswalsh.github.io/academicons/css/academicons.css" rel="stylesheet">
+    <link href="/stylesheets/screen.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+    <!-- 结束：HEAD 部分 -->
+</head>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Puzzle PZ17 table</title>
+  <meta name="description" content="  Please click the tags to sort data.        Lab    Num    RMSD    DI all    INF all    INF wc    INF nwc    INF stacking    Clash Score    P-value    mcq   ...">
+  <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/table/2000/01/01/PZ17-3d.html">
+  <link rel="shortcut icon" type="image/x-icon" href="http://localhost:4000/favicon.png">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  
+
+  <!-- 将汉堡按钮的 CSS 样式放在 style 标签内 -->
+  <style>
+    .navbar-toggle .icon-bar {
+      background-color: #eeeeee;
+    }
+  </style>
+
+</head>
+
+
+  <body>
+
+    <!-- 导航条容器：使用 Bootstrap 的 navbar 类，设置导航条扩展模式、深色主题以及内联样式 -->
+<div class="navbar navbar-expand-lg navbar-dark" style="border-radius: 0; border: 0; background-color: #337ab7" role="navigation">
+	<!-- 限制内容宽度为 1200px 的 fluid 容器 -->
+	<div class="container-fluid" style="max-width: 1500px;">
+		<!-- 导航头部：包含汉堡按钮和品牌链接 -->
+		<div class="navbar-header">
+			<!-- 响应式切换按钮（汉堡菜单）
+			     当屏幕较小时，该按钮显示，点击后控制右侧所有链接、RSS 和搜索框的折叠/展开
+			     为使按钮图标颜色与当前字体颜色（白色）一致，在 CSS 中设置 .navbar-toggle .icon-bar 的背景色 -->
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+
+			<!-- 品牌链接：使用 Flexbox 布局使品牌文字和 logo 分布在两侧 -->
+			<a class="navbar-brand" href="http://localhost:4000/" style="display: flex; justify-content: space-between; align-items: center;">
+				<b style="font-size: 32px; color: #eeeeee;">RNA-Puzzles</b>
+				<img src="http://localhost:4000/images/header/logo.jpg" style="height: 53px; margin-top: 0; margin-bottom: 0; padding: 0px; border-radius: 0;" alt="logo">
+			</a>
+		</div> <!-- end of .navbar-header -->
+
+		<!-- 可折叠的导航菜单部分：包括多个页面链接、搜索框和 RSS 订阅按钮 -->
+		<div class="collapse navbar-collapse" id="navbar-collapse-1">
+			<!-- 右对齐的导航列表 -->
+			<ul class="nav navbar-nav navbar-right">
+				<!-- 页面链接 -->
+				<li>
+					<a class="nav-link-1" href="http://localhost:4000/results">Results</a>
+				</li>
+				<li>
+					<a class="nav-link-1" href="http://localhost:4000/open-puzzle">Open Puzzles</a>
+				</li>
+				<li>
+					<a class="nav-link-1" href="http://localhost:4000/group">Groups</a>
+				</li>
+				<li>
+					<a class="nav-link-1" href="http://localhost:4000/publication">Publications</a>
+				</li>
+				<li>
+					<a class="nav-link-1" href="https://chichaumiau.github.io/rnapuzzlestoolkit/">Resources</a>
+				</li>
+				<!-- 搜索框：
+				     使用 form 表单，置于一个 <li> 内与其他链接同一行显示，
+				     通过 position: relative; top: 2px; 实现向下偏移 2px，
+				     同时保证输入框垂直居中 -->
+				<li>
+					<form class="navbar-form" role="search" action="/search" method="GET" style="margin: 0; padding: 0;">
+						<div class="form-group">
+							<input type="text" class="form-control" name="q" placeholder="search" style="color: #999; vertical-align: middle; position: relative; top: 9px;">
+						</div>
+					</form>
+				</li>
+				<!-- RSS 订阅按钮：
+				     为避免上下空白，通过清除图片的默认 margin/padding，并设置 display: inline-block，
+				     同时保持 vertical-align: middle 使其垂直居中 -->
+				<li>
+					<a class="subscribe-rss" href="/atom.xml" title="subscribe via RSS" style="line-height: 1;">
+						<span class="visible-xs">RSS</span>
+						<img class="hidden-xs" src="/images/header/rss.png" alt="RSS" style="vertical-align: middle; margin: 0; padding: 0; display: inline-block;">
+					</a>
+				</li>
+			</ul>
+		</div> <!-- end of .collapse .navbar-collapse -->
+	</div> <!-- end of .container-fluid -->
+</div> <!-- end of .navbar -->
+
+
+  <!-- 使用 container 保证内容区域居中 -->
+  <div class="container">
+    <div class="row">
+      <!-- 主页内容区域：占用 8 栏 -->
+      <div id="homeid" class="col-md-8">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Puzzle PZ17 table</h1>
+    <p class="post-meta"><time datetime="2000-01-01T08:00:01+08:00" itemprop="datePublished">Jan 1, 2000</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <script src="/javascripts/sorttable.js"></script>
+
+<script>
+    window.onload = function() {
+        (document.getElementsByTagName( 'th' )[1]).click();
+    };
+</script>
+
+<p><br /></p>
+<div align="center">
+  <p>Please click the tags to sort data.<br /></p>
+  <table class="sortable" border="1">
+  <tr>
+    <th>Lab</th>
+    <th>Num</th>
+    <th>RMSD</th>
+    <th>DI all</th>
+    <th>INF all</th>
+    <th>INF wc</th>
+    <th>INF nwc</th>
+    <th>INF stacking</th>
+    <th>Clash Score</th>
+    <th>P-value</th>
+    <th>mcq</th>
+    <th>TM-score</th>
+    <th>best sol.</th>
+    <th>Detail</th>
+  </tr>
+  <tr><td>SimRNAAS2</td><td>1</td><td>5.145</td><td>7.101</td><td>0.725</td><td>0.800</td><td>-</td><td>0.692</td><td>152.230</td><td>0.00e+00</td><td>27.85</td><td>0.3260</td><td>2</td><td><a href="/show/index.html?id=PZ17_SimRNAAS2_1">-&gt;</a></td></tr>
+<tr><td>Das</td><td>4</td><td>7.134</td><td>9.846</td><td>0.725</td><td>0.794</td><td>-</td><td>0.701</td><td>6.440</td><td>3.89e-15</td><td>23.47</td><td>0.2890</td><td>2</td><td><a href="/show/index.html?id=PZ17_Das_4">-&gt;</a></td></tr>
+<tr><td>SimRNAAS2</td><td>7</td><td>7.608</td><td>10.352</td><td>0.735</td><td>0.813</td><td>-</td><td>0.700</td><td>154.470</td><td>3.02e-14</td><td>26.91</td><td>0.3050</td><td>2</td><td><a href="/show/index.html?id=PZ17_SimRNAAS2_7">-&gt;</a></td></tr>
+<tr><td>Das</td><td>1</td><td>8.602</td><td>10.748</td><td>0.800</td><td>0.868</td><td>-</td><td>0.779</td><td>3.220</td><td>1.76e-12</td><td>22.82</td><td>0.3390</td><td>2</td><td><a href="/show/index.html?id=PZ17_Das_1">-&gt;</a></td></tr>
+<tr><td>Das</td><td>8</td><td>8.673</td><td>11.521</td><td>0.753</td><td>0.868</td><td>-</td><td>0.718</td><td>6.440</td><td>2.33e-12</td><td>24.33</td><td>0.3770</td><td>2</td><td><a href="/show/index.html?id=PZ17_Das_8">-&gt;</a></td></tr>
+<tr><td>Das</td><td>9</td><td>8.766</td><td>11.834</td><td>0.741</td><td>0.813</td><td>-</td><td>0.717</td><td>6.980</td><td>3.35e-12</td><td>25.84</td><td>0.3490</td><td>2</td><td><a href="/show/index.html?id=PZ17_Das_9">-&gt;</a></td></tr>
+<tr><td>Chen</td><td>5</td><td>9.443</td><td>14.133</td><td>0.668</td><td>0.765</td><td>-</td><td>0.633</td><td>156.670</td><td>4.36e-11</td><td>24.07</td><td>0.2600</td><td>2</td><td><a href="/show/index.html?id=PZ17_Chen_5">-&gt;</a></td></tr>
+<tr><td>Bujnicki</td><td>7</td><td>10.863</td><td>14.547</td><td>0.747</td><td>0.872</td><td>-</td><td>0.693</td><td>1.080</td><td>6.03e-09</td><td>25.89</td><td>0.2970</td><td>1</td><td><a href="/show/index.html?id=PZ17_Bujnicki_7">-&gt;</a></td></tr>
+<tr><td>Das</td><td>7</td><td>10.955</td><td>15.058</td><td>0.727</td><td>0.850</td><td>-</td><td>0.675</td><td>11.280</td><td>8.13e-09</td><td>24.43</td><td>0.3180</td><td>1</td><td><a href="/show/index.html?id=PZ17_Das_7">-&gt;</a></td></tr>
+<tr><td>DasExtraInfo</td><td>1</td><td>11.021</td><td>14.954</td><td>0.737</td><td>0.813</td><td>-</td><td>0.701</td><td>9.130</td><td>1.01e-08</td><td>25.30</td><td>0.2420</td><td>2</td><td><a href="/show/index.html?id=PZ17_DasExtraInfo_1">-&gt;</a></td></tr>
+<tr><td>Das</td><td>2</td><td>11.250</td><td>15.265</td><td>0.737</td><td>0.794</td><td>-</td><td>0.731</td><td>5.910</td><td>2.08e-08</td><td>27.52</td><td>0.3400</td><td>2</td><td><a href="/show/index.html?id=PZ17_Das_2">-&gt;</a></td></tr>
+<tr><td>Das</td><td>6</td><td>11.509</td><td>16.378</td><td>0.703</td><td>0.794</td><td>-</td><td>0.659</td><td>3.220</td><td>4.65e-08</td><td>26.29</td><td>0.3290</td><td>2</td><td><a href="/show/index.html?id=PZ17_Das_6">-&gt;</a></td></tr>
+<tr><td>Chen</td><td>2</td><td>11.605</td><td>16.034</td><td>0.724</td><td>0.779</td><td>-</td><td>0.701</td><td>95.440</td><td>6.22e-08</td><td>21.34</td><td>0.2490</td><td>2</td><td><a href="/show/index.html?id=PZ17_Chen_2">-&gt;</a></td></tr>
+<tr><td>Adamiak</td><td>2</td><td>11.779</td><td>19.085</td><td>0.617</td><td>0.759</td><td>-</td><td>0.545</td><td>15.050</td><td>1.05e-07</td><td>31.20</td><td>0.2040</td><td>2</td><td><a href="/show/index.html?id=PZ17_Adamiak_2">-&gt;</a></td></tr>
+<tr><td>RNAComposerAS2</td><td>3</td><td>11.913</td><td>22.554</td><td>0.528</td><td>0.485</td><td>-</td><td>0.546</td><td>71.070</td><td>1.57e-07</td><td>23.89</td><td>0.2470</td><td>2</td><td><a href="/show/index.html?id=PZ17_RNAComposerAS2_3">-&gt;</a></td></tr>
+<tr><td>RNAComposerAS2</td><td>2</td><td>12.011</td><td>19.257</td><td>0.624</td><td>0.857</td><td>-</td><td>0.505</td><td>9.140</td><td>2.09e-07</td><td>28.72</td><td>0.2440</td><td>2</td><td><a href="/show/index.html?id=PZ17_RNAComposerAS2_2">-&gt;</a></td></tr>
+<tr><td>DasExtraInfo</td><td>2</td><td>12.070</td><td>16.518</td><td>0.731</td><td>0.794</td><td>-</td><td>0.701</td><td>9.670</td><td>2.47e-07</td><td>24.85</td><td>0.3170</td><td>2</td><td><a href="/show/index.html?id=PZ17_DasExtraInfo_2">-&gt;</a></td></tr>
+<tr><td>SimRNAAS2</td><td>6</td><td>12.200</td><td>19.511</td><td>0.625</td><td>0.718</td><td>0.000</td><td>0.612</td><td>117.270</td><td>3.60e-07</td><td>29.67</td><td>0.2250</td><td>1</td><td><a href="/show/index.html?id=PZ17_SimRNAAS2_6">-&gt;</a></td></tr>
+<tr><td>Bujnicki</td><td>8</td><td>12.234</td><td>16.086</td><td>0.761</td><td>0.872</td><td>-</td><td>0.716</td><td>0.000</td><td>3.97e-07</td><td>25.07</td><td>0.3550</td><td>1</td><td><a href="/show/index.html?id=PZ17_Bujnicki_8">-&gt;</a></td></tr>
+<tr><td>RNAComposerAS2</td><td>1</td><td>12.301</td><td>22.219</td><td>0.554</td><td>0.794</td><td>-</td><td>0.424</td><td>6.450</td><td>4.79e-07</td><td>28.93</td><td>0.2490</td><td>2</td><td><a href="/show/index.html?id=PZ17_RNAComposerAS2_1">-&gt;</a></td></tr>
+<tr><td>Adamiak</td><td>1</td><td>12.311</td><td>20.152</td><td>0.611</td><td>0.794</td><td>-</td><td>0.514</td><td>11.290</td><td>4.92e-07</td><td>32.20</td><td>0.2120</td><td>2</td><td><a href="/show/index.html?id=PZ17_Adamiak_1">-&gt;</a></td></tr>
+<tr><td>Adamiak</td><td>3</td><td>12.370</td><td>19.435</td><td>0.637</td><td>0.813</td><td>-</td><td>0.545</td><td>10.750</td><td>5.83e-07</td><td>33.51</td><td>0.2100</td><td>2</td><td><a href="/show/index.html?id=PZ17_Adamiak_3">-&gt;</a></td></tr>
+<tr><td>RNAComposerAS2</td><td>5</td><td>12.558</td><td>21.738</td><td>0.578</td><td>0.800</td><td>-</td><td>0.462</td><td>11.290</td><td>9.82e-07</td><td>29.17</td><td>0.1740</td><td>2</td><td><a href="/show/index.html?id=PZ17_RNAComposerAS2_5">-&gt;</a></td></tr>
+<tr><td>SimRNAAS2</td><td>8</td><td>12.768</td><td>18.557</td><td>0.688</td><td>0.850</td><td>0.000</td><td>0.631</td><td>140.410</td><td>1.74e-06</td><td>29.74</td><td>0.2430</td><td>1</td><td><a href="/show/index.html?id=PZ17_SimRNAAS2_8">-&gt;</a></td></tr>
+<tr><td>RNAComposerAS2</td><td>6</td><td>12.784</td><td>22.616</td><td>0.565</td><td>0.759</td><td>-</td><td>0.462</td><td>12.900</td><td>1.81e-06</td><td>29.51</td><td>0.1890</td><td>2</td><td><a href="/show/index.html?id=PZ17_RNAComposerAS2_6">-&gt;</a></td></tr>
+<tr><td>RNAComposerAS2</td><td>7</td><td>12.823</td><td>21.446</td><td>0.598</td><td>0.759</td><td>-</td><td>0.514</td><td>15.050</td><td>2.01e-06</td><td>30.89</td><td>0.1610</td><td>2</td><td><a href="/show/index.html?id=PZ17_RNAComposerAS2_7">-&gt;</a></td></tr>
+<tr><td>Ding</td><td>7</td><td>12.860</td><td>20.251</td><td>0.635</td><td>0.738</td><td>-</td><td>0.589</td><td>8.590</td><td>2.22e-06</td><td>27.94</td><td>0.1640</td><td>1</td><td><a href="/show/index.html?id=PZ17_Ding_7">-&gt;</a></td></tr>
+<tr><td>DasExtraInfo</td><td>3</td><td>13.227</td><td>17.537</td><td>0.754</td><td>0.830</td><td>-</td><td>0.725</td><td>13.430</td><td>5.78e-06</td><td>27.17</td><td>0.2600</td><td>1</td><td><a href="/show/index.html?id=PZ17_DasExtraInfo_3">-&gt;</a></td></tr>
+<tr><td>Ding</td><td>10</td><td>13.390</td><td>22.135</td><td>0.605</td><td>0.727</td><td>-</td><td>0.552</td><td>9.130</td><td>8.74e-06</td><td>29.47</td><td>0.2020</td><td>1</td><td><a href="/show/index.html?id=PZ17_Ding_10">-&gt;</a></td></tr>
+<tr><td>Major</td><td>10</td><td>13.402</td><td>38.533</td><td>0.348</td><td>0.224</td><td>-</td><td>0.398</td><td>15.590</td><td>9.00e-06</td><td>49.75</td><td>0.2010</td><td>1</td><td><a href="/show/index.html?id=PZ17_Major_10">-&gt;</a></td></tr>
+<tr><td>RNAComposerAS2</td><td>4</td><td>13.518</td><td>21.672</td><td>0.624</td><td>0.779</td><td>-</td><td>0.545</td><td>10.220</td><td>1.20e-05</td><td>28.57</td><td>0.1760</td><td>2</td><td><a href="/show/index.html?id=PZ17_RNAComposerAS2_4">-&gt;</a></td></tr>
+<tr><td>RNAComposerAS2</td><td>8</td><td>13.519</td><td>22.608</td><td>0.598</td><td>0.765</td><td>-</td><td>0.512</td><td>8.600</td><td>1.20e-05</td><td>30.61</td><td>0.1780</td><td>2</td><td><a href="/show/index.html?id=PZ17_RNAComposerAS2_8">-&gt;</a></td></tr>
+<tr><td>Xiao</td><td>7</td><td>13.849</td><td>27.031</td><td>0.512</td><td>0.458</td><td>-</td><td>0.534</td><td>0.540</td><td>2.67e-05</td><td>41.40</td><td>0.2060</td><td>2</td><td><a href="/show/index.html?id=PZ17_Xiao_7">-&gt;</a></td></tr>
+<tr><td>Bujnicki</td><td>5</td><td>13.952</td><td>19.694</td><td>0.708</td><td>0.763</td><td>0.000</td><td>0.698</td><td>4.830</td><td>3.41e-05</td><td>29.19</td><td>0.2720</td><td>1</td><td><a href="/show/index.html?id=PZ17_Bujnicki_5">-&gt;</a></td></tr>
+<tr><td>Bujnicki</td><td>1</td><td>13.977</td><td>20.166</td><td>0.693</td><td>0.776</td><td>-</td><td>0.659</td><td>3.220</td><td>3.61e-05</td><td>27.91</td><td>0.2910</td><td>1</td><td><a href="/show/index.html?id=PZ17_Bujnicki_1">-&gt;</a></td></tr>
+<tr><td>Bujnicki</td><td>9</td><td>13.977</td><td>20.166</td><td>0.693</td><td>0.776</td><td>-</td><td>0.659</td><td>3.220</td><td>3.61e-05</td><td>27.91</td><td>0.2910</td><td>1</td><td><a href="/show/index.html?id=PZ17_Bujnicki_9">-&gt;</a></td></tr>
+<tr><td>Xiao</td><td>9</td><td>14.076</td><td>26.659</td><td>0.528</td><td>0.396</td><td>-</td><td>0.576</td><td>15.050</td><td>4.55e-05</td><td>44.46</td><td>0.2090</td><td>2</td><td><a href="/show/index.html?id=PZ17_Xiao_9">-&gt;</a></td></tr>
+<tr><td>SimRNAAS2</td><td>9</td><td>14.285</td><td>21.412</td><td>0.667</td><td>0.700</td><td>-</td><td>0.661</td><td>153.230</td><td>7.31e-05</td><td>27.95</td><td>0.2530</td><td>1</td><td><a href="/show/index.html?id=PZ17_SimRNAAS2_9">-&gt;</a></td></tr>
+<tr><td>Bujnicki</td><td>6</td><td>14.354</td><td>20.120</td><td>0.713</td><td>0.850</td><td>-</td><td>0.663</td><td>0.000</td><td>8.52e-05</td><td>28.09</td><td>0.2390</td><td>1</td><td><a href="/show/index.html?id=PZ17_Bujnicki_6">-&gt;</a></td></tr>
+<tr><td>Bujnicki</td><td>10</td><td>14.378</td><td>22.295</td><td>0.645</td><td>0.779</td><td>-</td><td>0.593</td><td>0.000</td><td>8.98e-05</td><td>27.49</td><td>0.2610</td><td>2</td><td><a href="/show/index.html?id=PZ17_Bujnicki_10">-&gt;</a></td></tr>
+<tr><td>Bujnicki</td><td>2</td><td>14.378</td><td>22.295</td><td>0.645</td><td>0.779</td><td>-</td><td>0.593</td><td>0.000</td><td>8.98e-05</td><td>27.49</td><td>0.2610</td><td>2</td><td><a href="/show/index.html?id=PZ17_Bujnicki_2">-&gt;</a></td></tr>
+<tr><td>Ding</td><td>3</td><td>14.507</td><td>24.929</td><td>0.582</td><td>0.529</td><td>-</td><td>0.605</td><td>10.740</td><td>1.19e-04</td><td>29.00</td><td>0.1750</td><td>2</td><td><a href="/show/index.html?id=PZ17_Ding_3">-&gt;</a></td></tr>
+<tr><td>Xiao</td><td>5</td><td>14.562</td><td>26.871</td><td>0.542</td><td>0.600</td><td>-</td><td>0.526</td><td>29.570</td><td>1.34e-04</td><td>37.12</td><td>0.2180</td><td>2</td><td><a href="/show/index.html?id=PZ17_Xiao_5">-&gt;</a></td></tr>
+<tr><td>Bujnicki</td><td>3</td><td>14.634</td><td>22.874</td><td>0.640</td><td>0.759</td><td>-</td><td>0.586</td><td>0.000</td><td>1.57e-04</td><td>29.80</td><td>0.2910</td><td>2</td><td><a href="/show/index.html?id=PZ17_Bujnicki_3">-&gt;</a></td></tr>
+<tr><td>Chen</td><td>6</td><td>14.750</td><td>24.232</td><td>0.609</td><td>0.560</td><td>-</td><td>0.634</td><td>174.220</td><td>2.00e-04</td><td>27.13</td><td>0.2040</td><td>3</td><td><a href="/show/index.html?id=PZ17_Chen_6">-&gt;</a></td></tr>
+<tr><td>Ding</td><td>8</td><td>14.780</td><td>23.222</td><td>0.636</td><td>0.765</td><td>-</td><td>0.579</td><td>13.960</td><td>2.14e-04</td><td>26.51</td><td>0.2040</td><td>2</td><td><a href="/show/index.html?id=PZ17_Ding_8">-&gt;</a></td></tr>
+<tr><td>Das</td><td>3</td><td>14.858</td><td>20.293</td><td>0.732</td><td>0.813</td><td>-</td><td>0.704</td><td>9.670</td><td>2.51e-04</td><td>27.28</td><td>0.2180</td><td>2</td><td><a href="/show/index.html?id=PZ17_Das_3">-&gt;</a></td></tr>
+<tr><td>Major</td><td>6</td><td>14.874</td><td>25.412</td><td>0.585</td><td>0.366</td><td>-</td><td>0.678</td><td>1.080</td><td>2.60e-04</td><td>43.64</td><td>0.1900</td><td>2</td><td><a href="/show/index.html?id=PZ17_Major_6">-&gt;</a></td></tr>
+<tr><td>Xiao</td><td>1</td><td>15.023</td><td>27.712</td><td>0.542</td><td>0.600</td><td>-</td><td>0.524</td><td>13.980</td><td>3.52e-04</td><td>34.58</td><td>0.2100</td><td>2</td><td><a href="/show/index.html?id=PZ17_Xiao_1">-&gt;</a></td></tr>
+<tr><td>Ding</td><td>1</td><td>15.024</td><td>24.374</td><td>0.616</td><td>0.503</td><td>-</td><td>0.677</td><td>8.060</td><td>3.53e-04</td><td>27.69</td><td>0.1790</td><td>1</td><td><a href="/show/index.html?id=PZ17_Ding_1">-&gt;</a></td></tr>
+<tr><td>Dokholyan</td><td>3</td><td>15.030</td><td>22.298</td><td>0.674</td><td>0.751</td><td>-</td><td>0.650</td><td>18.800</td><td>3.57e-04</td><td>25.93</td><td>0.2250</td><td>1</td><td><a href="/show/index.html?id=PZ17_Dokholyan_3">-&gt;</a></td></tr>
+<tr><td>SimRNAAS2</td><td>4</td><td>15.071</td><td>22.404</td><td>0.673</td><td>0.763</td><td>-</td><td>0.638</td><td>100.650</td><td>3.89e-04</td><td>28.30</td><td>0.2600</td><td>1</td><td><a href="/show/index.html?id=PZ17_SimRNAAS2_4">-&gt;</a></td></tr>
+<tr><td>Chen</td><td>4</td><td>15.142</td><td>22.895</td><td>0.661</td><td>0.671</td><td>-</td><td>0.667</td><td>171.430</td><td>4.47e-04</td><td>27.40</td><td>0.2980</td><td>1</td><td><a href="/show/index.html?id=PZ17_Chen_4">-&gt;</a></td></tr>
+<tr><td>SimRNAAS1</td><td>6</td><td>15.175</td><td>24.318</td><td>0.624</td><td>0.615</td><td>0.000</td><td>0.645</td><td>141.250</td><td>4.78e-04</td><td>26.62</td><td>0.3070</td><td>1</td><td><a href="/show/index.html?id=PZ17_SimRNAAS1_6">-&gt;</a></td></tr>
+<tr><td>Das</td><td>5</td><td>15.383</td><td>20.966</td><td>0.734</td><td>0.830</td><td>0.000</td><td>0.703</td><td>7.520</td><td>7.18e-04</td><td>24.09</td><td>0.2640</td><td>1</td><td><a href="/show/index.html?id=PZ17_Das_5">-&gt;</a></td></tr>
+<tr><td>Xiao</td><td>3</td><td>15.508</td><td>23.852</td><td>0.650</td><td>0.585</td><td>-</td><td>0.677</td><td>0.000</td><td>9.10e-04</td><td>43.05</td><td>0.1850</td><td>2</td><td><a href="/show/index.html?id=PZ17_Xiao_3">-&gt;</a></td></tr>
+<tr><td>Xiao</td><td>10</td><td>15.533</td><td>29.469</td><td>0.527</td><td>0.429</td><td>-</td><td>0.576</td><td>2.150</td><td>9.54e-04</td><td>46.94</td><td>0.2040</td><td>2</td><td><a href="/show/index.html?id=PZ17_Xiao_10">-&gt;</a></td></tr>
+<tr><td>RNAComposerAS2</td><td>10</td><td>15.586</td><td>27.135</td><td>0.574</td><td>0.682</td><td>-</td><td>0.533</td><td>8.600</td><td>1.05e-03</td><td>33.50</td><td>0.1640</td><td>1</td><td><a href="/show/index.html?id=PZ17_RNAComposerAS2_10">-&gt;</a></td></tr>
+<tr><td>SimRNAAS2</td><td>3</td><td>15.588</td><td>24.377</td><td>0.639</td><td>0.738</td><td>-</td><td>0.602</td><td>102.950</td><td>1.06e-03</td><td>28.23</td><td>0.2460</td><td>1</td><td><a href="/show/index.html?id=PZ17_SimRNAAS2_3">-&gt;</a></td></tr>
+<tr><td>Chen</td><td>9</td><td>15.598</td><td>22.156</td><td>0.704</td><td>0.791</td><td>-</td><td>0.675</td><td>103.280</td><td>1.08e-03</td><td>20.20</td><td>0.2700</td><td>1</td><td><a href="/show/index.html?id=PZ17_Chen_9">-&gt;</a></td></tr>
+<tr><td>SimRNAAS1</td><td>1</td><td>15.613</td><td>26.963</td><td>0.579</td><td>0.546</td><td>-</td><td>0.608</td><td>133.480</td><td>1.11e-03</td><td>26.44</td><td>0.2870</td><td>2</td><td><a href="/show/index.html?id=PZ17_SimRNAAS1_1">-&gt;</a></td></tr>
+<tr><td>Ding</td><td>4</td><td>15.745</td><td>24.187</td><td>0.651</td><td>0.598</td><td>-</td><td>0.684</td><td>9.670</td><td>1.41e-03</td><td>26.20</td><td>0.1990</td><td>1</td><td><a href="/show/index.html?id=PZ17_Ding_4">-&gt;</a></td></tr>
+<tr><td>Xiao</td><td>8</td><td>15.949</td><td>29.135</td><td>0.547</td><td>0.548</td><td>-</td><td>0.562</td><td>17.740</td><td>2.03e-03</td><td>46.03</td><td>0.2010</td><td>1</td><td><a href="/show/index.html?id=PZ17_Xiao_8">-&gt;</a></td></tr>
+<tr><td>Ding</td><td>5</td><td>16.017</td><td>24.024</td><td>0.667</td><td>0.542</td><td>-</td><td>0.730</td><td>8.590</td><td>2.29e-03</td><td>25.39</td><td>0.1870</td><td>1</td><td><a href="/show/index.html?id=PZ17_Ding_5">-&gt;</a></td></tr>
+<tr><td>Ding</td><td>2</td><td>16.039</td><td>30.476</td><td>0.526</td><td>0.438</td><td>-</td><td>0.566</td><td>9.670</td><td>2.38e-03</td><td>29.89</td><td>0.1660</td><td>2</td><td><a href="/show/index.html?id=PZ17_Ding_2">-&gt;</a></td></tr>
+<tr><td>Bujnicki</td><td>4</td><td>16.075</td><td>25.435</td><td>0.632</td><td>0.705</td><td>-</td><td>0.601</td><td>0.000</td><td>2.53e-03</td><td>28.56</td><td>0.2740</td><td>2</td><td><a href="/show/index.html?id=PZ17_Bujnicki_4">-&gt;</a></td></tr>
+<tr><td>RNAComposerAS2</td><td>9</td><td>16.096</td><td>28.653</td><td>0.562</td><td>0.682</td><td>-</td><td>0.517</td><td>9.680</td><td>2.62e-03</td><td>35.09</td><td>0.1580</td><td>1</td><td><a href="/show/index.html?id=PZ17_RNAComposerAS2_9">-&gt;</a></td></tr>
+<tr><td>SimRNAAS2</td><td>2</td><td>16.098</td><td>23.566</td><td>0.683</td><td>0.776</td><td>-</td><td>0.645</td><td>115.530</td><td>2.63e-03</td><td>28.44</td><td>0.2940</td><td>1</td><td><a href="/show/index.html?id=PZ17_SimRNAAS2_2">-&gt;</a></td></tr>
+<tr><td>Chen</td><td>1</td><td>16.111</td><td>23.564</td><td>0.684</td><td>0.791</td><td>-</td><td>0.642</td><td>93.930</td><td>2.69e-03</td><td>26.50</td><td>0.3130</td><td>1</td><td><a href="/show/index.html?id=PZ17_Chen_1">-&gt;</a></td></tr>
+<tr><td>Dokholyan</td><td>2</td><td>16.275</td><td>25.891</td><td>0.629</td><td>0.657</td><td>-</td><td>0.625</td><td>23.630</td><td>3.55e-03</td><td>27.92</td><td>0.1580</td><td>1</td><td><a href="/show/index.html?id=PZ17_Dokholyan_2">-&gt;</a></td></tr>
+<tr><td>Major</td><td>7</td><td>16.430</td><td>37.895</td><td>0.434</td><td>0.275</td><td>-</td><td>0.497</td><td>2.150</td><td>4.58e-03</td><td>42.75</td><td>0.1600</td><td>2</td><td><a href="/show/index.html?id=PZ17_Major_7">-&gt;</a></td></tr>
+<tr><td>Chen</td><td>7</td><td>16.451</td><td>24.884</td><td>0.661</td><td>0.835</td><td>-</td><td>0.582</td><td>4.300</td><td>4.73e-03</td><td>33.38</td><td>0.2720</td><td>2</td><td><a href="/show/index.html?id=PZ17_Chen_7">-&gt;</a></td></tr>
+<tr><td>Major</td><td>9</td><td>16.526</td><td>49.425</td><td>0.334</td><td>0.396</td><td>-</td><td>0.311</td><td>13.980</td><td>5.34e-03</td><td>59.07</td><td>0.1270</td><td>2</td><td><a href="/show/index.html?id=PZ17_Major_9">-&gt;</a></td></tr>
+<tr><td>SimRNAAS1</td><td>2</td><td>16.563</td><td>27.201</td><td>0.609</td><td>0.667</td><td>-</td><td>0.608</td><td>116.130</td><td>5.67e-03</td><td>25.92</td><td>0.3590</td><td>2</td><td><a href="/show/index.html?id=PZ17_SimRNAAS1_2">-&gt;</a></td></tr>
+<tr><td>Xiao</td><td>2</td><td>16.577</td><td>26.237</td><td>0.632</td><td>0.710</td><td>-</td><td>0.607</td><td>0.000</td><td>5.80e-03</td><td>41.08</td><td>0.2720</td><td>1</td><td><a href="/show/index.html?id=PZ17_Xiao_2">-&gt;</a></td></tr>
+<tr><td>SimRNAAS1</td><td>8</td><td>16.582</td><td>26.829</td><td>0.618</td><td>0.572</td><td>-</td><td>0.652</td><td>119.010</td><td>5.84e-03</td><td>25.18</td><td>0.3150</td><td>2</td><td><a href="/show/index.html?id=PZ17_SimRNAAS1_8">-&gt;</a></td></tr>
+<tr><td>Chen</td><td>8</td><td>16.607</td><td>24.575</td><td>0.676</td><td>0.808</td><td>-</td><td>0.625</td><td>1.610</td><td>6.07e-03</td><td>34.39</td><td>0.1940</td><td>1</td><td><a href="/show/index.html?id=PZ17_Chen_8">-&gt;</a></td></tr>
+<tr><td>Major</td><td>8</td><td>16.652</td><td>39.350</td><td>0.423</td><td>0.257</td><td>-</td><td>0.484</td><td>0.000</td><td>6.52e-03</td><td>47.28</td><td>0.1970</td><td>2</td><td><a href="/show/index.html?id=PZ17_Major_8">-&gt;</a></td></tr>
+<tr><td>Ding</td><td>9</td><td>16.729</td><td>26.805</td><td>0.624</td><td>0.765</td><td>-</td><td>0.560</td><td>7.520</td><td>7.34e-03</td><td>28.15</td><td>0.2050</td><td>2</td><td><a href="/show/index.html?id=PZ17_Ding_9">-&gt;</a></td></tr>
+<tr><td>SimRNAAS1</td><td>4</td><td>16.793</td><td>27.927</td><td>0.601</td><td>0.629</td><td>-</td><td>0.610</td><td>165.410</td><td>8.10e-03</td><td>26.39</td><td>0.3120</td><td>2</td><td><a href="/show/index.html?id=PZ17_SimRNAAS1_4">-&gt;</a></td></tr>
+<tr><td>Major</td><td>1</td><td>16.811</td><td>28.303</td><td>0.594</td><td>0.572</td><td>-</td><td>0.604</td><td>0.540</td><td>8.33e-03</td><td>32.61</td><td>0.1890</td><td>2</td><td><a href="/show/index.html?id=PZ17_Major_1">-&gt;</a></td></tr>
+<tr><td>Ding</td><td>6</td><td>16.934</td><td>29.958</td><td>0.565</td><td>0.706</td><td>-</td><td>0.497</td><td>10.200</td><td>1.00e-02</td><td>28.67</td><td>0.2060</td><td>2</td><td><a href="/show/index.html?id=PZ17_Ding_6">-&gt;</a></td></tr>
+<tr><td>SimRNAAS1</td><td>3</td><td>16.971</td><td>26.725</td><td>0.635</td><td>0.667</td><td>0.000</td><td>0.636</td><td>161.920</td><td>1.06e-02</td><td>25.65</td><td>0.2810</td><td>1</td><td><a href="/show/index.html?id=PZ17_SimRNAAS1_3">-&gt;</a></td></tr>
+<tr><td>SimRNAAS1</td><td>5</td><td>17.011</td><td>27.215</td><td>0.625</td><td>0.635</td><td>-</td><td>0.628</td><td>144.630</td><td>1.12e-02</td><td>25.89</td><td>0.2470</td><td>2</td><td><a href="/show/index.html?id=PZ17_SimRNAAS1_5">-&gt;</a></td></tr>
+<tr><td>Major</td><td>3</td><td>17.046</td><td>29.433</td><td>0.579</td><td>0.545</td><td>-</td><td>0.597</td><td>0.000</td><td>1.18e-02</td><td>37.55</td><td>0.1510</td><td>2</td><td><a href="/show/index.html?id=PZ17_Major_3">-&gt;</a></td></tr>
+<tr><td>Xiao</td><td>6</td><td>17.207</td><td>30.472</td><td>0.565</td><td>0.514</td><td>-</td><td>0.586</td><td>31.720</td><td>1.48e-02</td><td>42.04</td><td>0.2230</td><td>2</td><td><a href="/show/index.html?id=PZ17_Xiao_6">-&gt;</a></td></tr>
+<tr><td>Chen</td><td>3</td><td>17.349</td><td>27.519</td><td>0.630</td><td>0.717</td><td>-</td><td>0.593</td><td>0.000</td><td>1.81e-02</td><td>38.25</td><td>0.2630</td><td>1</td><td><a href="/show/index.html?id=PZ17_Chen_3">-&gt;</a></td></tr>
+<tr><td>Xiao</td><td>4</td><td>17.423</td><td>35.658</td><td>0.489</td><td>0.396</td><td>-</td><td>0.524</td><td>0.540</td><td>2.00e-02</td><td>45.20</td><td>0.2400</td><td>2</td><td><a href="/show/index.html?id=PZ17_Xiao_4">-&gt;</a></td></tr>
+<tr><td>Das</td><td>10</td><td>17.435</td><td>24.020</td><td>0.726</td><td>0.850</td><td>0.000</td><td>0.680</td><td>12.890</td><td>2.03e-02</td><td>28.33</td><td>0.2020</td><td>1</td><td><a href="/show/index.html?id=PZ17_Das_10">-&gt;</a></td></tr>
+<tr><td>RNAComposerAS1</td><td>8</td><td>17.607</td><td>35.527</td><td>0.496</td><td>0.424</td><td>-</td><td>0.526</td><td>12.900</td><td>2.55e-02</td><td>31.83</td><td>0.1680</td><td>2</td><td><a href="/show/index.html?id=PZ17_RNAComposerAS1_8">-&gt;</a></td></tr>
+<tr><td>RNAComposerAS1</td><td>3</td><td>17.867</td><td>34.764</td><td>0.514</td><td>0.485</td><td>-</td><td>0.526</td><td>10.220</td><td>3.53e-02</td><td>27.44</td><td>0.2040</td><td>2</td><td><a href="/show/index.html?id=PZ17_RNAComposerAS1_3">-&gt;</a></td></tr>
+<tr><td>Major</td><td>2</td><td>18.040</td><td>32.212</td><td>0.560</td><td>0.556</td><td>-</td><td>0.564</td><td>0.000</td><td>4.35e-02</td><td>34.77</td><td>0.1870</td><td>2</td><td><a href="/show/index.html?id=PZ17_Major_2">-&gt;</a></td></tr>
+<tr><td>RNAComposerAS1</td><td>10</td><td>18.443</td><td>36.555</td><td>0.505</td><td>0.424</td><td>-</td><td>0.537</td><td>9.140</td><td>6.84e-02</td><td>31.36</td><td>0.1770</td><td>2</td><td><a href="/show/index.html?id=PZ17_RNAComposerAS1_10">-&gt;</a></td></tr>
+<tr><td>Major</td><td>5</td><td>18.472</td><td>33.666</td><td>0.549</td><td>0.546</td><td>-</td><td>0.550</td><td>0.000</td><td>7.06e-02</td><td>37.47</td><td>0.1580</td><td>2</td><td><a href="/show/index.html?id=PZ17_Major_5">-&gt;</a></td></tr>
+<tr><td>SimRNAAS2</td><td>5</td><td>18.588</td><td>27.187</td><td>0.684</td><td>0.750</td><td>-</td><td>0.659</td><td>124.460</td><td>7.97e-02</td><td>30.20</td><td>0.2210</td><td>1</td><td><a href="/show/index.html?id=PZ17_SimRNAAS2_5">-&gt;</a></td></tr>
+<tr><td>Major</td><td>4</td><td>18.687</td><td>30.805</td><td>0.607</td><td>0.586</td><td>-</td><td>0.625</td><td>0.000</td><td>8.82e-02</td><td>38.27</td><td>0.1490</td><td>1</td><td><a href="/show/index.html?id=PZ17_Major_4">-&gt;</a></td></tr>
+<tr><td>RNAComposerAS1</td><td>1</td><td>18.791</td><td>32.746</td><td>0.574</td><td>0.434</td><td>-</td><td>0.643</td><td>10.220</td><td>9.78e-02</td><td>30.43</td><td>0.1870</td><td>1</td><td><a href="/show/index.html?id=PZ17_RNAComposerAS1_1">-&gt;</a></td></tr>
+<tr><td>RNAComposerAS1</td><td>6</td><td>18.930</td><td>38.554</td><td>0.491</td><td>0.424</td><td>-</td><td>0.520</td><td>12.370</td><td>1.12e-01</td><td>34.53</td><td>0.1560</td><td>2</td><td><a href="/show/index.html?id=PZ17_RNAComposerAS1_6">-&gt;</a></td></tr>
+<tr><td>Chen</td><td>10</td><td>18.954</td><td>47.369</td><td>0.400</td><td>0.167</td><td>-</td><td>0.506</td><td>0.540</td><td>1.14e-01</td><td>30.14</td><td>0.2430</td><td>2</td><td><a href="/show/index.html?id=PZ17_Chen_10">-&gt;</a></td></tr>
+<tr><td>SimRNAAS1</td><td>7</td><td>19.061</td><td>43.883</td><td>0.434</td><td>0.163</td><td>-</td><td>0.555</td><td>138.260</td><td>1.26e-01</td><td>25.90</td><td>0.2180</td><td>2</td><td><a href="/show/index.html?id=PZ17_SimRNAAS1_7">-&gt;</a></td></tr>
+<tr><td>RNAComposerAS1</td><td>9</td><td>19.671</td><td>36.391</td><td>0.541</td><td>0.424</td><td>-</td><td>0.590</td><td>9.140</td><td>2.10e-01</td><td>33.28</td><td>0.1720</td><td>2</td><td><a href="/show/index.html?id=PZ17_RNAComposerAS1_9">-&gt;</a></td></tr>
+<tr><td>RNAComposerAS1</td><td>5</td><td>19.938</td><td>40.578</td><td>0.491</td><td>0.485</td><td>-</td><td>0.494</td><td>13.980</td><td>2.56e-01</td><td>28.77</td><td>0.2540</td><td>2</td><td><a href="/show/index.html?id=PZ17_RNAComposerAS1_5">-&gt;</a></td></tr>
+<tr><td>RNAComposerAS1</td><td>4</td><td>20.027</td><td>38.326</td><td>0.523</td><td>0.424</td><td>-</td><td>0.564</td><td>11.290</td><td>2.72e-01</td><td>33.23</td><td>0.1730</td><td>2</td><td><a href="/show/index.html?id=PZ17_RNAComposerAS1_4">-&gt;</a></td></tr>
+<tr><td>SimRNAAS1</td><td>9</td><td>20.485</td><td>42.866</td><td>0.478</td><td>0.243</td><td>-</td><td>0.575</td><td>135.120</td><td>3.62e-01</td><td>24.06</td><td>0.2240</td><td>2</td><td><a href="/show/index.html?id=PZ17_SimRNAAS1_9">-&gt;</a></td></tr>
+<tr><td>RNAComposerAS1</td><td>7</td><td>20.568</td><td>51.404</td><td>0.400</td><td>0.167</td><td>-</td><td>0.513</td><td>11.830</td><td>3.80e-01</td><td>25.01</td><td>0.2360</td><td>2</td><td><a href="/show/index.html?id=PZ17_RNAComposerAS1_7">-&gt;</a></td></tr>
+<tr><td>RNAComposerAS1</td><td>2</td><td>21.521</td><td>49.900</td><td>0.431</td><td>0.182</td><td>-</td><td>0.537</td><td>4.840</td><td>5.88e-01</td><td>26.54</td><td>0.1920</td><td>2</td><td><a href="/show/index.html?id=PZ17_RNAComposerAS1_2">-&gt;</a></td></tr>
+<tr><td>Dokholyan</td><td>1</td><td>21.751</td><td>40.276</td><td>0.540</td><td>0.420</td><td>-</td><td>0.587</td><td>16.650</td><td>6.37e-01</td><td>26.69</td><td>0.2190</td><td>2</td><td><a href="/show/index.html?id=PZ17_Dokholyan_1">-&gt;</a></td></tr>
+
+</table>
+  <p>-: No true positive interaction in the predicted structure.</p>
+</div>
+
+  </div>
+
+</article>
+
+      </div>
+      <!-- 侧边栏区域：占用 4 栏 -->
+      <div id="newsid" class="col-md-4">
+        <!-- Begin: Sidebar 模块 -->
+<aside class="sidebar col-sm-44" style="padding: 15px;">
+	    <!-- CSS Files -->
+		<link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="/css/stylish-portfolio.css" rel="stylesheet" type="text/css">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="//jpswalsh.github.io/academicons/css/academicons.css" rel="stylesheet">
+		<link href="/stylesheets/screen.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+	<!-- Begin: 关于信息部分 -->
+	<section>
+		<h1>RNA-Puzzles</h1>
+		<p>A collective blind evaluation of RNA three-dimensional structure prediction</p>
+		<!-- GitHub 链接 -->
+		<a href="https://github.com/RNA-Puzzles">
+			<i class="fa fa-github-square fa-fw fa-2x"></i>
+		</a>
+		<!-- Email 链接 -->
+		<a href="mailto:ibmc.cnrs@gmail.com">
+			<i class="fa fa-envelope-square fa-fw fa-2x"></i>
+		</a>
+		<!-- Twitter 链接 -->
+		<a href="https://twitter.com/RNAPuzzles">
+			<i class="fa fa-twitter-square fa-fw fa-2x"></i>
+		</a>
+		<!-- Coffee 链接（示例链接，可根据需要修改） -->
+		<a href="">
+			<i class="fa fa-coffee fa-fw fa-2x"></i>
+		</a>
+
+
+
+	</section>
+	<!-- End: 关于信息部分 -->
+
+	<!-- Begin: 最近文章模块 -->
+	<section class="panel panel-info">
+		<div class="panel-heading">
+			<h3 class="panel-title">Recent Posts</h3>
+		</div>
+		<div id="recent_posts" class="list-group">
+			<a class="list-group-item" href="/news/2023/10/07/Submission-Process/">Submission Process</a>
+			<a class="list-group-item" href="/news/2023/10/07/Research-Spectrum/">Research Spectrum</a>
+			<a class="list-group-item" href="/news/2023/10/07/Recent-Engagements/">Recent Engagements</a>
+			<a class="list-group-item" href="/news/2023/10/07/Participating-Teams/">Participating Teams</a>
+			<a class="list-group-item" href="/news/2023/10/07/Methodological-Progress/">Methodological Progress</a>
+		</div>
+	</section>
+	<!-- End: 最近文章模块 -->
+
+	<!-- Begin: GitHub Repos 模块 -->
+	<section class="panel panel-info clearfix">
+		<div class="panel-heading">
+			<h3 class="panel-title">GitHub Repos</h3>
+		</div>
+		<div class="list-group" id="gh_repos">
+			<p class="loading">Status updating...</p>
+		</div>
+		<div class="gh-profile-link pull-right text-muted">
+			<a href="https://github.com/RNA-Puzzles">@RNA-Puzzles</a> on GitHub
+		</div>
+		<!-- 使用 jQuery 动态加载 GitHub 仓库信息 -->
+		<script type="text/javascript">
+			$(document).ready(function(){
+				// 如果未加载 jXHR 库，则动态加载
+				if (!window.jXHR){
+					var jxhr = document.createElement('script');
+					jxhr.type = 'text/javascript';
+					jxhr.src = '/javascripts/libs/jXHR.js';
+					var s = document.getElementsByTagName('script')[0];
+					s.parentNode.insertBefore(jxhr, s);
+				}
+				// 调用 github.showRepos() 函数显示仓库列表
+				github.showRepos({
+					user: 'RNA-Puzzles',
+					count: 0,
+					skip_forks: true,
+					target: '#gh_repos'
+				});
+			});
+		</script>
+		<script src="/javascripts/github.js" type="text/javascript"></script>
+	</section>
+	<!-- End: GitHub Repos 模块 -->
+
+	<!-- Begin: 分类模块 -->
+	<section class="panel panel-info clearfix">
+		<div class="panel-heading">
+			<h3 class="panel-title">Categories</h3>
+		</div>
+		<div class="list-group-item">
+			<a href="/blog/group_category/">group (16)</a>
+		</div>
+		<div class="list-group-item">
+			<a href="/blog/news_category/">news (7)</a>
+		</div>
+		<div class="list-group-item">
+			<a href="/blog/results_category/">results (39)</a>
+		</div>
+		<div class="list-group-item">
+			<a href="/blog/tables_category/">table (129)</a>
+		</div>
+	</section>
+	<!-- End: 分类模块 -->
+</aside>
+<!-- End: Sidebar 模块 -->
+
+      </div>
+    </div>
+  </div>
+
+    <div id="footer" class="panel">
+  <div class="panel-footer" style='background-color: #333333; color: #eeeeee;'>
+	<div class="container-fluid">
+	  <div class="row">
+		<div class="col-sm-4">
+			
+		  <p>&copy 2025 RNA-Puzzles. </p>
+		  <p>We are part of the <a href="https://gzlab.ac.cn">Guangzhou Laboratory</a> and <a href="http://www.rnapuzzles.org/">RNApuzzles</a>.</p>
+		  <p>Site made with <a href="https://jekyllrb.com">Jekyll</a>;  <a href="http://localhost:4000/aboutwebsite.html">copy and  modify it for your own research group.</a></p>
+		  <p>  </p>
+		  <p>  </p>
+		</div>
+		
+		<div class="col-sm-4">
+		  Funding:<br />
+          - <a href="https://gzlab.ac.cn">R&D Programs of Guangzhou Laboratory</a><br />
+          - <a href="http://www.most.gov.cn/">MOST IT+BT projects</a> <br />
+          - <a href="https://www.nsfc.gov.cn/">NSFC</a> <br />	  
+		</div>
+		
+		<div class="col-sm-4">
+		  Contact:<br />
+		  Building B2, Guangzhou National Laboratory<br />
+		  96 Xingdao South Road, Guangzhou International Bio Island, <br />
+		  Haizhu District, Guangzhou, Guangdong, China.<br />
+          (<a href="https://goo.gl/maps/hDLr6siEAS2Eaypt8">Maps</a>)
+		</div>
+	  </div>
+	</div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://localhost:4000/js/bootstrap.min.js"></script>
+
+
+  </body>
+
+</html>

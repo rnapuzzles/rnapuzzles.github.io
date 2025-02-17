@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- 开始：HEAD 部分 -->
+    <meta charset="utf-8">
+    <title>Group - RNA-Puzzles</title>
+    <meta name="author" content="Chichau Miao">
+
+    <!-- 移动设备优化相关 Meta 标签 -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- SEO 相关：Canonical URL、Favicon、RSS 订阅链接 -->
+    <link rel="canonical" href="http://www.rnapuzzles.org/group/">
+    <link href="/favicon.png" type="image/png" rel="icon">
+    <link href="/atom.xml" rel="alternate" title="RNA-Puzzles" type="application/atom+xml">
+
+    <!-- Open Graph / Twitter Meta 标签 -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.rnapuzzles.org/group/">
+    <meta property="og:title" content="Group - RNA-Puzzles">
+    
+    <!-- 引入 jQuery -->
+    <script src="/js/jquery-3.2.1.min.js"></script>
+
+    <!-- 引入 CSS 文件 -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/stylish-portfolio.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//jpswalsh.github.io/academicons/css/academicons.css" rel="stylesheet">
+    <link href="/stylesheets/screen.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+    <!-- 结束：HEAD 部分 -->
+</head>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Puzzle PZ15noend table</title>
+  <meta name="description" content="The lab website of Zhichao Miao lab.
+">
+  <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/_posts/tables/2000-01-01-PZ15noend-3d.html">
+  <link rel="shortcut icon" type="image/x-icon" href="http://localhost:4000/favicon.png">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  
+
+  <!-- 将汉堡按钮的 CSS 样式放在 style 标签内 -->
+  <style>
+    .navbar-toggle .icon-bar {
+      background-color: #eeeeee;
+    }
+  </style>
+
+</head>
+
+
+  <body>
+
+    <!-- 导航条容器：使用 Bootstrap 的 navbar 类，设置导航条扩展模式、深色主题以及内联样式 -->
+<div class="navbar navbar-expand-lg navbar-dark" style="border-radius: 0; border: 0; background-color: #337ab7" role="navigation">
+	<!-- 限制内容宽度为 1200px 的 fluid 容器 -->
+	<div class="container-fluid" style="max-width: 1500px;">
+		<!-- 导航头部：包含汉堡按钮和品牌链接 -->
+		<div class="navbar-header">
+			<!-- 响应式切换按钮（汉堡菜单）
+			     当屏幕较小时，该按钮显示，点击后控制右侧所有链接、RSS 和搜索框的折叠/展开
+			     为使按钮图标颜色与当前字体颜色（白色）一致，在 CSS 中设置 .navbar-toggle .icon-bar 的背景色 -->
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+
+			<!-- 品牌链接：使用 Flexbox 布局使品牌文字和 logo 分布在两侧 -->
+			<a class="navbar-brand" href="http://localhost:4000/" style="display: flex; justify-content: space-between; align-items: center;">
+				<b style="font-size: 32px; color: #eeeeee;">RNA-Puzzles</b>
+				<img src="http://localhost:4000/images/header/logo.jpg" style="height: 53px; margin-top: 0; margin-bottom: 0; padding: 0px; border-radius: 0;" alt="logo">
+			</a>
+		</div> <!-- end of .navbar-header -->
+
+		<!-- 可折叠的导航菜单部分：包括多个页面链接、搜索框和 RSS 订阅按钮 -->
+		<div class="collapse navbar-collapse" id="navbar-collapse-1">
+			<!-- 右对齐的导航列表 -->
+			<ul class="nav navbar-nav navbar-right">
+				<!-- 页面链接 -->
+				<li>
+					<a class="nav-link-1" href="http://localhost:4000/results">Results</a>
+				</li>
+				<li>
+					<a class="nav-link-1" href="http://localhost:4000/open-puzzle">Open Puzzles</a>
+				</li>
+				<li>
+					<a class="nav-link-1" href="http://localhost:4000/group">Groups</a>
+				</li>
+				<li>
+					<a class="nav-link-1" href="http://localhost:4000/publication">Publications</a>
+				</li>
+				<li>
+					<a class="nav-link-1" href="https://chichaumiau.github.io/rnapuzzlestoolkit/">Resources</a>
+				</li>
+				<!-- 搜索框：
+				     使用 form 表单，置于一个 <li> 内与其他链接同一行显示，
+				     通过 position: relative; top: 2px; 实现向下偏移 2px，
+				     同时保证输入框垂直居中 -->
+				<li>
+					<form class="navbar-form" role="search" action="/search" method="GET" style="margin: 0; padding: 0;">
+						<div class="form-group">
+							<input type="text" class="form-control" name="q" placeholder="search" style="color: #999; vertical-align: middle; position: relative; top: 9px;">
+						</div>
+					</form>
+				</li>
+				<!-- RSS 订阅按钮：
+				     为避免上下空白，通过清除图片的默认 margin/padding，并设置 display: inline-block，
+				     同时保持 vertical-align: middle 使其垂直居中 -->
+				<li>
+					<a class="subscribe-rss" href="/atom.xml" title="subscribe via RSS" style="line-height: 1;">
+						<span class="visible-xs">RSS</span>
+						<img class="hidden-xs" src="/images/header/rss.png" alt="RSS" style="vertical-align: middle; margin: 0; padding: 0; display: inline-block;">
+					</a>
+				</li>
+			</ul>
+		</div> <!-- end of .collapse .navbar-collapse -->
+	</div> <!-- end of .container-fluid -->
+</div> <!-- end of .navbar -->
+
+
+  <!-- 使用 container 保证内容区域居中 -->
+  <div class="container">
+    <div class="row">
+      <!-- 主页内容区域：占用 8 栏 -->
+      <div id="homeid" class="col-md-8">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Puzzle PZ15noend table</h1>
+    <p class="post-meta"><time datetime="2000-01-01T08:00:01+08:00" itemprop="datePublished">Jan 1, 2000</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <script src="/javascripts/sorttable.js"></script>
+
+<script>
+    window.onload = function() {
+        (document.getElementsByTagName( 'th' )[1]).click();
+    };
+</script>
+
+<p><br /></p>
+<div align="center">
+  <p>Please click the tags to sort data.<br /></p>
+  <table class="sortable" border="1">
+  <tr>
+    <th>Lab</th>
+    <th>Num</th>
+    <th>RMSD</th>
+    <th>DI all</th>
+    <th>INF all</th>
+    <th>INF wc</th>
+    <th>INF nwc</th>
+    <th>INF stacking</th>
+    <th>Clash Score</th>
+    <th>P-value</th>
+    <th>mcq</th>
+    <th>TM-score</th>
+    <th>best sol.</th>
+    <th>Detail</th>
+  </tr>
+  <tr><td>Adamiak</td><td>2</td><td>3.609</td><td>3.998</td><td>0.903</td><td>1.000</td><td>0.577</td><td>0.891</td><td>5.930</td><td>0.00e+00</td><td>13.64</td><td>0.5660</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_Adamiak_2">-&gt;</a></td></tr>
+<tr><td>RNAComposerAS1</td><td>1</td><td>3.609</td><td>3.998</td><td>0.903</td><td>1.000</td><td>0.577</td><td>0.891</td><td>5.930</td><td>0.00e+00</td><td>13.64</td><td>0.5660</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_RNAComposerAS1_1">-&gt;</a></td></tr>
+<tr><td>Adamiak</td><td>3</td><td>3.634</td><td>4.221</td><td>0.861</td><td>1.000</td><td>0.500</td><td>0.839</td><td>5.470</td><td>0.00e+00</td><td>14.05</td><td>0.5650</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_Adamiak_3">-&gt;</a></td></tr>
+<tr><td>RNAComposerAS1</td><td>2</td><td>3.634</td><td>4.221</td><td>0.861</td><td>1.000</td><td>0.500</td><td>0.839</td><td>5.470</td><td>0.00e+00</td><td>14.05</td><td>0.5650</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_RNAComposerAS1_2">-&gt;</a></td></tr>
+<tr><td>Adamiak</td><td>6</td><td>4.311</td><td>5.342</td><td>0.807</td><td>1.000</td><td>0.000</td><td>0.785</td><td>10.480</td><td>0.00e+00</td><td>19.00</td><td>0.3550</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_Adamiak_6">-&gt;</a></td></tr>
+<tr><td>Adamiak</td><td>7</td><td>4.324</td><td>5.296</td><td>0.816</td><td>0.972</td><td>-</td><td>0.788</td><td>10.030</td><td>0.00e+00</td><td>18.32</td><td>0.3770</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_Adamiak_7">-&gt;</a></td></tr>
+<tr><td>Chen</td><td>3</td><td>4.375</td><td>5.226</td><td>0.837</td><td>1.000</td><td>0.750</td><td>0.777</td><td>0.450</td><td>0.00e+00</td><td>17.57</td><td>0.4380</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_Chen_3">-&gt;</a></td></tr>
+<tr><td>Adamiak</td><td>4</td><td>4.645</td><td>5.954</td><td>0.780</td><td>1.000</td><td>0.000</td><td>0.732</td><td>10.480</td><td>0.00e+00</td><td>16.67</td><td>0.2990</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_Adamiak_4">-&gt;</a></td></tr>
+<tr><td>RNAComposerAS2</td><td>1</td><td>4.645</td><td>5.954</td><td>0.780</td><td>1.000</td><td>0.000</td><td>0.732</td><td>10.480</td><td>0.00e+00</td><td>16.67</td><td>0.2990</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_RNAComposerAS2_1">-&gt;</a></td></tr>
+<tr><td>Adamiak</td><td>8</td><td>4.767</td><td>5.878</td><td>0.811</td><td>0.972</td><td>0.500</td><td>0.763</td><td>11.850</td><td>0.00e+00</td><td>15.35</td><td>0.3020</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_Adamiak_8">-&gt;</a></td></tr>
+<tr><td>Chen</td><td>6</td><td>4.831</td><td>6.636</td><td>0.728</td><td>0.941</td><td>0.354</td><td>0.664</td><td>0.460</td><td>0.00e+00</td><td>22.94</td><td>0.3210</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_Chen_6">-&gt;</a></td></tr>
+<tr><td>Adamiak</td><td>10</td><td>4.924</td><td>5.994</td><td>0.821</td><td>0.972</td><td>0.000</td><td>0.807</td><td>7.750</td><td>0.00e+00</td><td>15.14</td><td>0.3470</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_Adamiak_10">-&gt;</a></td></tr>
+<tr><td>Adamiak</td><td>5</td><td>5.110</td><td>6.569</td><td>0.778</td><td>0.972</td><td>-</td><td>0.728</td><td>9.570</td><td>5.55e-17</td><td>17.61</td><td>0.2830</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_Adamiak_5">-&gt;</a></td></tr>
+<tr><td>RNAComposerAS2</td><td>2</td><td>5.110</td><td>6.569</td><td>0.778</td><td>0.972</td><td>-</td><td>0.728</td><td>9.570</td><td>5.55e-17</td><td>17.61</td><td>0.2830</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_RNAComposerAS2_2">-&gt;</a></td></tr>
+<tr><td>SimRNAAS1</td><td>1</td><td>5.201</td><td>7.222</td><td>0.720</td><td>0.857</td><td>0.289</td><td>0.699</td><td>94.720</td><td>5.55e-17</td><td>20.62</td><td>0.2820</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_SimRNAAS1_1">-&gt;</a></td></tr>
+<tr><td>Adamiak</td><td>1</td><td>5.821</td><td>8.078</td><td>0.721</td><td>0.970</td><td>0.000</td><td>0.666</td><td>26.890</td><td>8.88e-16</td><td>16.54</td><td>0.2780</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_Adamiak_1">-&gt;</a></td></tr>
+<tr><td>Adamiak</td><td>9</td><td>6.238</td><td>8.085</td><td>0.772</td><td>1.000</td><td>-</td><td>0.701</td><td>11.850</td><td>5.55e-15</td><td>16.16</td><td>0.2200</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_Adamiak_9">-&gt;</a></td></tr>
+<tr><td>Chen</td><td>10</td><td>6.950</td><td>9.829</td><td>0.707</td><td>0.849</td><td>0.500</td><td>0.664</td><td>0.910</td><td>1.15e-13</td><td>23.35</td><td>0.2450</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_Chen_10">-&gt;</a></td></tr>
+<tr><td>Chen</td><td>8</td><td>7.373</td><td>10.473</td><td>0.704</td><td>0.877</td><td>0.500</td><td>0.652</td><td>1.360</td><td>6.45e-13</td><td>26.96</td><td>0.2430</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_Chen_8">-&gt;</a></td></tr>
+<tr><td>Chen</td><td>1</td><td>7.635</td><td>9.848</td><td>0.775</td><td>0.939</td><td>0.354</td><td>0.742</td><td>0.450</td><td>1.83e-12</td><td>19.93</td><td>0.3070</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_Chen_1">-&gt;</a></td></tr>
+<tr><td>RW3DAS2</td><td>7</td><td>7.845</td><td>11.575</td><td>0.678</td><td>0.868</td><td>0.000</td><td>0.635</td><td>10.460</td><td>4.16e-12</td><td>19.52</td><td>0.2560</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_RW3DAS2_7">-&gt;</a></td></tr>
+<tr><td>Chen</td><td>4</td><td>7.999</td><td>9.797</td><td>0.816</td><td>0.970</td><td>0.707</td><td>0.762</td><td>0.000</td><td>7.52e-12</td><td>24.74</td><td>0.3510</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_Chen_4">-&gt;</a></td></tr>
+<tr><td>SimRNAAS2</td><td>4</td><td>8.093</td><td>11.267</td><td>0.718</td><td>0.970</td><td>0.289</td><td>0.652</td><td>63.210</td><td>1.08e-11</td><td>21.32</td><td>0.2500</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_SimRNAAS2_4">-&gt;</a></td></tr>
+<tr><td>RW3DAS2</td><td>10</td><td>8.691</td><td>11.124</td><td>0.781</td><td>0.941</td><td>0.224</td><td>0.777</td><td>7.730</td><td>9.88e-11</td><td>16.77</td><td>0.3440</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_RW3DAS2_10">-&gt;</a></td></tr>
+<tr><td>SimRNAAS2</td><td>7</td><td>9.138</td><td>13.343</td><td>0.685</td><td>0.941</td><td>0.354</td><td>0.602</td><td>81.090</td><td>4.84e-10</td><td>21.43</td><td>0.2540</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_SimRNAAS2_7">-&gt;</a></td></tr>
+<tr><td>RW3DAS2</td><td>5</td><td>9.265</td><td>13.352</td><td>0.694</td><td>0.915</td><td>0.289</td><td>0.635</td><td>9.550</td><td>7.51e-10</td><td>18.16</td><td>0.2730</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_RW3DAS2_5">-&gt;</a></td></tr>
+<tr><td>Chen</td><td>9</td><td>9.578</td><td>13.470</td><td>0.711</td><td>0.907</td><td>0.500</td><td>0.647</td><td>0.910</td><td>2.18e-09</td><td>31.79</td><td>0.2210</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_Chen_9">-&gt;</a></td></tr>
+<tr><td>RW3DAS2</td><td>1</td><td>10.025</td><td>13.618</td><td>0.736</td><td>0.890</td><td>0.289</td><td>0.708</td><td>10.460</td><td>9.46e-09</td><td>16.41</td><td>0.2300</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_RW3DAS2_1">-&gt;</a></td></tr>
+<tr><td>Chen</td><td>7</td><td>10.046</td><td>14.805</td><td>0.679</td><td>0.857</td><td>-</td><td>0.630</td><td>3.640</td><td>1.01e-08</td><td>20.45</td><td>0.2660</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_Chen_7">-&gt;</a></td></tr>
+<tr><td>RW3DAS2</td><td>4</td><td>10.054</td><td>14.834</td><td>0.678</td><td>0.890</td><td>0.000</td><td>0.643</td><td>12.740</td><td>1.04e-08</td><td>22.97</td><td>0.2210</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_RW3DAS2_4">-&gt;</a></td></tr>
+<tr><td>RW3DAS1</td><td>5</td><td>10.425</td><td>14.356</td><td>0.726</td><td>0.941</td><td>0.289</td><td>0.675</td><td>1.820</td><td>3.34e-08</td><td>18.42</td><td>0.1810</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_RW3DAS1_5">-&gt;</a></td></tr>
+<tr><td>SimRNAAS2</td><td>9</td><td>10.490</td><td>14.248</td><td>0.736</td><td>0.941</td><td>0.224</td><td>0.708</td><td>84.580</td><td>4.07e-08</td><td>21.48</td><td>0.2630</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_SimRNAAS2_9">-&gt;</a></td></tr>
+<tr><td>RW3DAS1</td><td>2</td><td>11.789</td><td>16.099</td><td>0.732</td><td>0.970</td><td>0.000</td><td>0.699</td><td>5.460</td><td>1.73e-06</td><td>17.91</td><td>0.2650</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_RW3DAS1_2">-&gt;</a></td></tr>
+<tr><td>SimRNAAS2</td><td>1</td><td>11.974</td><td>15.655</td><td>0.765</td><td>0.941</td><td>0.250</td><td>0.742</td><td>38.250</td><td>2.83e-06</td><td>22.46</td><td>0.2620</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_SimRNAAS2_1">-&gt;</a></td></tr>
+<tr><td>RW3DAS1</td><td>3</td><td>12.256</td><td>16.877</td><td>0.726</td><td>0.915</td><td>0.204</td><td>0.712</td><td>5.460</td><td>5.87e-06</td><td>17.73</td><td>0.2290</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_RW3DAS1_3">-&gt;</a></td></tr>
+<tr><td>RW3DAS2</td><td>9</td><td>12.265</td><td>16.701</td><td>0.734</td><td>0.915</td><td>0.500</td><td>0.682</td><td>9.100</td><td>6.00e-06</td><td>16.97</td><td>0.3590</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_RW3DAS2_9">-&gt;</a></td></tr>
+<tr><td>RW3DAS2</td><td>8</td><td>13.181</td><td>19.448</td><td>0.678</td><td>0.890</td><td>0.289</td><td>0.618</td><td>5.000</td><td>5.48e-05</td><td>19.84</td><td>0.2380</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_RW3DAS2_8">-&gt;</a></td></tr>
+<tr><td>Chen</td><td>2</td><td>13.363</td><td>18.662</td><td>0.716</td><td>0.970</td><td>0.289</td><td>0.651</td><td>0.000</td><td>8.24e-05</td><td>19.07</td><td>0.2080</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_Chen_2">-&gt;</a></td></tr>
+<tr><td>RW3DAS1</td><td>4</td><td>13.420</td><td>20.450</td><td>0.656</td><td>0.868</td><td>0.000</td><td>0.635</td><td>5.460</td><td>9.36e-05</td><td>18.74</td><td>0.2440</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_RW3DAS1_4">-&gt;</a></td></tr>
+<tr><td>RW3DAS1</td><td>9</td><td>13.649</td><td>18.900</td><td>0.722</td><td>0.915</td><td>0.000</td><td>0.684</td><td>7.280</td><td>1.54e-04</td><td>17.19</td><td>0.2550</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_RW3DAS1_9">-&gt;</a></td></tr>
+<tr><td>Chen</td><td>5</td><td>14.078</td><td>18.809</td><td>0.748</td><td>0.939</td><td>0.500</td><td>0.693</td><td>0.000</td><td>3.75e-04</td><td>18.89</td><td>0.3140</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_Chen_5">-&gt;</a></td></tr>
+<tr><td>RW3DAS1</td><td>7</td><td>14.468</td><td>21.023</td><td>0.688</td><td>0.941</td><td>0.000</td><td>0.643</td><td>4.090</td><td>8.06e-04</td><td>15.92</td><td>0.2660</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_RW3DAS1_7">-&gt;</a></td></tr>
+<tr><td>RW3DAS1</td><td>1</td><td>14.493</td><td>19.324</td><td>0.750</td><td>0.941</td><td>0.250</td><td>0.721</td><td>3.640</td><td>8.46e-04</td><td>17.50</td><td>0.2270</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_RW3DAS1_1">-&gt;</a></td></tr>
+<tr><td>RW3DAS1</td><td>6</td><td>14.741</td><td>21.383</td><td>0.689</td><td>0.941</td><td>0.000</td><td>0.635</td><td>5.000</td><td>1.34e-03</td><td>18.92</td><td>0.2420</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_RW3DAS1_6">-&gt;</a></td></tr>
+<tr><td>SimRNAAS1</td><td>7</td><td>15.083</td><td>22.095</td><td>0.683</td><td>0.788</td><td>0.250</td><td>0.685</td><td>70.550</td><td>2.46e-03</td><td>21.20</td><td>0.2320</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_SimRNAAS1_7">-&gt;</a></td></tr>
+<tr><td>SimRNAAS1</td><td>9</td><td>15.124</td><td>20.774</td><td>0.728</td><td>0.882</td><td>0.354</td><td>0.690</td><td>64.780</td><td>2.64e-03</td><td>22.41</td><td>0.2060</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_SimRNAAS1_9">-&gt;</a></td></tr>
+<tr><td>SimRNAAS2</td><td>2</td><td>15.319</td><td>20.532</td><td>0.746</td><td>0.915</td><td>0.354</td><td>0.706</td><td>73.180</td><td>3.67e-03</td><td>21.40</td><td>0.2400</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_SimRNAAS2_2">-&gt;</a></td></tr>
+<tr><td>SimRNAAS1</td><td>4</td><td>15.459</td><td>28.491</td><td>0.543</td><td>0.336</td><td>0.289</td><td>0.644</td><td>88.760</td><td>4.62e-03</td><td>22.96</td><td>0.2220</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_SimRNAAS1_4">-&gt;</a></td></tr>
+<tr><td>SimRNAAS2</td><td>5</td><td>15.460</td><td>21.111</td><td>0.732</td><td>0.915</td><td>0.289</td><td>0.693</td><td>80.150</td><td>4.62e-03</td><td>22.44</td><td>0.2780</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_SimRNAAS2_5">-&gt;</a></td></tr>
+<tr><td>RW3DAS1</td><td>10</td><td>15.861</td><td>23.206</td><td>0.683</td><td>0.890</td><td>0.000</td><td>0.643</td><td>2.730</td><td>8.67e-03</td><td>19.02</td><td>0.2440</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_RW3DAS1_10">-&gt;</a></td></tr>
+<tr><td>SimRNAAS2</td><td>10</td><td>16.066</td><td>22.353</td><td>0.719</td><td>0.915</td><td>0.250</td><td>0.682</td><td>72.860</td><td>1.17e-02</td><td>19.17</td><td>0.2260</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_SimRNAAS2_10">-&gt;</a></td></tr>
+<tr><td>SimRNAAS1</td><td>10</td><td>16.094</td><td>23.653</td><td>0.680</td><td>0.743</td><td>0.289</td><td>0.690</td><td>107.220</td><td>1.22e-02</td><td>24.88</td><td>0.2030</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_SimRNAAS1_10">-&gt;</a></td></tr>
+<tr><td>RW3DAS2</td><td>6</td><td>16.209</td><td>22.872</td><td>0.709</td><td>0.890</td><td>0.289</td><td>0.667</td><td>7.280</td><td>1.44e-02</td><td>19.84</td><td>0.2960</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_RW3DAS2_6">-&gt;</a></td></tr>
+<tr><td>RW3DAS2</td><td>3</td><td>16.765</td><td>24.575</td><td>0.682</td><td>0.827</td><td>0.000</td><td>0.659</td><td>9.100</td><td>3.02e-02</td><td>16.70</td><td>0.2540</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_RW3DAS2_3">-&gt;</a></td></tr>
+<tr><td>RW3DAS2</td><td>2</td><td>17.286</td><td>24.947</td><td>0.693</td><td>0.915</td><td>0.250</td><td>0.643</td><td>7.280</td><td>5.62e-02</td><td>19.38</td><td>0.2570</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_RW3DAS2_2">-&gt;</a></td></tr>
+<tr><td>SimRNAAS2</td><td>3</td><td>17.695</td><td>24.619</td><td>0.719</td><td>0.882</td><td>0.289</td><td>0.690</td><td>85.120</td><td>8.68e-02</td><td>23.22</td><td>0.2110</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_SimRNAAS2_3">-&gt;</a></td></tr>
+<tr><td>SimRNAAS1</td><td>2</td><td>17.809</td><td>25.976</td><td>0.686</td><td>0.770</td><td>0.289</td><td>0.690</td><td>96.000</td><td>9.72e-02</td><td>20.93</td><td>0.1930</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_SimRNAAS1_2">-&gt;</a></td></tr>
+<tr><td>SimRNAAS1</td><td>3</td><td>18.300</td><td>56.622</td><td>0.323</td><td>0.118</td><td>0.000</td><td>0.466</td><td>78.530</td><td>1.53e-01</td><td>24.05</td><td>0.1580</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_SimRNAAS1_3">-&gt;</a></td></tr>
+<tr><td>3dRNAAS2</td><td>3</td><td>18.549</td><td>25.365</td><td>0.731</td><td>0.939</td><td>0.500</td><td>0.654</td><td>32.800</td><td>1.88e-01</td><td>33.99</td><td>0.2270</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_3dRNAAS2_3">-&gt;</a></td></tr>
+<tr><td>3dRNAAS2</td><td>5</td><td>18.549</td><td>25.365</td><td>0.731</td><td>0.939</td><td>0.500</td><td>0.654</td><td>32.350</td><td>1.88e-01</td><td>33.95</td><td>0.2270</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_3dRNAAS2_5">-&gt;</a></td></tr>
+<tr><td>3dRNAAS2</td><td>9</td><td>18.549</td><td>25.366</td><td>0.731</td><td>0.939</td><td>0.500</td><td>0.654</td><td>34.620</td><td>1.88e-01</td><td>35.04</td><td>0.2260</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_3dRNAAS2_9">-&gt;</a></td></tr>
+<tr><td>3dRNAAS2</td><td>6</td><td>18.550</td><td>25.367</td><td>0.731</td><td>0.939</td><td>0.500</td><td>0.654</td><td>31.890</td><td>1.88e-01</td><td>34.49</td><td>0.2270</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_3dRNAAS2_6">-&gt;</a></td></tr>
+<tr><td>3dRNAAS2</td><td>2</td><td>18.551</td><td>25.368</td><td>0.731</td><td>0.939</td><td>0.500</td><td>0.654</td><td>33.710</td><td>1.88e-01</td><td>34.77</td><td>0.2260</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_3dRNAAS2_2">-&gt;</a></td></tr>
+<tr><td>3dRNAAS2</td><td>4</td><td>18.552</td><td>25.369</td><td>0.731</td><td>0.939</td><td>0.500</td><td>0.654</td><td>32.800</td><td>1.88e-01</td><td>34.62</td><td>0.2270</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_3dRNAAS2_4">-&gt;</a></td></tr>
+<tr><td>3dRNAAS2</td><td>8</td><td>18.552</td><td>25.370</td><td>0.731</td><td>0.939</td><td>0.500</td><td>0.654</td><td>34.620</td><td>1.88e-01</td><td>34.87</td><td>0.2260</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_3dRNAAS2_8">-&gt;</a></td></tr>
+<tr><td>3dRNAAS2</td><td>1</td><td>18.554</td><td>25.372</td><td>0.731</td><td>0.939</td><td>0.500</td><td>0.654</td><td>35.080</td><td>1.88e-01</td><td>35.36</td><td>0.2260</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_3dRNAAS2_1">-&gt;</a></td></tr>
+<tr><td>3dRNAAS2</td><td>7</td><td>18.554</td><td>25.372</td><td>0.731</td><td>0.939</td><td>0.500</td><td>0.654</td><td>32.800</td><td>1.88e-01</td><td>34.22</td><td>0.2270</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_3dRNAAS2_7">-&gt;</a></td></tr>
+<tr><td>3dRNAAS2</td><td>10</td><td>18.559</td><td>25.378</td><td>0.731</td><td>0.939</td><td>0.500</td><td>0.654</td><td>34.170</td><td>1.89e-01</td><td>35.60</td><td>0.2260</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_3dRNAAS2_10">-&gt;</a></td></tr>
+<tr><td>SimRNAAS1</td><td>5</td><td>18.731</td><td>28.496</td><td>0.657</td><td>0.740</td><td>0.354</td><td>0.651</td><td>85.230</td><td>2.16e-01</td><td>23.47</td><td>0.2260</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_SimRNAAS1_5">-&gt;</a></td></tr>
+<tr><td>RW3DAS1</td><td>8</td><td>19.036</td><td>27.886</td><td>0.683</td><td>0.890</td><td>0.289</td><td>0.627</td><td>8.640</td><td>2.69e-01</td><td>16.80</td><td>0.3660</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_RW3DAS1_8">-&gt;</a></td></tr>
+<tr><td>SimRNAAS1</td><td>8</td><td>19.596</td><td>28.867</td><td>0.679</td><td>0.824</td><td>0.289</td><td>0.652</td><td>68.270</td><td>3.80e-01</td><td>23.07</td><td>0.2070</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_SimRNAAS1_8">-&gt;</a></td></tr>
+<tr><td>SimRNAAS2</td><td>6</td><td>20.075</td><td>27.180</td><td>0.739</td><td>0.941</td><td>0.250</td><td>0.702</td><td>78.820</td><td>4.85e-01</td><td>22.82</td><td>0.2710</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_SimRNAAS2_6">-&gt;</a></td></tr>
+<tr><td>SimRNAAS2</td><td>8</td><td>20.128</td><td>26.316</td><td>0.765</td><td>0.910</td><td>0.289</td><td>0.747</td><td>59.490</td><td>4.96e-01</td><td>24.97</td><td>0.2140</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_SimRNAAS2_8">-&gt;</a></td></tr>
+<tr><td>SimRNAAS1</td><td>6</td><td>23.763</td><td>55.684</td><td>0.427</td><td>0.118</td><td>0.000</td><td>0.586</td><td>97.770</td><td>9.78e-01</td><td>22.31</td><td>0.1810</td><td>1</td><td><a href="/show/index.html?id=PZ15noend_SimRNAAS1_6">-&gt;</a></td></tr>
+
+</table>
+  <p>-: No true positive interaction in the predicted structure.</p>
+</div>
+
+  </div>
+
+</article>
+
+      </div>
+      <!-- 侧边栏区域：占用 4 栏 -->
+      <div id="newsid" class="col-md-4">
+        <!-- Begin: Sidebar 模块 -->
+<aside class="sidebar col-sm-44" style="padding: 15px;">
+	    <!-- CSS Files -->
+		<link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="/css/stylish-portfolio.css" rel="stylesheet" type="text/css">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="//jpswalsh.github.io/academicons/css/academicons.css" rel="stylesheet">
+		<link href="/stylesheets/screen.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+	<!-- Begin: 关于信息部分 -->
+	<section>
+		<h1>RNA-Puzzles</h1>
+		<p>A collective blind evaluation of RNA three-dimensional structure prediction</p>
+		<!-- GitHub 链接 -->
+		<a href="https://github.com/RNA-Puzzles">
+			<i class="fa fa-github-square fa-fw fa-2x"></i>
+		</a>
+		<!-- Email 链接 -->
+		<a href="mailto:ibmc.cnrs@gmail.com">
+			<i class="fa fa-envelope-square fa-fw fa-2x"></i>
+		</a>
+		<!-- Twitter 链接 -->
+		<a href="https://twitter.com/RNAPuzzles">
+			<i class="fa fa-twitter-square fa-fw fa-2x"></i>
+		</a>
+		<!-- Coffee 链接（示例链接，可根据需要修改） -->
+		<a href="">
+			<i class="fa fa-coffee fa-fw fa-2x"></i>
+		</a>
+
+
+
+	</section>
+	<!-- End: 关于信息部分 -->
+
+	<!-- Begin: 最近文章模块 -->
+	<section class="panel panel-info">
+		<div class="panel-heading">
+			<h3 class="panel-title">Recent Posts</h3>
+		</div>
+		<div id="recent_posts" class="list-group">
+			<a class="list-group-item" href="/news/2023/10/07/Submission-Process/">Submission Process</a>
+			<a class="list-group-item" href="/news/2023/10/07/Research-Spectrum/">Research Spectrum</a>
+			<a class="list-group-item" href="/news/2023/10/07/Recent-Engagements/">Recent Engagements</a>
+			<a class="list-group-item" href="/news/2023/10/07/Participating-Teams/">Participating Teams</a>
+			<a class="list-group-item" href="/news/2023/10/07/Methodological-Progress/">Methodological Progress</a>
+		</div>
+	</section>
+	<!-- End: 最近文章模块 -->
+
+	<!-- Begin: GitHub Repos 模块 -->
+	<section class="panel panel-info clearfix">
+		<div class="panel-heading">
+			<h3 class="panel-title">GitHub Repos</h3>
+		</div>
+		<div class="list-group" id="gh_repos">
+			<p class="loading">Status updating...</p>
+		</div>
+		<div class="gh-profile-link pull-right text-muted">
+			<a href="https://github.com/RNA-Puzzles">@RNA-Puzzles</a> on GitHub
+		</div>
+		<!-- 使用 jQuery 动态加载 GitHub 仓库信息 -->
+		<script type="text/javascript">
+			$(document).ready(function(){
+				// 如果未加载 jXHR 库，则动态加载
+				if (!window.jXHR){
+					var jxhr = document.createElement('script');
+					jxhr.type = 'text/javascript';
+					jxhr.src = '/javascripts/libs/jXHR.js';
+					var s = document.getElementsByTagName('script')[0];
+					s.parentNode.insertBefore(jxhr, s);
+				}
+				// 调用 github.showRepos() 函数显示仓库列表
+				github.showRepos({
+					user: 'RNA-Puzzles',
+					count: 0,
+					skip_forks: true,
+					target: '#gh_repos'
+				});
+			});
+		</script>
+		<script src="/javascripts/github.js" type="text/javascript"></script>
+	</section>
+	<!-- End: GitHub Repos 模块 -->
+
+	<!-- Begin: 分类模块 -->
+	<section class="panel panel-info clearfix">
+		<div class="panel-heading">
+			<h3 class="panel-title">Categories</h3>
+		</div>
+		<div class="list-group-item">
+			<a href="/blog/group_category/">group (16)</a>
+		</div>
+		<div class="list-group-item">
+			<a href="/blog/news_category/">news (7)</a>
+		</div>
+		<div class="list-group-item">
+			<a href="/blog/results_category/">results (39)</a>
+		</div>
+		<div class="list-group-item">
+			<a href="/blog/tables_category/">table (129)</a>
+		</div>
+	</section>
+	<!-- End: 分类模块 -->
+</aside>
+<!-- End: Sidebar 模块 -->
+
+      </div>
+    </div>
+  </div>
+
+    <div id="footer" class="panel">
+  <div class="panel-footer" style='background-color: #333333; color: #eeeeee;'>
+	<div class="container-fluid">
+	  <div class="row">
+		<div class="col-sm-4">
+			
+		  <p>&copy 2025 RNA-Puzzles. </p>
+		  <p>We are part of the <a href="https://gzlab.ac.cn">Guangzhou Laboratory</a> and <a href="http://www.rnapuzzles.org/">RNApuzzles</a>.</p>
+		  <p>Site made with <a href="https://jekyllrb.com">Jekyll</a>;  <a href="http://localhost:4000/aboutwebsite.html">copy and  modify it for your own research group.</a></p>
+		  <p>  </p>
+		  <p>  </p>
+		</div>
+		
+		<div class="col-sm-4">
+		  Funding:<br />
+          - <a href="https://gzlab.ac.cn">R&D Programs of Guangzhou Laboratory</a><br />
+          - <a href="http://www.most.gov.cn/">MOST IT+BT projects</a> <br />
+          - <a href="https://www.nsfc.gov.cn/">NSFC</a> <br />	  
+		</div>
+		
+		<div class="col-sm-4">
+		  Contact:<br />
+		  Building B2, Guangzhou National Laboratory<br />
+		  96 Xingdao South Road, Guangzhou International Bio Island, <br />
+		  Haizhu District, Guangzhou, Guangdong, China.<br />
+          (<a href="https://goo.gl/maps/hDLr6siEAS2Eaypt8">Maps</a>)
+		</div>
+	  </div>
+	</div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://localhost:4000/js/bootstrap.min.js"></script>
+
+
+  </body>
+
+</html>
