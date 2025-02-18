@@ -35,6 +35,9 @@ jobs:
         with:
           source: ./
           destination: ./_site
+      - name: Remove original files except _site
+        run: |
+          find . -mindepth 1 -maxdepth 1 ! -name '_site' -exec rm -rf {} \;
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
