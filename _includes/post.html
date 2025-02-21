@@ -10,7 +10,7 @@ single: true
     {% if site.description %}<meta itemprop="description" content="{{site.description}}" />{% endif %}
     <meta itemprop="url" content="{{site.url}}" />
     <article class="hentry" role="article" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-      {% include article.html %}
+
       <footer>
         <p class="meta text-muted">
           {% include post/author.html %}
@@ -39,14 +39,4 @@ single: true
       </section>
     {% endif %}
   </div>
-
-  {% unless page.sidebar == false or site.post_asides == empty and site.default_asides == empty %}
-  <aside class="sidebar col-md-3">
-    {% if site.post_asides.size %}
-      {% include_array post_asides %}
-    {% else %}
-      {% include_array default_asides %}
-    {% endif %}
-  </aside>
-  {% endunless %}
 </div>

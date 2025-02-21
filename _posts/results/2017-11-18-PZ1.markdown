@@ -20,5 +20,5 @@ Dibrov SM, McLean J, Hermann T. 2011. Structure of an RNA dimer of a regulatory 
 
 **PDB id**: [3mei](http://www.rcsb.org/pdb/explore/explore.do?structureId=3mei)
 
-[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ1/pdb)    &#124; [Assessment results](/table/2000/01/01/PZ1-3d/)
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ1/pdb)    &#124; [Assessment results](/table/2000/01/01/PZ1-3d.html)
 

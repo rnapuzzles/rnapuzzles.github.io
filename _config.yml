@@ -6,16 +6,32 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: GZNL - RNA centre
+title: GZNL - RNA puzzles
 email: rnapuzzles@gzlab.ac.cn
 description: > # this means to ignore newlines until "baseurl:"
   The lab website of Zhichao Miao lab.
 baseurl: ""
-url: "https://www.rnacentre.org"
+url: ""
 
 include:
-  - .htaccess
+  - _data
+  - _includes
+  - _layouts
   - _pages
+  - _plugins
+  - _posts
+  - _sass
+  - blog
+  - cifFiles
+  - css
+  - fonts
+  - images
+  - javascripts
+  - js
+  - pdbFiles
+  - show
+  - stylesheets
+  - CNAME
 
 category_dir: blog/categories
 category_title_prefix: " "

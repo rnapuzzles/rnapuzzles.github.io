@@ -25,4 +25,4 @@ Structure-based investigations of the NAD+-II riboswitch.
 
 **Puzzle Submission/Deadline:** 2022.10.20/11.10
 
-[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ37/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ37-3d/)
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ37/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ37-3d.html)

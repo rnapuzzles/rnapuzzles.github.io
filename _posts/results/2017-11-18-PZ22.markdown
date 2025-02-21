@@ -26,4 +26,4 @@ Hatchet ribozyme structure and implications for cleavage mechanism. [Proc Natl A
 
 **Puzzle Submission/Deadline:** 2018.11.19/12.10
 
-[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ22/pdb) &#124; Assessment results: [monomer](/table/2000/01/01/PZ22-3d/)  [dimer](/table/2000/01/01/PZ22Dimer-3d/)
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ22/pdb) &#124; Assessment results: [monomer](/table/2000/01/01/PZ22-3d.html)  [dimer](/table/2000/01/01/PZ22Dimer-3d.html)

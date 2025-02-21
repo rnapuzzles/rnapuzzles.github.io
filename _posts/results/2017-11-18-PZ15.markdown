@@ -23,5 +23,5 @@ Two Active Site Divalent Ions in the Crystal Structure of the Hammerhead Ribozym
 
 **Puzzle Submission/Deadline:** 2015.08.31/09.04
 
-[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ15/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ15-3d/)
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ15/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ15-3d.html)
 

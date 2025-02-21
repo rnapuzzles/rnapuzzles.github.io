@@ -20,4 +20,4 @@ Dibrov SM, McLean J, Parsons J, Hermann T. 2011. Self-assembling RNA square. [PN
 
 **PDB id**: [3p59](http://www.rcsb.org/pdb/explore/explore.do?structureId=3p59)
 
-[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ2/pdb)   &#124;   [Assessment results](/table/2000/01/01/PZ2-3d/)
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ2/pdb)   &#124;   [Assessment results](/table/2000/01/01/PZ2-3d.html)

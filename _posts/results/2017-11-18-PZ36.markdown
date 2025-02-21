@@ -27,4 +27,4 @@ Anticodon-like loop-mediated dimerization in the crystal structures of HdV-like 
 
 **Puzzle Submission/Deadline:** 2022.04.29/05.20
 
-[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ36/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ36-3d/)
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ36/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ36-3d.html)

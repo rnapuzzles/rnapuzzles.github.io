@@ -27,5 +27,5 @@ To be published.
 
 **Puzzle Submission/Deadline:** 2015.10.07/11.07
 
-[raw prediction seq1](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ16a/pdb) &#124; [raw prediction seq2](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ16b/pdb)    &#124;   [Assessment results seq1](/table/2000/01/01/PZ16a-3d/) &#124; [Assessment results seq2](/table/2000/01/01/PZ16b-3d/)
+[raw prediction seq1](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ16a/pdb) &#124; [raw prediction seq2](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ16b/pdb)    &#124;   [Assessment results seq1](/table/2000/01/01/PZ16a-3d.html) &#124; [Assessment results seq2](/table/2000/01/01/PZ16b-3d.html)
 

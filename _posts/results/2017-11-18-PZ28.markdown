@@ -32,8 +32,8 @@ High-affinity recognition of specific tRNAs by an mRNA anticodon-binding groove.
 **Puzzle Submission/Deadline:** 2019.10.28/11.18
 
 
-**Assessment of complex:** [raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ28/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ28-3d/)
+**Assessment of complex:** [raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ28/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ28-3d.html)
 
-**Assessment of tBox:** [raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ28tBox/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ28tBox-3d/)
+**Assessment of tBox:** [raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ28tBox/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ28tBox-3d.html)
 
-**Assessment of tRNA:** [raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ28tRNA/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ28tRNA-3d/)
+**Assessment of tRNA:** [raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ28tRNA/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ28tRNA-3d.html)

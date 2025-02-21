@@ -27,4 +27,4 @@ Insights into xanthine riboswitch structure and metal ion-mediated ligand recogn
 
 **Puzzle Submission/Deadline:** 2021.05.12/06.02
 
-[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ33/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ33-3d/)
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ33/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ33-3d.html)

@@ -24,5 +24,5 @@ Ren A, Patel DJ. 2014. c-di-AMP binds the ydaO riboswitch in two pseudo-symmetry
 
 **Puzzle Submission/Deadline:** 2014.06.28/07.15
 
-[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ12/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ12-3d/)
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ12/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ12-3d.html)
 

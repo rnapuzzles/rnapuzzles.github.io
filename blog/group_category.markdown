@@ -3,6 +3,7 @@ layout: page
 navbar: Archives
 title: Group RNA-Puzzles
 footer: false
+permalink: /blog/group_category/
 ---
 
 <p>Introduction to the Group category here</p>
@@ -19,7 +20,7 @@ footer: false
 <!-- 结束：Schema.org 元数据 -->
 
 <!-- 开始：循环遍历所有属于 "group" 分类的文章，使用 reverse 顺序（最新的在前） -->
-{% for post in site.posts reverse %}
+{% for post in site.posts reversed %}
 {% if post.categories contains 'group' %}
 
 <!-- 捕获当前文章的年份 -->

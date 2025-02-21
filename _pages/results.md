@@ -48,6 +48,7 @@ permalink: /results/
 {% endif %}
 <meta itemprop="url" content="{{site.url}}" />
 
+
 {% for post in site.categories[page.category] %}
 {% include results.html %}
 {% endfor %}

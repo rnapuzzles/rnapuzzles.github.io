@@ -23,4 +23,4 @@ Zika virus produces noncoding RNAs using a multi-pseudoknot structure that confo
 
 **Puzzle Submission/Deadline:** 2016.10.24/11.10
 
-[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ18/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ18-3d/)
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ18/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ18-3d.html)

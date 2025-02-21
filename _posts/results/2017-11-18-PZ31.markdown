@@ -26,4 +26,4 @@ Solved to 2.09 angstrom Using Chaperone-Assisted RNA Crystallography.
 
 **Puzzle Submission/Deadline:** 2021.04.28/05.19
 
-[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ31/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ31-3d/)
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ31/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ31-3d.html)

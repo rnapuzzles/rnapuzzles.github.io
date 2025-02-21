@@ -25,4 +25,4 @@ Bourbigot S, Dock-Bregeon AC, Eberling P, Coutant J, Kieffer B, Lebars I. Soluti
 
 **Puzzle Submission/Deadline:** 2014.06.15/07.15
 
-[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ11/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ11-3d/)
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ11/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ11-3d.html)

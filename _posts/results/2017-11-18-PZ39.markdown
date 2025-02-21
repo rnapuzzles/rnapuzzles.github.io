@@ -27,4 +27,4 @@ Crystal structure of a highly conserved enteroviral 5' cloverleaf RNA replicatio
 
 **Puzzle Submission/Deadline:** 2023.01.18/02.08
 
-[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ39/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ39-3d/)
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ39/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ39-3d.html)

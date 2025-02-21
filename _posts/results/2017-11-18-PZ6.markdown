@@ -23,4 +23,4 @@ Peselis A and Serganov A. 2012. Structural insights into ligand binding and gene
 
 **PDB id**: [4gxy](http://www.rcsb.org/pdb/explore/explore.do?structureId=4gxy)
 
-[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ6/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ6-3d/)
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ6/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ6-3d.html)

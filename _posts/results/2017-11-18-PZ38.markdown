@@ -25,4 +25,4 @@ Crystal structures of the NAD+-II riboswitch reveal two distinct ligand-binding 
 
 **Puzzle Submission/Deadline:** 2012.11.30/12.21
 
-[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ38/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ38-3d/)
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ38/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ38-3d.html)

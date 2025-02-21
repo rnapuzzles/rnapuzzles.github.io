@@ -22,4 +22,4 @@ Baird NJ, Zhang J, Hamma T, Ferre-D'Amare AR. 2012. YbxF and YlxQ are bacterial 
 
 **PDB id**: [3v7e](http://www.rcsb.org/pdb/explore/explore.do?structureId=3v7e)
 
-[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ4/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ4-3d/)
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ4/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ4-3d.html)

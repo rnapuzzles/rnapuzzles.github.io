@@ -25,5 +25,5 @@ Crystal structure of an adenovirus virus-associated RNA. [Nature Communicationsv
 
 **Puzzle Submission/Deadline:** 2019.05.20/06.10
 
-[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ24/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ24-3d/)
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ24/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ24-3d.html)
 

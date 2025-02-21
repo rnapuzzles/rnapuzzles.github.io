@@ -6,15 +6,6 @@
     - kramdown
 =end
 
-markdown: rdiscount
-rdiscount:
-  extensions:
-    - autolink
-    - footnotes
-    - smart
-highlighter: pygments # default python pygments have been replaced by pygments.rb
-
-
 module Jekyll
   class MarkdownTag < Liquid::Tag
     def initialize(tag_name, text, tokens)

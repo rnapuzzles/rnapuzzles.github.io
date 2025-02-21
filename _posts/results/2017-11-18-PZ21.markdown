@@ -23,4 +23,4 @@ Structure of the Guanidine III Riboswitch. [Cell Chem Biol. 2017 Nov 16;24(11):1
 
 **Puzzle Submission/Deadline:** 2017.06.12/06.14
 
-[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ21/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ21-3d/)
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ21/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ21-3d.html)

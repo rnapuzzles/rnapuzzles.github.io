@@ -23,5 +23,5 @@ Trausch JJ, Marcano-Velázquez JG, Matyjasik MM, Batey RT. Metal Ion-Mediated Nu
 
 **Puzzle Submission/Deadline:** 2014.04.27/05.31??
 
-[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ13/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ13-3d/)
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ13/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ13-3d.html)
 

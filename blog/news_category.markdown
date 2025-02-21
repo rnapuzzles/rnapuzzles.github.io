@@ -3,13 +3,11 @@ layout: page
 navbar: Archives
 title: News RNA-Puzzles
 footer: false
+permalink: /blog/news_category/
 ---
-
 <p>Introduction to the News category here</p>
-
 <!-- 开始：博客归档区域，使用 Schema.org 定义博客相关元数据 -->
 <div id="blog-archives" itemscope itemtype="http://schema.org/Blog">
-
 <!-- 开始：Schema.org 元数据 -->
 <meta itemprop="name" content="{{ site.title }}" />
 {% if site.description %}
@@ -17,11 +15,11 @@ footer: false
 {% endif %}
 <meta itemprop="url" content="{{ site.url }}" />
 <!-- 结束：Schema.org 元数据 -->
-
 <!-- 开始：循环遍历所有属于 "news" 分类的文章，使用 reverse 顺序（最新的在前） -->
-{% for post in site.posts reverse %}
-{% if post.categories contains 'news' %}
 
+{% for post in site.posts reversed %}
+
+{% if post.categories contains 'news' %}
 <!-- 捕获当前文章的年份 -->
 {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
 

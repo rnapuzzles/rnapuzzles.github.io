@@ -32,8 +32,8 @@ Structural basis of amino acid surveillance by higher-order tRNA-mRNA interactio
 **Puzzle Submission/Deadline:** 2019.10.21/11.11
 
 
-**Assessment of complex:** [raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ26/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ26-3d/)
+**Assessment of complex:** [raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ26/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ26-3d.html)
 
-**Assessment of tBox:** [raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ26tBox/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ26tBox-3d/)
+**Assessment of tBox:** [raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ26tBox/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ26tBox-3d.html)
 
-**Assessment of tRNA:** [raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ26tRNA/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ26tRNA-3d/)
+**Assessment of tRNA:** [raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ26tRNA/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ26tRNA-3d.html)

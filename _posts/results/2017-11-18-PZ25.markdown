@@ -24,4 +24,4 @@ Structural basis for 2'-deoxyguanosine recognition by the 2'-dG-II class of ribo
 
 **Puzzle Submission/Deadline:** 2018.11.19/12.10
 
-[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ25/pdb)    &#124;  [Assessment results](/table/2000/01/01/PZ25-3d/)
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ25/pdb)    &#124;  [Assessment results](/table/2000/01/01/PZ25-3d.html)

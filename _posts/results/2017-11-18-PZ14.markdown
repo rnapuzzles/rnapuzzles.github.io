@@ -27,6 +27,6 @@ Aiming Ren, Yi Xue, Alla Peselis, Alexander Serganov, Hashim M. Al-Hashimi, Dins
 
 **Puzzle Submission/Deadline:** 2015.08.10/08.31
 
-**Bound Form:** [raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ14Bound/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ14Bound-3d/)
+**Bound Form:** [raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ14Bound/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ14Bound-3d.html)
 
-**Free Form:** [raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ14Free/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ14Free-3d/)
+**Free Form:** [raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ14Free/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ14Free-3d.html)

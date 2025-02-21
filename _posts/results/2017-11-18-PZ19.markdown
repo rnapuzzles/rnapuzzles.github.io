@@ -24,4 +24,4 @@ The structure of a nucleolytic ribozyme that employs a catalytic metal ion. [Nat
 
 **Puzzle Submission/Deadline:** 2016.10.24/11.10
 
-[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ19/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ19-3d/)
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ19/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ19-3d.html)

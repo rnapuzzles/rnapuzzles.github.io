@@ -21,5 +21,5 @@ Trausch JJ, Xu Z, Edwards AL, Reyes FE, Ross PE, Knight R, Batey RT. 2014. Struc
 
 **PDB id**: [4l81](http://www.rcsb.org/pdb/explore/explore.do?structureId=4l81)
 
-[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ8/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ8-3d/)
+[raw prediction](https://github.com/rnapuzzles/rnapuzzles.github.io/tree/master/data/PZ8/pdb)    &#124;   [Assessment results](/table/2000/01/01/PZ8-3d.html)
 

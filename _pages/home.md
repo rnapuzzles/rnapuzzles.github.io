@@ -92,82 +92,82 @@ permalink: /
                     <article class="list-group-item">
                       <span class="glyphicon glyphicon-tags"></span>&nbsp;
                       <span class="categories">
-                        <a class="category" href="/blog/categories/news/">news</a>
+                        <a class="category" href="ç">news</a>
                       </span>
                       &nbsp;&nbsp;&nbsp;
-                      <a href="/blog/2023/10/07/Submission%20Process/" itemprop="url">Submission Process</a>
+                      <a href="/news/2023/10/07/Submission-Process.html" itemprop="url">Submission Process</a>
                     </article>
                     <article class="list-group-item">
                       <span class="glyphicon glyphicon-tags"></span>&nbsp;
                       <span class="categories">
-                        <a class="category" href="/blog/categories/news/">news</a>
+                        <a class="category" href="/blog/news_category/">news</a>
                       </span>
                       &nbsp;&nbsp;&nbsp;
-                      <a href="/blog/2023/10/07/Research-Spectrum/" itemprop="url">Research Spectrum</a>
+                      <a href="/news/2023/10/07/Research-Spectrum.html" itemprop="url">Research Spectrum</a>
                     </article>
                     <article class="list-group-item">
                       <span class="glyphicon glyphicon-tags"></span>&nbsp;
                       <span class="categories">
-                        <a class="category" href="/blog/categories/news/">news</a>
+                        <a class="category" href="/blog/news_category/">news</a>
                       </span>
                       &nbsp;&nbsp;&nbsp;
-                      <a href="/blog/2023/10/07/Recent-Engagements/" itemprop="url">Recent Engagements</a>
+                      <a href="/news/2023/10/07/Recent-Engagements.html" itemprop="url">Recent Engagements</a>
                     </article>
                     <article class="list-group-item">
                       <span class="glyphicon glyphicon-tags"></span>&nbsp;
                       <span class="categories">
-                        <a class="category" href="/blog/categories/news/">news</a>
+                        <a class="category" href="/blog/news_category/">news</a>
                       </span>
                       &nbsp;&nbsp;&nbsp;
-                      <a href="/blog/2023/10/07/Participating-Teams/" itemprop="url">Participating Teams</a>
+                      <a href="/news/2023/10/07/Participating-Teams.html" itemprop="url">Participating Teams</a>
                     </article>
                     <article class="list-group-item">
                       <span class="glyphicon glyphicon-tags"></span>&nbsp;
                       <span class="categories">
-                        <a class="category" href="/blog/categories/news/">news</a>
+                        <a class="category" href="/blog/news_category/">news</a>
                       </span>
                       &nbsp;&nbsp;&nbsp;
-                      <a href="/blog/2023/10/07/Methodological-Progress/" itemprop="url">Methodological Progress</a>
+                      <a href="/news/2023/10/07/Methodological-Progress.html" itemprop="url">Methodological Progress</a>
                     </article>
                     <article class="list-group-item">
                       <span class="glyphicon glyphicon-tags"></span>&nbsp;
                       <span class="categories">
-                        <a class="category" href="/blog/categories/news/">news</a>
+                        <a class="category" href="/blog/news_category/">news</a>
                       </span>
                       &nbsp;&nbsp;&nbsp;
-                      <a href="/blog/2023/10/07/Future%20Outlook/" itemprop="url">Future Outlook</a>
+                      <a href="/news/2023/10/07/Future-Outlook.html" itemprop="url">Future Outlook</a>
                     </article>
                     <article class="list-group-item">
                       <span class="glyphicon glyphicon-tags"></span>&nbsp;
                       <span class="categories">
-                        <a class="category" href="/blog/categories/results/">results</a>
+                        <a class="category" href="/blog/results_category/">results</a>
                       </span>
                       &nbsp;&nbsp;&nbsp;
-                      <a href="/blog/2017/11/18/PZ39/" itemprop="url">Puzzle 39</a>
+                      <a href="/results/2017/11/18/PZ39.html" itemprop="url">Puzzle 39</a>
                     </article>
                     <article class="list-group-item">
                       <span class="glyphicon glyphicon-tags"></span>&nbsp;
                       <span class="categories">
-                        <a class="category" href="/blog/categories/results/">results</a>
+                        <a class="category" href="/blog/results_category/">results</a>
                       </span>
                       &nbsp;&nbsp;&nbsp;
-                      <a href="/blog/2017/11/18/PZ38/" itemprop="url">Puzzle 38</a>
+                      <a href="/results/2017/11/18/PZ38.html" itemprop="url">Puzzle 38</a>
                     </article>
                     <article class="list-group-item">
                       <span class="glyphicon glyphicon-tags"></span>&nbsp;
                       <span class="categories">
-                        <a class="category" href="/blog/categories/results/">results</a>
+                        <a class="category" href="/blog/results_category/">results</a>
                       </span>
                       &nbsp;&nbsp;&nbsp;
-                      <a href="/blog/2017/11/18/PZ37/" itemprop="url">Puzzle 37</a>
+                      <a href="/results/2017/11/18/PZ37.html" itemprop="url">Puzzle 37</a>
                     </article>
                     <article class="list-group-item">
                       <span class="glyphicon glyphicon-tags"></span>&nbsp;
                       <span class="categories">
-                        <a class="category" href="/blog/categories/results/">results</a>
+                        <a class="category" href="/blog/results_category/">results</a>
                       </span>
                       &nbsp;&nbsp;&nbsp;
-                      <a href="/blog/2017/11/18/PZ36/" itemprop="url">Puzzle 36</a>
+                      <a href="/results/2017/11/18/PZ36.html" itemprop="url">Puzzle 36</a>
                     </article>
                   </div>
                 </div>
