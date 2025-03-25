@@ -1,0 +1,17 @@
+{% capture category %}{{ post.categories | size }}{% endcapture %}
+<div class="panel panel-info">
+<div class="panel-heading" align="center">
+<h3 class="panel-title">{{ post.title }}</h3>
+</div>
+<div class="row">
+<div class="col-md-3">
+<!-- 添加内联样式，确保图片宽度不会超出父容器 -->
+<img src="/images/{{ post.image }}" alt="{{ post.title }}" style="max-width: 100%; height: auto;">
+</div>
+<div class="col-md-9">
+{{ post.content }}
+</div>
+</div>
+</div>
+  
+

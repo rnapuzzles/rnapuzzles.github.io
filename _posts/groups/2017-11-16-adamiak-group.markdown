@@ -1,0 +1,47 @@
+---
+layout: post
+title: "Adamiak Group"
+date: 2017-11-16 11:07:45 +0000
+comments: false
+categories: group
+---
+<!--
+# [Adamiak Group]()
+-->
+**Adamiak**  group that includes researches of Institute of Bioorganic Chemistry, Polish Academy of Sciences and European Centre for Bioinformatics and Genomics, Faculty of Computing, Poznan University of Technology develops publicly available computational methods and tools dedicated for a fully automated RNA 3D structure prediction as well as quality assessment within the context of the reference structure.
+
+* [**RNAComposer**](http://rnacomposer.cs.put.poznan.pl"): a fully automated, fragment assembly method and server for RNA 3D structure prediction.
+* [**RNA FRABASE**](http://rnafrabase.cs.put.poznan.pl): a database that allows users to search three-dimensional fragments within experimentally determined RNA 3D structures.
+* [**RNApdbee**](http://rnapdbee.cs.put.poznan.pl): a web server to derive secondary structures encoded in dot-bracket from 3D structures of knotted and unknotted RNAs.
+* [**RNAssess**](http://rnassess.cs.put.poznan.pl): a web server for quality assessment of RNA 3D structures within the context of the reference structure.
+
+## Prediction Approaches:
+RNAComposer allows users for fully automated prediction of RNA 3D structures (Popenda et al., 2012) by providing a knowledge-based method that employs automated fragment assembly based on a tree graph representation of the secondary structure and homology of structural elements. The developed workflow allows to translate rapidly the RNA secondary structure into the corresponding 3D structure. Crucial component used during this translation process is a dedicated dictionary. This dictionary was constructed based on the RNA FRABASE database (Popenda et al., 2008, 2010) and is used by the computational engine to predict RNA 3D structure. The dictionary relates RNA secondary- and tertiary structure elements. Since our initial report, its volume has been considerably enlarged leading to a substantial increase of the predicted 3D structure accuracy. 
+The algorithms incorporated in the RNAComposer engine allow users to predict automatically RNA 3D models in the following steps:
+
+* RNA secondary structure fragmentation. RNA secondary structure is divided into fragments according to its tree graph representation. The fragmentation algorithm provides secondary structure elements, namely stems, loops (i.e., apical, bulge internal, and n-way junctions), and single strands. 
+* 3D structure elements search. An automated dictionary search of the related 3D structure elements is performed for each secondary structure element resulted from fragmentation. 
+* 3D structure elements preparation. Most suitable 3D structure elements are selected from the dictionary and prepared for further processing.
+* Initial RNA 3D structure building. The building process is based on the tree graph representation of the input secondary structure. The 3D structure elements are superimposed regarding common canonical base pairs and assembled to give initial, already well-shaped RNA 3D structure. Up to this step, RNAComposer is very fast. It usually takes several seconds on a single processor architecture. 
+* 3D structure refinement. Energy minimization in torsion angle space (Guntert et al., 1997) and, subsequently, in atom coordinate space (Schwieters et al., 2003) is performed leading to final, high-quality RNA 3D model. 
+
+RNAComposer system offers a user-friendly interface that allows users to predict automatically large RNA 3D structures (i.e., actually up to 500 nts). Although the main engine runs based on RNA secondary structure, the web server itself enables users to predict the RNA 3D structure from sequence as well. User can input RNA sequence and select one of incorporated tools for RNA secondary structure prediction: CentriodFold (Sato et al., 2009), ContextFold (Zakov et al., 2011), CONTRAfold (Do et al., 2006), IPknot (Sato et al., 2011), RNAfold (Lorenz et al., 2011), or RNAstructure (Reuter & Mathews, 2010). Aforementioned computational steps are next processed automatically by RNAComposer engine. 
+
+Since the initial report RNAComposer was visited over 300.000 times. It is efficient enough to support 3D modeling in an interactive mode. Moreover, batch mode was provided for large-scale modeling of RNA 3D structures based on up to 10 user-defined RNA secondary structures. As an input a set of up to 10 RNA sequences can be incorporated. Up to ten 3D models can be generated for every pair of sequence and secondary structure. In the batch mode, the user can significantly improve the reliability of predicted RNA 3D models by applying own 3D structural elements, influencing the search within the database of available RNA 3D structure elements or incorporating own restraints for interatomic distances as well as torsion angles (Antczak et al., 2016). 
+<br/>Numerous applications of the RNAComposer were reported throughout literature in all fields of molecular and structural biology of RNA (e.g., NMR, SAXS, cryo-microscopy) and RNA nanotechnology.
+## A real case:
+Prediction of the cyclic di-GMP-II riboswitches from different bacteria (Purzycka et al., 2015) will be presented as an example. This riboswitch controls the carbohydrate processing. 3D structure of its aptamer domain from Clostridium acetobutylicum was solved at 2.5Å resolution (PDB ID: 3Q3Z; Smith et al., 2011). This RNA adopts a compact structure which contains the a second order pseudoknot, a triple helix within pseudoknot major groove, and an unusual U-turn/S-turn motif unique among any other PDB-deposited 3D structures.
+
+Analysis of aforementioned riboswitch allows us to predict yet unknown 3D structures of related riboswitches from Clostridium difficile 4, Bacillus halodurans 1, and Thermus aquaticus Y5.1. We performed our predictions on RNAs family stored in the RFAM database (ID: RF01786) that comprises 237 members clustered in a seed subgroup containing 54 entities differing in the sequence length and identity. We have generated secondary structures for all RNAs included in that seed subgroup following the alignment of the consensus secondary structures within this subgroup and the crystal structure topology (PDB ID: 3Q3Z). Those secondary structures were used as an input for automated 3D structure prediction using RNAComposer. One 3D model was generated for each of 54 RNA secondary structures which was then fitted into the crystal structure (PDB ID: 3Q3Z) based on alignment of tertiary structures generated using ARTS (Dror et al., 2006). Next, we selected three subgroup members i.e., the riboswitches from Clostridium difficile 4, Bacillus halodurans 1, and Thermus aquaticus Y5 1, for which the predicted 3D structures fitted the best to the crystal structure of c-di-GMP-II riboswitch (PDB ID: 3Q3Z). For each selected member, 10 3D models were generated and the best of them are presented below. It appeared that within the core fragment comprising potential ligand-binding site, all three riboswitch 3D structures very closely resemble that from C. acetobutylicum (RMSD score <2 Å).
+[fig]
+Pairwise superimposition of the best 3D model of the cyclic di-GMP-II riboswitch obtained for 
+each related riboswitch, namely C. difficile 4, B. halodurans 1, and T. aquaticus Y5.1 (red and blue-core), and the X-ray structure from C. acetobutylicum (PDB ID: 3Q3Z) (green and cyan-core).
+## Publications:
+1. Popenda M, Szachniuk M, Antczak M, Purzycka KJ, Lukasiak P, Bartol N, Blazewicz J, Adamiak RW. [Automated 3D structure composition for large RNAs.](https://pubmed.ncbi.nlm.nih.gov/22539264/) Nucleic Acids Res. 2012 Aug;40(14):e112.
+2. Biesiada M, Purzycka KJ, Szachniuk M, Blazewicz J, Adamiak RW. [Automated RNA 3D Structure Prediction with RNAComposer.](https://pubmed.ncbi.nlm.nih.gov/27665601/) Methods Mol Biol. 2016;1490:199-215. 
+3. Purzycka KJ, Popenda M, Szachniuk M, Antczak M, Lukasiak P, Blazewicz J, Adamiak RW. [Automated 3D RNA structure prediction using the RNAComposer method for riboswitches.](https://pubmed.ncbi.nlm.nih.gov/25726459/) Methods Enzymol. 2015;553:3-34. 
+4. Popenda M, Blazewicz M, Szachniuk M, Adamiak RW. [RNA FRABASE version 1.0: an engine with a database to search for the three-dimensional fragments within RNA structures.](https://pubmed.ncbi.nlm.nih.gov/17921499/) Nucleic Acids Res. 2008 Jan;36(Database issue):D386-91. 
+5. Popenda M, Szachniuk M, Blazewicz M, Wasik S, Burke EK, Blazewicz J, Adamiak RW. [RNA FRABASE 2.0: an advanced web-accessible database with the capacity to search the three-dimensional fragments within RNA structures.](https://pubmed.ncbi.nlm.nih.gov/20459631/) BMC Bioinformatics. 2010 May 6;11:231. 
+6. Antczak M, Zok T, Popenda M, Lukasiak P, Adamiak RW, Blazewicz J, Szachniuk M. [RNApdbee--a webserver to derive secondary structures from pdb files of knotted and unknotted RNAs.](https://pubmed.ncbi.nlm.nih.gov/24771339/) Nucleic Acids Res. 2014 Jul;42(Web Server issue):W368-72. 
+7. Zok, T., Popenda, M. & Szachniuk, M. [MCQ4Structures to compute similarity of molecule structures.](https://link.springer.com/article/10.1007/s10100-013-0296-5#citeas) Cent Eur J Oper Res 22, 457–473 (2014). 
+8. Wiedemann J, Zok T, Milostan M, Szachniuk M. [LCS-TA to identify similar fragments in RNA 3D structures. BMC Bioinformatics.](https://pubmed.ncbi.nlm.nih.gov/29058576/) 2017 Oct 23;18(1):456. 

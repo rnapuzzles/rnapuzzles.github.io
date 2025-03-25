@@ -1,0 +1,84 @@
+---
+layout: post
+title: "2025-02-10-test"
+date: 2025-02-10+0000
+comments: false
+categories:
+- molstar
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta
+name="viewport"
+content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
+/>
+<title>样式测试 PDBe Molstar - Helper functions</title>
+
+<!-- Molstar CSS & JS -->
+<link
+rel="stylesheet"
+type="text/css"
+href="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.2.0/build/pdbe-molstar-light.css"
+/>
+<script
+type="text/javascript"
+src="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.2.0/build/pdbe-molstar-plugin.js"
+></script>
+
+<style>
+#myViewer {
+float: left;
+width: 700px;
+height: 400px;
+position: relative;
+margin: 20px;
+}
+.msp-plugin ::-webkit-scrollbar-thumb {
+background-color: #474748 !important;
+border-radius: 10px;
+}
+</style>
+</head>
+
+<body>
+<h3>PDBe Mol* JS Plugin Demo - AlphaFold View</h3>
+
+<!-- Molstar container -->
+<div id="myViewer"></div>
+
+<script>
+// Create plugin instance
+const viewerInstance = new PDBeMolstarPlugin();
+
+// Set options
+const options = {
+//moleculeId: 'P21980',
+customData: {
+url: '/cifFiles/6GZR.1-10.bcif',
+format: 'cif',
+binary: true,
+},
+alphafoldView: true,
+bgColor: { r: 255, g: 255, b: 255 },
+hideCanvasControls: [
+'selection',
+'animation',
+'controlToggle',
+'controlInfo',
+],
+sequencePanel: true,
+landscape: true,
+//superposition: true,
+};
+
+// Get element from HTML/Template to place the viewer
+const viewerContainer = document.getElementById('myViewer');
+
+// Call render method to display the 3D view
+viewerInstance.render(viewerContainer, options);
+</script>
+</body>
+</html>

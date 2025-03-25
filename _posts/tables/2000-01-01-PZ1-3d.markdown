@@ -1,0 +1,53 @@
+---
+layout: post
+title: "Puzzle PZ1 table"
+date: 2000-01-01 00:00:01 +0000
+comments: false
+categories: 
+- table
+---
+
+<script src="{{ root_url }}/javascripts/sorttable.js"></script>
+<script>
+    window.onload = function() {
+        (document.getElementsByTagName( 'th' )[1]).click();
+    };
+</script>
+<br/>
+<div align="center">
+Please click the tags to sort data.<br/>
+<table class="sortable" border=1>
+  <tr>
+    <th>Lab</th>
+    <th>Num</th>
+    <th>RMSD</th>
+    <th>DI all</th>
+    <th>INF all</th>
+    <th>INF wc</th>
+    <th>INF nwc</th>
+    <th>INF stacking</th>
+    <th>Clash Score</th>
+    <th>P-value</th>
+    <th>mcq</th>
+    <th>TM-score</th>
+    <th>best sol.</th>
+    <th>Detail</th>
+  </tr>
+  <tr><td>Das</td><td>3</td><td>3.413</td><td>3.634</td><td>0.939</td><td>0.975</td><td>-</td><td>0.924</td><td>0.000</td><td>2.22e-16</td><td>13.07</td><td>0.2570</td><td>1</td><td><a href='/show/index.html?id=PZ1_Das_3'>-></a></td></tr>
+<tr><td>Das</td><td>4</td><td>3.907</td><td>4.281</td><td>0.913</td><td>0.923</td><td>-</td><td>0.908</td><td>0.000</td><td>1.94e-15</td><td>13.14</td><td>0.2140</td><td>1</td><td><a href='/show/index.html?id=PZ1_Das_4'>-></a></td></tr>
+<tr><td>Das</td><td>1</td><td>3.953</td><td>4.248</td><td>0.931</td><td>0.975</td><td>-</td><td>0.911</td><td>0.000</td><td>2.33e-15</td><td>12.34</td><td>0.2870</td><td>1</td><td><a href='/show/index.html?id=PZ1_Das_1'>-></a></td></tr>
+<tr><td>Major</td><td>1</td><td>4.319</td><td>4.865</td><td>0.888</td><td>0.973</td><td>-</td><td>0.847</td><td>51.560</td><td>1.17e-14</td><td>32.64</td><td>0.1920</td><td>1</td><td><a href='/show/index.html?id=PZ1_Major_1'>-></a></td></tr>
+<tr><td>Chen</td><td>1</td><td>4.336</td><td>5.265</td><td>0.824</td><td>0.889</td><td>-</td><td>0.796</td><td>0.000</td><td>1.25e-14</td><td>15.48</td><td>0.2640</td><td>1</td><td><a href='/show/index.html?id=PZ1_Chen_1'>-></a></td></tr>
+<tr><td>Das</td><td>2</td><td>4.452</td><td>5.040</td><td>0.883</td><td>0.923</td><td>-</td><td>0.866</td><td>1.360</td><td>2.06e-14</td><td>12.86</td><td>0.2430</td><td>1</td><td><a href='/show/index.html?id=PZ1_Das_2'>-></a></td></tr>
+<tr><td>Das</td><td>5</td><td>4.563</td><td>5.237</td><td>0.871</td><td>0.947</td><td>-</td><td>0.838</td><td>0.000</td><td>3.31e-14</td><td>14.63</td><td>0.2800</td><td>1</td><td><a href='/show/index.html?id=PZ1_Das_5'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>4</td><td>4.944</td><td>6.904</td><td>0.716</td><td>0.636</td><td>-</td><td>0.750</td><td>69.780</td><td>1.62e-13</td><td>13.46</td><td>0.2240</td><td>1</td><td><a href='/show/index.html?id=PZ1_Bujnicki_4'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>5</td><td>5.111</td><td>6.530</td><td>0.783</td><td>0.761</td><td>-</td><td>0.796</td><td>67.070</td><td>3.22e-13</td><td>11.19</td><td>0.2230</td><td>1</td><td><a href='/show/index.html?id=PZ1_Bujnicki_5'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>3</td><td>5.282</td><td>6.596</td><td>0.801</td><td>0.889</td><td>-</td><td>0.765</td><td>47.300</td><td>6.43e-13</td><td>11.69</td><td>0.2170</td><td>1</td><td><a href='/show/index.html?id=PZ1_Bujnicki_3'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>1</td><td>5.699</td><td>6.540</td><td>0.871</td><td>0.947</td><td>-</td><td>0.838</td><td>0.000</td><td>3.34e-12</td><td>13.73</td><td>0.2590</td><td>1</td><td><a href='/show/index.html?id=PZ1_Bujnicki_1'>-></a></td></tr>
+<tr><td>Santalucia</td><td>1</td><td>5.749</td><td>7.068</td><td>0.813</td><td>0.975</td><td>-</td><td>0.729</td><td>25.000</td><td>4.06e-12</td><td>0.00</td><td>0.0000</td><td>1</td><td><a href='/show/index.html?id=PZ1_Santalucia_1'>-></a></td></tr>
+<tr><td>Bujnicki</td><td>2</td><td>6.131</td><td>7.810</td><td>0.785</td><td>0.889</td><td>-</td><td>0.739</td><td>60.090</td><td>1.74e-11</td><td>14.35</td><td>0.2410</td><td>1</td><td><a href='/show/index.html?id=PZ1_Bujnicki_2'>-></a></td></tr>
+<tr><td>Dokholyan</td><td>1</td><td>7.176</td><td>8.610</td><td>0.833</td><td>0.923</td><td>-</td><td>0.788</td><td>24.980</td><td>7.53e-10</td><td>16.67</td><td>0.1710</td><td>1</td><td><a href='/show/index.html?id=PZ1_Dokholyan_1'>-></a></td></tr>
+
+</table>
+-: No true positive interaction in the predicted structure.
+</div>
