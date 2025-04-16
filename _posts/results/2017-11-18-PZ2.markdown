@@ -1,12 +1,13 @@
 ---
 layout: post
 title: "Puzzle 2"
-date: 2017-11-18 20:41:24 +0000
+date: 2017-11-18
 comments: false
 categories: 
 - results
 image: results/img2.png
 ---
+
 **Sequence** (5' to 3'): 
 
 

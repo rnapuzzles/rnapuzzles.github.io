@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Puzzle 30"
-date: 2017-11-18 20:42:23 +0000
+date: 2017-11-18
 comments: false
 categories: 
 - results
