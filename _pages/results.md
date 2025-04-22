@@ -48,9 +48,17 @@ permalink: /results/
 {% endif %}
 <meta itemprop="url" content="{{site.url}}" />
 
-
-{% for post in site.categories[page.category] %}
-{% include results.html %}
+{% assign numbers = "50,49,48,47,46,45,44,43,42,41,40,39,38,37,36,35,34,33,32,31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1" | split: "," %}
+{% for number in numbers %}
+  {% assign num = number | plus: 0 %}
+  {% for post in site.categories[page.category] %}
+    {% if post.title contains "Puzzle " %}
+      {% assign puzzle_number = post.title | remove: "Puzzle " | plus: 0 %}
+      {% if puzzle_number == num %}
+        {% include results.html %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
 {% endfor %}
 
 </div>
