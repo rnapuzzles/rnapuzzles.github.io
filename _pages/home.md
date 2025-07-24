@@ -82,6 +82,26 @@ permalink: /
                 </div>
                 <!-- End: Panel - Call for Participants -->
 
+                <!-- Begin: Panel - Help -->
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">Submit you results</h3>
+                  </div>
+                  <!-- Help module content -->
+                  <li>RNA-Puzzles supports both human experts and web server submissions via email. The key difference is submission timeframe:</li>
+                  <ul>
+                    <li><strong>Web servers</strong>: Must submit predictions within 48 hours</li>
+                    <li><strong>Human experts</strong>: Have 3 weeks for submission</li>
+                  </ul>
+                  <li>For optimal web server integration:</li>
+                  <ul>
+                    <li>Configure your server to accept puzzle sequences via email</li>
+                    <li>Automatically return predictions by email</li>
+                  </ul>
+                  <li>We also send sequence-only emails with each puzzle. To participate as a web server, please provide your receiving email address.</li>
+                </div>
+                <!-- End: Panel - Help -->
+
                 <!-- Begin: Panel - Updates -->
                 <div class="panel panel-info">
                   <div class="panel-heading">
