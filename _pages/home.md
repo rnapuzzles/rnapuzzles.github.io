@@ -112,7 +112,15 @@ permalink: /
                     <article class="list-group-item">
                       <span class="glyphicon glyphicon-tags"></span>&nbsp;
                       <span class="categories">
-                        <a class="category" href="ç">news</a>
+                        <a class="category" href="/blog/news_category/">news</a>
+                      </span>
+                      &nbsp;&nbsp;&nbsp;
+                      <a href="/news/2026/04/02/PZ74-PZ79-Update-Standard-DNA-Residue-Names.html" itemprop="url">PZ74–PZ79 Update: Support for Standard DNA Residue Names</a>
+                    </article>
+                    <article class="list-group-item">
+                      <span class="glyphicon glyphicon-tags"></span>&nbsp;
+                      <span class="categories">
+                        <a class="category" href="/blog/news_category/">news</a>
                       </span>
                       &nbsp;&nbsp;&nbsp;
                       <a href="/news/2023/10/07/Submission-Process.html" itemprop="url">Submission Process</a>
